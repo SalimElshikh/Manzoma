@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar-eg">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/x-icon" href="~/4500.ico" />
+    <title>حساب جديد</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.css" />
+    <link rel="stylesheet" href="~/Content/Login.css" />
+    <script src="~/Scripts/user-helper.js"></script>
+</head>
+<body>
+    <div class="container-fluid bg d-flex justify-content-center align-items-center ">
+            <form class="form-container" >
+                <p class="logo-header">منظومة الحرب اللإلكترونية</p>
+                <div class="form-group">
+                    @Html.Label("المنطقة", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownList("zone-name",
+                        new SelectList(ViewBag.Taba3eya, "ID", "Taba3eyaName"),
+                        new
+                                {
+                                    @class = "form-control",
+                                    @id = "zone-name",
+                            @onchange = "UpdateUnitComboBox()"
+                                })
+                </div>
+                <div class="form-group">
+                    @Html.Label("الوحدة", htmlAttributes: new { @class = "control-label" })
+                    <div>
+                        <select id="unit-name" name="We7daName" class="form-control">
+                            <option></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.Label("إسم المستخدم", htmlAttributes: new { @class = "control-label" })
+                    @Html.Editor("username", new { htmlAttributes = new { @class = "form-control", @placeholder = "إسم المستخدم" } })
+                    @Html.ValidationMessage("username", "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("كلمة السر", htmlAttributes: new { @class = "control-label" })
+                    @Html.Editor("password", new { htmlAttributes = new { @class = "form-control", @type = "password", @placeholder = "كلمة السر" } })
+                    @Html.ValidationMessage("password", "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.Label("تأكيد كلمة السر", htmlAttributes: new { @class = "control-label" })
+                    <div>
+                        @Html.Editor("confirmPassword", new { htmlAttributes = new { @class = "form-control", @type = "password", @placeholder = "تأكيد كلمة السر" } })
+                        @Html.ValidationMessage("confirmPassword", "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div>
+                        <button class="export-btn" onclick="SignUp()">
+                            إنشاء حساب جديد
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                    </div>
+                </div>
+                    @Html.ActionLink("لدى حساب - تسجيل دخول", "Login", "User")
+            </form>
+            <!--form End-->
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+
+</body>
+</html>

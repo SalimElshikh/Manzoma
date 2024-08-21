@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ElecWarSystem.Models.OutDoor.OutDoorNew.Elsala7eyaEl8aneya>
+<link href="~/Content/Mot8ayeratEst3dadQetali.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+<h2 class="text-center text-lg-center fs-1 ">المتغيرات في الصلاحية الغنية  </h2>
+<p>
+    @Html.ActionLink("تسجيل", "Create", "", new { @class = "save-btn text-decoration-none p-3" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MakanEsla7s.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MostawaEIsla7s.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumMo2eda)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeMo2edas.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NameMo2eda)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.El2gra)
+        </th>
+        <th> الحدث</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MakanEsla7s.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MostawaEIsla7s.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumMo2eda)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeMo2edas.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NameMo2eda)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.El2gra)
+        </td>
+        <td>
+
+            @*@Html.ActionLink("حذف", "Delete", new { id = item.ID, @class = " " })*@
+            <a href="@Url.Action("Delete", new { id = item.ID })" class="btn"><i class="fa-regular fa-trash-can"></i></a>
+
+        </td>
+    </tr>
+}
+
+</table>

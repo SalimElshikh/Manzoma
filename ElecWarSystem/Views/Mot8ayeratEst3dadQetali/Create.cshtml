@@ -1,0 +1,81 @@
+﻿@model ElecWarSystem.Models.Mot8ayeratEst3dadQetali
+<link href="~/Content/Mot8ayeratEst3dadQetali.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+@using (Html.BeginForm("Create", "Mot8ayeratEst3dadQetali", FormMethod.Post, new { onsubmit = "return validateForm();" }))
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal container">
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <div class="container shadowbox p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Item, "العنصر ", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.Item, new { htmlAttributes = new { @class = "form-control", @oninput = "validateAlphabetic(this)" } })
+                    @Html.ValidationMessageFor(model => model.Item, "", new { @class = "text-danger" })
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Al7ala_ID, "الحالة", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownList("Al7ala_ID", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Al7ala_ID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Ge7aTasdek_ID, "جهة التصديق", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownList("Ge7aTasdek_ID", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Ge7aTasdek_ID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.A8radTa7arok_ID, "الغرض من التجربة", htmlAttributes: new { @class = "control-label" })
+                    @Html.DropDownList("A8radTa7arok_ID", null, htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.A8radTa7arok_ID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DateFrom, "الوقت من", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.DateFrom, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DateFrom, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DateTo, "الوقت إلى", htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(model => model.DateTo, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DateTo, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10 text-center">
+                <input type="submit" value="حفظ" class="save-btn" />
+            </div>
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("الرجوع الي القائمة", "Index","", new { @class = "save-btn text-decoration-none p-3" })
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

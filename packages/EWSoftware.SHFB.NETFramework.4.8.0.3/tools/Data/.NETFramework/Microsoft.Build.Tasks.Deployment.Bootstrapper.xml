@@ -1,0 +1,3748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="Microsoft.Build.Tasks.v4.0">
+      <assemblydata version="4.0.0.0" culture="" key="002400000480000094000000060200000024000052534131000400000100010007D1FA57C4AED9F0A32E84AA0FAEFD0DE9E8FD6AEC8F87FB03766C834C99921EB23BE79AD9D5DCC1DD9AD236132102900B723CF980957FC4E177108FC607774F29E8320E92EA05ECE4E821C0A5EFE8F1645C4C0C93C1AB99285D622CAA652C1DFAD63D745D6F2DE5F17E5EAF0FC4963D261C8A12436518206DC093344D5AD293" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>E3D4D3B9-944C-407b-A82E-B19719EA7FB3</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft.Build.Tasks.v4.0.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft.Build.Tasks.v4.0.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft.Build.Tasks.v4.0.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\FinalPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:Microsoft.Build.Tasks.Deployment.Bootstrapper">
+      <topicdata group="api" />
+      <apidata name="Microsoft.Build.Tasks.Deployment.Bootstrapper" group="namespace" />
+      <elements>
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" />
+        <element api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" />
+      </elements>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder">
+      <topicdata group="api" />
+      <apidata name="BootstrapperBuilder" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+      </implements>
+      <elements>
+        <element api="Overload:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor">
+          <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+          <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor(System.String)" />
+        </element>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetOutputFolders(System.String[],System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Path" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Products" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1D9FE38A-0226-4b95-9C6B-6DFFA2236270</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ClassInterfaceAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ClassInterfaceType" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder">
+      <topicdata name="BootstrapperBuilder" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" />
+      <apidata name="BootstrapperBuilder" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetOutputFolders(System.String[],System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder">
+      <topicdata name="BootstrapperBuilder" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" />
+      <apidata name="BootstrapperBuilder" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Path" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Products" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" />
+      </containers>
+    </api>
+    <api id="Overload:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.#ctor" />
+      <parameters>
+        <parameter name="visualStudioVersion">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)">
+      <topicdata group="api" />
+      <apidata name="Build" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="settings">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.GetOutputFolders(System.String[],System.String,System.String,Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation)">
+      <topicdata group="api" />
+      <apidata name="GetOutputFolders" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="productCodes">
+          <arrayOf rank="1">
+            <type api="T:System.String" ref="true" />
+          </arrayOf>
+        </parameter>
+        <parameter name="culture">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="fallbackCulture">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="componentsLocation">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Path">
+      <topicdata group="api" />
+      <apidata name="Path" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Path" />
+      <setter name="set_Path" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Path">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder.Products">
+      <topicdata group="api" />
+      <apidata name="Products" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Products" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Products">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage">
+      <topicdata group="api" />
+      <apidata name="BuildMessage" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.HelpId" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.HelpKeyword" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.Message" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.Severity" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage">
+      <topicdata name="BuildMessage" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" />
+      <apidata name="BuildMessage" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage">
+      <topicdata name="BuildMessage" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" />
+      <apidata name="BuildMessage" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.HelpId" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.HelpKeyword" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.Message" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.Severity" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.HelpId">
+      <topicdata group="api" />
+      <apidata name="HelpId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_HelpId" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpId">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.HelpKeyword">
+      <topicdata group="api" />
+      <apidata name="HelpKeyword" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_HelpKeyword" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpKeyword">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.Message">
+      <topicdata group="api" />
+      <apidata name="Message" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Message" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Message">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage.Severity">
+      <topicdata group="api" />
+      <apidata name="Severity" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Severity" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Severity">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity">
+      <topicdata group="api" />
+      <apidata name="BuildMessageSeverity" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity.Info" />
+        <element api="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity.Warning" />
+        <element api="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity.Error" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>936D32F9-1A68-4d5e-98EA-044AC9A1AADA</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity.Error">
+      <topicdata group="api" notopic="" />
+      <apidata name="Error" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </containers>
+    </api>
+    <api id="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity.Info">
+      <topicdata group="api" notopic="" />
+      <apidata name="Info" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </containers>
+    </api>
+    <api id="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity.Warning">
+      <topicdata group="api" notopic="" />
+      <apidata name="Warning" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults">
+      <topicdata group="api" />
+      <apidata name="BuildResults" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.ComponentFiles" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.KeyFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Messages" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Succeeded" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>FAD7BA7C-CA00-41e0-A5EF-2DA9A74E58E6</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ClassInterfaceAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ClassInterfaceType" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults">
+      <topicdata name="BuildResults" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" />
+      <apidata name="BuildResults" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults">
+      <topicdata name="BuildResults" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" />
+      <apidata name="BuildResults" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.ComponentFiles" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.KeyFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Messages" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Succeeded" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.ComponentFiles">
+      <topicdata group="api" />
+      <apidata name="ComponentFiles" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_ComponentFiles" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.ComponentFiles">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.KeyFile">
+      <topicdata group="api" />
+      <apidata name="KeyFile" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_KeyFile" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.KeyFile">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Messages">
+      <topicdata group="api" />
+      <apidata name="Messages" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Messages" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Messages">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults.Succeeded">
+      <topicdata group="api" />
+      <apidata name="Succeeded" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Succeeded" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Succeeded">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings">
+      <topicdata group="api" />
+      <apidata name="BuildSettings" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.#ctor" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationName" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationRequiresElevation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ComponentsLocation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ComponentsUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.CopyComponents" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.FallbackLCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.LCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.OutputPath" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ProductBuilders" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.SupportUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.Validate" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>5D13802C-C830-4b41-8E7A-F69D9DD6A095</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ClassInterfaceAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ClassInterfaceType" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings">
+      <topicdata name="BuildSettings" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" />
+      <apidata name="BuildSettings" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings">
+      <topicdata name="BuildSettings" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" />
+      <apidata name="BuildSettings" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.#ctor" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationName" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationRequiresElevation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ComponentsLocation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ComponentsUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.CopyComponents" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.FallbackLCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.LCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.OutputPath" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ProductBuilders" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.SupportUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.Validate" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationFile">
+      <topicdata group="api" />
+      <apidata name="ApplicationFile" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationFile" />
+      <setter name="set_ApplicationFile" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationFile">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationName">
+      <topicdata group="api" />
+      <apidata name="ApplicationName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationName" />
+      <setter name="set_ApplicationName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationName">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationRequiresElevation">
+      <topicdata group="api" />
+      <apidata name="ApplicationRequiresElevation" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationRequiresElevation" />
+      <setter name="set_ApplicationRequiresElevation" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationRequiresElevation">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ApplicationUrl">
+      <topicdata group="api" />
+      <apidata name="ApplicationUrl" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationUrl" />
+      <setter name="set_ApplicationUrl" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationUrl">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ComponentsLocation">
+      <topicdata group="api" />
+      <apidata name="ComponentsLocation" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ComponentsLocation" />
+      <setter name="set_ComponentsLocation" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsLocation">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ComponentsUrl">
+      <topicdata group="api" />
+      <apidata name="ComponentsUrl" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ComponentsUrl" />
+      <setter name="set_ComponentsUrl" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsUrl">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.CopyComponents">
+      <topicdata group="api" />
+      <apidata name="CopyComponents" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_CopyComponents" />
+      <setter name="set_CopyComponents" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.CopyComponents">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.FallbackLCID">
+      <topicdata group="api" />
+      <apidata name="FallbackLCID" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FallbackLCID" />
+      <setter name="set_FallbackLCID" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.FallbackLCID">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.LCID">
+      <topicdata group="api" />
+      <apidata name="LCID" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_LCID" />
+      <setter name="set_LCID" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.LCID">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.OutputPath">
+      <topicdata group="api" />
+      <apidata name="OutputPath" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_OutputPath" />
+      <setter name="set_OutputPath" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.OutputPath">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.ProductBuilders">
+      <topicdata group="api" />
+      <apidata name="ProductBuilders" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_ProductBuilders" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ProductBuilders">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.SupportUrl">
+      <topicdata group="api" />
+      <apidata name="SupportUrl" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_SupportUrl" />
+      <setter name="set_SupportUrl" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.SupportUrl">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings.Validate">
+      <topicdata group="api" />
+      <apidata name="Validate" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Validate" />
+      <setter name="set_Validate" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.Validate">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation">
+      <topicdata group="api" />
+      <apidata name="ComponentsLocation" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation.HomeSite" />
+        <element api="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation.Relative" />
+        <element api="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation.Absolute" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>12F49949-7B60-49CD-B6A0-2B5E4A638AAF</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation.Absolute">
+      <topicdata group="api" notopic="" />
+      <apidata name="Absolute" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </containers>
+    </api>
+    <api id="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation.HomeSite">
+      <topicdata group="api" notopic="" />
+      <apidata name="HomeSite" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </containers>
+    </api>
+    <api id="F:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation.Relative">
+      <topicdata group="api" notopic="" />
+      <apidata name="Relative" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder">
+      <topicdata group="api" />
+      <apidata name="IBootstrapperBuilder" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BootstrapperBuilder" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Path" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Products" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1D202366-5EEA-4379-9255-6F8CDB8587C9</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder">
+      <topicdata name="IBootstrapperBuilder" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" />
+      <apidata name="IBootstrapperBuilder" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder">
+      <topicdata name="IBootstrapperBuilder" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" />
+      <apidata name="IBootstrapperBuilder" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Path" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Products" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Build(Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings)">
+      <topicdata group="api" />
+      <apidata name="Build" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="settings">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>5</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Path">
+      <topicdata group="api" />
+      <apidata name="Path" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Path" />
+      <setter name="set_Path" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder.Products">
+      <topicdata group="api" />
+      <apidata name="Products" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Products" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBootstrapperBuilder" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>4</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage">
+      <topicdata group="api" />
+      <apidata name="IBuildMessage" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpId" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpKeyword" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Message" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Severity" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>E3C981EA-99E6-4f48-8955-1AAFDFB5ACE4</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage">
+      <topicdata name="IBuildMessage" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" />
+      <apidata name="IBuildMessage" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpId" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpKeyword" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Message" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Severity" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpId">
+      <topicdata group="api" />
+      <apidata name="HelpId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_HelpId" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>4</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.HelpKeyword">
+      <topicdata group="api" />
+      <apidata name="HelpKeyword" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_HelpKeyword" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>3</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Message">
+      <topicdata group="api" />
+      <apidata name="Message" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Message" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>2</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage.Severity">
+      <topicdata group="api" />
+      <apidata name="Severity" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Severity" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessageSeverity" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildMessage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults">
+      <topicdata group="api" />
+      <apidata name="IBuildResults" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildResults" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.ComponentFiles" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.KeyFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Messages" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Succeeded" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>586B842C-D9C7-43b8-84E4-9CFC3AF9F13B</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults">
+      <topicdata name="IBuildResults" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" />
+      <apidata name="IBuildResults" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.ComponentFiles" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.KeyFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Messages" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Succeeded" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.ComponentFiles">
+      <topicdata group="api" />
+      <apidata name="ComponentFiles" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_ComponentFiles" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>3</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.KeyFile">
+      <topicdata group="api" />
+      <apidata name="KeyFile" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_KeyFile" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>2</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Messages">
+      <topicdata group="api" />
+      <apidata name="Messages" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Messages" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildMessage" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>4</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults.Succeeded">
+      <topicdata group="api" />
+      <apidata name="Succeeded" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Succeeded" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildResults" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings">
+      <topicdata group="api" />
+      <apidata name="IBuildSettings" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.BuildSettings" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationName" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationRequiresElevation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsLocation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.CopyComponents" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.FallbackLCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.LCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.OutputPath" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ProductBuilders" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.SupportUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.Validate" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>87EEBC69-0948-4ce6-A2DE-819162B87CC6</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings">
+      <topicdata name="IBuildSettings" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" />
+      <apidata name="IBuildSettings" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationFile" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationName" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationRequiresElevation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsLocation" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.CopyComponents" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.FallbackLCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.LCID" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.OutputPath" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ProductBuilders" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.SupportUrl" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.Validate" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationFile">
+      <topicdata group="api" />
+      <apidata name="ApplicationFile" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationFile" />
+      <setter name="set_ApplicationFile" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>2</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationName">
+      <topicdata group="api" />
+      <apidata name="ApplicationName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationName" />
+      <setter name="set_ApplicationName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationRequiresElevation">
+      <topicdata group="api" />
+      <apidata name="ApplicationRequiresElevation" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationRequiresElevation" />
+      <setter name="set_ApplicationRequiresElevation" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>13</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ApplicationUrl">
+      <topicdata group="api" />
+      <apidata name="ApplicationUrl" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ApplicationUrl" />
+      <setter name="set_ApplicationUrl" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>3</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsLocation">
+      <topicdata group="api" />
+      <apidata name="ComponentsLocation" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ComponentsLocation" />
+      <setter name="set_ComponentsLocation" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ComponentsLocation" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>11</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ComponentsUrl">
+      <topicdata group="api" />
+      <apidata name="ComponentsUrl" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ComponentsUrl" />
+      <setter name="set_ComponentsUrl" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>4</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.CopyComponents">
+      <topicdata group="api" />
+      <apidata name="CopyComponents" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_CopyComponents" />
+      <setter name="set_CopyComponents" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>5</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.FallbackLCID">
+      <topicdata group="api" />
+      <apidata name="FallbackLCID" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FallbackLCID" />
+      <setter name="set_FallbackLCID" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>7</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.LCID">
+      <topicdata group="api" />
+      <apidata name="LCID" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_LCID" />
+      <setter name="set_LCID" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>6</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.OutputPath">
+      <topicdata group="api" />
+      <apidata name="OutputPath" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_OutputPath" />
+      <setter name="set_OutputPath" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>8</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.ProductBuilders">
+      <topicdata group="api" />
+      <apidata name="ProductBuilders" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_ProductBuilders" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>9</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.SupportUrl">
+      <topicdata group="api" />
+      <apidata name="SupportUrl" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_SupportUrl" />
+      <setter name="set_SupportUrl" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>12</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings.Validate">
+      <topicdata group="api" />
+      <apidata name="Validate" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Validate" />
+      <setter name="set_Validate" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IBuildSettings" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>10</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct">
+      <topicdata group="api" />
+      <apidata name="IProduct" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Includes" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Name" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductBuilder" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductCode" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>9E81BE3D-530F-4a10-8349-5D5947BA59AD</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct">
+      <topicdata name="IProduct" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" />
+      <apidata name="IProduct" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Includes" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Name" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductBuilder" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductCode" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Includes">
+      <topicdata group="api" />
+      <apidata name="Includes" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Includes" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>4</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>2</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductBuilder">
+      <topicdata group="api" />
+      <apidata name="ProductBuilder" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_ProductBuilder" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductCode">
+      <topicdata group="api" />
+      <apidata name="ProductCode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_ProductCode" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>3</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder">
+      <topicdata group="api" />
+      <apidata name="IProductBuilder" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder.Product" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>0777432F-A60D-48b3-83DB-90326FE8C96E</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder">
+      <topicdata name="IProductBuilder" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder" />
+      <apidata name="IProductBuilder" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder.Product" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder.Product">
+      <topicdata group="api" />
+      <apidata name="Product" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Product" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection">
+      <topicdata group="api" />
+      <apidata name="IProductBuilderCollection" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>0D593FC0-E3F1-4dad-A674-7EA4D327F79B</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection">
+      <topicdata name="IProductBuilderCollection" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection" />
+      <apidata name="IProductBuilderCollection" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)">
+      <topicdata group="api" />
+      <apidata name="Add" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="builder">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>2</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection">
+      <topicdata group="api" />
+      <apidata name="IProductCollection" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Item(System.Int32)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Product(System.String)" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Count" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>63F63663-8503-4875-814C-09168E595367</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.InterfaceTypeAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ComInterfaceType" ref="false" />
+            <enumValue>
+              <field name="InterfaceIsDual" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection">
+      <topicdata name="IProductCollection" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" />
+      <apidata name="IProductCollection" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Item(System.Int32)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Product(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection">
+      <topicdata name="IProductCollection" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" />
+      <apidata name="IProductCollection" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Count" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Count">
+      <topicdata group="api" />
+      <apidata name="Count" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Count" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>1</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Item(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Item" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>2</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Product(System.String)">
+      <topicdata group="api" />
+      <apidata name="Product" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="productCode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.DispIdAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Int32" ref="false" />
+            <value>3</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product">
+      <topicdata group="api" />
+      <apidata name="Product" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.#ctor" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.Includes" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.Name" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductBuilder" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>532BF563-A85D-4088-8048-41F51AC5239F</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ClassInterfaceAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ClassInterfaceType" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product">
+      <topicdata name="Product" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" />
+      <apidata name="Product" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product">
+      <topicdata name="Product" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" />
+      <apidata name="Product" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.#ctor" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.Includes" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.Name" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductBuilder" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.Includes">
+      <topicdata group="api" />
+      <apidata name="Includes" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Includes" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Includes">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.Name">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductBuilder">
+      <topicdata group="api" />
+      <apidata name="ProductBuilder" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_ProductBuilder" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductBuilder">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product.ProductCode">
+      <topicdata group="api" />
+      <apidata name="ProductCode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_ProductCode" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct.ProductCode">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProduct" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder">
+      <topicdata group="api" />
+      <apidata name="ProductBuilder" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder.Product" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder">
+      <topicdata name="ProductBuilder" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" />
+      <apidata name="ProductBuilder" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder">
+      <topicdata name="ProductBuilder" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" />
+      <apidata name="ProductBuilder" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder.Product" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder.Product">
+      <topicdata group="api" />
+      <apidata name="Product" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Product" />
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder.Product">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilder" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection">
+      <topicdata group="api" />
+      <apidata name="ProductBuilderCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection" ref="true" />
+        <type api="T:System.Collections.IEnumerable" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="Cast" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="OfType" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.ParallelEnumerable.AsParallel(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsParallel" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.ParallelQuery" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.ParallelEnumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Queryable.AsQueryable(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsQueryable" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.IQueryable" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Queryable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection.GetEnumerator" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>D25C0741-99CA-49f7-9460-95E5F25EEF43</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ClassInterfaceAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ClassInterfaceType" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection">
+      <topicdata name="ProductBuilderCollection" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" />
+      <apidata name="ProductBuilderCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="Cast" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="OfType" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.ParallelEnumerable.AsParallel(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsParallel" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.ParallelQuery" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.ParallelEnumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Queryable.AsQueryable(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsQueryable" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.IQueryable" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Queryable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection.GetEnumerator" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)">
+      <topicdata group="api" />
+      <apidata name="Add" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="builder">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection.Add(Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilder)">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductBuilderCollection" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection.GetEnumerator">
+      <topicdata group="api" />
+      <apidata name="GetEnumerator" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Collections.IEnumerator" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Collections.IEnumerable.GetEnumerator">
+          <type api="T:System.Collections.IEnumerable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductBuilderCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection">
+      <topicdata group="api" />
+      <apidata name="ProductCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+        <type api="T:System.Collections.IEnumerable" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="Cast" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="OfType" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.ParallelEnumerable.AsParallel(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsParallel" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.ParallelQuery" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.ParallelEnumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Queryable.AsQueryable(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsQueryable" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.IQueryable" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Queryable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.GetEnumerator" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Item(System.Int32)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Product(System.String)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Count" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>EFFA164B-3E87-4195-88DB-8AC004DDFE2A</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ClassInterfaceAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Runtime.InteropServices.ClassInterfaceType" ref="false" />
+            <enumValue>
+              <field name="None" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection">
+      <topicdata name="ProductCollection" group="list" subgroup="Methods" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" />
+      <apidata name="ProductCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="Cast" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.Cast``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" source="extension">
+          <apidata name="OfType" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <templates>
+            <template name="TResult" />
+          </templates>
+          <returns>
+            <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+              <specialization>
+                <template name="TResult" index="0" api="M:System.Linq.Enumerable.OfType``1(System.Collections.IEnumerable)" />
+              </specialization>
+            </type>
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Enumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.ParallelEnumerable.AsParallel(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsParallel" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.ParallelQuery" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.ParallelEnumerable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:System.Linq.Queryable.AsQueryable(System.Collections.IEnumerable)" source="extension">
+          <apidata name="AsQueryable" group="member" subgroup="method" subsubgroup="extension" />
+          <memberdata visibility="public" />
+          <proceduredata virtual="false" />
+          <returns>
+            <type api="T:System.Linq.IQueryable" ref="true" />
+          </returns>
+          <containers>
+            <library assembly="System.Core" module="System.Core" kind="DynamicallyLinkedLibrary" />
+            <namespace api="N:System.Linq" />
+            <type api="T:System.Linq.Queryable" ref="true" />
+          </containers>
+        </element>
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.GetEnumerator" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Item(System.Int32)" />
+        <element api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Product(System.String)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" />
+      </containers>
+    </api>
+    <api id="Properties.T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection">
+      <topicdata name="ProductCollection" group="list" subgroup="Properties" typeTopicId="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" />
+      <apidata name="ProductCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Count" />
+      </elements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" />
+      </containers>
+    </api>
+    <api id="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Count">
+      <topicdata group="api" />
+      <apidata name="Count" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Count" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Count">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.GetEnumerator">
+      <topicdata group="api" />
+      <apidata name="GetEnumerator" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Collections.IEnumerator" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Collections.IEnumerable.GetEnumerator">
+          <type api="T:System.Collections.IEnumerable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Item(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Item" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Item(System.Int32)">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection.Product(System.String)">
+      <topicdata group="api" />
+      <apidata name="Product" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="productCode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.Product" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection.Product(System.String)">
+          <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.IProductCollection" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="Microsoft.Build.Tasks.v4.0" module="Microsoft.Build.Tasks.v4.0" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:Microsoft.Build.Tasks.Deployment.Bootstrapper" />
+        <type api="T:Microsoft.Build.Tasks.Deployment.Bootstrapper.ProductCollection" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

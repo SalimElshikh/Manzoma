@@ -1,0 +1,2863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="mscorlib">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>BED7F4EA-1A96-11d2-8F08-00A0C9A6186D</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Diagnostics.Contracts">
+      <topicdata group="api" />
+      <apidata name="System.Diagnostics.Contracts" group="namespace" />
+      <elements>
+        <element api="T:System.Diagnostics.Contracts.PureAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractClassAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractClassForAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractVerificationAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute" />
+        <element api="T:System.Diagnostics.Contracts.ContractOptionAttribute" />
+        <element api="T:System.Diagnostics.Contracts.Contract" />
+        <element api="T:System.Diagnostics.Contracts.ContractFailureKind" />
+        <element api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" />
+      </elements>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.Contract">
+      <topicdata group="api" />
+      <apidata name="Contract" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Diagnostics.Contracts.Contract.ContractFailed" />
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Assert">
+          <element api="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Assume">
+          <element api="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)" />
+        </element>
+        <element api="M:System.Diagnostics.Contracts.Contract.EndContractBlock" />
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Ensures">
+          <element api="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.EnsuresOnThrow">
+          <element api="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Exists">
+          <element api="M:System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.ForAll">
+          <element api="M:System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+          <element api="M:System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Invariant">
+          <element api="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)" />
+        </element>
+        <element api="M:System.Diagnostics.Contracts.Contract.OldValue``1(``0)" />
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Requires">
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)" />
+        </element>
+        <element api="M:System.Diagnostics.Contracts.Contract.Result``1" />
+        <element api="M:System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.Contract">
+      <topicdata name="Contract" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.Contract" />
+      <apidata name="Contract" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <elements>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Assert">
+          <element api="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Assume">
+          <element api="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)" />
+        </element>
+        <element api="M:System.Diagnostics.Contracts.Contract.EndContractBlock" />
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Ensures">
+          <element api="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.EnsuresOnThrow">
+          <element api="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Exists">
+          <element api="M:System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.ForAll">
+          <element api="M:System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+          <element api="M:System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})" />
+        </element>
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Invariant">
+          <element api="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)" />
+        </element>
+        <element api="M:System.Diagnostics.Contracts.Contract.OldValue``1(``0)" />
+        <element api="Overload:System.Diagnostics.Contracts.Contract.Requires">
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)" />
+          <element api="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)" />
+        </element>
+        <element api="M:System.Diagnostics.Contracts.Contract.Result``1" />
+        <element api="M:System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Diagnostics.Contracts.Contract">
+      <topicdata name="Contract" group="list" subgroup="Events" typeTopicId="T:System.Diagnostics.Contracts.Contract" />
+      <apidata name="Contract" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <elements>
+        <element api="E:System.Diagnostics.Contracts.Contract.ContractFailed" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.Assert">
+      <topicdata name="Assert" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Assert" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.Assume">
+      <topicdata name="Assume" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Assume" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.Ensures">
+      <topicdata name="Ensures" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Ensures" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.EnsuresOnThrow">
+      <topicdata name="EnsuresOnThrow" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="EnsuresOnThrow" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.Exists">
+      <topicdata name="Exists" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Exists" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.ForAll">
+      <topicdata name="ForAll" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="ForAll" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+        <element api="M:System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.Invariant">
+      <topicdata name="Invariant" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Invariant" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.Contract.Requires">
+      <topicdata name="Requires" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Requires" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)" />
+        <element api="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Assert" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Assert" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>DEBUG</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Assert(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="Assert" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Assert" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>DEBUG</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Assume" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Assume" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>DEBUG</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Assume(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="Assume" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Assume" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>DEBUG</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="E:System.Diagnostics.Contracts.Contract.ContractFailed">
+      <topicdata group="api" />
+      <apidata name="ContractFailed" group="member" subgroup="event" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_ContractFailed">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </adder>
+      <remover name="remove_ContractFailed">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </remover>
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.EndContractBlock">
+      <topicdata group="api" />
+      <apidata name="EndContractBlock" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Ensures" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Ensures" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Ensures(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="Ensures" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Ensures" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="EnsuresOnThrow" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.EnsuresOnThrow" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="TException">
+          <constrained>
+            <type api="T:System.Exception" ref="true" />
+          </constrained>
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.EnsuresOnThrow``1(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="EnsuresOnThrow" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.EnsuresOnThrow" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="TException">
+          <constrained>
+            <type api="T:System.Exception" ref="true" />
+          </constrained>
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})">
+      <topicdata group="api" />
+      <apidata name="Exists" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Exists" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <parameters>
+        <parameter name="collection">
+          <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+            <specialization>
+              <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+            </specialization>
+          </type>
+        </parameter>
+        <parameter name="predicate">
+          <type api="T:System.Predicate`1" ref="true">
+            <specialization>
+              <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.Exists``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Exists(System.Int32,System.Int32,System.Predicate{System.Int32})">
+      <topicdata group="api" />
+      <apidata name="Exists" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Exists" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="fromInclusive">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="toExclusive">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="predicate">
+          <type api="T:System.Predicate`1" ref="true">
+            <specialization>
+              <type api="T:System.Int32" ref="false" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})">
+      <topicdata group="api" />
+      <apidata name="ForAll" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.ForAll" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <parameters>
+        <parameter name="collection">
+          <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+            <specialization>
+              <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+            </specialization>
+          </type>
+        </parameter>
+        <parameter name="predicate">
+          <type api="T:System.Predicate`1" ref="true">
+            <specialization>
+              <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.ForAll``1(System.Collections.Generic.IEnumerable{``0},System.Predicate{``0})" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.ForAll(System.Int32,System.Int32,System.Predicate{System.Int32})">
+      <topicdata group="api" />
+      <apidata name="ForAll" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.ForAll" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="fromInclusive">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="toExclusive">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="predicate">
+          <type api="T:System.Predicate`1" ref="true">
+            <specialization>
+              <type api="T:System.Int32" ref="false" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Invariant" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Invariant" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Invariant(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="Invariant" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Invariant" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.OldValue``1(``0)">
+      <topicdata group="api" />
+      <apidata name="OldValue" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <parameters>
+        <parameter name="value">
+          <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.OldValue``1(``0)" />
+        </parameter>
+      </parameters>
+      <returns>
+        <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.OldValue``1(``0)" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Requires" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Requires" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Requires" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Requires" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="TException">
+          <constrained>
+            <type api="T:System.Exception" ref="true" />
+          </constrained>
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Requires(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="Requires" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Requires" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Requires``1(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="Requires" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Diagnostics.Contracts.Contract.Requires" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="TException">
+          <constrained>
+            <type api="T:System.Exception" ref="true" />
+          </constrained>
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userMessage">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.Result``1">
+      <topicdata group="api" />
+      <apidata name="Result" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <returns>
+        <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.Result``1" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)">
+      <topicdata group="api" />
+      <apidata name="ValueAtReturn" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <parameters>
+        <parameter name="value" out="true">
+          <referenceTo>
+            <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)" />
+          </referenceTo>
+        </parameter>
+      </parameters>
+      <returns>
+        <template name="T" index="0" api="M:System.Diagnostics.Contracts.Contract.ValueAtReturn``1(``0@)" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.Contract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractAbbreviatorAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractAbbreviatorAttribute.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractAbbreviatorAttribute.#ctor" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Method" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute">
+      <topicdata name="ContractAbbreviatorAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute" />
+      <apidata name="ContractAbbreviatorAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractAbbreviatorAttribute.#ctor" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute">
+      <topicdata name="ContractAbbreviatorAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute" />
+      <apidata name="ContractAbbreviatorAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractAbbreviatorAttribute.#ctor" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractAbbreviatorAttribute.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractAbbreviatorAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractArgumentValidatorAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute.#ctor" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Method" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute">
+      <topicdata name="ContractArgumentValidatorAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute" />
+      <apidata name="ContractArgumentValidatorAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute.#ctor" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute">
+      <topicdata name="ContractArgumentValidatorAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute" />
+      <apidata name="ContractArgumentValidatorAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute.#ctor" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractArgumentValidatorAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractClassAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractClassAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractClassAttribute.#ctor(System.Type)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractClassAttribute.TypeContainingContracts" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>DEBUG</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Class" />
+              <field name="Interface" />
+              <field name="Delegate" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractClassAttribute">
+      <topicdata name="ContractClassAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractClassAttribute" />
+      <apidata name="ContractClassAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractClassAttribute">
+      <topicdata name="ContractClassAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractClassAttribute" />
+      <apidata name="ContractClassAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractClassAttribute.TypeContainingContracts" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractClassAttribute.#ctor(System.Type)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="typeContainingContracts">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractClassAttribute.TypeContainingContracts">
+      <topicdata group="api" />
+      <apidata name="TypeContainingContracts" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_TypeContainingContracts" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractClassForAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractClassForAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractClassForAttribute.#ctor(System.Type)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractClassForAttribute.TypeContractsAreFor" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Class" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractClassForAttribute">
+      <topicdata name="ContractClassForAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractClassForAttribute" />
+      <apidata name="ContractClassForAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassForAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractClassForAttribute">
+      <topicdata name="ContractClassForAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractClassForAttribute" />
+      <apidata name="ContractClassForAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractClassForAttribute.TypeContractsAreFor" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassForAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractClassForAttribute.#ctor(System.Type)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="typeContractsAreFor">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassForAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractClassForAttribute.TypeContractsAreFor">
+      <topicdata group="api" />
+      <apidata name="TypeContractsAreFor" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_TypeContractsAreFor" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractClassForAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractFailedEventArgs">
+      <topicdata group="api" />
+      <apidata name="ContractFailedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.EventArgs" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.ContractFailedEventArgs.#ctor(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception)" />
+        <element api="M:System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled" />
+        <element api="M:System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Condition" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Handled" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Message" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractFailedEventArgs">
+      <topicdata name="ContractFailedEventArgs" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractFailedEventArgs" />
+      <apidata name="ContractFailedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled" />
+        <element api="M:System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractFailedEventArgs">
+      <topicdata name="ContractFailedEventArgs" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractFailedEventArgs" />
+      <apidata name="ContractFailedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Condition" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Handled" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Message" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException" />
+        <element api="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractFailedEventArgs.#ctor(System.Diagnostics.Contracts.ContractFailureKind,System.String,System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="failureKind">
+          <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+        </parameter>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="condition">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="originalException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Condition">
+      <topicdata group="api" />
+      <apidata name="Condition" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Condition" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractFailedEventArgs.FailureKind">
+      <topicdata group="api" />
+      <apidata name="FailureKind" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_FailureKind" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Handled">
+      <topicdata group="api" />
+      <apidata name="Handled" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Handled" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Message">
+      <topicdata group="api" />
+      <apidata name="Message" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Message" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractFailedEventArgs.OriginalException">
+      <topicdata group="api" />
+      <apidata name="OriginalException" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_OriginalException" />
+      <returns>
+        <type api="T:System.Exception" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractFailedEventArgs.SetHandled">
+      <topicdata group="api" />
+      <apidata name="SetHandled" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractFailedEventArgs.SetUnwind">
+      <topicdata group="api" />
+      <apidata name="SetUnwind" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractFailedEventArgs.Unwind">
+      <topicdata group="api" />
+      <apidata name="Unwind" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Unwind" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractFailureKind">
+      <topicdata group="api" />
+      <apidata name="ContractFailureKind" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Diagnostics.Contracts.ContractFailureKind.Precondition" />
+        <element api="F:System.Diagnostics.Contracts.ContractFailureKind.Postcondition" />
+        <element api="F:System.Diagnostics.Contracts.ContractFailureKind.PostconditionOnException" />
+        <element api="F:System.Diagnostics.Contracts.ContractFailureKind.Invariant" />
+        <element api="F:System.Diagnostics.Contracts.ContractFailureKind.Assert" />
+        <element api="F:System.Diagnostics.Contracts.ContractFailureKind.Assume" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+    </api>
+    <api id="F:System.Diagnostics.Contracts.ContractFailureKind.Assert">
+      <topicdata group="api" notopic="" />
+      <apidata name="Assert" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Diagnostics.Contracts.ContractFailureKind.Assume">
+      <topicdata group="api" notopic="" />
+      <apidata name="Assume" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Diagnostics.Contracts.ContractFailureKind.Invariant">
+      <topicdata group="api" notopic="" />
+      <apidata name="Invariant" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Diagnostics.Contracts.ContractFailureKind.Postcondition">
+      <topicdata group="api" notopic="" />
+      <apidata name="Postcondition" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Diagnostics.Contracts.ContractFailureKind.PostconditionOnException">
+      <topicdata group="api" notopic="" />
+      <apidata name="PostconditionOnException" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Diagnostics.Contracts.ContractFailureKind.Precondition">
+      <topicdata group="api" notopic="" />
+      <apidata name="Precondition" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractFailureKind" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractInvariantMethodAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractInvariantMethodAttribute.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractInvariantMethodAttribute.#ctor" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Method" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute">
+      <topicdata name="ContractInvariantMethodAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute" />
+      <apidata name="ContractInvariantMethodAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractInvariantMethodAttribute.#ctor" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute">
+      <topicdata name="ContractInvariantMethodAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute" />
+      <apidata name="ContractInvariantMethodAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractInvariantMethodAttribute.#ctor" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractInvariantMethodAttribute.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractInvariantMethodAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractOptionAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractOptionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="Overload:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor">
+          <element api="M:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor(System.String,System.String,System.Boolean)" />
+          <element api="M:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor(System.String,System.String,System.String)" />
+        </element>
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Category" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Enabled" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Setting" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Value" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="All" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractOptionAttribute">
+      <topicdata name="ContractOptionAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractOptionAttribute" />
+      <apidata name="ContractOptionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractOptionAttribute">
+      <topicdata name="ContractOptionAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractOptionAttribute" />
+      <apidata name="ContractOptionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Category" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Enabled" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Setting" />
+        <element api="P:System.Diagnostics.Contracts.ContractOptionAttribute.Value" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" />
+      </containers>
+    </api>
+    <api id="Overload:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor(System.String,System.String,System.Boolean)" />
+        <element api="M:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor(System.String,System.String,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor(System.String,System.String,System.Boolean)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor" />
+      <parameters>
+        <parameter name="category">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="setting">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="enabled">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor(System.String,System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Diagnostics.Contracts.ContractOptionAttribute.#ctor" />
+      <parameters>
+        <parameter name="category">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="setting">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractOptionAttribute.Category">
+      <topicdata group="api" />
+      <apidata name="Category" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Category" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractOptionAttribute.Enabled">
+      <topicdata group="api" />
+      <apidata name="Enabled" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Enabled" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractOptionAttribute.Setting">
+      <topicdata group="api" />
+      <apidata name="Setting" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Setting" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractOptionAttribute.Value">
+      <topicdata group="api" />
+      <apidata name="Value" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Value" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractOptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractPublicPropertyNameAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute.#ctor(System.String)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute.Name" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Field" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute">
+      <topicdata name="ContractPublicPropertyNameAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" />
+      <apidata name="ContractPublicPropertyNameAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute">
+      <topicdata name="ContractPublicPropertyNameAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" />
+      <apidata name="ContractPublicPropertyNameAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute.Name" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractPublicPropertyNameAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractReferenceAssemblyAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute.#ctor" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Assembly" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute">
+      <topicdata name="ContractReferenceAssemblyAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute" />
+      <apidata name="ContractReferenceAssemblyAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute.#ctor" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute">
+      <topicdata name="ContractReferenceAssemblyAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute" />
+      <apidata name="ContractReferenceAssemblyAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute.#ctor" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractReferenceAssemblyAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractRuntimeIgnoredAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute.#ctor" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Method" />
+              <field name="Property" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute">
+      <topicdata name="ContractRuntimeIgnoredAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute" />
+      <apidata name="ContractRuntimeIgnoredAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute.#ctor" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute">
+      <topicdata name="ContractRuntimeIgnoredAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute" />
+      <apidata name="ContractRuntimeIgnoredAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute.#ctor" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractRuntimeIgnoredAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.ContractVerificationAttribute">
+      <topicdata group="api" />
+      <apidata name="ContractVerificationAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.ContractVerificationAttribute.#ctor(System.Boolean)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractVerificationAttribute.Value" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Assembly" />
+              <field name="Class" />
+              <field name="Struct" />
+              <field name="Constructor" />
+              <field name="Method" />
+              <field name="Property" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.ContractVerificationAttribute">
+      <topicdata name="ContractVerificationAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.ContractVerificationAttribute" />
+      <apidata name="ContractVerificationAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractVerificationAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.ContractVerificationAttribute">
+      <topicdata name="ContractVerificationAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.ContractVerificationAttribute" />
+      <apidata name="ContractVerificationAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Diagnostics.Contracts.ContractVerificationAttribute.Value" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractVerificationAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.ContractVerificationAttribute.#ctor(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="value">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractVerificationAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Diagnostics.Contracts.ContractVerificationAttribute.Value">
+      <topicdata group="api" />
+      <apidata name="Value" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Value" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.ContractVerificationAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Diagnostics.Contracts.PureAttribute">
+      <topicdata group="api" />
+      <apidata name="PureAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.PureAttribute.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Diagnostics.Contracts.PureAttribute.#ctor" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>CONTRACTS_FULL</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Class" />
+              <field name="Constructor" />
+              <field name="Method" />
+              <field name="Property" />
+              <field name="Event" />
+              <field name="Parameter" />
+              <field name="Delegate" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Diagnostics.Contracts.PureAttribute">
+      <topicdata name="PureAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Diagnostics.Contracts.PureAttribute" />
+      <apidata name="PureAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.PureAttribute.#ctor" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.PureAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Diagnostics.Contracts.PureAttribute">
+      <topicdata name="PureAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Diagnostics.Contracts.PureAttribute" />
+      <apidata name="PureAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Diagnostics.Contracts.PureAttribute.#ctor" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.PureAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Diagnostics.Contracts.PureAttribute.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Diagnostics.Contracts" />
+        <type api="T:System.Diagnostics.Contracts.PureAttribute" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

@@ -1,0 +1,3812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="mscorlib">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>BED7F4EA-1A96-11d2-8F08-00A0C9A6186D</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.IO.IsolatedStorage">
+      <topicdata group="api" />
+      <apidata name="System.IO.IsolatedStorage" group="namespace" />
+      <elements>
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorageScope" />
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorage" />
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" />
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions" />
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" />
+        <element api="T:System.IO.IsolatedStorage.INormalizeForIsolatedStorage" />
+        <element api="T:System.IO.IsolatedStorage.IsolatedStorageFile" />
+      </elements>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.INormalizeForIsolatedStorage">
+      <topicdata group="api" />
+      <apidata name="INormalizeForIsolatedStorage" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.INormalizeForIsolatedStorage.Normalize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.IO.IsolatedStorage.INormalizeForIsolatedStorage">
+      <topicdata name="INormalizeForIsolatedStorage" group="list" subgroup="Methods" typeTopicId="T:System.IO.IsolatedStorage.INormalizeForIsolatedStorage" />
+      <apidata name="INormalizeForIsolatedStorage" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.INormalizeForIsolatedStorage.Normalize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.INormalizeForIsolatedStorage" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.INormalizeForIsolatedStorage.Normalize">
+      <topicdata group="api" />
+      <apidata name="Normalize" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.INormalizeForIsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorage">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorage" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.MarshalByRefObject" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+        <descendents>
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+        </descendents>
+      </family>
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.#ctor" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.GetPermission(System.Security.PermissionSet)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.IncreaseQuotaTo(System.Int64)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorage.InitStore">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.Remove" />
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.MarshalByRefObject.InitializeLifetimeService" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorage.MemberwiseClone">
+          <element api="M:System.Object.MemberwiseClone" />
+          <element api="M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.ApplicationIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.AvailableFreeSpace" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.CurrentSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.MaximumSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.Quota" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.Scope" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.SeparatorExternal" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.SeparatorInternal" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.UsedSize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.IO.IsolatedStorage.IsolatedStorage">
+      <topicdata name="IsolatedStorage" group="list" subgroup="Methods" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorage" />
+      <apidata name="IsolatedStorage" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.GetPermission(System.Security.PermissionSet)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.IncreaseQuotaTo(System.Int64)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorage.InitStore">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.Remove" />
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.MarshalByRefObject.InitializeLifetimeService" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorage.MemberwiseClone">
+          <element api="M:System.Object.MemberwiseClone" />
+          <element api="M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.IO.IsolatedStorage.IsolatedStorage">
+      <topicdata name="IsolatedStorage" group="list" subgroup="Properties" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorage" />
+      <apidata name="IsolatedStorage" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.ApplicationIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.AvailableFreeSpace" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.CurrentSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.MaximumSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.Quota" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.Scope" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.SeparatorExternal" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.SeparatorInternal" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.UsedSize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorage.InitStore">
+      <topicdata name="InitStore" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="InitStore" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorage.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.ApplicationIdentity">
+      <topicdata group="api" />
+      <apidata name="ApplicationIdentity" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ApplicationIdentity" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity">
+      <topicdata group="api" />
+      <apidata name="AssemblyIdentity" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_AssemblyIdentity" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.AvailableFreeSpace">
+      <topicdata group="api" />
+      <apidata name="AvailableFreeSpace" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_AvailableFreeSpace" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.CurrentSize">
+      <topicdata group="api" />
+      <apidata name="CurrentSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_CurrentSize" />
+      <returns>
+        <type api="T:System.UInt64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>IsolatedStorage.CurrentSize has been deprecated because it is not CLS Compliant.  To get the current size use IsolatedStorage.UsedSize</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity">
+      <topicdata group="api" />
+      <apidata name="DomainIdentity" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_DomainIdentity" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorage.GetPermission(System.Security.PermissionSet)">
+      <topicdata group="api" />
+      <apidata name="GetPermission" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="ps">
+          <type api="T:System.Security.PermissionSet" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Security.Permissions.IsolatedStoragePermission" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorage.IncreaseQuotaTo(System.Int64)">
+      <topicdata group="api" />
+      <apidata name="IncreaseQuotaTo" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="newQuotaSize">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)">
+      <topicdata group="api" />
+      <apidata name="InitStore" group="member" subgroup="method" />
+      <memberdata visibility="family" overload="Overload:System.IO.IsolatedStorage.IsolatedStorage.InitStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="appEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorage.InitStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)">
+      <topicdata group="api" />
+      <apidata name="InitStore" group="member" subgroup="method" />
+      <memberdata visibility="family" overload="Overload:System.IO.IsolatedStorage.IsolatedStorage.InitStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="domainEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="assemblyEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.MaximumSize">
+      <topicdata group="api" />
+      <apidata name="MaximumSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_MaximumSize" />
+      <returns>
+        <type api="T:System.UInt64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>IsolatedStorage.MaximumSize has been deprecated because it is not CLS Compliant.  To get the maximum size use IsolatedStorage.Quota</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.Quota">
+      <topicdata group="api" />
+      <apidata name="Quota" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Quota" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorage.Remove">
+      <topicdata group="api" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.Scope">
+      <topicdata group="api" />
+      <apidata name="Scope" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Scope" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.SeparatorExternal">
+      <topicdata group="api" />
+      <apidata name="SeparatorExternal" group="member" subgroup="property" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_SeparatorExternal" />
+      <returns>
+        <type api="T:System.Char" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.SeparatorInternal">
+      <topicdata group="api" />
+      <apidata name="SeparatorInternal" group="member" subgroup="property" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_SeparatorInternal" />
+      <returns>
+        <type api="T:System.Char" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorage.UsedSize">
+      <topicdata group="api" />
+      <apidata name="UsedSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_UsedSize" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorageException">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorageException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageException.#ctor">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.String)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.String,System.Exception)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.IO.IsolatedStorage.IsolatedStorageException">
+      <topicdata name="IsolatedStorageException" group="list" subgroup="Methods" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+      <apidata name="IsolatedStorageException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <elements>
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.IO.IsolatedStorage.IsolatedStorageException">
+      <topicdata name="IsolatedStorageException" group="list" subgroup="Properties" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+      <apidata name="IsolatedStorageException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <elements>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+      </containers>
+    </api>
+    <api id="Events.T:System.IO.IsolatedStorage.IsolatedStorageException">
+      <topicdata name="IsolatedStorageException" group="list" subgroup="Events" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+      <apidata name="IsolatedStorageException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.String,System.Exception)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="inner">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageException" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorageFile">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorageFile" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+          <type api="T:System.MarshalByRefObject" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.IDisposable" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Close" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String,System.Boolean)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.DeleteDirectory(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Dispose" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.FileExists(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Finalize" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetEnumerator(System.IO.IsolatedStorage.IsolatedStorageScope)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForApplication" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForAssembly" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForDomain" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Security.Policy.Evidence,System.Type,System.Security.Policy.Evidence,System.Type)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForAssembly" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForDomain" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.IncreaseQuotaTo(System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.MoveDirectory(System.String,System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.MoveFile(System.String,System.String)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)" />
+        </element>
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.Remove">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove(System.IO.IsolatedStorage.IsolatedStorageScope)" />
+        </element>
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.MarshalByRefObject.InitializeLifetimeService" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.ApplicationIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.Scope" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.CurrentSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.MaximumSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.Quota" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.IO.IsolatedStorage.IsolatedStorageFile">
+      <topicdata name="IsolatedStorageFile" group="list" subgroup="Methods" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageFile" />
+      <apidata name="IsolatedStorageFile" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Close" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String,System.Boolean)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.DeleteDirectory(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Dispose" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.FileExists(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Finalize" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetEnumerator(System.IO.IsolatedStorage.IsolatedStorageScope)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForApplication" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForAssembly" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForDomain" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Security.Policy.Evidence,System.Type,System.Security.Policy.Evidence,System.Type)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForAssembly" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForDomain" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.IncreaseQuotaTo(System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.MoveDirectory(System.String,System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.MoveFile(System.String,System.String)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)" />
+        </element>
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.Remove">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove(System.IO.IsolatedStorage.IsolatedStorageScope)" />
+        </element>
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.MarshalByRefObject.InitializeLifetimeService" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.IO.IsolatedStorage.IsolatedStorageFile">
+      <topicdata name="IsolatedStorageFile" group="list" subgroup="Properties" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageFile" />
+      <apidata name="IsolatedStorageFile" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.ApplicationIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.AssemblyIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.DomainIdentity" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorage.Scope" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.CurrentSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.MaximumSize" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.Quota" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile">
+      <topicdata name="CopyFile" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="CopyFile" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String,System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames">
+      <topicdata name="GetDirectoryNames" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="GetDirectoryNames" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames">
+      <topicdata name="GetFileNames" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="GetFileNames" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore">
+      <topicdata name="GetStore" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="GetStore" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Security.Policy.Evidence,System.Type,System.Security.Policy.Evidence,System.Type)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile">
+      <topicdata name="OpenFile" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="OpenFile" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.Remove">
+      <topicdata name="Remove" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove(System.IO.IsolatedStorage.IsolatedStorageScope)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFile.AvailableFreeSpace">
+      <topicdata group="api" />
+      <apidata name="AvailableFreeSpace" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.IsolatedStorage.IsolatedStorage.AvailableFreeSpace">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_AvailableFreeSpace" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.Close">
+      <topicdata group="api" />
+      <apidata name="Close" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="CopyFile" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sourceFileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="destinationFileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile(System.String,System.String,System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="CopyFile" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.CopyFile" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sourceFileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="destinationFileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="overwrite">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.CreateDirectory(System.String)">
+      <topicdata group="api" />
+      <apidata name="CreateDirectory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="dir">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.CreateFile(System.String)">
+      <topicdata group="api" />
+      <apidata name="CreateFile" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFile.CurrentSize">
+      <topicdata group="api" />
+      <apidata name="CurrentSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.IsolatedStorage.IsolatedStorage.CurrentSize">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_CurrentSize" />
+      <returns>
+        <type api="T:System.UInt64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>IsolatedStorageFile.CurrentSize has been deprecated because it is not CLS Compliant.  To get the current size use IsolatedStorageFile.UsedSize</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.DeleteDirectory(System.String)">
+      <topicdata group="api" />
+      <apidata name="DeleteDirectory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="dir">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.DeleteFile(System.String)">
+      <topicdata group="api" />
+      <apidata name="DeleteFile" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="file">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.DirectoryExists(System.String)">
+      <topicdata group="api" />
+      <apidata name="DirectoryExists" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.Dispose">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.IDisposable.Dispose">
+          <type api="T:System.IDisposable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.FileExists(System.String)">
+      <topicdata group="api" />
+      <apidata name="FileExists" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.Finalize">
+      <topicdata group="api" />
+      <apidata name="Finalize" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Finalize">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <implements>
+        <member api="M:System.Object.Finalize">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetCreationTime(System.String)">
+      <topicdata group="api" />
+      <apidata name="GetCreationTime" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.DateTimeOffset" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames">
+      <topicdata group="api" />
+      <apidata name="GetDirectoryNames" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames" />
+      <proceduredata virtual="false" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames(System.String)">
+      <topicdata group="api" />
+      <apidata name="GetDirectoryNames" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetDirectoryNames" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="searchPattern">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetEnumerator(System.IO.IsolatedStorage.IsolatedStorageScope)">
+      <topicdata group="api" />
+      <apidata name="GetEnumerator" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Collections.IEnumerator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames">
+      <topicdata group="api" />
+      <apidata name="GetFileNames" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames" />
+      <proceduredata virtual="false" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames(System.String)">
+      <topicdata group="api" />
+      <apidata name="GetFileNames" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetFileNames" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="searchPattern">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetLastAccessTime(System.String)">
+      <topicdata group="api" />
+      <apidata name="GetLastAccessTime" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.DateTimeOffset" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetLastWriteTime(System.String)">
+      <topicdata group="api" />
+      <apidata name="GetLastWriteTime" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.DateTimeOffset" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForApplication">
+      <topicdata group="api" />
+      <apidata name="GetMachineStoreForApplication" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForAssembly">
+      <topicdata group="api" />
+      <apidata name="GetMachineStoreForAssembly" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetMachineStoreForDomain">
+      <topicdata group="api" />
+      <apidata name="GetMachineStoreForDomain" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object)">
+      <topicdata group="api" />
+      <apidata name="GetStore" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="applicationIdentity">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object)">
+      <topicdata group="api" />
+      <apidata name="GetStore" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="domainIdentity">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="assemblyIdentity">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Security.Policy.Evidence,System.Type,System.Security.Policy.Evidence,System.Type)">
+      <topicdata group="api" />
+      <apidata name="GetStore" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="domainEvidence">
+          <type api="T:System.Security.Policy.Evidence" ref="true" />
+        </parameter>
+        <parameter name="domainEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="assemblyEvidence">
+          <type api="T:System.Security.Policy.Evidence" ref="true" />
+        </parameter>
+        <parameter name="assemblyEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)">
+      <topicdata group="api" />
+      <apidata name="GetStore" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="applicationEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)">
+      <topicdata group="api" />
+      <apidata name="GetStore" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+        <parameter name="domainEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="assemblyEvidenceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForApplication">
+      <topicdata group="api" />
+      <apidata name="GetUserStoreForApplication" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForAssembly">
+      <topicdata group="api" />
+      <apidata name="GetUserStoreForAssembly" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForDomain">
+      <topicdata group="api" />
+      <apidata name="GetUserStoreForDomain" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetUserStoreForSite">
+      <topicdata group="api" />
+      <apidata name="GetUserStoreForSite" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.IncreaseQuotaTo(System.Int64)">
+      <topicdata group="api" />
+      <apidata name="IncreaseQuotaTo" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.IsolatedStorage.IsolatedStorage.IncreaseQuotaTo(System.Int64)">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="newQuotaSize">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFile.IsEnabled">
+      <topicdata group="api" />
+      <apidata name="IsEnabled" group="member" subgroup="property" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_IsEnabled" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFile.MaximumSize">
+      <topicdata group="api" />
+      <apidata name="MaximumSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.IsolatedStorage.IsolatedStorage.MaximumSize">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_MaximumSize" />
+      <returns>
+        <type api="T:System.UInt64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>IsolatedStorageFile.MaximumSize has been deprecated because it is not CLS Compliant.  To get the maximum size use IsolatedStorageFile.Quota</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.MoveDirectory(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="MoveDirectory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sourceDirectoryName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="destinationDirectoryName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.MoveFile(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="MoveFile" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="sourceFileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="destinationFileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode)">
+      <topicdata group="api" />
+      <apidata name="OpenFile" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess)">
+      <topicdata group="api" />
+      <apidata name="OpenFile" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)">
+      <topicdata group="api" />
+      <apidata name="OpenFile" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.OpenFile" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+        <parameter name="share">
+          <type api="T:System.IO.FileShare" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFile.Quota">
+      <topicdata group="api" />
+      <apidata name="Quota" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.IsolatedStorage.IsolatedStorage.Quota">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_Quota" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove">
+      <topicdata group="api" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.Remove" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.IsolatedStorage.IsolatedStorage.Remove">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFile.Remove(System.IO.IsolatedStorage.IsolatedStorageScope)">
+      <topicdata group="api" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFile.Remove" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="scope">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFile.UsedSize">
+      <topicdata group="api" />
+      <apidata name="UsedSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.IsolatedStorage.IsolatedStorage.UsedSize">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorage" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_UsedSize" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorageFileStream">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorageFileStream" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.IO.FileStream" ref="true" />
+          <type api="T:System.IO.Stream" ref="true" />
+          <type api="T:System.MarshalByRefObject" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.IO.FileStream.Finalize" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.FlushAsync">
+          <element api="M:System.IO.Stream.FlushAsync" />
+          <element api="M:System.IO.FileStream.FlushAsync(System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.FileStream.GetAccessControl" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadAsync">
+          <element api="M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)" />
+          <element api="M:System.IO.FileStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.FileStream.SetAccessControl(System.Security.AccessControl.FileSecurity)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteAsync">
+          <element api="M:System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)" />
+          <element api="M:System.IO.FileStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)" />
+        </element>
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose">
+          <element api="M:System.IO.Stream.Dispose" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose(System.Boolean)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead(System.IAsyncResult)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndWrite(System.IAsyncResult)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush(System.Boolean)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Lock(System.Int64,System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Read(System.Byte[],System.Int32,System.Int32)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadByte" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Seek(System.Int64,System.IO.SeekOrigin)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.SetLength(System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Unlock(System.Int64,System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Write(System.Byte[],System.Int32,System.Int32)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteByte(System.Byte)" />
+        <element api="M:System.IO.Stream.Close" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.CopyTo">
+          <element api="M:System.IO.Stream.CopyTo(System.IO.Stream)" />
+          <element api="M:System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)" />
+        </element>
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.CopyToAsync">
+          <element api="M:System.IO.Stream.CopyToAsync(System.IO.Stream)" />
+          <element api="M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)" />
+          <element api="M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.Stream.CreateWaitHandle" />
+        <element api="M:System.IO.Stream.ObjectInvariant" />
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.MarshalByRefObject.InitializeLifetimeService" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.MemberwiseClone">
+          <element api="M:System.Object.MemberwiseClone" />
+          <element api="M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.IO.FileStream.Name" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanRead" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanSeek" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanWrite" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Handle" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.IsAsync" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Length" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Position" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.SafeFileHandle" />
+        <element api="P:System.IO.Stream.CanTimeout" />
+        <element api="P:System.IO.Stream.ReadTimeout" />
+        <element api="P:System.IO.Stream.WriteTimeout" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.IO.IsolatedStorage.IsolatedStorageFileStream">
+      <topicdata name="IsolatedStorageFileStream" group="list" subgroup="Methods" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" />
+      <apidata name="IsolatedStorageFileStream" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.IO.FileStream.Finalize" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.FlushAsync">
+          <element api="M:System.IO.Stream.FlushAsync" />
+          <element api="M:System.IO.FileStream.FlushAsync(System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.FileStream.GetAccessControl" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadAsync">
+          <element api="M:System.IO.Stream.ReadAsync(System.Byte[],System.Int32,System.Int32)" />
+          <element api="M:System.IO.FileStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.FileStream.SetAccessControl(System.Security.AccessControl.FileSecurity)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteAsync">
+          <element api="M:System.IO.Stream.WriteAsync(System.Byte[],System.Int32,System.Int32)" />
+          <element api="M:System.IO.FileStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose">
+          <element api="M:System.IO.Stream.Dispose" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose(System.Boolean)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead(System.IAsyncResult)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndWrite(System.IAsyncResult)" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush">
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush" />
+          <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush(System.Boolean)" />
+        </element>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Lock(System.Int64,System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Read(System.Byte[],System.Int32,System.Int32)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadByte" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Seek(System.Int64,System.IO.SeekOrigin)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.SetLength(System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Unlock(System.Int64,System.Int64)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Write(System.Byte[],System.Int32,System.Int32)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteByte(System.Byte)" />
+        <element api="M:System.IO.Stream.Close" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.CopyTo">
+          <element api="M:System.IO.Stream.CopyTo(System.IO.Stream)" />
+          <element api="M:System.IO.Stream.CopyTo(System.IO.Stream,System.Int32)" />
+        </element>
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.CopyToAsync">
+          <element api="M:System.IO.Stream.CopyToAsync(System.IO.Stream)" />
+          <element api="M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32)" />
+          <element api="M:System.IO.Stream.CopyToAsync(System.IO.Stream,System.Int32,System.Threading.CancellationToken)" />
+        </element>
+        <element api="M:System.IO.Stream.CreateWaitHandle" />
+        <element api="M:System.IO.Stream.ObjectInvariant" />
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.MarshalByRefObject.InitializeLifetimeService" />
+        <element api="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.MemberwiseClone">
+          <element api="M:System.Object.MemberwiseClone" />
+          <element api="M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.IO.IsolatedStorage.IsolatedStorageFileStream">
+      <topicdata name="IsolatedStorageFileStream" group="list" subgroup="Properties" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" />
+      <apidata name="IsolatedStorageFileStream" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.IO.FileStream.Name" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanRead" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanSeek" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanWrite" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Handle" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.IsAsync" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Length" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Position" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.SafeFileHandle" />
+        <element api="P:System.IO.Stream.CanTimeout" />
+        <element api="P:System.IO.Stream.ReadTimeout" />
+        <element api="P:System.IO.Stream.WriteTimeout" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.IO.IsolatedStorage.IsolatedStorageFile)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose">
+      <topicdata name="Dispose" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.Stream.Dispose" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose(System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush">
+      <topicdata name="Flush" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Flush" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush" />
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush(System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+        <parameter name="share">
+          <type api="T:System.IO.FileShare" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+        <parameter name="share">
+          <type api="T:System.IO.FileShare" ref="false" />
+        </parameter>
+        <parameter name="bufferSize">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.Int32,System.IO.IsolatedStorage.IsolatedStorageFile)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+        <parameter name="share">
+          <type api="T:System.IO.FileShare" ref="false" />
+        </parameter>
+        <parameter name="bufferSize">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="isf">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.IsolatedStorage.IsolatedStorageFile)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+        <parameter name="share">
+          <type api="T:System.IO.FileShare" ref="false" />
+        </parameter>
+        <parameter name="isf">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.FileAccess,System.IO.IsolatedStorage.IsolatedStorageFile)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="access">
+          <type api="T:System.IO.FileAccess" ref="false" />
+        </parameter>
+        <parameter name="isf">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor(System.String,System.IO.FileMode,System.IO.IsolatedStorage.IsolatedStorageFile)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.#ctor" />
+      <parameters>
+        <parameter name="path">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="mode">
+          <type api="T:System.IO.FileMode" ref="false" />
+        </parameter>
+        <parameter name="isf">
+          <type api="T:System.IO.IsolatedStorage.IsolatedStorageFile" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+      <topicdata group="api" />
+      <apidata name="BeginRead" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="buffer">
+          <arrayOf rank="1">
+            <type api="T:System.Byte" ref="false" />
+          </arrayOf>
+        </parameter>
+        <parameter name="offset">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="numBytes">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="userCallback">
+          <type api="T:System.AsyncCallback" ref="true" />
+        </parameter>
+        <parameter name="stateObject">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IAsyncResult" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.Permissions.HostProtectionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+            <enumValue>
+              <field name="LinkDemand" />
+            </enumValue>
+          </argument>
+          <assignment name="ExternalThreading">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+      <topicdata group="api" />
+      <apidata name="BeginWrite" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="buffer">
+          <arrayOf rank="1">
+            <type api="T:System.Byte" ref="false" />
+          </arrayOf>
+        </parameter>
+        <parameter name="offset">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="numBytes">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="userCallback">
+          <type api="T:System.AsyncCallback" ref="true" />
+        </parameter>
+        <parameter name="stateObject">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.IAsyncResult" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.Permissions.HostProtectionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+            <enumValue>
+              <field name="LinkDemand" />
+            </enumValue>
+          </argument>
+          <assignment name="ExternalThreading">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanRead">
+      <topicdata group="api" />
+      <apidata name="CanRead" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.CanRead">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_CanRead" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanSeek">
+      <topicdata group="api" />
+      <apidata name="CanSeek" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.CanSeek">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_CanSeek" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.CanWrite">
+      <topicdata group="api" />
+      <apidata name="CanWrite" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.CanWrite">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_CanWrite" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="family" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Dispose" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Dispose(System.Boolean)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="disposing">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndRead(System.IAsyncResult)">
+      <topicdata group="api" />
+      <apidata name="EndRead" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.EndRead(System.IAsyncResult)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="asyncResult">
+          <type api="T:System.IAsyncResult" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.EndWrite(System.IAsyncResult)">
+      <topicdata group="api" />
+      <apidata name="EndWrite" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.EndWrite(System.IAsyncResult)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="asyncResult">
+          <type api="T:System.IAsyncResult" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush">
+      <topicdata group="api" />
+      <apidata name="Flush" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Flush">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Flush" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.IO.IsolatedStorage.IsolatedStorageFileStream.Flush" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Flush(System.Boolean)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="flushToDisk">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Handle">
+      <topicdata group="api" />
+      <apidata name="Handle" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.Handle">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_Handle">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </getter>
+      <returns>
+        <type api="T:System.IntPtr" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>This property has been deprecated.  Please use IsolatedStorageFileStream's SafeFileHandle property instead.  http://go.microsoft.com/fwlink/?linkid=14202</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.IsAsync">
+      <topicdata group="api" />
+      <apidata name="IsAsync" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.IsAsync">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_IsAsync" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Length">
+      <topicdata group="api" />
+      <apidata name="Length" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.Length">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_Length" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Lock(System.Int64,System.Int64)">
+      <topicdata group="api" />
+      <apidata name="Lock" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Lock(System.Int64,System.Int64)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="position">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+        <parameter name="length">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.Position">
+      <topicdata group="api" />
+      <apidata name="Position" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.Position">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" set="true" />
+      <getter name="get_Position" />
+      <setter name="set_Position" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Read(System.Byte[],System.Int32,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Read" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Read(System.Byte[],System.Int32,System.Int32)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="buffer">
+          <arrayOf rank="1">
+            <type api="T:System.Byte" ref="false" />
+          </arrayOf>
+        </parameter>
+        <parameter name="offset">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="count">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.ReadByte">
+      <topicdata group="api" />
+      <apidata name="ReadByte" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.ReadByte">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageFileStream.SafeFileHandle">
+      <topicdata group="api" />
+      <apidata name="SafeFileHandle" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.IO.FileStream.SafeFileHandle">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_SafeFileHandle">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </getter>
+      <returns>
+        <type api="T:Microsoft.Win32.SafeHandles.SafeFileHandle" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Seek(System.Int64,System.IO.SeekOrigin)">
+      <topicdata group="api" />
+      <apidata name="Seek" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Seek(System.Int64,System.IO.SeekOrigin)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="offset">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+        <parameter name="origin">
+          <type api="T:System.IO.SeekOrigin" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.SetLength(System.Int64)">
+      <topicdata group="api" />
+      <apidata name="SetLength" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.SetLength(System.Int64)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="value">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Unlock(System.Int64,System.Int64)">
+      <topicdata group="api" />
+      <apidata name="Unlock" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Unlock(System.Int64,System.Int64)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="position">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+        <parameter name="length">
+          <type api="T:System.Int64" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.Write(System.Byte[],System.Int32,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.Write(System.Byte[],System.Int32,System.Int32)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="buffer">
+          <arrayOf rank="1">
+            <type api="T:System.Byte" ref="false" />
+          </arrayOf>
+        </parameter>
+        <parameter name="offset">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="count">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageFileStream.WriteByte(System.Byte)">
+      <topicdata group="api" />
+      <apidata name="WriteByte" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.IO.FileStream.WriteByte(System.Byte)">
+          <type api="T:System.IO.FileStream" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="value">
+          <type api="T:System.Byte" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageFileStream" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorageScope">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorageScope" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.None" />
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.User" />
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.Domain" />
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.Assembly" />
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.Roaming" />
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.Machine" />
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageScope.Application" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.Application">
+      <topicdata group="api" notopic="" />
+      <apidata name="Application" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>32</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.Assembly">
+      <topicdata group="api" notopic="" />
+      <apidata name="Assembly" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.Domain">
+      <topicdata group="api" notopic="" />
+      <apidata name="Domain" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.Machine">
+      <topicdata group="api" notopic="" />
+      <apidata name="Machine" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>16</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.Roaming">
+      <topicdata group="api" notopic="" />
+      <apidata name="Roaming" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>8</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageScope.User">
+      <topicdata group="api" notopic="" />
+      <apidata name="User" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageScope" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorageSecurityOptions" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions.IncreaseQuotaForApplication" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+    </api>
+    <api id="F:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions.IncreaseQuotaForApplication">
+      <topicdata group="api" notopic="" />
+      <apidata name="IncreaseQuotaForApplication" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState">
+      <topicdata group="api" />
+      <apidata name="IsolatedStorageSecurityState" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Security.SecurityState" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageSecurityState.EnsureState" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Security.SecurityState.IsStateAvailable" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.Options" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.Quota" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.UsedSize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.IO.IsolatedStorage.IsolatedStorageSecurityState">
+      <topicdata name="IsolatedStorageSecurityState" group="list" subgroup="Methods" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" />
+      <apidata name="IsolatedStorageSecurityState" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.IO.IsolatedStorage.IsolatedStorageSecurityState.EnsureState" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Security.SecurityState.IsStateAvailable" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.IO.IsolatedStorage.IsolatedStorageSecurityState">
+      <topicdata name="IsolatedStorageSecurityState" group="list" subgroup="Properties" typeTopicId="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" />
+      <apidata name="IsolatedStorageSecurityState" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.Options" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.Quota" />
+        <element api="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.UsedSize" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" />
+      </containers>
+    </api>
+    <api id="M:System.IO.IsolatedStorage.IsolatedStorageSecurityState.EnsureState">
+      <topicdata group="api" />
+      <apidata name="EnsureState" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.SecurityState.EnsureState">
+          <type api="T:System.Security.SecurityState" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.Options">
+      <topicdata group="api" />
+      <apidata name="Options" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Options" />
+      <returns>
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityOptions" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.Quota">
+      <topicdata group="api" />
+      <apidata name="Quota" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Quota" />
+      <setter name="set_Quota" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.IO.IsolatedStorage.IsolatedStorageSecurityState.UsedSize">
+      <topicdata group="api" />
+      <apidata name="UsedSize" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_UsedSize" />
+      <returns>
+        <type api="T:System.Int64" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.IO.IsolatedStorage" />
+        <type api="T:System.IO.IsolatedStorage.IsolatedStorageSecurityState" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

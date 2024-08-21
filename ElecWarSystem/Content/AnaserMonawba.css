@@ -1,0 +1,211 @@
+﻿.form-group {
+    display: flex;
+    flex-direction: row;
+}
+
+    .form-group label {
+        font-size: 1.4rem;
+    }
+
+.main-div {
+    position: relative;
+}
+
+.first-div {
+    position: relative;
+    border: 1px solid #a5a5a5;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+    .first-div .title {
+        position: absolute;
+        bottom: 74%;
+        background-color: #f0f2f4;
+        border-radius: 0 2rem;
+    }
+
+.first-div {
+    position: relative;
+}
+
+.second-div {
+    position: relative;
+    border: 1px solid #a5a5a5;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    color: var(--alarm);
+}
+
+.second-div .title {
+    position: absolute;
+    bottom: 96%;
+    background-color: #f0f2f4;
+}
+
+.links .main-div {
+}
+
+.export-btn {
+    text-decoration: none;
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--alarm);
+}
+
+.create input:hover {
+    color: var(--alarm);
+}
+
+.time input:hover {
+    cursor: pointer;
+}
+<!-- Custom CSS -->
+/* Button styling */
+.export-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.export-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Modal header styling */
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+}
+
+.close {
+    color: white;
+    opacity: 0.8;
+}
+
+    .close:hover {
+        opacity: 1;
+    }
+
+/* Modal body styling */
+.modal-body {
+    padding: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: border-color 0.3s;
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+    }
+
+/* Save button styling */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+
+.table table {
+    width: 100%;
+    padding: 30px;
+}
+
+.table > :not(caption) > * > * {
+    background-color: transparent;
+}
+
+.header-tr th {
+    background-color: var(--button);
+    color: var(--text);
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+tbody tr td {
+    text-align: center !important;
+    font-size: 19px !important;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+tr {
+    position: relative;
+    font-size: 1.4rem;
+}
+
+i {
+    color: var(--button);
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    font-size: 2.4rem !important;
+}
+
+    i:hover {
+        color: #0056b3;
+    }
+
+table {
+    max-height: 200px; /* Adjust the height as needed */
+    overflow-y: auto;
+}
+
+.shadowbox {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* تدرج لوني ناعم */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    color: #343a40; /* لون نص غامق ولكن محايد */
+    transition: all 0.3s ease;
+    border: 1px solid #ced4da; /* حواف ناعمة */
+}
+
+    .shadowbox:hover {
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* ظل أعمق عند التحويم */
+        transform: translateY(-5px); /* تأثير الرفع الخفيف */
+    }

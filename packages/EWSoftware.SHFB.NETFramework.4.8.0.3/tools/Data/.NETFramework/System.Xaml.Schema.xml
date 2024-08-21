@@ -1,0 +1,2199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.Xaml">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Xaml.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Xaml.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Xaml.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Xaml.Schema">
+      <topicdata group="api" />
+      <apidata name="System.Xaml.Schema" group="namespace" />
+      <elements>
+        <element api="T:System.Xaml.Schema.AllowedMemberLocations" />
+        <element api="T:System.Xaml.Schema.XamlCollectionKind" />
+        <element api="T:System.Xaml.Schema.XamlMemberInvoker" />
+        <element api="T:System.Xaml.Schema.ShouldSerializeResult" />
+        <element api="T:System.Xaml.Schema.XamlTypeInvoker" />
+        <element api="T:System.Xaml.Schema.XamlValueConverter`1" />
+        <element api="T:System.Xaml.Schema.XamlTypeName" />
+        <element api="T:System.Xaml.Schema.XamlTypeTypeConverter" />
+      </elements>
+    </api>
+    <api id="T:System.Xaml.Schema.AllowedMemberLocations">
+      <topicdata group="api" />
+      <apidata name="AllowedMemberLocations" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Xaml.Schema.AllowedMemberLocations.None" />
+        <element api="F:System.Xaml.Schema.AllowedMemberLocations.Attribute" />
+        <element api="F:System.Xaml.Schema.AllowedMemberLocations.MemberElement" />
+        <element api="F:System.Xaml.Schema.AllowedMemberLocations.Any" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Xaml.Schema.AllowedMemberLocations.Any">
+      <topicdata group="api" notopic="" />
+      <apidata name="Any" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.AllowedMemberLocations.Attribute">
+      <topicdata group="api" notopic="" />
+      <apidata name="Attribute" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.AllowedMemberLocations.MemberElement">
+      <topicdata group="api" notopic="" />
+      <apidata name="MemberElement" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.AllowedMemberLocations.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.AllowedMemberLocations" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.ShouldSerializeResult">
+      <topicdata group="api" />
+      <apidata name="ShouldSerializeResult" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Xaml.Schema.ShouldSerializeResult.Default" />
+        <element api="F:System.Xaml.Schema.ShouldSerializeResult.True" />
+        <element api="F:System.Xaml.Schema.ShouldSerializeResult.False" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.ShouldSerializeResult.Default">
+      <topicdata group="api" notopic="" />
+      <apidata name="Default" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.ShouldSerializeResult.False">
+      <topicdata group="api" notopic="" />
+      <apidata name="False" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.ShouldSerializeResult.True">
+      <topicdata group="api" notopic="" />
+      <apidata name="True" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.XamlCollectionKind">
+      <topicdata group="api" />
+      <apidata name="XamlCollectionKind" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <enumerationbase>
+        <type api="T:System.Byte" ref="false" />
+      </enumerationbase>
+      <elements>
+        <element api="F:System.Xaml.Schema.XamlCollectionKind.None" />
+        <element api="F:System.Xaml.Schema.XamlCollectionKind.Collection" />
+        <element api="F:System.Xaml.Schema.XamlCollectionKind.Dictionary" />
+        <element api="F:System.Xaml.Schema.XamlCollectionKind.Array" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.XamlCollectionKind.Array">
+      <topicdata group="api" notopic="" />
+      <apidata name="Array" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.XamlCollectionKind.Collection">
+      <topicdata group="api" notopic="" />
+      <apidata name="Collection" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.XamlCollectionKind.Dictionary">
+      <topicdata group="api" notopic="" />
+      <apidata name="Dictionary" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Xaml.Schema.XamlCollectionKind.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlCollectionKind" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.XamlMemberInvoker">
+      <topicdata group="api" />
+      <apidata name="XamlMemberInvoker" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.Xaml.Schema.XamlMemberInvoker.#ctor">
+          <element api="M:System.Xaml.Schema.XamlMemberInvoker.#ctor" />
+          <element api="M:System.Xaml.Schema.XamlMemberInvoker.#ctor(System.Xaml.XamlMember)" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.GetValue(System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.SetValue(System.Object,System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.ShouldSerializeValue(System.Object)" />
+        <element api="P:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter" />
+        <element api="P:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter" />
+        <element api="P:System.Xaml.Schema.XamlMemberInvoker.UnknownInvoker" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Xaml.Schema.XamlMemberInvoker">
+      <topicdata name="XamlMemberInvoker" group="list" subgroup="Methods" typeTopicId="T:System.Xaml.Schema.XamlMemberInvoker" />
+      <apidata name="XamlMemberInvoker" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.GetValue(System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.SetValue(System.Object,System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.ShouldSerializeValue(System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Xaml.Schema.XamlMemberInvoker">
+      <topicdata name="XamlMemberInvoker" group="list" subgroup="Properties" typeTopicId="T:System.Xaml.Schema.XamlMemberInvoker" />
+      <apidata name="XamlMemberInvoker" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter" />
+        <element api="P:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter" />
+        <element api="P:System.Xaml.Schema.XamlMemberInvoker.UnknownInvoker" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlMemberInvoker.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.#ctor" />
+        <element api="M:System.Xaml.Schema.XamlMemberInvoker.#ctor(System.Xaml.XamlMember)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlMemberInvoker.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Xaml.Schema.XamlMemberInvoker.#ctor" />
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlMemberInvoker.#ctor(System.Xaml.XamlMember)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlMemberInvoker.#ctor" />
+      <parameters>
+        <parameter name="member">
+          <type api="T:System.Xaml.XamlMember" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlMemberInvoker.GetValue(System.Object)">
+      <topicdata group="api" />
+      <apidata name="GetValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="instance">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlMemberInvoker.SetValue(System.Object,System.Object)">
+      <topicdata group="api" />
+      <apidata name="SetValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="instance">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlMemberInvoker.ShouldSerializeValue(System.Object)">
+      <topicdata group="api" />
+      <apidata name="ShouldSerializeValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="instance">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Xaml.Schema.ShouldSerializeResult" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlMemberInvoker.UnderlyingGetter">
+      <topicdata group="api" />
+      <apidata name="UnderlyingGetter" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_UnderlyingGetter" />
+      <returns>
+        <type api="T:System.Reflection.MethodInfo" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlMemberInvoker.UnderlyingSetter">
+      <topicdata group="api" />
+      <apidata name="UnderlyingSetter" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_UnderlyingSetter" />
+      <returns>
+        <type api="T:System.Reflection.MethodInfo" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlMemberInvoker.UnknownInvoker">
+      <topicdata group="api" />
+      <apidata name="UnknownInvoker" group="member" subgroup="property" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_UnknownInvoker" />
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlMemberInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.XamlTypeInvoker">
+      <topicdata group="api" />
+      <apidata name="XamlTypeInvoker" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeInvoker.#ctor">
+          <element api="M:System.Xaml.Schema.XamlTypeInvoker.#ctor" />
+          <element api="M:System.Xaml.Schema.XamlTypeInvoker.#ctor(System.Xaml.XamlType)" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.AddToCollection(System.Object,System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary(System.Object,System.Object,System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.CreateInstance(System.Object[])" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod(System.Xaml.XamlType)" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.GetItems(System.Object)" />
+        <element api="P:System.Xaml.Schema.XamlTypeInvoker.SetMarkupExtensionHandler" />
+        <element api="P:System.Xaml.Schema.XamlTypeInvoker.SetTypeConverterHandler" />
+        <element api="P:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Xaml.Schema.XamlTypeInvoker">
+      <topicdata name="XamlTypeInvoker" group="list" subgroup="Methods" typeTopicId="T:System.Xaml.Schema.XamlTypeInvoker" />
+      <apidata name="XamlTypeInvoker" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.AddToCollection(System.Object,System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary(System.Object,System.Object,System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.CreateInstance(System.Object[])" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod(System.Xaml.XamlType)" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.GetItems(System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Xaml.Schema.XamlTypeInvoker">
+      <topicdata name="XamlTypeInvoker" group="list" subgroup="Properties" typeTopicId="T:System.Xaml.Schema.XamlTypeInvoker" />
+      <apidata name="XamlTypeInvoker" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.Xaml.Schema.XamlTypeInvoker.SetMarkupExtensionHandler" />
+        <element api="P:System.Xaml.Schema.XamlTypeInvoker.SetTypeConverterHandler" />
+        <element api="P:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeInvoker.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.#ctor" />
+        <element api="M:System.Xaml.Schema.XamlTypeInvoker.#ctor(System.Xaml.XamlType)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Xaml.Schema.XamlTypeInvoker.#ctor" />
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.#ctor(System.Xaml.XamlType)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlTypeInvoker.#ctor" />
+      <parameters>
+        <parameter name="type">
+          <type api="T:System.Xaml.XamlType" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.AddToCollection(System.Object,System.Object)">
+      <topicdata group="api" />
+      <apidata name="AddToCollection" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="instance">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.AddToDictionary(System.Object,System.Object,System.Object)">
+      <topicdata group="api" />
+      <apidata name="AddToDictionary" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="instance">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="key">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.CreateInstance(System.Object[])">
+      <topicdata group="api" />
+      <apidata name="CreateInstance" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="arguments">
+          <arrayOf rank="1">
+            <type api="T:System.Object" ref="true" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.GetAddMethod(System.Xaml.XamlType)">
+      <topicdata group="api" />
+      <apidata name="GetAddMethod" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="contentType">
+          <type api="T:System.Xaml.XamlType" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Reflection.MethodInfo" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.GetEnumeratorMethod">
+      <topicdata group="api" />
+      <apidata name="GetEnumeratorMethod" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <returns>
+        <type api="T:System.Reflection.MethodInfo" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeInvoker.GetItems(System.Object)">
+      <topicdata group="api" />
+      <apidata name="GetItems" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="instance">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Collections.IEnumerator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlTypeInvoker.SetMarkupExtensionHandler">
+      <topicdata group="api" />
+      <apidata name="SetMarkupExtensionHandler" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SetMarkupExtensionHandler" />
+      <returns>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Windows.Markup.XamlSetMarkupExtensionEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlTypeInvoker.SetTypeConverterHandler">
+      <topicdata group="api" />
+      <apidata name="SetTypeConverterHandler" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SetTypeConverterHandler" />
+      <returns>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Windows.Markup.XamlSetTypeConverterEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlTypeInvoker.UnknownInvoker">
+      <topicdata group="api" />
+      <apidata name="UnknownInvoker" group="member" subgroup="property" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_UnknownInvoker" />
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeInvoker" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.XamlTypeName">
+      <topicdata group="api" />
+      <apidata name="XamlTypeName" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeName.#ctor">
+          <element api="M:System.Xaml.Schema.XamlTypeName.#ctor" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.#ctor(System.Xaml.XamlType)" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.#ctor(System.String,System.String)" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Xaml.Schema.XamlTypeName})" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlTypeName.Parse(System.String,System.Xaml.IXamlNamespaceResolver)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.ParseList(System.String,System.Xaml.IXamlNamespaceResolver)" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeName.ToString">
+          <element api="M:System.Xaml.Schema.XamlTypeName.ToString" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.ToString(System.Xaml.INamespacePrefixLookup)" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.ToString(System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName},System.Xaml.INamespacePrefixLookup)" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlTypeName.TryParse(System.String,System.Xaml.IXamlNamespaceResolver,System.Xaml.Schema.XamlTypeName@)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.TryParseList(System.String,System.Xaml.IXamlNamespaceResolver,System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName}@)" />
+        <element api="P:System.Xaml.Schema.XamlTypeName.Name" />
+        <element api="P:System.Xaml.Schema.XamlTypeName.Namespace" />
+        <element api="P:System.Xaml.Schema.XamlTypeName.TypeArguments" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Xaml.Schema.XamlTypeName">
+      <topicdata name="XamlTypeName" group="list" subgroup="Methods" typeTopicId="T:System.Xaml.Schema.XamlTypeName" />
+      <apidata name="XamlTypeName" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.Parse(System.String,System.Xaml.IXamlNamespaceResolver)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.ParseList(System.String,System.Xaml.IXamlNamespaceResolver)" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeName.ToString">
+          <element api="M:System.Xaml.Schema.XamlTypeName.ToString" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.ToString(System.Xaml.INamespacePrefixLookup)" />
+          <element api="M:System.Xaml.Schema.XamlTypeName.ToString(System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName},System.Xaml.INamespacePrefixLookup)" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlTypeName.TryParse(System.String,System.Xaml.IXamlNamespaceResolver,System.Xaml.Schema.XamlTypeName@)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.TryParseList(System.String,System.Xaml.IXamlNamespaceResolver,System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName}@)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Xaml.Schema.XamlTypeName">
+      <topicdata name="XamlTypeName" group="list" subgroup="Properties" typeTopicId="T:System.Xaml.Schema.XamlTypeName" />
+      <apidata name="XamlTypeName" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <elements>
+        <element api="P:System.Xaml.Schema.XamlTypeName.Name" />
+        <element api="P:System.Xaml.Schema.XamlTypeName.Namespace" />
+        <element api="P:System.Xaml.Schema.XamlTypeName.TypeArguments" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeName.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlTypeName.#ctor" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.#ctor(System.Xaml.XamlType)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.#ctor(System.String,System.String)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Xaml.Schema.XamlTypeName})" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeName.ToString">
+      <topicdata name="ToString" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlTypeName.ToString" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.ToString(System.Xaml.INamespacePrefixLookup)" />
+        <element api="M:System.Xaml.Schema.XamlTypeName.ToString(System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName},System.Xaml.INamespacePrefixLookup)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.#ctor(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <parameters>
+        <parameter name="xamlNamespace">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{System.Xaml.Schema.XamlTypeName})">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <parameters>
+        <parameter name="xamlNamespace">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="typeArguments">
+          <type api="T:System.Collections.Generic.IEnumerable`1" ref="true">
+            <specialization>
+              <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.#ctor(System.Xaml.XamlType)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlTypeName.#ctor" />
+      <parameters>
+        <parameter name="xamlType">
+          <type api="T:System.Xaml.XamlType" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlTypeName.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Name" />
+      <setter name="set_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlTypeName.Namespace">
+      <topicdata group="api" />
+      <apidata name="Namespace" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Namespace" />
+      <setter name="set_Namespace" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.Parse(System.String,System.Xaml.IXamlNamespaceResolver)">
+      <topicdata group="api" />
+      <apidata name="Parse" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="typeName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="namespaceResolver">
+          <type api="T:System.Xaml.IXamlNamespaceResolver" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.ParseList(System.String,System.Xaml.IXamlNamespaceResolver)">
+      <topicdata group="api" />
+      <apidata name="ParseList" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="typeNameList">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="namespaceResolver">
+          <type api="T:System.Xaml.IXamlNamespaceResolver" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Collections.Generic.IList`1" ref="true">
+          <specialization>
+            <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.ToString">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlTypeName.ToString" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.ToString(System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName},System.Xaml.INamespacePrefixLookup)">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Xaml.Schema.XamlTypeName.ToString" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="typeNameList">
+          <type api="T:System.Collections.Generic.IList`1" ref="true">
+            <specialization>
+              <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+            </specialization>
+          </type>
+        </parameter>
+        <parameter name="prefixLookup">
+          <type api="T:System.Xaml.INamespacePrefixLookup" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.ToString(System.Xaml.INamespacePrefixLookup)">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlTypeName.ToString" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="prefixLookup">
+          <type api="T:System.Xaml.INamespacePrefixLookup" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.TryParse(System.String,System.Xaml.IXamlNamespaceResolver,System.Xaml.Schema.XamlTypeName@)">
+      <topicdata group="api" />
+      <apidata name="TryParse" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="typeName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="namespaceResolver">
+          <type api="T:System.Xaml.IXamlNamespaceResolver" ref="true" />
+        </parameter>
+        <parameter name="result" out="true">
+          <referenceTo>
+            <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+          </referenceTo>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeName.TryParseList(System.String,System.Xaml.IXamlNamespaceResolver,System.Collections.Generic.IList{System.Xaml.Schema.XamlTypeName}@)">
+      <topicdata group="api" />
+      <apidata name="TryParseList" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="typeNameList">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="namespaceResolver">
+          <type api="T:System.Xaml.IXamlNamespaceResolver" ref="true" />
+        </parameter>
+        <parameter name="result" out="true">
+          <referenceTo>
+            <type api="T:System.Collections.Generic.IList`1" ref="true">
+              <specialization>
+                <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+              </specialization>
+            </type>
+          </referenceTo>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlTypeName.TypeArguments">
+      <topicdata group="api" />
+      <apidata name="TypeArguments" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_TypeArguments" />
+      <returns>
+        <type api="T:System.Collections.Generic.IList`1" ref="true">
+          <specialization>
+            <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeName" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.XamlTypeTypeConverter">
+      <topicdata group="api" />
+      <apidata name="XamlTypeTypeConverter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Xaml.Schema.XamlTypeTypeConverter.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.ComponentModel.TypeConverter" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFromInvariantString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.String)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.ComponentModel.ITypeDescriptorContext,System.String)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFromString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromString(System.String)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext,System.String)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.String)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertToInvariantString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToInvariantString(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToInvariantString(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertToString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToString(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CreateInstance">
+          <element api="M:System.ComponentModel.TypeConverter.CreateInstance(System.Collections.IDictionary)" />
+          <element api="M:System.ComponentModel.TypeConverter.CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary)" />
+        </element>
+        <element api="M:System.ComponentModel.TypeConverter.GetConvertFromException(System.Object)" />
+        <element api="M:System.ComponentModel.TypeConverter.GetConvertToException(System.Object,System.Type)" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetCreateInstanceSupported">
+          <element api="M:System.ComponentModel.TypeConverter.GetCreateInstanceSupported" />
+          <element api="M:System.ComponentModel.TypeConverter.GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetProperties">
+          <element api="M:System.ComponentModel.TypeConverter.GetProperties(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[])" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetPropertiesSupported">
+          <element api="M:System.ComponentModel.TypeConverter.GetPropertiesSupported" />
+          <element api="M:System.ComponentModel.TypeConverter.GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetStandardValues">
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValues" />
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetStandardValuesExclusive">
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesExclusive" />
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetStandardValuesSupported">
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesSupported" />
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.IsValid">
+          <element api="M:System.ComponentModel.TypeConverter.IsValid(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+        </element>
+        <element api="M:System.ComponentModel.TypeConverter.SortProperties(System.ComponentModel.PropertyDescriptorCollection,System.String[])" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.#ctor" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom">
+          <element api="M:System.ComponentModel.TypeConverter.CanConvertFrom(System.Type)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo">
+          <element api="M:System.ComponentModel.TypeConverter.CanConvertTo(System.Type)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFrom(System.Object)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertTo(System.Object,System.Type)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Xaml.Schema.XamlTypeTypeConverter">
+      <topicdata name="XamlTypeTypeConverter" group="list" subgroup="Methods" typeTopicId="T:System.Xaml.Schema.XamlTypeTypeConverter" />
+      <apidata name="XamlTypeTypeConverter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Xaml.Schema.XamlTypeTypeConverter.#ctor" />
+      <elements>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFromInvariantString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.String)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromInvariantString(System.ComponentModel.ITypeDescriptorContext,System.String)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFromString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromString(System.String)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext,System.String)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFromString(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.String)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertToInvariantString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToInvariantString(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToInvariantString(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertToString">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToString(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.ConvertToString(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CreateInstance">
+          <element api="M:System.ComponentModel.TypeConverter.CreateInstance(System.Collections.IDictionary)" />
+          <element api="M:System.ComponentModel.TypeConverter.CreateInstance(System.ComponentModel.ITypeDescriptorContext,System.Collections.IDictionary)" />
+        </element>
+        <element api="M:System.ComponentModel.TypeConverter.GetConvertFromException(System.Object)" />
+        <element api="M:System.ComponentModel.TypeConverter.GetConvertToException(System.Object,System.Type)" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetCreateInstanceSupported">
+          <element api="M:System.ComponentModel.TypeConverter.GetCreateInstanceSupported" />
+          <element api="M:System.ComponentModel.TypeConverter.GetCreateInstanceSupported(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetProperties">
+          <element api="M:System.ComponentModel.TypeConverter.GetProperties(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.GetProperties(System.ComponentModel.ITypeDescriptorContext,System.Object,System.Attribute[])" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetPropertiesSupported">
+          <element api="M:System.ComponentModel.TypeConverter.GetPropertiesSupported" />
+          <element api="M:System.ComponentModel.TypeConverter.GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetStandardValues">
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValues" />
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetStandardValuesExclusive">
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesExclusive" />
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.GetStandardValuesSupported">
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesSupported" />
+          <element api="M:System.ComponentModel.TypeConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.IsValid">
+          <element api="M:System.ComponentModel.TypeConverter.IsValid(System.Object)" />
+          <element api="M:System.ComponentModel.TypeConverter.IsValid(System.ComponentModel.ITypeDescriptorContext,System.Object)" />
+        </element>
+        <element api="M:System.ComponentModel.TypeConverter.SortProperties(System.ComponentModel.PropertyDescriptorCollection,System.String[])" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom">
+          <element api="M:System.ComponentModel.TypeConverter.CanConvertFrom(System.Type)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo">
+          <element api="M:System.ComponentModel.TypeConverter.CanConvertTo(System.Type)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertFrom(System.Object)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
+        </element>
+        <element api="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo">
+          <element api="M:System.ComponentModel.TypeConverter.ConvertTo(System.Object,System.Type)" />
+          <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom">
+      <topicdata name="CanConvertFrom" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="CanConvertFrom" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.ComponentModel.TypeConverter.CanConvertFrom(System.Type)" />
+        <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo">
+      <topicdata name="CanConvertTo" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="CanConvertTo" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.ComponentModel.TypeConverter.CanConvertTo(System.Type)" />
+        <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom">
+      <topicdata name="ConvertFrom" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="ConvertFrom" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.ComponentModel.TypeConverter.ConvertFrom(System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo">
+      <topicdata name="ConvertTo" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="ConvertTo" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.ComponentModel.TypeConverter.ConvertTo(System.Object,System.Type)" />
+        <element api="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeTypeConverter.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+      <topicdata group="api" />
+      <apidata name="CanConvertFrom" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertFrom" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ComponentModel.TypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+          <type api="T:System.ComponentModel.TypeConverter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ComponentModel.ITypeDescriptorContext" ref="true" />
+        </parameter>
+        <parameter name="sourceType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+      <topicdata group="api" />
+      <apidata name="CanConvertTo" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlTypeTypeConverter.CanConvertTo" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ComponentModel.TypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+          <type api="T:System.ComponentModel.TypeConverter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ComponentModel.ITypeDescriptorContext" ref="true" />
+        </parameter>
+        <parameter name="destinationType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+      <topicdata group="api" />
+      <apidata name="ConvertFrom" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertFrom" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ComponentModel.TypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+          <type api="T:System.ComponentModel.TypeConverter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ComponentModel.ITypeDescriptorContext" ref="true" />
+        </parameter>
+        <parameter name="culture">
+          <type api="T:System.Globalization.CultureInfo" ref="true" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+      <topicdata group="api" />
+      <apidata name="ConvertTo" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlTypeTypeConverter.ConvertTo" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ComponentModel.TypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+          <type api="T:System.ComponentModel.TypeConverter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ComponentModel.ITypeDescriptorContext" ref="true" />
+        </parameter>
+        <parameter name="culture">
+          <type api="T:System.Globalization.CultureInfo" ref="true" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="destinationType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlTypeTypeConverter" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Xaml.Schema.XamlValueConverter`1">
+      <topicdata group="api" />
+      <apidata name="XamlValueConverter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <templates>
+        <template name="TConverterBase">
+          <constrained ref="true" />
+        </template>
+      </templates>
+      <implements>
+        <type api="T:System.IEquatable`1" ref="true">
+          <specialization>
+            <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+              <specialization>
+                <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+              </specialization>
+            </type>
+          </specialization>
+        </type>
+      </implements>
+      <elements>
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="Overload:System.Xaml.Schema.XamlValueConverter`1.#ctor">
+          <element api="M:System.Xaml.Schema.XamlValueConverter`1.#ctor(System.Type,System.Xaml.XamlType)" />
+          <element api="M:System.Xaml.Schema.XamlValueConverter`1.#ctor(System.Type,System.Xaml.XamlType,System.String)" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.CreateInstance" />
+        <element api="Overload:System.Xaml.Schema.XamlValueConverter`1.Equals">
+          <element api="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Object)" />
+          <element api="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Xaml.Schema.XamlValueConverter{`0})" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.GetHashCode" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.op_Equality(System.Xaml.Schema.XamlValueConverter{`0},System.Xaml.Schema.XamlValueConverter{`0})" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.op_Inequality(System.Xaml.Schema.XamlValueConverter{`0},System.Xaml.Schema.XamlValueConverter{`0})" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.ToString" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.ConverterInstance" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.ConverterType" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.Name" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.TargetType" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Xaml.Schema.XamlValueConverter`1">
+      <topicdata name="XamlValueConverter" group="list" subgroup="Methods" typeTopicId="T:System.Xaml.Schema.XamlValueConverter`1" />
+      <apidata name="XamlValueConverter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <templates>
+        <template name="TConverterBase">
+          <constrained ref="true" />
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.CreateInstance" />
+        <element api="Overload:System.Xaml.Schema.XamlValueConverter`1.Equals">
+          <element api="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Object)" />
+          <element api="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Xaml.Schema.XamlValueConverter{`0})" />
+        </element>
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.GetHashCode" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" />
+      </containers>
+    </api>
+    <api id="Operators.T:System.Xaml.Schema.XamlValueConverter`1">
+      <topicdata name="XamlValueConverter" group="list" subgroup="Operators" subsubgroup="Operators" typeTopicId="T:System.Xaml.Schema.XamlValueConverter`1" />
+      <apidata name="XamlValueConverter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <templates>
+        <template name="TConverterBase">
+          <constrained ref="true" />
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.op_Equality(System.Xaml.Schema.XamlValueConverter{`0},System.Xaml.Schema.XamlValueConverter{`0})" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.op_Inequality(System.Xaml.Schema.XamlValueConverter{`0},System.Xaml.Schema.XamlValueConverter{`0})" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Xaml.Schema.XamlValueConverter`1">
+      <topicdata name="XamlValueConverter" group="list" subgroup="Properties" typeTopicId="T:System.Xaml.Schema.XamlValueConverter`1" />
+      <apidata name="XamlValueConverter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <templates>
+        <template name="TConverterBase">
+          <constrained ref="true" />
+        </template>
+      </templates>
+      <elements>
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.ConverterInstance" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.ConverterType" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.Name" />
+        <element api="P:System.Xaml.Schema.XamlValueConverter`1.TargetType" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlValueConverter`1.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.#ctor(System.Type,System.Xaml.XamlType)" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.#ctor(System.Type,System.Xaml.XamlType,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Xaml.Schema.XamlValueConverter`1.Equals">
+      <topicdata name="Equals" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Object)" />
+        <element api="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Xaml.Schema.XamlValueConverter{`0})" />
+      </elements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.#ctor(System.Type,System.Xaml.XamlType)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlValueConverter`1.#ctor" />
+      <parameters>
+        <parameter name="converterType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="targetType">
+          <type api="T:System.Xaml.XamlType" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.#ctor(System.Type,System.Xaml.XamlType,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Xaml.Schema.XamlValueConverter`1.#ctor" />
+      <parameters>
+        <parameter name="converterType">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+        <parameter name="targetType">
+          <type api="T:System.Xaml.XamlType" ref="true" />
+        </parameter>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlValueConverter`1.ConverterInstance">
+      <topicdata group="api" />
+      <apidata name="ConverterInstance" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ConverterInstance" />
+      <returns>
+        <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlValueConverter`1.ConverterType">
+      <topicdata group="api" />
+      <apidata name="ConverterType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ConverterType" />
+      <returns>
+        <type api="T:System.Type" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.CreateInstance">
+      <topicdata group="api" />
+      <apidata name="CreateInstance" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <returns>
+        <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Object)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlValueConverter`1.Equals" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Equals(System.Object)">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.Equals(System.Xaml.Schema.XamlValueConverter{`0})">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Xaml.Schema.XamlValueConverter`1.Equals" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="other">
+          <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+            <specialization>
+              <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.IEquatable`1.Equals(`0)">
+          <type api="T:System.IEquatable`1" ref="true">
+            <specialization>
+              <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+                <specialization>
+                  <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+                </specialization>
+              </type>
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.GetHashCode">
+      <topicdata group="api" />
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.GetHashCode">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlValueConverter`1.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.op_Equality(System.Xaml.Schema.XamlValueConverter{`0},System.Xaml.Schema.XamlValueConverter{`0})">
+      <topicdata group="api" />
+      <apidata name="Equality" group="member" subgroup="method" subsubgroup="operator" />
+      <memberdata visibility="public" static="true" special="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="converter1">
+          <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+            <specialization>
+              <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+            </specialization>
+          </type>
+        </parameter>
+        <parameter name="converter2">
+          <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+            <specialization>
+              <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.op_Inequality(System.Xaml.Schema.XamlValueConverter{`0},System.Xaml.Schema.XamlValueConverter{`0})">
+      <topicdata group="api" />
+      <apidata name="Inequality" group="member" subgroup="method" subsubgroup="operator" />
+      <memberdata visibility="public" static="true" special="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="converter1">
+          <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+            <specialization>
+              <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+            </specialization>
+          </type>
+        </parameter>
+        <parameter name="converter2">
+          <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true">
+            <specialization>
+              <template name="TConverterBase" index="0" api="T:System.Xaml.Schema.XamlValueConverter`1" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Xaml.Schema.XamlValueConverter`1.TargetType">
+      <topicdata group="api" />
+      <apidata name="TargetType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_TargetType" />
+      <returns>
+        <type api="T:System.Xaml.XamlType" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Xaml.Schema.XamlValueConverter`1.ToString">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Xaml" module="System.Xaml" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Xaml.Schema" />
+        <type api="T:System.Xaml.Schema.XamlValueConverter`1" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

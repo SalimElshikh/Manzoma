@@ -1,0 +1,2642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.Printing">
+      <assemblydata version="4.0.0.0" culture="" key="0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Printing.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Printing.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Printing.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\wpf\src\windows.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.30319.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+    <assembly name="ReachFramework">
+      <assemblydata version="4.0.0.0" culture="" key="0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>ReachFramework.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>ReachFramework.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>ReachFramework.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\wpf\src\windows.snk</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Windows.Xps">
+      <topicdata group="api" />
+      <apidata name="System.Windows.Xps" group="namespace" />
+      <elements>
+        <element api="T:System.Windows.Xps.XpsException" />
+        <element api="T:System.Windows.Xps.XpsPackagingException" />
+        <element api="T:System.Windows.Xps.XpsSerializationException" />
+        <element api="T:System.Windows.Xps.XpsDocumentWriter" />
+        <element api="T:System.Windows.Xps.VisualsToXpsDocument" />
+        <element api="T:System.Windows.Xps.XpsWriterException" />
+        <element api="T:System.Windows.Xps.XpsDocumentNotificationLevel" />
+      </elements>
+    </api>
+    <api id="T:System.Windows.Xps.VisualsToXpsDocument">
+      <topicdata group="api" />
+      <apidata name="VisualsToXpsDocument" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.BeginBatchWrite" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.Cancel" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.CancelAsync" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.EndBatchWrite" />
+        <element api="Overload:System.Windows.Xps.VisualsToXpsDocument.Write">
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+        </element>
+        <element api="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync">
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Object)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Xps.VisualsToXpsDocument">
+      <topicdata name="VisualsToXpsDocument" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Xps.VisualsToXpsDocument" />
+      <apidata name="VisualsToXpsDocument" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.BeginBatchWrite" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.Cancel" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.CancelAsync" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.EndBatchWrite" />
+        <element api="Overload:System.Windows.Xps.VisualsToXpsDocument.Write">
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+        </element>
+        <element api="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync">
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Object)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.VisualsToXpsDocument.Write">
+      <topicdata name="Write" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual)" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync">
+      <topicdata name="WriteAsync" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual)" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Object)" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.BeginBatchWrite">
+      <topicdata group="api" />
+      <apidata name="BeginBatchWrite" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.BeginBatchWrite">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.Cancel">
+      <topicdata group="api" />
+      <apidata name="Cancel" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.Cancel">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.CancelAsync">
+      <topicdata group="api" />
+      <apidata name="CancelAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.CancelAsync">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.EndBatchWrite">
+      <topicdata group="api" />
+      <apidata name="EndBatchWrite" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.EndBatchWrite">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.VisualsToXpsDocument.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.Write(System.Windows.Media.Visual)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.VisualsToXpsDocument.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync(System.Windows.Media.Visual)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync(System.Windows.Media.Visual,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.VisualsToXpsDocument.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.VisualsToXpsDocument.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriterCollator.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.VisualsToXpsDocument" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Xps.XpsDocumentNotificationLevel">
+      <topicdata group="api" />
+      <apidata name="XpsDocumentNotificationLevel" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Xps.XpsDocumentNotificationLevel.None" />
+        <element api="F:System.Windows.Xps.XpsDocumentNotificationLevel.ReceiveNotificationEnabled" />
+        <element api="F:System.Windows.Xps.XpsDocumentNotificationLevel.ReceiveNotificationDisabled" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Xps.XpsDocumentNotificationLevel.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Xps.XpsDocumentNotificationLevel.ReceiveNotificationDisabled">
+      <topicdata group="api" notopic="" />
+      <apidata name="ReceiveNotificationDisabled" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Xps.XpsDocumentNotificationLevel.ReceiveNotificationEnabled">
+      <topicdata group="api" notopic="" />
+      <apidata name="ReceiveNotificationEnabled" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Xps.XpsDocumentWriter">
+      <topicdata group="api" />
+      <apidata name="XpsDocumentWriter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingCancelled" />
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingCompleted" />
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingPrintTicketRequired" />
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingProgressChanged" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.CancelAsync" />
+        <element api="Overload:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator">
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator(System.Printing.PrintTicket,System.Printing.PrintTicket)" />
+        </element>
+        <element api="Overload:System.Windows.Xps.XpsDocumentWriter.Write">
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+        </element>
+        <element api="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync">
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Xps.XpsDocumentWriter">
+      <topicdata name="XpsDocumentWriter" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Xps.XpsDocumentWriter" />
+      <apidata name="XpsDocumentWriter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.CancelAsync" />
+        <element api="Overload:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator">
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator(System.Printing.PrintTicket,System.Printing.PrintTicket)" />
+        </element>
+        <element api="Overload:System.Windows.Xps.XpsDocumentWriter.Write">
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+        </element>
+        <element api="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync">
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket,System.Object)" />
+          <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Windows.Xps.XpsDocumentWriter">
+      <topicdata name="XpsDocumentWriter" group="list" subgroup="Events" typeTopicId="T:System.Windows.Xps.XpsDocumentWriter" />
+      <apidata name="XpsDocumentWriter" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingCancelled" />
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingCompleted" />
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingPrintTicketRequired" />
+        <element api="E:System.Windows.Xps.XpsDocumentWriter.WritingProgressChanged" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator">
+      <topicdata name="CreateVisualsCollator" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="CreateVisualsCollator" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator(System.Printing.PrintTicket,System.Printing.PrintTicket)" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsDocumentWriter.Write">
+      <topicdata name="Write" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync">
+      <topicdata name="WriteAsync" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket,System.Object)" />
+        <element api="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.CancelAsync">
+      <topicdata group="api" />
+      <apidata name="CancelAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.CancelAsync">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator">
+      <topicdata group="api" />
+      <apidata name="CreateVisualsCollator" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.CreateVisualsCollator">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator(System.Printing.PrintTicket,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="CreateVisualsCollator" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.CreateVisualsCollator" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.CreateVisualsCollator(System.Printing.PrintTicket,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentSequencePrintTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="documentPrintTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Windows.Documents.Serialization.SerializerWriterCollator" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="documentPath">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="documentPath">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="notificationLevel">
+          <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentPaginator">
+          <type api="T:System.Windows.Documents.DocumentPaginator" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentPaginator">
+          <type api="T:System.Windows.Documents.DocumentPaginator" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocument">
+          <type api="T:System.Windows.Documents.FixedDocument" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocument">
+          <type api="T:System.Windows.Documents.FixedDocument" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocumentSequence">
+          <type api="T:System.Windows.Documents.FixedDocumentSequence" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocumentSequence">
+          <type api="T:System.Windows.Documents.FixedDocumentSequence" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedPage">
+          <type api="T:System.Windows.Documents.FixedPage" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedPage">
+          <type api="T:System.Windows.Documents.FixedPage" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="Write" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.Write" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.Write(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="documentPath">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.String,System.Windows.Xps.XpsDocumentNotificationLevel)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="documentPath">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="notificationLevel">
+          <type api="T:System.Windows.Xps.XpsDocumentNotificationLevel" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.DocumentPaginator)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentPaginator">
+          <type api="T:System.Windows.Documents.DocumentPaginator" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentPaginator">
+          <type api="T:System.Windows.Documents.DocumentPaginator" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentPaginator">
+          <type api="T:System.Windows.Documents.DocumentPaginator" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.DocumentPaginator,System.Printing.PrintTicket,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="documentPaginator">
+          <type api="T:System.Windows.Documents.DocumentPaginator" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocument)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocument">
+          <type api="T:System.Windows.Documents.FixedDocument" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocument">
+          <type api="T:System.Windows.Documents.FixedDocument" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocument">
+          <type api="T:System.Windows.Documents.FixedDocument" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocument,System.Printing.PrintTicket,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocument">
+          <type api="T:System.Windows.Documents.FixedDocument" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocumentSequence">
+          <type api="T:System.Windows.Documents.FixedDocumentSequence" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocumentSequence">
+          <type api="T:System.Windows.Documents.FixedDocumentSequence" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocumentSequence">
+          <type api="T:System.Windows.Documents.FixedDocumentSequence" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedDocumentSequence,System.Printing.PrintTicket,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedDocumentSequence">
+          <type api="T:System.Windows.Documents.FixedDocumentSequence" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedPage)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedPage">
+          <type api="T:System.Windows.Documents.FixedPage" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedPage">
+          <type api="T:System.Windows.Documents.FixedPage" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedPage">
+          <type api="T:System.Windows.Documents.FixedPage" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Documents.FixedPage,System.Printing.PrintTicket,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="fixedPage">
+          <type api="T:System.Windows.Documents.FixedPage" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Media.Visual)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Media.Visual,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsDocumentWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)">
+      <topicdata group="api" />
+      <apidata name="WriteAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Windows.Xps.XpsDocumentWriter.WriteAsync" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Windows.Documents.Serialization.SerializerWriter.WriteAsync(System.Windows.Media.Visual,System.Printing.PrintTicket,System.Object)">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="visual">
+          <type api="T:System.Windows.Media.Visual" ref="true" />
+        </parameter>
+        <parameter name="printTicket">
+          <type api="T:System.Printing.PrintTicket" ref="true" />
+        </parameter>
+        <parameter name="userSuppliedState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Windows.Xps.XpsDocumentWriter.WritingCancelled">
+      <topicdata group="api" />
+      <apidata name="WritingCancelled" group="member" subgroup="event" />
+      <memberdata visibility="public" special="true" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCancelled">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <eventdata add="true" remove="true" call="true" />
+      <adder name="add_WritingCancelled" />
+      <remover name="remove_WritingCancelled" />
+      <eventhandler>
+        <type api="T:System.Windows.Documents.Serialization.WritingCancelledEventHandler" ref="true" />
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Windows.Documents.Serialization.WritingCancelledEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Windows.Xps.XpsDocumentWriter.WritingCompleted">
+      <topicdata group="api" />
+      <apidata name="WritingCompleted" group="member" subgroup="event" />
+      <memberdata visibility="public" special="true" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="E:System.Windows.Documents.Serialization.SerializerWriter.WritingCompleted">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <eventdata add="true" remove="true" call="true" />
+      <adder name="add_WritingCompleted" />
+      <remover name="remove_WritingCompleted" />
+      <eventhandler>
+        <type api="T:System.Windows.Documents.Serialization.WritingCompletedEventHandler" ref="true" />
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Windows.Documents.Serialization.WritingCompletedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Windows.Xps.XpsDocumentWriter.WritingPrintTicketRequired">
+      <topicdata group="api" />
+      <apidata name="WritingPrintTicketRequired" group="member" subgroup="event" />
+      <memberdata visibility="public" special="true" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="E:System.Windows.Documents.Serialization.SerializerWriter.WritingPrintTicketRequired">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <eventdata add="true" remove="true" call="true" />
+      <adder name="add_WritingPrintTicketRequired" />
+      <remover name="remove_WritingPrintTicketRequired" />
+      <eventhandler>
+        <type api="T:System.Windows.Documents.Serialization.WritingPrintTicketRequiredEventHandler" ref="true" />
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Windows.Documents.Serialization.WritingPrintTicketRequiredEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Windows.Xps.XpsDocumentWriter.WritingProgressChanged">
+      <topicdata group="api" />
+      <apidata name="WritingProgressChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" special="true" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="E:System.Windows.Documents.Serialization.SerializerWriter.WritingProgressChanged">
+          <type api="T:System.Windows.Documents.Serialization.SerializerWriter" ref="true" />
+        </member>
+      </overrides>
+      <eventdata add="true" remove="true" call="true" />
+      <adder name="add_WritingProgressChanged" />
+      <remover name="remove_WritingProgressChanged" />
+      <eventhandler>
+        <type api="T:System.Windows.Documents.Serialization.WritingProgressChangedEventHandler" ref="true" />
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Windows.Documents.Serialization.WritingProgressChangedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsDocumentWriter" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Xps.XpsException">
+      <topicdata group="api" />
+      <apidata name="XpsException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsException.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+        <descendents>
+          <type api="T:System.Windows.Xps.XpsPackagingException" ref="true" />
+          <type api="T:System.Windows.Xps.XpsSerializationException" ref="true" />
+        </descendents>
+      </family>
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="Overload:System.Windows.Xps.XpsException.#ctor">
+          <element api="M:System.Windows.Xps.XpsException.#ctor" />
+          <element api="M:System.Windows.Xps.XpsException.#ctor(System.String)" />
+          <element api="M:System.Windows.Xps.XpsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Windows.Xps.XpsException.#ctor(System.String,System.Exception)" />
+        </element>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Xps.XpsException">
+      <topicdata name="XpsException" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Xps.XpsException" />
+      <apidata name="XpsException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsException.#ctor" />
+      <elements>
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Windows.Xps.XpsException">
+      <topicdata name="XpsException" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Xps.XpsException" />
+      <apidata name="XpsException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsException.#ctor" />
+      <elements>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Windows.Xps.XpsException">
+      <topicdata name="XpsException" group="list" subgroup="Events" typeTopicId="T:System.Windows.Xps.XpsException" />
+      <apidata name="XpsException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsException.#ctor" />
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsException.#ctor" />
+        <element api="M:System.Windows.Xps.XpsException.#ctor(System.String)" />
+        <element api="M:System.Windows.Xps.XpsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Windows.Xps.XpsException.#ctor(System.String,System.Exception)" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsException.#ctor" />
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Windows.Xps.XpsException.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="innerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsException" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Xps.XpsPackagingException">
+      <topicdata group="api" />
+      <apidata name="XpsPackagingException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Windows.Xps.XpsException" ref="true" />
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="Overload:System.Windows.Xps.XpsPackagingException.#ctor">
+          <element api="M:System.Windows.Xps.XpsPackagingException.#ctor" />
+          <element api="M:System.Windows.Xps.XpsPackagingException.#ctor(System.String)" />
+          <element api="M:System.Windows.Xps.XpsPackagingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Windows.Xps.XpsPackagingException.#ctor(System.String,System.Exception)" />
+        </element>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Xps.XpsPackagingException">
+      <topicdata name="XpsPackagingException" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Xps.XpsPackagingException" />
+      <apidata name="XpsPackagingException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <elements>
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Windows.Xps.XpsPackagingException">
+      <topicdata name="XpsPackagingException" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Xps.XpsPackagingException" />
+      <apidata name="XpsPackagingException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <elements>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Windows.Xps.XpsPackagingException">
+      <topicdata name="XpsPackagingException" group="list" subgroup="Events" typeTopicId="T:System.Windows.Xps.XpsPackagingException" />
+      <apidata name="XpsPackagingException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsPackagingException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsPackagingException.#ctor" />
+        <element api="M:System.Windows.Xps.XpsPackagingException.#ctor(System.String)" />
+        <element api="M:System.Windows.Xps.XpsPackagingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Windows.Xps.XpsPackagingException.#ctor(System.String,System.Exception)" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsPackagingException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsPackagingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsPackagingException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsPackagingException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsPackagingException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="innerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsPackagingException" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Xps.XpsSerializationException">
+      <topicdata group="api" />
+      <apidata name="XpsSerializationException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Windows.Xps.XpsException" ref="true" />
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="Overload:System.Windows.Xps.XpsSerializationException.#ctor">
+          <element api="M:System.Windows.Xps.XpsSerializationException.#ctor" />
+          <element api="M:System.Windows.Xps.XpsSerializationException.#ctor(System.String)" />
+          <element api="M:System.Windows.Xps.XpsSerializationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Windows.Xps.XpsSerializationException.#ctor(System.String,System.Exception)" />
+        </element>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Xps.XpsSerializationException">
+      <topicdata name="XpsSerializationException" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Xps.XpsSerializationException" />
+      <apidata name="XpsSerializationException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <elements>
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Windows.Xps.XpsSerializationException">
+      <topicdata name="XpsSerializationException" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Xps.XpsSerializationException" />
+      <apidata name="XpsSerializationException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <elements>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Windows.Xps.XpsSerializationException">
+      <topicdata name="XpsSerializationException" group="list" subgroup="Events" typeTopicId="T:System.Windows.Xps.XpsSerializationException" />
+      <apidata name="XpsSerializationException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsSerializationException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsSerializationException.#ctor" />
+        <element api="M:System.Windows.Xps.XpsSerializationException.#ctor(System.String)" />
+        <element api="M:System.Windows.Xps.XpsSerializationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Windows.Xps.XpsSerializationException.#ctor(System.String,System.Exception)" />
+      </elements>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsSerializationException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsSerializationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsSerializationException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsSerializationException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsSerializationException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="innerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="ReachFramework" module="ReachFramework" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsSerializationException" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Xps.XpsWriterException">
+      <topicdata group="api" />
+      <apidata name="XpsWriterException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsWriterException.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="Overload:System.Windows.Xps.XpsWriterException.#ctor">
+          <element api="M:System.Windows.Xps.XpsWriterException.#ctor" />
+          <element api="M:System.Windows.Xps.XpsWriterException.#ctor(System.String)" />
+          <element api="M:System.Windows.Xps.XpsWriterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Windows.Xps.XpsWriterException.#ctor(System.String,System.Exception)" />
+        </element>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Xps.XpsWriterException">
+      <topicdata name="XpsWriterException" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Xps.XpsWriterException" />
+      <apidata name="XpsWriterException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsWriterException.#ctor" />
+      <elements>
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Windows.Xps.XpsWriterException">
+      <topicdata name="XpsWriterException" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Xps.XpsWriterException" />
+      <apidata name="XpsWriterException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsWriterException.#ctor" />
+      <elements>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Windows.Xps.XpsWriterException">
+      <topicdata name="XpsWriterException" group="list" subgroup="Events" typeTopicId="T:System.Windows.Xps.XpsWriterException" />
+      <apidata name="XpsWriterException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Windows.Xps.XpsWriterException.#ctor" />
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" />
+      </containers>
+    </api>
+    <api id="Overload:System.Windows.Xps.XpsWriterException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Windows.Xps.XpsWriterException.#ctor" />
+        <element api="M:System.Windows.Xps.XpsWriterException.#ctor(System.String)" />
+        <element api="M:System.Windows.Xps.XpsWriterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Windows.Xps.XpsWriterException.#ctor(System.String,System.Exception)" />
+      </elements>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsWriterException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsWriterException.#ctor" />
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsWriterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Windows.Xps.XpsWriterException.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsWriterException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsWriterException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Xps.XpsWriterException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Windows.Xps.XpsWriterException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="innerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Printing" module="System.Printing" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.0.30319.0" />
+        </library>
+        <namespace api="N:System.Windows.Xps" />
+        <type api="T:System.Windows.Xps.XpsWriterException" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

@@ -1,0 +1,184 @@
+﻿@{
+    var tmamTypeCookie = Request.Cookies["tmam-type"]?.Value ?? "";
+    TmamEnum tmamType = TmamEnum.Exist;
+    if (!tmamTypeCookie.Equals(""))
+    {
+        tmamType = (TmamEnum)int.Parse(tmamTypeCookie);
+    }
+}
+@using ElecWarSystem.Models;
+@{
+    UserRoles userRoles = (ElecWarSystem.Models.UserRoles)byte.Parse(Request.Cookies["Roles"].Value);
+}
+
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="~/4500.ico" />
+    <title>منظومة الحرب الإلكترونية</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
+    <link rel="stylesheet" href="~/Content/all.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/all.min.css" />
+    <link rel="stylesheet" href="~/Content/aside.css" />
+    <link rel="stylesheet" href="~/Content/main-layout.css" />
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="~/Scripts/Aribiano.js"></script>
+    <script src="~/Scripts/TmamScripts/angular.js"></script>
+
+    @Styles.Render("~/Content/css")
+    @RenderSection("Styles", required: false)
+
+</head>
+
+<body>
+    <div style="position: relative;">
+        <header>
+
+            <div class="links">
+                <div class="logo">
+                    <p> منظومة الحرب الإلكترونية </p>
+                </div>
+                <div id="bs-example-navbar-collapse-1">
+                    <ul>
+                        <li class="sub-link">
+                            @Html.ActionLink(linkText: "تمام افراد ", actionName: "RecievedTmam", controllerName: "TmamGathering")
+                            <ul>
+                                @if ((userRoles & UserRoles.Viewer) == UserRoles.Viewer ||
+                                    (userRoles & UserRoles.Admin) == UserRoles.Admin)
+                                {
+                                    <li class="sub-link">
+                                        @Html.ActionLink(linkText: "تمام جميع الوحدات", actionName: "RecievedTmam", controllerName: "TmamGathering")
+                                        <ul class="sub-sub-link">
+                                            <li>
+                                                @Html.ActionLink("إستلام التمامات", "RecievedTmam", "TmamGathering")
+                                            </li>
+                                            <li>@Html.ActionLink("تمام القادة", "LeaderShip", "TmamGathering")</li>
+                                            <li>@Html.ActionLink("تمام الضباط", "Officers", "TmamGathering")</li>
+                                            <li>@Html.ActionLink("تمام الدرجات الأخرى", "NonOfficers", "TmamGathering")</li>
+                                            <li class="ather-tamam">
+                                                <span>تمامات اخري </span>
+                                                <ul>
+                                                    <li>@Html.ActionLink("خارج التمركز", "Mo3askr", "TmamGathering")  </li>
+                                                    <li>@Html.ActionLink("خارج البلاد", "KharegBelad", "TmamGathering")</li>
+                                                    <li>@Html.ActionLink("غياب", "Gheyab", "TmamGathering")</li>
+                                                    <li>@Html.ActionLink("سجن", "Segn", "TmamGathering")</li>
+                                                    <li>@Html.ActionLink("المستشفى", "Mostashfa", "TmamGathering")</li>
+                                                    <li>@Html.ActionLink("الفرقة", "Fer2a", "TmamGathering")</li>
+                                                    <li>@Html.ActionLink("أجازة مرضية", "Marady", "TmamGathering")</li>
+                                                    <li>@Html.ActionLink("المأموريات", "Ma2moreya", "TmamGathering")</li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                }
+                                @if ((userRoles & UserRoles.We7daRa2eeseya) == UserRoles.We7daRa2eeseya)
+                                {
+                                    <li class="sub-link">
+                                        @Html.ActionLink(linkText: "التمام اليومى", actionName: "Review", controllerName: "Tmam")
+
+                                    </li>
+                                    <li class="sub-link">
+                                        @Html.ActionLink(linkText: "إدخال بيانات الوحدة", actionName: "DataEntry", controllerName: "We7daRa2eeseya", routeValues: new { pg = 1 }, htmlAttributes: null)
+                                        <ul class="pagination sub-sub-link" aria-label="Page navigation">
+                                            <li class="@(ViewBag.pg == 1 ? "active" : "")">
+                                                @Html.ActionLink("بيانات قادة الوحدة", "DataEntry", "We7daRa2eeseya", new { pg = 1 }, null)
+                                            </li>
+                                            <li class="@(ViewBag.pg == 5 ? "active" : "")">
+                                                @Html.ActionLink("بيانات قادة الوحدة الفرعية", "DataEntry", "We7daRa2eeseya", new { pg = 5 }, null)
+                                            </li>
+                                            <li class="@(ViewBag.pg == 4 ? "active" : "")">
+                                                @Html.ActionLink("بيانات الجنود", "DataEntry", "We7daRa2eeseya", new { pg = 4 }, null)
+                                            </li>
+                                            <li class="@(ViewBag.pg == 3 ? "active" : "")">
+                                                @Html.ActionLink("بيانات ضباط الصف", "DataEntry", "We7daRa2eeseya", new { pg = 3 }, null)
+                                            </li>
+                                            <li class="@(ViewBag.pg == 2 ? "active" : "")">
+                                                @Html.ActionLink("بيانات الضباط", "DataEntry", "We7daRa2eeseya", new { pg = 2 }, null)
+                                            </li>
+                                        </ul>
+
+                                    </li>
+                                }
+
+                            </ul>
+
+                        </li>
+                        @*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*@
+                        <li class="sub-link">
+                            @Html.ActionLink(linkText: "تمام معدات  ", actionName: "Index", controllerName: "KharegTmarkozs")
+                            <ul>
+                                @if ((userRoles & UserRoles.Viewer) == UserRoles.Viewer ||
+                                    (userRoles & UserRoles.Admin) == UserRoles.Admin)
+                                {
+                                    <li class="sub-link">
+                                        @Html.ActionLink(linkText: "تمام خارج التمركز", actionName: "Index", controllerName: "KharegTmarkozs")
+                                    </li>
+                                }
+                                @if ((userRoles & UserRoles.We7daRa2eeseya) == UserRoles.We7daRa2eeseya)
+                                {
+                                    <li class="sub-link">
+                                        @Html.ActionLink(linkText: " التجارب الميدانية", actionName: "Index", controllerName: "Tagroba")
+                                    </li>
+                                }
+                                <li>
+                                    @Html.ActionLink(" الاستعداد القتالي", "Index", "Mot8ayeratEst3dadQetali")
+                                </li>
+                                <li>
+                                    @Html.ActionLink(" تمام مواصلات", "Index", "Mowasalats")
+                                </li>
+                                <li>
+                                    @Html.ActionLink(" الصلاحية الغنية", "Index", "Elsala7eyaEl8aneya")
+                                </li>
+                                <li>
+                                    @Html.ActionLink("عناصر مناوبة ", "Index", "AnaserMonawbas")
+                                </li>
+
+                            </ul>
+
+                        </li>
+                        @if ((userRoles & UserRoles.Analyzer) == UserRoles.Analyzer)
+                        {
+                            <li>@Html.ActionLink("تبادل الملفات", "Index", "Email")</li>
+                        }
+
+                    </ul>
+                </div>
+
+            </div>
+            <form class="email-info">
+                <ul>
+                    <li class="sub-link1">
+                        <label for="userNameNavSpan"> مرحبا/</label>
+                        <span id="userNameNavSpan" style="color: var(--button);">
+                            @Request.Cookies["userName"].Value
+                        </span>
+                        <ul style="text-align: center; padding: 10px;">
+                            <li>@Html.ActionLink("تسجيل خروج", "Logout", "User")</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </form>
+
+        </header>
+        <div class="body-content p-5" style="min-height: calc(100vh - 137px);">
+            @RenderBody()
+
+        </div>
+        <footer>
+            <p> منظومة الحرب الإلكترونية مركز عمليات 250 - &copy; @DateTime.Now.Year </p>
+        </footer>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("Scripts", required: false)
+    <script src="~/Scripts/Loading_Screan.js"></script>
+</body>
+</html>

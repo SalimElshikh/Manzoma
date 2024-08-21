@@ -1,0 +1,1856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.AddIn.Contract">
+      <assemblydata version="4.0.0.0" culture="" key="002400000480000094000000060200000024000052534131000400000100010007D1FA57C4AED9F0A32E84AA0FAEFD0DE9E8FD6AEC8F87FB03766C834C99921EB23BE79AD9D5DCC1DD9AD236132102900B723CF980957FC4E177108FC607774F29E8320E92EA05ECE4E821C0A5EFE8F1645C4C0C93C1AB99285D622CAA652C1DFAD63D745D6F2DE5F17E5EAF0FC4963D261C8A12436518206DC093344D5AD293" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.AddIn.Contract.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.AddIn.Contract.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.AddIn.Contract.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\FinalPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.AddIn.Contract.Collections">
+      <topicdata group="api" />
+      <apidata name="System.AddIn.Contract.Collections" group="namespace" />
+      <elements>
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" />
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" />
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" />
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" />
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" />
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" />
+        <element api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" />
+        <element api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" />
+        <element api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+        <element api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" />
+        <element api="T:System.AddIn.Contract.Collections.IArrayContract`1" />
+        <element api="T:System.AddIn.Contract.Collections.IListContract`1" />
+        <element api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" />
+      </elements>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IArrayContract`1">
+      <topicdata group="api" />
+      <apidata name="IArrayContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" ref="true">
+          <specialization>
+            <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IArrayContract`1" />
+          </specialization>
+        </type>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IArrayContract`1.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IArrayContract`1.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IArrayContract`1.SetItem(System.Int32,`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IArrayContract`1">
+      <topicdata name="IArrayContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IArrayContract`1" />
+      <apidata name="IArrayContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IArrayContract`1.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IArrayContract`1.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IArrayContract`1.SetItem(System.Int32,`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IArrayContract`1" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IArrayContract`1.GetCount">
+      <topicdata group="api" />
+      <apidata name="GetCount" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IArrayContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IArrayContract`1.GetItem(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="GetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IArrayContract`1" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IArrayContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IArrayContract`1.SetItem(System.Int32,`0)">
+      <topicdata group="api" />
+      <apidata name="SetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IArrayContract`1" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IArrayContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.ICollectionContract`1">
+      <topicdata group="api" />
+      <apidata name="ICollectionContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" ref="true">
+          <specialization>
+            <template name="C" index="0" api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+          </specialization>
+        </type>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Add(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Contains(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetIsReadOnly" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Remove(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.ICollectionContract`1">
+      <topicdata name="ICollectionContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+      <apidata name="ICollectionContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Add(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Contains(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetIsReadOnly" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Remove(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.Add(`0)">
+      <topicdata group="api" />
+      <apidata name="Add" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.Clear">
+      <topicdata group="api" />
+      <apidata name="Clear" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.Contains(`0)">
+      <topicdata group="api" />
+      <apidata name="Contains" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.CopyTo(`0[],System.Int32)">
+      <topicdata group="api" />
+      <apidata name="CopyTo" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="array">
+          <arrayOf rank="1">
+            <template name="C" index="0" api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+          </arrayOf>
+        </parameter>
+        <parameter name="arrayIndex">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetCount">
+      <topicdata group="api" />
+      <apidata name="GetCount" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetIsReadOnly">
+      <topicdata group="api" />
+      <apidata name="GetIsReadOnly" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.ICollectionContract`1.Remove(`0)">
+      <topicdata group="api" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.ICollectionContract`1" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IEnumerableContract`1">
+      <topicdata group="api" />
+      <apidata name="IEnumerableContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <implements>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IArrayContract`1" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IEnumerableContract`1">
+      <topicdata name="IEnumerableContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IEnumerableContract`1" />
+      <apidata name="IEnumerableContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract">
+      <topicdata group="api" />
+      <apidata name="GetEnumeratorContract" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" ref="true">
+          <specialization>
+            <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IEnumeratorContract`1">
+      <topicdata group="api" />
+      <apidata name="IEnumeratorContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <implements>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.GetCurrent" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.MoveNext" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.Reset" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IEnumeratorContract`1">
+      <topicdata name="IEnumeratorContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" />
+      <apidata name="IEnumeratorContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.GetCurrent" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.MoveNext" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.Reset" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.GetCurrent">
+      <topicdata group="api" />
+      <apidata name="GetCurrent" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.MoveNext">
+      <topicdata group="api" />
+      <apidata name="MoveNext" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IEnumeratorContract`1.Reset">
+      <topicdata group="api" />
+      <apidata name="Reset" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IEnumeratorContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IListContract`1">
+      <topicdata group="api" />
+      <apidata name="IListContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.ICollectionContract`1" ref="true">
+          <specialization>
+            <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IListContract`1" />
+          </specialization>
+        </type>
+        <type api="T:System.AddIn.Contract.Collections.IEnumerableContract`1" ref="true">
+          <specialization>
+            <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IListContract`1" />
+          </specialization>
+        </type>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Add(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Contains(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetIsReadOnly" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Remove(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.IndexOf(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.Insert(System.Int32,`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.RemoveAt(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.SetItem(System.Int32,`0)" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IListContract`1">
+      <topicdata name="IListContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IListContract`1" />
+      <apidata name="IListContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="C">
+          <constrained>
+            <implements>
+              <type api="T:System.AddIn.Contract.IContract" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Add(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Contains(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.GetIsReadOnly" />
+        <element api="M:System.AddIn.Contract.Collections.ICollectionContract`1.Remove(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IEnumerableContract`1.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.IndexOf(`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.Insert(System.Int32,`0)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.RemoveAt(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IListContract`1.SetItem(System.Int32,`0)" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IListContract`1.GetItem(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="GetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IListContract`1" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IListContract`1.IndexOf(`0)">
+      <topicdata group="api" />
+      <apidata name="IndexOf" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IListContract`1" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IListContract`1.Insert(System.Int32,`0)">
+      <topicdata group="api" />
+      <apidata name="Insert" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="item">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IListContract`1" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IListContract`1.RemoveAt(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="RemoveAt" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IListContract`1.SetItem(System.Int32,`0)">
+      <topicdata group="api" />
+      <apidata name="SetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <template name="C" index="0" api="T:System.AddIn.Contract.Collections.IListContract`1" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IListContract`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentArrayContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" ref="true" />
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.SetItem(System.Int32,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract">
+      <topicdata name="IRemoteArgumentArrayContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" />
+      <apidata name="IRemoteArgumentArrayContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.SetItem(System.Int32,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.GetItem(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="GetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.SetItem(System.Int32,System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="SetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentArrayListContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" ref="true" />
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.SetItem(System.Int32,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Add(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Contains(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.IndexOf(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Insert(System.Int32,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Remove(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.RemoveAt(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract">
+      <topicdata name="IRemoteArgumentArrayListContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" />
+      <apidata name="IRemoteArgumentArrayListContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.GetItem(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract.SetItem(System.Int32,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Add(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Contains(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.IndexOf(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Insert(System.Int32,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Remove(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.RemoveAt(System.Int32)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Add(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="Add" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="newItem">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Clear">
+      <topicdata group="api" />
+      <apidata name="Clear" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Contains(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="Contains" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.IndexOf(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="IndexOf" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Insert(System.Int32,System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="Insert" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.Remove(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="item">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract.RemoveAt(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="RemoveAt" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentCollectionContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" ref="true" />
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.ISerializableObjectContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract">
+      <topicdata name="IRemoteArgumentCollectionContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" />
+      <apidata name="IRemoteArgumentCollectionContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount">
+      <topicdata group="api" />
+      <apidata name="GetCount" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentDictionaryContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" ref="true" />
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.ISerializableObjectContract" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Add(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.ContainsKey(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetItem(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetKeys" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetValues" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Remove(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.SetItem(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract">
+      <topicdata name="IRemoteArgumentDictionaryContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" />
+      <apidata name="IRemoteArgumentDictionaryContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract.GetCount" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Add(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Clear" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.ContainsKey(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetItem(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetKeys" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetValues" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Remove(System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.SetItem(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Add(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="Add" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="key">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Clear">
+      <topicdata group="api" />
+      <apidata name="Clear" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.ContainsKey(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="ContainsKey" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="key">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetEnumeratorContract">
+      <topicdata group="api" />
+      <apidata name="GetEnumeratorContract" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetItem(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="GetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="key">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetKeys">
+      <topicdata group="api" />
+      <apidata name="GetKeys" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.GetValues">
+      <topicdata group="api" />
+      <apidata name="GetValues" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.Remove(System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="Remove" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="key">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract.SetItem(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name="SetItem" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="key">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentDictionaryEnumeratorContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" ref="true" />
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetEntry" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetKey" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetValue" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.GetCurrent" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.MoveNext" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.Reset" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract">
+      <topicdata name="IRemoteArgumentDictionaryEnumeratorContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" />
+      <apidata name="IRemoteArgumentDictionaryEnumeratorContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetEntry" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetKey" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetValue" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.GetCurrent" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.MoveNext" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.Reset" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetEntry">
+      <topicdata group="api" />
+      <apidata name="GetEntry" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetKey">
+      <topicdata group="api" />
+      <apidata name="GetKey" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract.GetValue">
+      <topicdata group="api" />
+      <apidata name="GetValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentEnumerableContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.ISerializableObjectContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentCollectionContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentArrayListContract" ref="true" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryContract" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract">
+      <topicdata name="IRemoteArgumentEnumerableContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" />
+      <apidata name="IRemoteArgumentEnumerableContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract.GetEnumeratorContract">
+      <topicdata group="api" />
+      <apidata name="GetEnumeratorContract" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumerableContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract">
+      <topicdata group="api" />
+      <apidata name="IRemoteArgumentEnumeratorContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implements>
+        <type api="T:System.AddIn.Contract.IContract" ref="true" />
+      </implements>
+      <implementors>
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentDictionaryEnumeratorContract" ref="true" />
+      </implementors>
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.GetCurrent" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.MoveNext" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.Reset" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract">
+      <topicdata name="IRemoteArgumentEnumeratorContract" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" />
+      <apidata name="IRemoteArgumentEnumeratorContract" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.GetCurrent" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.MoveNext" />
+        <element api="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.Reset" />
+        <element api="M:System.AddIn.Contract.IContract.AcquireLifetimeToken" />
+        <element api="M:System.AddIn.Contract.IContract.GetRemoteHashCode" />
+        <element api="M:System.AddIn.Contract.IContract.QueryContract(System.String)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteEquals(System.AddIn.Contract.IContract)" />
+        <element api="M:System.AddIn.Contract.IContract.RemoteToString" />
+        <element api="M:System.AddIn.Contract.IContract.RevokeLifetimeToken(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.GetCurrent">
+      <topicdata group="api" />
+      <apidata name="GetCurrent" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.MoveNext">
+      <topicdata group="api" />
+      <apidata name="MoveNext" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract.Reset">
+      <topicdata group="api" />
+      <apidata name="Reset" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.IRemoteArgumentEnumeratorContract" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry">
+      <topicdata group="api" />
+      <apidata name="RemoteArgumentDictionaryEntry" group="type" subgroup="structure" />
+      <typedata visibility="public" sealed="true" serializable="true" noSettableProperties="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.ValueType" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.Key" />
+        <element api="F:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.Value" />
+        <element api="M:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.#ctor(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.ValueType.Equals(System.Object)" />
+        <element api="M:System.ValueType.GetHashCode" />
+        <element api="M:System.ValueType.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry">
+      <topicdata name="RemoteArgumentDictionaryEntry" group="list" subgroup="Methods" typeTopicId="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" />
+      <apidata name="RemoteArgumentDictionaryEntry" group="type" subgroup="structure" />
+      <typedata visibility="public" sealed="true" serializable="true" noSettableProperties="true" />
+      <elements>
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.ValueType.Equals(System.Object)" />
+        <element api="M:System.ValueType.GetHashCode" />
+        <element api="M:System.ValueType.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" />
+      </containers>
+    </api>
+    <api id="Fields.T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry">
+      <topicdata name="RemoteArgumentDictionaryEntry" group="list" subgroup="Fields" typeTopicId="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" />
+      <apidata name="RemoteArgumentDictionaryEntry" group="type" subgroup="structure" />
+      <typedata visibility="public" sealed="true" serializable="true" noSettableProperties="true" />
+      <elements>
+        <element api="F:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.Key" />
+        <element api="F:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.Value" />
+      </elements>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" />
+      </containers>
+    </api>
+    <api id="M:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.#ctor(System.AddIn.Contract.RemoteArgument,System.AddIn.Contract.RemoteArgument)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="key">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.Key">
+      <topicdata group="api" />
+      <apidata name="Key" group="member" subgroup="field" />
+      <memberdata visibility="public" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry.Value">
+      <topicdata group="api" />
+      <apidata name="Value" group="member" subgroup="field" />
+      <memberdata visibility="public" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.AddIn.Contract.RemoteArgument" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.AddIn.Contract" module="System.AddIn.Contract" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.AddIn.Contract.Collections" />
+        <type api="T:System.AddIn.Contract.Collections.RemoteArgumentDictionaryEntry" ref="false" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

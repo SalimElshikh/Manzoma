@@ -1,0 +1,2149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="UIAutomationTypes">
+      <assemblydata version="4.0.0.0" culture="" key="0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>UIAutomationTypes.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>UIAutomationTypes.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>UIAutomationTypes.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\wpf\src\windows.snk</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+    <assembly name="UIAutomationClient">
+      <assemblydata version="4.0.0.0" culture="" key="0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>UIAutomationClient.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>UIAutomationClient.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>UIAutomationClient.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\wpf\src\windows.snk</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Windows.Automation.Text">
+      <topicdata group="api" />
+      <apidata name="System.Windows.Automation.Text" group="namespace" />
+      <elements>
+        <element api="T:System.Windows.Automation.Text.TextPatternRange" />
+        <element api="T:System.Windows.Automation.Text.AnimationStyle" />
+        <element api="T:System.Windows.Automation.Text.BulletStyle" />
+        <element api="T:System.Windows.Automation.Text.CapStyle" />
+        <element api="T:System.Windows.Automation.Text.FlowDirections" />
+        <element api="T:System.Windows.Automation.Text.HorizontalTextAlignment" />
+        <element api="T:System.Windows.Automation.Text.OutlineStyles" />
+        <element api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" />
+        <element api="T:System.Windows.Automation.Text.TextUnit" />
+        <element api="T:System.Windows.Automation.Text.TextDecorationLineStyle" />
+      </elements>
+    </api>
+    <api id="T:System.Windows.Automation.Text.AnimationStyle">
+      <topicdata group="api" />
+      <apidata name="AnimationStyle" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.None" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.LasVegasLights" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.BlinkingBackground" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.SparkleText" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.MarchingBlackAnts" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.MarchingRedAnts" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.Shimmer" />
+        <element api="F:System.Windows.Automation.Text.AnimationStyle.Other" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>B6C08F15-AA5E-4754-9E4C-AA279D3F36D4</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.BlinkingBackground">
+      <topicdata group="api" notopic="" />
+      <apidata name="BlinkingBackground" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.LasVegasLights">
+      <topicdata group="api" notopic="" />
+      <apidata name="LasVegasLights" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.MarchingBlackAnts">
+      <topicdata group="api" notopic="" />
+      <apidata name="MarchingBlackAnts" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.MarchingRedAnts">
+      <topicdata group="api" notopic="" />
+      <apidata name="MarchingRedAnts" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.Other">
+      <topicdata group="api" notopic="" />
+      <apidata name="Other" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>-1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.Shimmer">
+      <topicdata group="api" notopic="" />
+      <apidata name="Shimmer" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>6</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.AnimationStyle.SparkleText">
+      <topicdata group="api" notopic="" />
+      <apidata name="SparkleText" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.AnimationStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.BulletStyle">
+      <topicdata group="api" />
+      <apidata name="BulletStyle" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.BulletStyle.None" />
+        <element api="F:System.Windows.Automation.Text.BulletStyle.HollowRoundBullet" />
+        <element api="F:System.Windows.Automation.Text.BulletStyle.FilledRoundBullet" />
+        <element api="F:System.Windows.Automation.Text.BulletStyle.HollowSquareBullet" />
+        <element api="F:System.Windows.Automation.Text.BulletStyle.FilledSquareBullet" />
+        <element api="F:System.Windows.Automation.Text.BulletStyle.DashBullet" />
+        <element api="F:System.Windows.Automation.Text.BulletStyle.Other" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>814FAC6C-F8DE-4682-AF5F-37C4F720990C</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.DashBullet">
+      <topicdata group="api" notopic="" />
+      <apidata name="DashBullet" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.FilledRoundBullet">
+      <topicdata group="api" notopic="" />
+      <apidata name="FilledRoundBullet" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.FilledSquareBullet">
+      <topicdata group="api" notopic="" />
+      <apidata name="FilledSquareBullet" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.HollowRoundBullet">
+      <topicdata group="api" notopic="" />
+      <apidata name="HollowRoundBullet" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.HollowSquareBullet">
+      <topicdata group="api" notopic="" />
+      <apidata name="HollowSquareBullet" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.BulletStyle.Other">
+      <topicdata group="api" notopic="" />
+      <apidata name="Other" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </returns>
+      <value>-1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.BulletStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.CapStyle">
+      <topicdata group="api" />
+      <apidata name="CapStyle" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.CapStyle.None" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.SmallCap" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.AllCap" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.AllPetiteCaps" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.PetiteCaps" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.Unicase" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.Titling" />
+        <element api="F:System.Windows.Automation.Text.CapStyle.Other" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4E33C74B-7848-4f1e-B819-A0D866C2EA1F</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.AllCap">
+      <topicdata group="api" notopic="" />
+      <apidata name="AllCap" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.AllPetiteCaps">
+      <topicdata group="api" notopic="" />
+      <apidata name="AllPetiteCaps" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.Other">
+      <topicdata group="api" notopic="" />
+      <apidata name="Other" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>-1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.PetiteCaps">
+      <topicdata group="api" notopic="" />
+      <apidata name="PetiteCaps" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.SmallCap">
+      <topicdata group="api" notopic="" />
+      <apidata name="SmallCap" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.Titling">
+      <topicdata group="api" notopic="" />
+      <apidata name="Titling" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>6</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.CapStyle.Unicase">
+      <topicdata group="api" notopic="" />
+      <apidata name="Unicase" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.CapStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.FlowDirections">
+      <topicdata group="api" />
+      <apidata name="FlowDirections" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.FlowDirections.Default" />
+        <element api="F:System.Windows.Automation.Text.FlowDirections.RightToLeft" />
+        <element api="F:System.Windows.Automation.Text.FlowDirections.BottomToTop" />
+        <element api="F:System.Windows.Automation.Text.FlowDirections.Vertical" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>2E22CC6B-7C34-4002-91AA-E103A09D1027</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.FlowDirections.BottomToTop">
+      <topicdata group="api" notopic="" />
+      <apidata name="BottomToTop" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.FlowDirections.Default">
+      <topicdata group="api" notopic="" />
+      <apidata name="Default" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.FlowDirections.RightToLeft">
+      <topicdata group="api" notopic="" />
+      <apidata name="RightToLeft" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.FlowDirections.Vertical">
+      <topicdata group="api" notopic="" />
+      <apidata name="Vertical" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.FlowDirections" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.HorizontalTextAlignment">
+      <topicdata group="api" />
+      <apidata name="HorizontalTextAlignment" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.HorizontalTextAlignment.Left" />
+        <element api="F:System.Windows.Automation.Text.HorizontalTextAlignment.Centered" />
+        <element api="F:System.Windows.Automation.Text.HorizontalTextAlignment.Right" />
+        <element api="F:System.Windows.Automation.Text.HorizontalTextAlignment.Justified" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1FBE7021-A1E4-4e9b-BE94-2C7DFA59D5DD</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.HorizontalTextAlignment.Centered">
+      <topicdata group="api" notopic="" />
+      <apidata name="Centered" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.HorizontalTextAlignment.Justified">
+      <topicdata group="api" notopic="" />
+      <apidata name="Justified" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.HorizontalTextAlignment.Left">
+      <topicdata group="api" notopic="" />
+      <apidata name="Left" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.HorizontalTextAlignment.Right">
+      <topicdata group="api" notopic="" />
+      <apidata name="Right" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.HorizontalTextAlignment" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.OutlineStyles">
+      <topicdata group="api" />
+      <apidata name="OutlineStyles" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.OutlineStyles.None" />
+        <element api="F:System.Windows.Automation.Text.OutlineStyles.Outline" />
+        <element api="F:System.Windows.Automation.Text.OutlineStyles.Shadow" />
+        <element api="F:System.Windows.Automation.Text.OutlineStyles.Engraved" />
+        <element api="F:System.Windows.Automation.Text.OutlineStyles.Embossed" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>1F57B37D-CB59-43f4-95E0-7C9E40DB427E</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.OutlineStyles.Embossed">
+      <topicdata group="api" notopic="" />
+      <apidata name="Embossed" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </returns>
+      <value>8</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.OutlineStyles.Engraved">
+      <topicdata group="api" notopic="" />
+      <apidata name="Engraved" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.OutlineStyles.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.OutlineStyles.Outline">
+      <topicdata group="api" notopic="" />
+      <apidata name="Outline" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.OutlineStyles.Shadow">
+      <topicdata group="api" notopic="" />
+      <apidata name="Shadow" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.OutlineStyles" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.TextDecorationLineStyle">
+      <topicdata group="api" />
+      <apidata name="TextDecorationLineStyle" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.None" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.Single" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.WordsOnly" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.Double" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.Dot" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.Dash" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.DashDot" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.DashDotDot" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.Wavy" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickSingle" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.DoubleWavy" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickWavy" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.LongDash" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDash" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDashDot" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDashDotDot" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDot" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickLongDash" />
+        <element api="F:System.Windows.Automation.Text.TextDecorationLineStyle.Other" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>909D8633-2941-428e-A549-C752E2FC078C</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.Dash">
+      <topicdata group="api" notopic="" />
+      <apidata name="Dash" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.DashDot">
+      <topicdata group="api" notopic="" />
+      <apidata name="DashDot" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>6</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.DashDotDot">
+      <topicdata group="api" notopic="" />
+      <apidata name="DashDotDot" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>7</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.Dot">
+      <topicdata group="api" notopic="" />
+      <apidata name="Dot" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.Double">
+      <topicdata group="api" notopic="" />
+      <apidata name="Double" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.DoubleWavy">
+      <topicdata group="api" notopic="" />
+      <apidata name="DoubleWavy" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>11</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.LongDash">
+      <topicdata group="api" notopic="" />
+      <apidata name="LongDash" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>13</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.Other">
+      <topicdata group="api" notopic="" />
+      <apidata name="Other" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>-1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.Single">
+      <topicdata group="api" notopic="" />
+      <apidata name="Single" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDash">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickDash" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>14</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDashDot">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickDashDot" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>15</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDashDotDot">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickDashDotDot" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>16</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickDot">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickDot" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>17</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickLongDash">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickLongDash" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>18</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickSingle">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickSingle" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>9</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.ThickWavy">
+      <topicdata group="api" notopic="" />
+      <apidata name="ThickWavy" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>12</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.Wavy">
+      <topicdata group="api" notopic="" />
+      <apidata name="Wavy" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>8</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextDecorationLineStyle.WordsOnly">
+      <topicdata group="api" notopic="" />
+      <apidata name="WordsOnly" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextDecorationLineStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.TextPatternRange">
+      <topicdata group="api" />
+      <apidata name="TextPatternRange" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.AddToSelection" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Clone" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Compare(System.Windows.Automation.Text.TextPatternRange)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.CompareEndpoints(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextPatternRange,System.Windows.Automation.Text.TextPatternRangeEndpoint)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.ExpandToEnclosingUnit(System.Windows.Automation.Text.TextUnit)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.FindAttribute(System.Windows.Automation.AutomationTextAttribute,System.Object,System.Boolean)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.FindText(System.String,System.Boolean,System.Boolean)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetAttributeValue(System.Windows.Automation.AutomationTextAttribute)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetBoundingRectangles" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetChildren" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetEnclosingElement" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetText(System.Int32)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Move(System.Windows.Automation.Text.TextUnit,System.Int32)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByRange(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextPatternRange,System.Windows.Automation.Text.TextPatternRangeEndpoint)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByUnit(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextUnit,System.Int32)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.RemoveFromSelection" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.ScrollIntoView(System.Boolean)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Select" />
+        <element api="P:System.Windows.Automation.Text.TextPatternRange.TextPattern" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Windows.Automation.Text.TextPatternRange">
+      <topicdata name="TextPatternRange" group="list" subgroup="Methods" typeTopicId="T:System.Windows.Automation.Text.TextPatternRange" />
+      <apidata name="TextPatternRange" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.AddToSelection" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Clone" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Compare(System.Windows.Automation.Text.TextPatternRange)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.CompareEndpoints(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextPatternRange,System.Windows.Automation.Text.TextPatternRangeEndpoint)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.ExpandToEnclosingUnit(System.Windows.Automation.Text.TextUnit)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.FindAttribute(System.Windows.Automation.AutomationTextAttribute,System.Object,System.Boolean)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.FindText(System.String,System.Boolean,System.Boolean)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetAttributeValue(System.Windows.Automation.AutomationTextAttribute)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetBoundingRectangles" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetChildren" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetEnclosingElement" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.GetText(System.Int32)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Move(System.Windows.Automation.Text.TextUnit,System.Int32)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByRange(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextPatternRange,System.Windows.Automation.Text.TextPatternRangeEndpoint)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByUnit(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextUnit,System.Int32)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.RemoveFromSelection" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.ScrollIntoView(System.Boolean)" />
+        <element api="M:System.Windows.Automation.Text.TextPatternRange.Select" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Windows.Automation.Text.TextPatternRange">
+      <topicdata name="TextPatternRange" group="list" subgroup="Properties" typeTopicId="T:System.Windows.Automation.Text.TextPatternRange" />
+      <apidata name="TextPatternRange" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.Windows.Automation.Text.TextPatternRange.TextPattern" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.AddToSelection">
+      <topicdata group="api" />
+      <apidata name="AddToSelection" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.Clone">
+      <topicdata group="api" />
+      <apidata name="Clone" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.Compare(System.Windows.Automation.Text.TextPatternRange)">
+      <topicdata group="api" />
+      <apidata name="Compare" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="range">
+          <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.CompareEndpoints(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextPatternRange,System.Windows.Automation.Text.TextPatternRangeEndpoint)">
+      <topicdata group="api" />
+      <apidata name="CompareEndpoints" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="endpoint">
+          <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+        </parameter>
+        <parameter name="targetRange">
+          <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+        </parameter>
+        <parameter name="targetEndpoint">
+          <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.ExpandToEnclosingUnit(System.Windows.Automation.Text.TextUnit)">
+      <topicdata group="api" />
+      <apidata name="ExpandToEnclosingUnit" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="unit">
+          <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.FindAttribute(System.Windows.Automation.AutomationTextAttribute,System.Object,System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="FindAttribute" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="attribute">
+          <type api="T:System.Windows.Automation.AutomationTextAttribute" ref="true" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="backward">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.FindText(System.String,System.Boolean,System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="FindText" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="text">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="backward">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="ignoreCase">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.GetAttributeValue(System.Windows.Automation.AutomationTextAttribute)">
+      <topicdata group="api" />
+      <apidata name="GetAttributeValue" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="attribute">
+          <type api="T:System.Windows.Automation.AutomationTextAttribute" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.GetBoundingRectangles">
+      <topicdata group="api" />
+      <apidata name="GetBoundingRectangles" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Windows.Rect" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.GetChildren">
+      <topicdata group="api" />
+      <apidata name="GetChildren" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Windows.Automation.AutomationElement" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.GetEnclosingElement">
+      <topicdata group="api" />
+      <apidata name="GetEnclosingElement" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.Windows.Automation.AutomationElement" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.GetText(System.Int32)">
+      <topicdata group="api" />
+      <apidata name="GetText" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="maxLength">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.Move(System.Windows.Automation.Text.TextUnit,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Move" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="unit">
+          <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+        </parameter>
+        <parameter name="count">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByRange(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextPatternRange,System.Windows.Automation.Text.TextPatternRangeEndpoint)">
+      <topicdata group="api" />
+      <apidata name="MoveEndpointByRange" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="endpoint">
+          <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+        </parameter>
+        <parameter name="targetRange">
+          <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+        </parameter>
+        <parameter name="targetEndpoint">
+          <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.MoveEndpointByUnit(System.Windows.Automation.Text.TextPatternRangeEndpoint,System.Windows.Automation.Text.TextUnit,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="MoveEndpointByUnit" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="endpoint">
+          <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+        </parameter>
+        <parameter name="unit">
+          <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+        </parameter>
+        <parameter name="count">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.RemoveFromSelection">
+      <topicdata group="api" />
+      <apidata name="RemoveFromSelection" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.ScrollIntoView(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="ScrollIntoView" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="alignToTop">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Windows.Automation.Text.TextPatternRange.Select">
+      <topicdata group="api" />
+      <apidata name="Select" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Windows.Automation.Text.TextPatternRange.TextPattern">
+      <topicdata group="api" />
+      <apidata name="TextPattern" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_TextPattern" />
+      <returns>
+        <type api="T:System.Windows.Automation.TextPattern" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="UIAutomationClient" module="UIAutomationClient" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRange" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.TextPatternRangeEndpoint">
+      <topicdata group="api" />
+      <apidata name="TextPatternRangeEndpoint" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.TextPatternRangeEndpoint.Start" />
+        <element api="F:System.Windows.Automation.Text.TextPatternRangeEndpoint.End" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>62242CAC-9CD0-4364-813D-4F0A36DD842D</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextPatternRangeEndpoint.End">
+      <topicdata group="api" notopic="" />
+      <apidata name="End" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextPatternRangeEndpoint.Start">
+      <topicdata group="api" notopic="" />
+      <apidata name="Start" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextPatternRangeEndpoint" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Windows.Automation.Text.TextUnit">
+      <topicdata group="api" />
+      <apidata name="TextUnit" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Windows.Automation.Text.TextUnit.Character" />
+        <element api="F:System.Windows.Automation.Text.TextUnit.Format" />
+        <element api="F:System.Windows.Automation.Text.TextUnit.Word" />
+        <element api="F:System.Windows.Automation.Text.TextUnit.Line" />
+        <element api="F:System.Windows.Automation.Text.TextUnit.Paragraph" />
+        <element api="F:System.Windows.Automation.Text.TextUnit.Page" />
+        <element api="F:System.Windows.Automation.Text.TextUnit.Document" />
+      </elements>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>A044E5C8-FC20-4747-8CC8-1487F9CBB680</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Character">
+      <topicdata group="api" notopic="" />
+      <apidata name="Character" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Document">
+      <topicdata group="api" notopic="" />
+      <apidata name="Document" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>6</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Format">
+      <topicdata group="api" notopic="" />
+      <apidata name="Format" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Line">
+      <topicdata group="api" notopic="" />
+      <apidata name="Line" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Page">
+      <topicdata group="api" notopic="" />
+      <apidata name="Page" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>5</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Paragraph">
+      <topicdata group="api" notopic="" />
+      <apidata name="Paragraph" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Windows.Automation.Text.TextUnit.Word">
+      <topicdata group="api" notopic="" />
+      <apidata name="Word" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="UIAutomationTypes" module="UIAutomationTypes" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Windows.Automation.Text" />
+        <type api="T:System.Windows.Automation.Text.TextUnit" ref="false" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

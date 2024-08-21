@@ -1,0 +1,3015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.Device">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Device.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Device.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Device.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Device.Location">
+      <topicdata group="api" />
+      <apidata name="System.Device.Location" group="namespace" />
+      <elements>
+        <element api="T:System.Device.Location.CivicAddress" />
+        <element api="T:System.Device.Location.ICivicAddressResolver" />
+        <element api="T:System.Device.Location.ResolveAddressCompletedEventArgs" />
+        <element api="T:System.Device.Location.CivicAddressResolver" />
+        <element api="T:System.Device.Location.GeoPosition`1" />
+        <element api="T:System.Device.Location.GeoCoordinate" />
+        <element api="T:System.Device.Location.GeoPositionAccuracy" />
+        <element api="T:System.Device.Location.GeoPositionStatus" />
+        <element api="T:System.Device.Location.GeoPositionPermission" />
+        <element api="T:System.Device.Location.IGeoPositionWatcher`1" />
+        <element api="T:System.Device.Location.GeoCoordinateWatcher" />
+        <element api="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+        <element api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" />
+      </elements>
+    </api>
+    <api id="T:System.Device.Location.CivicAddress">
+      <topicdata group="api" />
+      <apidata name="CivicAddress" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddress.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:System.Device.Location.CivicAddress.Unknown" />
+        <element api="Overload:System.Device.Location.CivicAddress.#ctor">
+          <element api="M:System.Device.Location.CivicAddress.#ctor" />
+          <element api="M:System.Device.Location.CivicAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Device.Location.CivicAddress.AddressLine1" />
+        <element api="P:System.Device.Location.CivicAddress.AddressLine2" />
+        <element api="P:System.Device.Location.CivicAddress.Building" />
+        <element api="P:System.Device.Location.CivicAddress.City" />
+        <element api="P:System.Device.Location.CivicAddress.CountryRegion" />
+        <element api="P:System.Device.Location.CivicAddress.FloorLevel" />
+        <element api="P:System.Device.Location.CivicAddress.IsUnknown" />
+        <element api="P:System.Device.Location.CivicAddress.PostalCode" />
+        <element api="P:System.Device.Location.CivicAddress.StateProvince" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.CivicAddress">
+      <topicdata name="CivicAddress" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.CivicAddress" />
+      <apidata name="CivicAddress" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddress.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.CivicAddress">
+      <topicdata name="CivicAddress" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.CivicAddress" />
+      <apidata name="CivicAddress" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddress.#ctor" />
+      <elements>
+        <element api="P:System.Device.Location.CivicAddress.AddressLine1" />
+        <element api="P:System.Device.Location.CivicAddress.AddressLine2" />
+        <element api="P:System.Device.Location.CivicAddress.Building" />
+        <element api="P:System.Device.Location.CivicAddress.City" />
+        <element api="P:System.Device.Location.CivicAddress.CountryRegion" />
+        <element api="P:System.Device.Location.CivicAddress.FloorLevel" />
+        <element api="P:System.Device.Location.CivicAddress.IsUnknown" />
+        <element api="P:System.Device.Location.CivicAddress.PostalCode" />
+        <element api="P:System.Device.Location.CivicAddress.StateProvince" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" />
+      </containers>
+    </api>
+    <api id="Fields.T:System.Device.Location.CivicAddress">
+      <topicdata name="CivicAddress" group="list" subgroup="Fields" typeTopicId="T:System.Device.Location.CivicAddress" />
+      <apidata name="CivicAddress" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddress.#ctor" />
+      <elements>
+        <element api="F:System.Device.Location.CivicAddress.Unknown" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.CivicAddress.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Device.Location.CivicAddress.#ctor" />
+        <element api="M:System.Device.Location.CivicAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.CivicAddress.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.CivicAddress.#ctor" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.CivicAddress.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.CivicAddress.#ctor" />
+      <parameters>
+        <parameter name="addressLine1">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="addressLine2">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="building">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="city">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="countryRegion">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="floorLevel">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="postalCode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="stateProvince">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.AddressLine1">
+      <topicdata group="api" />
+      <apidata name="AddressLine1" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AddressLine1" />
+      <setter name="set_AddressLine1" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.AddressLine2">
+      <topicdata group="api" />
+      <apidata name="AddressLine2" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AddressLine2" />
+      <setter name="set_AddressLine2" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.Building">
+      <topicdata group="api" />
+      <apidata name="Building" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Building" />
+      <setter name="set_Building" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.City">
+      <topicdata group="api" />
+      <apidata name="City" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_City" />
+      <setter name="set_City" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.CountryRegion">
+      <topicdata group="api" />
+      <apidata name="CountryRegion" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_CountryRegion" />
+      <setter name="set_CountryRegion" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.FloorLevel">
+      <topicdata group="api" />
+      <apidata name="FloorLevel" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FloorLevel" />
+      <setter name="set_FloorLevel" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.IsUnknown">
+      <topicdata group="api" />
+      <apidata name="IsUnknown" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_IsUnknown" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.PostalCode">
+      <topicdata group="api" />
+      <apidata name="PostalCode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_PostalCode" />
+      <setter name="set_PostalCode" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.CivicAddress.StateProvince">
+      <topicdata group="api" />
+      <apidata name="StateProvince" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_StateProvince" />
+      <setter name="set_StateProvince" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.CivicAddress.Unknown">
+      <topicdata group="api" />
+      <apidata name="Unknown" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="false" initonly="true" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.CivicAddressResolver">
+      <topicdata group="api" />
+      <apidata name="CivicAddressResolver" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddressResolver.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+      </implements>
+      <elements>
+        <element api="E:System.Device.Location.CivicAddressResolver.ResolveAddressCompleted" />
+        <element api="M:System.Device.Location.CivicAddressResolver.#ctor" />
+        <element api="M:System.Device.Location.CivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.CivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.CivicAddressResolver">
+      <topicdata name="CivicAddressResolver" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.CivicAddressResolver" />
+      <apidata name="CivicAddressResolver" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddressResolver.#ctor" />
+      <elements>
+        <element api="M:System.Device.Location.CivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.CivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddressResolver" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Device.Location.CivicAddressResolver">
+      <topicdata name="CivicAddressResolver" group="list" subgroup="Events" typeTopicId="T:System.Device.Location.CivicAddressResolver" />
+      <apidata name="CivicAddressResolver" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Device.Location.CivicAddressResolver.#ctor" />
+      <elements>
+        <element api="E:System.Device.Location.CivicAddressResolver.ResolveAddressCompleted" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddressResolver" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.CivicAddressResolver.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.CivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="ResolveAddress" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="coordinate">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Device.Location.ICivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)">
+          <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.CivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="ResolveAddressAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="coordinate">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Device.Location.ICivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)">
+          <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.CivicAddressResolver.ResolveAddressCompleted">
+      <topicdata group="api" />
+      <apidata name="ResolveAddressCompleted" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_ResolveAddressCompleted" />
+      <remover name="remove_ResolveAddressCompleted" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" ref="true" />
+      </eventargs>
+      <implements>
+        <member api="E:System.Device.Location.ICivicAddressResolver.ResolveAddressCompleted">
+          <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.CivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoCoordinate">
+      <topicdata group="api" />
+      <apidata name="GeoCoordinate" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinate.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.IEquatable`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+          </specialization>
+        </type>
+      </implements>
+      <elements>
+        <element api="F:System.Device.Location.GeoCoordinate.Unknown" />
+        <element api="Overload:System.Device.Location.GeoCoordinate.#ctor">
+          <element api="M:System.Device.Location.GeoCoordinate.#ctor" />
+          <element api="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double)" />
+          <element api="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double,System.Double)" />
+          <element api="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)" />
+        </element>
+        <element api="Overload:System.Device.Location.GeoCoordinate.Equals">
+          <element api="M:System.Device.Location.GeoCoordinate.Equals(System.Device.Location.GeoCoordinate)" />
+          <element api="M:System.Device.Location.GeoCoordinate.Equals(System.Object)" />
+        </element>
+        <element api="M:System.Device.Location.GeoCoordinate.GetDistanceTo(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.GeoCoordinate.GetHashCode" />
+        <element api="M:System.Device.Location.GeoCoordinate.op_Equality(System.Device.Location.GeoCoordinate,System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.GeoCoordinate.op_Inequality(System.Device.Location.GeoCoordinate,System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.GeoCoordinate.ToString" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="P:System.Device.Location.GeoCoordinate.Altitude" />
+        <element api="P:System.Device.Location.GeoCoordinate.Course" />
+        <element api="P:System.Device.Location.GeoCoordinate.HorizontalAccuracy" />
+        <element api="P:System.Device.Location.GeoCoordinate.IsUnknown" />
+        <element api="P:System.Device.Location.GeoCoordinate.Latitude" />
+        <element api="P:System.Device.Location.GeoCoordinate.Longitude" />
+        <element api="P:System.Device.Location.GeoCoordinate.Speed" />
+        <element api="P:System.Device.Location.GeoCoordinate.VerticalAccuracy" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.GeoCoordinate">
+      <topicdata name="GeoCoordinate" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.GeoCoordinate" />
+      <apidata name="GeoCoordinate" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinate.#ctor" />
+      <elements>
+        <element api="Overload:System.Device.Location.GeoCoordinate.Equals">
+          <element api="M:System.Device.Location.GeoCoordinate.Equals(System.Device.Location.GeoCoordinate)" />
+          <element api="M:System.Device.Location.GeoCoordinate.Equals(System.Object)" />
+        </element>
+        <element api="M:System.Device.Location.GeoCoordinate.GetDistanceTo(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.GeoCoordinate.GetHashCode" />
+        <element api="M:System.Device.Location.GeoCoordinate.ToString" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" />
+      </containers>
+    </api>
+    <api id="Operators.T:System.Device.Location.GeoCoordinate">
+      <topicdata name="GeoCoordinate" group="list" subgroup="Operators" subsubgroup="Operators" typeTopicId="T:System.Device.Location.GeoCoordinate" />
+      <apidata name="GeoCoordinate" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinate.#ctor" />
+      <elements>
+        <element api="M:System.Device.Location.GeoCoordinate.op_Equality(System.Device.Location.GeoCoordinate,System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.GeoCoordinate.op_Inequality(System.Device.Location.GeoCoordinate,System.Device.Location.GeoCoordinate)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.GeoCoordinate">
+      <topicdata name="GeoCoordinate" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.GeoCoordinate" />
+      <apidata name="GeoCoordinate" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinate.#ctor" />
+      <elements>
+        <element api="P:System.Device.Location.GeoCoordinate.Altitude" />
+        <element api="P:System.Device.Location.GeoCoordinate.Course" />
+        <element api="P:System.Device.Location.GeoCoordinate.HorizontalAccuracy" />
+        <element api="P:System.Device.Location.GeoCoordinate.IsUnknown" />
+        <element api="P:System.Device.Location.GeoCoordinate.Latitude" />
+        <element api="P:System.Device.Location.GeoCoordinate.Longitude" />
+        <element api="P:System.Device.Location.GeoCoordinate.Speed" />
+        <element api="P:System.Device.Location.GeoCoordinate.VerticalAccuracy" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" />
+      </containers>
+    </api>
+    <api id="Fields.T:System.Device.Location.GeoCoordinate">
+      <topicdata name="GeoCoordinate" group="list" subgroup="Fields" typeTopicId="T:System.Device.Location.GeoCoordinate" />
+      <apidata name="GeoCoordinate" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinate.#ctor" />
+      <elements>
+        <element api="F:System.Device.Location.GeoCoordinate.Unknown" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.GeoCoordinate.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Device.Location.GeoCoordinate.#ctor" />
+        <element api="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double)" />
+        <element api="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double,System.Double)" />
+        <element api="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.GeoCoordinate.Equals">
+      <topicdata name="Equals" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Device.Location.GeoCoordinate.Equals(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.GeoCoordinate.Equals(System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoCoordinate.#ctor" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoCoordinate.#ctor" />
+      <parameters>
+        <parameter name="latitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="longitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double,System.Double)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoCoordinate.#ctor" />
+      <parameters>
+        <parameter name="latitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="longitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="altitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoCoordinate.#ctor" />
+      <parameters>
+        <parameter name="latitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="longitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="altitude">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="horizontalAccuracy">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="verticalAccuracy">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="speed">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+        <parameter name="course">
+          <type api="T:System.Double" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.Altitude">
+      <topicdata group="api" />
+      <apidata name="Altitude" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Altitude" />
+      <setter name="set_Altitude" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.Course">
+      <topicdata group="api" />
+      <apidata name="Course" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Course" />
+      <setter name="set_Course" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.Equals(System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.GeoCoordinate.Equals" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="other">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.IEquatable`1.Equals(`0)">
+          <type api="T:System.IEquatable`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.Equals(System.Object)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.GeoCoordinate.Equals" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Equals(System.Object)">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.GetDistanceTo(System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="GetDistanceTo" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="other">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.GetHashCode">
+      <topicdata group="api" />
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.GetHashCode">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.HorizontalAccuracy">
+      <topicdata group="api" />
+      <apidata name="HorizontalAccuracy" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_HorizontalAccuracy" />
+      <setter name="set_HorizontalAccuracy" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.IsUnknown">
+      <topicdata group="api" />
+      <apidata name="IsUnknown" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_IsUnknown" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.Latitude">
+      <topicdata group="api" />
+      <apidata name="Latitude" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Latitude" />
+      <setter name="set_Latitude" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.Longitude">
+      <topicdata group="api" />
+      <apidata name="Longitude" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Longitude" />
+      <setter name="set_Longitude" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.op_Equality(System.Device.Location.GeoCoordinate,System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="Equality" group="member" subgroup="method" subsubgroup="operator" />
+      <memberdata visibility="public" static="true" special="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="left">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+        <parameter name="right">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.op_Inequality(System.Device.Location.GeoCoordinate,System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="Inequality" group="member" subgroup="method" subsubgroup="operator" />
+      <memberdata visibility="public" static="true" special="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="left">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+        <parameter name="right">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.Speed">
+      <topicdata group="api" />
+      <apidata name="Speed" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Speed" />
+      <setter name="set_Speed" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinate.ToString">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoCoordinate.Unknown">
+      <topicdata group="api" />
+      <apidata name="Unknown" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="false" initonly="true" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinate.VerticalAccuracy">
+      <topicdata group="api" />
+      <apidata name="VerticalAccuracy" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_VerticalAccuracy" />
+      <setter name="set_VerticalAccuracy" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoCoordinateWatcher">
+      <topicdata group="api" />
+      <apidata name="GeoCoordinateWatcher" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.IDisposable" ref="true" />
+        <type api="T:System.ComponentModel.INotifyPropertyChanged" ref="true" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+          </specialization>
+        </type>
+      </implements>
+      <elements>
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.PositionChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.StatusChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.System#ComponentModel#INotifyPropertyChanged#PropertyChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#PositionChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#StatusChanged" />
+        <element api="Overload:System.Device.Location.GeoCoordinateWatcher.#ctor">
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.#ctor(System.Device.Location.GeoPositionAccuracy)" />
+        </element>
+        <element api="Overload:System.Device.Location.GeoCoordinateWatcher.Dispose">
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Dispose" />
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Dispose(System.Boolean)" />
+        </element>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Finalize" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.OnPositionChanged(System.Device.Location.GeoPositionChangedEventArgs{System.Device.Location.GeoCoordinate})" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.OnPositionStatusChanged(System.Device.Location.GeoPositionStatusChangedEventArgs)" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.OnPropertyChanged(System.String)" />
+        <element api="Overload:System.Device.Location.GeoCoordinateWatcher.Start">
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Start" />
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Start(System.Boolean)" />
+        </element>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Stop" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.TryStart(System.Boolean,System.TimeSpan)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.DesiredAccuracy" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.MovementThreshold" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.Permission" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.Position" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.Status" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Device.Location.GeoCoordinateWatcher">
+      <topicdata name="GeoCoordinateWatcher" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.GeoCoordinateWatcher" />
+      <apidata name="GeoCoordinateWatcher" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+      <elements>
+        <element api="Overload:System.Device.Location.GeoCoordinateWatcher.Dispose">
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Dispose" />
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Dispose(System.Boolean)" />
+        </element>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Finalize" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.OnPositionChanged(System.Device.Location.GeoPositionChangedEventArgs{System.Device.Location.GeoCoordinate})" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.OnPositionStatusChanged(System.Device.Location.GeoPositionStatusChangedEventArgs)" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.OnPropertyChanged(System.String)" />
+        <element api="Overload:System.Device.Location.GeoCoordinateWatcher.Start">
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Start" />
+          <element api="M:System.Device.Location.GeoCoordinateWatcher.Start(System.Boolean)" />
+        </element>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Stop" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.TryStart(System.Boolean,System.TimeSpan)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.GeoCoordinateWatcher">
+      <topicdata name="GeoCoordinateWatcher" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.GeoCoordinateWatcher" />
+      <apidata name="GeoCoordinateWatcher" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+      <elements>
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.DesiredAccuracy" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.MovementThreshold" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.Permission" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.Position" />
+        <element api="P:System.Device.Location.GeoCoordinateWatcher.Status" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Device.Location.GeoCoordinateWatcher">
+      <topicdata name="GeoCoordinateWatcher" group="list" subgroup="Events" typeTopicId="T:System.Device.Location.GeoCoordinateWatcher" />
+      <apidata name="GeoCoordinateWatcher" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+      <elements>
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.PositionChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.StatusChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.System#ComponentModel#INotifyPropertyChanged#PropertyChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#PositionChanged" />
+        <element api="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#StatusChanged" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.GeoCoordinateWatcher.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.#ctor(System.Device.Location.GeoPositionAccuracy)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.GeoCoordinateWatcher.Dispose">
+      <topicdata name="Dispose" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Dispose" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Dispose(System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.GeoCoordinateWatcher.Start">
+      <topicdata name="Start" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Start" />
+        <element api="M:System.Device.Location.GeoCoordinateWatcher.Start(System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.#ctor(System.Device.Location.GeoPositionAccuracy)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoCoordinateWatcher.#ctor" />
+      <parameters>
+        <parameter name="desiredAccuracy">
+          <type api="T:System.Device.Location.GeoPositionAccuracy" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinateWatcher.DesiredAccuracy">
+      <topicdata group="api" />
+      <apidata name="DesiredAccuracy" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_DesiredAccuracy" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionAccuracy" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.Dispose">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.GeoCoordinateWatcher.Dispose" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.IDisposable.Dispose">
+          <type api="T:System.IDisposable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.Dispose(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="family" overload="Overload:System.Device.Location.GeoCoordinateWatcher.Dispose" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="disposing">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.Finalize">
+      <topicdata group="api" />
+      <apidata name="Finalize" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Finalize">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <implements>
+        <member api="M:System.Object.Finalize">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinateWatcher.MovementThreshold">
+      <topicdata group="api" />
+      <apidata name="MovementThreshold" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_MovementThreshold" />
+      <setter name="set_MovementThreshold" />
+      <returns>
+        <type api="T:System.Double" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.OnPositionChanged(System.Device.Location.GeoPositionChangedEventArgs{System.Device.Location.GeoCoordinate})">
+      <topicdata group="api" />
+      <apidata name="OnPositionChanged" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="e">
+          <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.OnPositionStatusChanged(System.Device.Location.GeoPositionStatusChangedEventArgs)">
+      <topicdata group="api" />
+      <apidata name="OnPositionStatusChanged" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="e">
+          <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.OnPropertyChanged(System.String)">
+      <topicdata group="api" />
+      <apidata name="OnPropertyChanged" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="propertyName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinateWatcher.Permission">
+      <topicdata group="api" />
+      <apidata name="Permission" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Permission" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinateWatcher.Position">
+      <topicdata group="api" />
+      <apidata name="Position" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Position" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+          </specialization>
+        </type>
+      </returns>
+      <implements>
+        <member api="P:System.Device.Location.IGeoPositionWatcher`1.Position">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.GeoCoordinateWatcher.PositionChanged">
+      <topicdata group="api" />
+      <apidata name="PositionChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_PositionChanged" />
+      <remover name="remove_PositionChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+              <specialization>
+                <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+              </specialization>
+            </type>
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+          </specialization>
+        </type>
+      </eventargs>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.Start">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.GeoCoordinateWatcher.Start" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.Device.Location.IGeoPositionWatcher`1.Start">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.Start(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.GeoCoordinateWatcher.Start" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="suppressPermissionPrompt">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Device.Location.IGeoPositionWatcher`1.Start(System.Boolean)">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoCoordinateWatcher.Status">
+      <topicdata group="api" />
+      <apidata name="Status" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" />
+      <getter name="get_Status" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <implements>
+        <member api="P:System.Device.Location.IGeoPositionWatcher`1.Status">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.GeoCoordinateWatcher.StatusChanged">
+      <topicdata group="api" />
+      <apidata name="StatusChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_StatusChanged" />
+      <remover name="remove_StatusChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.Stop">
+      <topicdata group="api" />
+      <apidata name="Stop" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.Device.Location.IGeoPositionWatcher`1.Stop">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.GeoCoordinateWatcher.System#ComponentModel#INotifyPropertyChanged#PropertyChanged">
+      <topicdata group="api" eiiName="INotifyPropertyChanged.PropertyChanged" />
+      <apidata name="PropertyChanged" group="member" subgroup="event" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+      <remover name="remove_System.ComponentModel.INotifyPropertyChanged.PropertyChanged" />
+      <eventhandler>
+        <type api="T:System.ComponentModel.PropertyChangedEventHandler" ref="true" />
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.ComponentModel.PropertyChangedEventArgs" ref="true" />
+      </eventargs>
+      <implements>
+        <member api="E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged">
+          <type api="T:System.ComponentModel.INotifyPropertyChanged" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#PositionChanged">
+      <topicdata group="api" eiiName="IGeoPositionWatcher`1.PositionChanged" />
+      <apidata name="PositionChanged" group="member" subgroup="event" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged" />
+      <remover name="remove_System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+              <specialization>
+                <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+              </specialization>
+            </type>
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+          </specialization>
+        </type>
+      </eventargs>
+      <implements>
+        <member api="E:System.Device.Location.IGeoPositionWatcher`1.PositionChanged">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#StatusChanged">
+      <topicdata group="api" eiiName="IGeoPositionWatcher`1.StatusChanged" />
+      <apidata name="StatusChanged" group="member" subgroup="event" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged" />
+      <remover name="remove_System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+      </eventargs>
+      <implements>
+        <member api="E:System.Device.Location.IGeoPositionWatcher`1.StatusChanged">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoCoordinateWatcher.TryStart(System.Boolean,System.TimeSpan)">
+      <topicdata group="api" />
+      <apidata name="TryStart" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="suppressPermissionPrompt">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="timeout">
+          <type api="T:System.TimeSpan" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.Device.Location.IGeoPositionWatcher`1.TryStart(System.Boolean,System.TimeSpan)">
+          <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true">
+            <specialization>
+              <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoPosition`1">
+      <topicdata group="api" />
+      <apidata name="GeoPosition" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoPosition`1.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="Overload:System.Device.Location.GeoPosition`1.#ctor">
+          <element api="M:System.Device.Location.GeoPosition`1.#ctor" />
+          <element api="M:System.Device.Location.GeoPosition`1.#ctor(System.DateTimeOffset,`0)" />
+        </element>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Device.Location.GeoPosition`1.Location" />
+        <element api="P:System.Device.Location.GeoPosition`1.Timestamp" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.GeoPosition`1">
+      <topicdata name="GeoPosition" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.GeoPosition`1" />
+      <apidata name="GeoPosition" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoPosition`1.#ctor" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.GeoPosition`1">
+      <topicdata name="GeoPosition" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.GeoPosition`1" />
+      <apidata name="GeoPosition" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Device.Location.GeoPosition`1.#ctor" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="P:System.Device.Location.GeoPosition`1.Location" />
+        <element api="P:System.Device.Location.GeoPosition`1.Timestamp" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.GeoPosition`1.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Device.Location.GeoPosition`1.#ctor" />
+        <element api="M:System.Device.Location.GeoPosition`1.#ctor(System.DateTimeOffset,`0)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoPosition`1.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoPosition`1.#ctor" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoPosition`1.#ctor(System.DateTimeOffset,`0)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Device.Location.GeoPosition`1.#ctor" />
+      <parameters>
+        <parameter name="timestamp">
+          <type api="T:System.DateTimeOffset" ref="false" />
+        </parameter>
+        <parameter name="position">
+          <template name="T" index="0" api="T:System.Device.Location.GeoPosition`1" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoPosition`1.Location">
+      <topicdata group="api" />
+      <apidata name="Location" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Location" />
+      <setter name="set_Location" />
+      <returns>
+        <template name="T" index="0" api="T:System.Device.Location.GeoPosition`1" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoPosition`1.Timestamp">
+      <topicdata group="api" />
+      <apidata name="Timestamp" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Timestamp" />
+      <setter name="set_Timestamp" />
+      <returns>
+        <type api="T:System.DateTimeOffset" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoPositionAccuracy">
+      <topicdata group="api" />
+      <apidata name="GeoPositionAccuracy" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Device.Location.GeoPositionAccuracy.Default" />
+        <element api="F:System.Device.Location.GeoPositionAccuracy.High" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionAccuracy.Default">
+      <topicdata group="api" notopic="" />
+      <apidata name="Default" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionAccuracy" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionAccuracy" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionAccuracy.High">
+      <topicdata group="api" notopic="" />
+      <apidata name="High" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionAccuracy" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionAccuracy" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoPositionChangedEventArgs`1">
+      <topicdata group="api" />
+      <apidata name="GeoPositionChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.EventArgs" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="M:System.Device.Location.GeoPositionChangedEventArgs`1.#ctor(System.Device.Location.GeoPosition{`0})" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Device.Location.GeoPositionChangedEventArgs`1.Position" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.GeoPositionChangedEventArgs`1">
+      <topicdata name="GeoPositionChangedEventArgs" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+      <apidata name="GeoPositionChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.GeoPositionChangedEventArgs`1">
+      <topicdata name="GeoPositionChangedEventArgs" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+      <apidata name="GeoPositionChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="P:System.Device.Location.GeoPositionChangedEventArgs`1.Position" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoPositionChangedEventArgs`1.#ctor(System.Device.Location.GeoPosition{`0})">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="position">
+          <type api="T:System.Device.Location.GeoPosition`1" ref="true">
+            <specialization>
+              <template name="T" index="0" api="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoPositionChangedEventArgs`1.Position">
+      <topicdata group="api" />
+      <apidata name="Position" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Position" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true">
+          <specialization>
+            <template name="T" index="0" api="T:System.Device.Location.GeoPositionChangedEventArgs`1" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoPositionPermission">
+      <topicdata group="api" />
+      <apidata name="GeoPositionPermission" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Device.Location.GeoPositionPermission.Unknown" />
+        <element api="F:System.Device.Location.GeoPositionPermission.Granted" />
+        <element api="F:System.Device.Location.GeoPositionPermission.Denied" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionPermission.Denied">
+      <topicdata group="api" notopic="" />
+      <apidata name="Denied" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionPermission.Granted">
+      <topicdata group="api" notopic="" />
+      <apidata name="Granted" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionPermission.Unknown">
+      <topicdata group="api" notopic="" />
+      <apidata name="Unknown" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionPermission" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoPositionStatus">
+      <topicdata group="api" />
+      <apidata name="GeoPositionStatus" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Device.Location.GeoPositionStatus.Ready" />
+        <element api="F:System.Device.Location.GeoPositionStatus.Initializing" />
+        <element api="F:System.Device.Location.GeoPositionStatus.NoData" />
+        <element api="F:System.Device.Location.GeoPositionStatus.Disabled" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionStatus.Disabled">
+      <topicdata group="api" notopic="" />
+      <apidata name="Disabled" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionStatus.Initializing">
+      <topicdata group="api" notopic="" />
+      <apidata name="Initializing" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionStatus.NoData">
+      <topicdata group="api" notopic="" />
+      <apidata name="NoData" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Device.Location.GeoPositionStatus.Ready">
+      <topicdata group="api" notopic="" />
+      <apidata name="Ready" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.GeoPositionStatusChangedEventArgs">
+      <topicdata group="api" />
+      <apidata name="GeoPositionStatusChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.EventArgs" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Device.Location.GeoPositionStatusChangedEventArgs.#ctor(System.Device.Location.GeoPositionStatus)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Device.Location.GeoPositionStatusChangedEventArgs.Status" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.GeoPositionStatusChangedEventArgs">
+      <topicdata name="GeoPositionStatusChangedEventArgs" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.GeoPositionStatusChangedEventArgs" />
+      <apidata name="GeoPositionStatusChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.GeoPositionStatusChangedEventArgs">
+      <topicdata name="GeoPositionStatusChangedEventArgs" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.GeoPositionStatusChangedEventArgs" />
+      <apidata name="GeoPositionStatusChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.Device.Location.GeoPositionStatusChangedEventArgs.Status" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.GeoPositionStatusChangedEventArgs.#ctor(System.Device.Location.GeoPositionStatus)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="status">
+          <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.GeoPositionStatusChangedEventArgs.Status">
+      <topicdata group="api" />
+      <apidata name="Status" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Status" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.ICivicAddressResolver">
+      <topicdata group="api" />
+      <apidata name="ICivicAddressResolver" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:System.Device.Location.CivicAddressResolver" ref="true" />
+      </implementors>
+      <elements>
+        <element api="E:System.Device.Location.ICivicAddressResolver.ResolveAddressCompleted" />
+        <element api="M:System.Device.Location.ICivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.ICivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.ICivicAddressResolver">
+      <topicdata name="ICivicAddressResolver" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.ICivicAddressResolver" />
+      <apidata name="ICivicAddressResolver" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Device.Location.ICivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)" />
+        <element api="M:System.Device.Location.ICivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ICivicAddressResolver" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Device.Location.ICivicAddressResolver">
+      <topicdata name="ICivicAddressResolver" group="list" subgroup="Events" typeTopicId="T:System.Device.Location.ICivicAddressResolver" />
+      <apidata name="ICivicAddressResolver" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="E:System.Device.Location.ICivicAddressResolver.ResolveAddressCompleted" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ICivicAddressResolver" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.ICivicAddressResolver.ResolveAddress(System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="ResolveAddress" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="coordinate">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.ICivicAddressResolver.ResolveAddressAsync(System.Device.Location.GeoCoordinate)">
+      <topicdata group="api" />
+      <apidata name="ResolveAddressAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="coordinate">
+          <type api="T:System.Device.Location.GeoCoordinate" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.ICivicAddressResolver.ResolveAddressCompleted">
+      <topicdata group="api" />
+      <apidata name="ResolveAddressCompleted" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_ResolveAddressCompleted" />
+      <remover name="remove_ResolveAddressCompleted" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ICivicAddressResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.IGeoPositionWatcher`1">
+      <topicdata group="api" />
+      <apidata name="IGeoPositionWatcher" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <implementors>
+        <type api="T:System.Device.Location.GeoCoordinateWatcher" ref="true" />
+      </implementors>
+      <elements>
+        <element api="E:System.Device.Location.IGeoPositionWatcher`1.PositionChanged" />
+        <element api="E:System.Device.Location.IGeoPositionWatcher`1.StatusChanged" />
+        <element api="Overload:System.Device.Location.IGeoPositionWatcher`1.Start">
+          <element api="M:System.Device.Location.IGeoPositionWatcher`1.Start" />
+          <element api="M:System.Device.Location.IGeoPositionWatcher`1.Start(System.Boolean)" />
+        </element>
+        <element api="M:System.Device.Location.IGeoPositionWatcher`1.Stop" />
+        <element api="M:System.Device.Location.IGeoPositionWatcher`1.TryStart(System.Boolean,System.TimeSpan)" />
+        <element api="P:System.Device.Location.IGeoPositionWatcher`1.Position" />
+        <element api="P:System.Device.Location.IGeoPositionWatcher`1.Status" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.IGeoPositionWatcher`1">
+      <topicdata name="IGeoPositionWatcher" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.IGeoPositionWatcher`1" />
+      <apidata name="IGeoPositionWatcher" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="Overload:System.Device.Location.IGeoPositionWatcher`1.Start">
+          <element api="M:System.Device.Location.IGeoPositionWatcher`1.Start" />
+          <element api="M:System.Device.Location.IGeoPositionWatcher`1.Start(System.Boolean)" />
+        </element>
+        <element api="M:System.Device.Location.IGeoPositionWatcher`1.Stop" />
+        <element api="M:System.Device.Location.IGeoPositionWatcher`1.TryStart(System.Boolean,System.TimeSpan)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.IGeoPositionWatcher`1">
+      <topicdata name="IGeoPositionWatcher" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.IGeoPositionWatcher`1" />
+      <apidata name="IGeoPositionWatcher" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="P:System.Device.Location.IGeoPositionWatcher`1.Position" />
+        <element api="P:System.Device.Location.IGeoPositionWatcher`1.Status" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Device.Location.IGeoPositionWatcher`1">
+      <topicdata name="IGeoPositionWatcher" group="list" subgroup="Events" typeTopicId="T:System.Device.Location.IGeoPositionWatcher`1" />
+      <apidata name="IGeoPositionWatcher" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="E:System.Device.Location.IGeoPositionWatcher`1.PositionChanged" />
+        <element api="E:System.Device.Location.IGeoPositionWatcher`1.StatusChanged" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" />
+      </containers>
+    </api>
+    <api id="Overload:System.Device.Location.IGeoPositionWatcher`1.Start">
+      <topicdata name="Start" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Device.Location.IGeoPositionWatcher`1.Start" />
+        <element api="M:System.Device.Location.IGeoPositionWatcher`1.Start(System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.IGeoPositionWatcher`1.Position">
+      <topicdata group="api" />
+      <apidata name="Position" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Position" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPosition`1" ref="true">
+          <specialization>
+            <template name="T" index="0" api="T:System.Device.Location.IGeoPositionWatcher`1" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.IGeoPositionWatcher`1.PositionChanged">
+      <topicdata group="api" />
+      <apidata name="PositionChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_PositionChanged" />
+      <remover name="remove_PositionChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+              <specialization>
+                <template name="T" index="0" api="T:System.Device.Location.IGeoPositionWatcher`1" />
+              </specialization>
+            </type>
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.GeoPositionChangedEventArgs`1" ref="true">
+          <specialization>
+            <template name="T" index="0" api="T:System.Device.Location.IGeoPositionWatcher`1" />
+          </specialization>
+        </type>
+      </eventargs>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.IGeoPositionWatcher`1.Start">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.IGeoPositionWatcher`1.Start" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.IGeoPositionWatcher`1.Start(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Device.Location.IGeoPositionWatcher`1.Start" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="suppressPermissionPrompt">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.IGeoPositionWatcher`1.Status">
+      <topicdata group="api" />
+      <apidata name="Status" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" />
+      <getter name="get_Status" />
+      <returns>
+        <type api="T:System.Device.Location.GeoPositionStatus" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Device.Location.IGeoPositionWatcher`1.StatusChanged">
+      <topicdata group="api" />
+      <apidata name="StatusChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_StatusChanged" />
+      <remover name="remove_StatusChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Device.Location.GeoPositionStatusChangedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.IGeoPositionWatcher`1.Stop">
+      <topicdata group="api" />
+      <apidata name="Stop" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.IGeoPositionWatcher`1.TryStart(System.Boolean,System.TimeSpan)">
+      <topicdata group="api" />
+      <apidata name="TryStart" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="suppressPermissionPrompt">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="timeout">
+          <type api="T:System.TimeSpan" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.IGeoPositionWatcher`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Device.Location.ResolveAddressCompletedEventArgs">
+      <topicdata group="api" />
+      <apidata name="ResolveAddressCompletedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.ComponentModel.AsyncCompletedEventArgs" ref="true" />
+          <type api="T:System.EventArgs" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary" />
+        <element api="M:System.Device.Location.ResolveAddressCompletedEventArgs.#ctor(System.Device.Location.CivicAddress,System.Exception,System.Boolean,System.Object)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Cancelled" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Error" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.UserState" />
+        <element api="P:System.Device.Location.ResolveAddressCompletedEventArgs.Address" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Device.Location.ResolveAddressCompletedEventArgs">
+      <topicdata name="ResolveAddressCompletedEventArgs" group="list" subgroup="Methods" typeTopicId="T:System.Device.Location.ResolveAddressCompletedEventArgs" />
+      <apidata name="ResolveAddressCompletedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Device.Location.ResolveAddressCompletedEventArgs">
+      <topicdata name="ResolveAddressCompletedEventArgs" group="list" subgroup="Properties" typeTopicId="T:System.Device.Location.ResolveAddressCompletedEventArgs" />
+      <apidata name="ResolveAddressCompletedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Cancelled" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Error" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.UserState" />
+        <element api="P:System.Device.Location.ResolveAddressCompletedEventArgs.Address" />
+      </elements>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" />
+      </containers>
+    </api>
+    <api id="M:System.Device.Location.ResolveAddressCompletedEventArgs.#ctor(System.Device.Location.CivicAddress,System.Exception,System.Boolean,System.Object)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="address">
+          <type api="T:System.Device.Location.CivicAddress" ref="true" />
+        </parameter>
+        <parameter name="error">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+        <parameter name="cancelled">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Device.Location.ResolveAddressCompletedEventArgs.Address">
+      <topicdata group="api" />
+      <apidata name="Address" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Address" />
+      <returns>
+        <type api="T:System.Device.Location.CivicAddress" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Device" module="System.Device" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Device.Location" />
+        <type api="T:System.Device.Location.ResolveAddressCompletedEventArgs" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

@@ -1,0 +1,120 @@
+﻿@model ElecWarSystem.Models.Mowasalat
+<link href="~/Content/Mowasalat.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+
+
+<div class="form-horizontal container main-div">
+    @using (Html.BeginForm("Create", "Mowasalats", FormMethod.Post, new { onsubmit = "return validateForm();" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class=" shadowbox container ">
+            <h2 class="text-center">مواصلات</h2>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="d-flex flex-row">
+                <div class="div-one col-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EstrategyQa2ed, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.EstrategyQa2ed)
+                                @Html.ValidationMessageFor(model => model.EstrategyQa2ed, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EstrategyMarkazAmaliat, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.EstrategyMarkazAmaliat)
+                                @Html.ValidationMessageFor(model => model.EstrategyMarkazAmaliat, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.EstrategyTa7wela, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.EstrategyTa7wela)
+                                @Html.ValidationMessageFor(model => model.EstrategyTa7wela, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SentralQa2ed, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.SentralQa2ed)
+                                @Html.ValidationMessageFor(model => model.SentralQa2ed, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-two col-6">
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SentralMarkazAmaliat, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.SentralMarkazAmaliat)
+                                @Html.ValidationMessageFor(model => model.SentralMarkazAmaliat, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.MowaslatLaselkya, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.MowaslatLaselkya)
+                                @Html.ValidationMessageFor(model => model.MowaslatLaselkya, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TransfarData, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.TransfarData)
+                                @Html.ValidationMessageFor(model => model.TransfarData, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.HotNumber, htmlAttributes: new { @class = "control-label col-md-10" })
+                        <div class="col-md-2">
+                            <div class="checkbox">
+                                @Html.EditorFor(model => model.HotNumber)
+                                @Html.ValidationMessageFor(model => model.HotNumber, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-group d-flex flex-row text-center">
+                <div class="col-12">
+                    <input type="submit" value="حفظ" class="save-btn" />
+                </div>
+
+            </div>
+        </div>
+        <div class="col-6 back-btn ">
+            @Html.ActionLink("الرجوع الي القائمة", "Index", "", new { @class = "save-btn text-decoration-none p-3" })
+        </div>
+    }
+
+</div>
+
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+    }

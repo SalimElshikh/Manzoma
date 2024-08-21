@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ElecWarSystem.Models.Mowasalat>
+<link href="~/Content/Mot8ayeratEst3dadQetali.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+
+<h2 class="text-center">تمام المواصلات </h2>
+
+<p>
+    @Html.ActionLink("تسجيل ", "Create", "", new { @class = "save-btn text-decoration-none p-3" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EstrategyQa2ed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstrategyMarkazAmaliat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EstrategyTa7wela)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SentralQa2ed)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SentralMarkazAmaliat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MowaslatLaselkya)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TransfarData)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HotNumber)
+        </th>
+        <th> الحدث</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstrategyQa2ed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstrategyMarkazAmaliat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EstrategyTa7wela)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SentralQa2ed)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SentralMarkazAmaliat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MowaslatLaselkya)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TransfarData)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HotNumber)
+        </td>
+        <td class="col-1">
+            <a href="@Url.Action("Delete", new { id = item.ID })" ><i class="fa-regular fa-trash-can"></i></a>
+        </td>
+    </tr>
+}
+
+</table>

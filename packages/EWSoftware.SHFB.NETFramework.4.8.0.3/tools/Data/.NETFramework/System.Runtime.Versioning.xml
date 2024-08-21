@@ -1,0 +1,1625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="mscorlib">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>BED7F4EA-1A96-11d2-8F08-00A0C9A6186D</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+    <assembly name="System">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Runtime.Versioning">
+      <topicdata group="api" />
+      <apidata name="System.Runtime.Versioning" group="namespace" />
+      <elements>
+        <element api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" />
+        <element api="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" />
+        <element api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" />
+        <element api="T:System.Runtime.Versioning.ResourceExposureAttribute" />
+        <element api="T:System.Runtime.Versioning.ResourceScope" />
+        <element api="T:System.Runtime.Versioning.VersioningHelper" />
+        <element api="T:System.Runtime.Versioning.TargetFrameworkAttribute" />
+        <element api="T:System.Runtime.Versioning.FrameworkName" />
+      </elements>
+    </api>
+    <api id="T:System.Runtime.Versioning.ComponentGuaranteesAttribute">
+      <topicdata group="api" />
+      <apidata name="ComponentGuaranteesAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Versioning.ComponentGuaranteesAttribute.#ctor(System.Runtime.Versioning.ComponentGuaranteesOptions)" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Assembly" />
+              <field name="Module" />
+              <field name="Class" />
+              <field name="Struct" />
+              <field name="Enum" />
+              <field name="Constructor" />
+              <field name="Method" />
+              <field name="Property" />
+              <field name="Event" />
+              <field name="Interface" />
+              <field name="Delegate" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Versioning.ComponentGuaranteesAttribute">
+      <topicdata name="ComponentGuaranteesAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" />
+      <apidata name="ComponentGuaranteesAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Versioning.ComponentGuaranteesAttribute">
+      <topicdata name="ComponentGuaranteesAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" />
+      <apidata name="ComponentGuaranteesAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.ComponentGuaranteesAttribute.#ctor(System.Runtime.Versioning.ComponentGuaranteesOptions)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="guarantees">
+          <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.ComponentGuaranteesAttribute.Guarantees">
+      <topicdata group="api" />
+      <apidata name="Guarantees" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Guarantees" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.ComponentGuaranteesOptions">
+      <topicdata group="api" />
+      <apidata name="ComponentGuaranteesOptions" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="F:System.Runtime.Versioning.ComponentGuaranteesOptions.None" />
+        <element api="F:System.Runtime.Versioning.ComponentGuaranteesOptions.Exchange" />
+        <element api="F:System.Runtime.Versioning.ComponentGuaranteesOptions.Stable" />
+        <element api="F:System.Runtime.Versioning.ComponentGuaranteesOptions.SideBySide" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Runtime.Versioning.ComponentGuaranteesOptions.Exchange">
+      <topicdata group="api" notopic="" />
+      <apidata name="Exchange" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ComponentGuaranteesOptions.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ComponentGuaranteesOptions.SideBySide">
+      <topicdata group="api" notopic="" />
+      <apidata name="SideBySide" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ComponentGuaranteesOptions.Stable">
+      <topicdata group="api" notopic="" />
+      <apidata name="Stable" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ComponentGuaranteesOptions" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.FrameworkName">
+      <topicdata group="api" />
+      <apidata name="FrameworkName" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.IEquatable`1" ref="true">
+          <specialization>
+            <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+          </specialization>
+        </type>
+      </implements>
+      <elements>
+        <element api="M:System.Object.GetType" />
+        <element api="Overload:System.Runtime.Versioning.FrameworkName.#ctor">
+          <element api="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String)" />
+          <element api="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version)" />
+          <element api="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version,System.String)" />
+        </element>
+        <element api="Overload:System.Runtime.Versioning.FrameworkName.Equals">
+          <element api="M:System.Runtime.Versioning.FrameworkName.Equals(System.Runtime.Versioning.FrameworkName)" />
+          <element api="M:System.Runtime.Versioning.FrameworkName.Equals(System.Object)" />
+        </element>
+        <element api="M:System.Runtime.Versioning.FrameworkName.GetHashCode" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.op_Equality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.op_Inequality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.ToString" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.FullName" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.Identifier" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.Profile" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.Version" />
+      </elements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Runtime.Versioning.FrameworkName">
+      <topicdata name="FrameworkName" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Versioning.FrameworkName" />
+      <apidata name="FrameworkName" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="M:System.Object.GetType" />
+        <element api="Overload:System.Runtime.Versioning.FrameworkName.Equals">
+          <element api="M:System.Runtime.Versioning.FrameworkName.Equals(System.Runtime.Versioning.FrameworkName)" />
+          <element api="M:System.Runtime.Versioning.FrameworkName.Equals(System.Object)" />
+        </element>
+        <element api="M:System.Runtime.Versioning.FrameworkName.GetHashCode" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" />
+      </containers>
+    </api>
+    <api id="Operators.T:System.Runtime.Versioning.FrameworkName">
+      <topicdata name="FrameworkName" group="list" subgroup="Operators" subsubgroup="Operators" typeTopicId="T:System.Runtime.Versioning.FrameworkName" />
+      <apidata name="FrameworkName" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="M:System.Runtime.Versioning.FrameworkName.op_Equality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.op_Inequality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)" />
+      </elements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Versioning.FrameworkName">
+      <topicdata name="FrameworkName" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Versioning.FrameworkName" />
+      <apidata name="FrameworkName" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="P:System.Runtime.Versioning.FrameworkName.FullName" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.Identifier" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.Profile" />
+        <element api="P:System.Runtime.Versioning.FrameworkName.Version" />
+      </elements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" />
+      </containers>
+    </api>
+    <api id="Overload:System.Runtime.Versioning.FrameworkName.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String)" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version)" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Runtime.Versioning.FrameworkName.Equals">
+      <topicdata name="Equals" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Runtime.Versioning.FrameworkName.Equals(System.Runtime.Versioning.FrameworkName)" />
+        <element api="M:System.Runtime.Versioning.FrameworkName.Equals(System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Versioning.FrameworkName.#ctor" />
+      <parameters>
+        <parameter name="frameworkName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Versioning.FrameworkName.#ctor" />
+      <parameters>
+        <parameter name="identifier">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="version">
+          <type api="T:System.Version" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.#ctor(System.String,System.Version,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Versioning.FrameworkName.#ctor" />
+      <parameters>
+        <parameter name="identifier">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="version">
+          <type api="T:System.Version" ref="true" />
+        </parameter>
+        <parameter name="profile">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.Equals(System.Object)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Runtime.Versioning.FrameworkName.Equals" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Equals(System.Object)">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.Equals(System.Runtime.Versioning.FrameworkName)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Runtime.Versioning.FrameworkName.Equals" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="other">
+          <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.IEquatable`1.Equals(`0)">
+          <type api="T:System.IEquatable`1" ref="true">
+            <specialization>
+              <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.FrameworkName.FullName">
+      <topicdata group="api" />
+      <apidata name="FullName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_FullName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.GetHashCode">
+      <topicdata group="api" />
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.GetHashCode">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.FrameworkName.Identifier">
+      <topicdata group="api" />
+      <apidata name="Identifier" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Identifier" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.op_Equality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)">
+      <topicdata group="api" />
+      <apidata name="Equality" group="member" subgroup="method" subsubgroup="operator" />
+      <memberdata visibility="public" static="true" special="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="left">
+          <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+        </parameter>
+        <parameter name="right">
+          <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.op_Inequality(System.Runtime.Versioning.FrameworkName,System.Runtime.Versioning.FrameworkName)">
+      <topicdata group="api" />
+      <apidata name="Inequality" group="member" subgroup="method" subsubgroup="operator" />
+      <memberdata visibility="public" static="true" special="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="left">
+          <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+        </parameter>
+        <parameter name="right">
+          <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.FrameworkName.Profile">
+      <topicdata group="api" />
+      <apidata name="Profile" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Profile" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.FrameworkName.ToString">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.FrameworkName.Version">
+      <topicdata group="api" />
+      <apidata name="Version" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Version" />
+      <returns>
+        <type api="T:System.Version" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System" module="System" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.FrameworkName" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.ResourceConsumptionAttribute">
+      <topicdata group="api" />
+      <apidata name="ResourceConsumptionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor">
+          <element api="M:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor(System.Runtime.Versioning.ResourceScope)" />
+          <element api="M:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)" />
+        </element>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope" />
+        <element api="P:System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceScope" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Constructor" />
+              <field name="Method" />
+              <field name="Property" />
+            </enumValue>
+          </argument>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>RESOURCE_ANNOTATION_WORK</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Versioning.ResourceConsumptionAttribute">
+      <topicdata name="ResourceConsumptionAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Versioning.ResourceConsumptionAttribute" />
+      <apidata name="ResourceConsumptionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Versioning.ResourceConsumptionAttribute">
+      <topicdata name="ResourceConsumptionAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Versioning.ResourceConsumptionAttribute" />
+      <apidata name="ResourceConsumptionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope" />
+        <element api="P:System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceScope" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" />
+      </containers>
+    </api>
+    <api id="Overload:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor(System.Runtime.Versioning.ResourceScope)" />
+        <element api="M:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor(System.Runtime.Versioning.ResourceScope)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor" />
+      <parameters>
+        <parameter name="resourceScope">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor(System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Versioning.ResourceConsumptionAttribute.#ctor" />
+      <parameters>
+        <parameter name="resourceScope">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+        <parameter name="consumptionScope">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.ResourceConsumptionAttribute.ConsumptionScope">
+      <topicdata group="api" />
+      <apidata name="ConsumptionScope" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ConsumptionScope" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.ResourceConsumptionAttribute.ResourceScope">
+      <topicdata group="api" />
+      <apidata name="ResourceScope" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ResourceScope" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceConsumptionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.ResourceExposureAttribute">
+      <topicdata group="api" />
+      <apidata name="ResourceExposureAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Versioning.ResourceExposureAttribute.#ctor(System.Runtime.Versioning.ResourceScope)" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.ResourceExposureAttribute.ResourceExposureLevel" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Constructor" />
+              <field name="Method" />
+              <field name="Property" />
+              <field name="Field" />
+            </enumValue>
+          </argument>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>RESOURCE_ANNOTATION_WORK</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Versioning.ResourceExposureAttribute">
+      <topicdata name="ResourceExposureAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Versioning.ResourceExposureAttribute" />
+      <apidata name="ResourceExposureAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceExposureAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Versioning.ResourceExposureAttribute">
+      <topicdata name="ResourceExposureAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Versioning.ResourceExposureAttribute" />
+      <apidata name="ResourceExposureAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.ResourceExposureAttribute.ResourceExposureLevel" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceExposureAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.ResourceExposureAttribute.#ctor(System.Runtime.Versioning.ResourceScope)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="exposureLevel">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceExposureAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.ResourceExposureAttribute.ResourceExposureLevel">
+      <topicdata group="api" />
+      <apidata name="ResourceExposureLevel" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ResourceExposureLevel" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceExposureAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.ResourceScope">
+      <topicdata group="api" />
+      <apidata name="ResourceScope" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Runtime.Versioning.ResourceScope.None" />
+        <element api="F:System.Runtime.Versioning.ResourceScope.Machine" />
+        <element api="F:System.Runtime.Versioning.ResourceScope.Process" />
+        <element api="F:System.Runtime.Versioning.ResourceScope.AppDomain" />
+        <element api="F:System.Runtime.Versioning.ResourceScope.Library" />
+        <element api="F:System.Runtime.Versioning.ResourceScope.Private" />
+        <element api="F:System.Runtime.Versioning.ResourceScope.Assembly" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.FlagsAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.AppDomain">
+      <topicdata group="api" notopic="" />
+      <apidata name="AppDomain" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.Assembly">
+      <topicdata group="api" notopic="" />
+      <apidata name="Assembly" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>32</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.Library">
+      <topicdata group="api" notopic="" />
+      <apidata name="Library" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>8</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.Machine">
+      <topicdata group="api" notopic="" />
+      <apidata name="Machine" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.Private">
+      <topicdata group="api" notopic="" />
+      <apidata name="Private" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>16</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Versioning.ResourceScope.Process">
+      <topicdata group="api" notopic="" />
+      <apidata name="Process" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.TargetFrameworkAttribute">
+      <topicdata group="api" />
+      <apidata name="TargetFrameworkAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Versioning.TargetFrameworkAttribute.#ctor(System.String)" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName" />
+        <element api="P:System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Assembly" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Versioning.TargetFrameworkAttribute">
+      <topicdata name="TargetFrameworkAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Versioning.TargetFrameworkAttribute" />
+      <apidata name="TargetFrameworkAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.TargetFrameworkAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Versioning.TargetFrameworkAttribute">
+      <topicdata name="TargetFrameworkAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Versioning.TargetFrameworkAttribute" />
+      <apidata name="TargetFrameworkAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName" />
+        <element api="P:System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.TargetFrameworkAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.TargetFrameworkAttribute.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="frameworkName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.TargetFrameworkAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkDisplayName">
+      <topicdata group="api" />
+      <apidata name="FrameworkDisplayName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FrameworkDisplayName" />
+      <setter name="set_FrameworkDisplayName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.TargetFrameworkAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Versioning.TargetFrameworkAttribute.FrameworkName">
+      <topicdata group="api" />
+      <apidata name="FrameworkName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_FrameworkName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.TargetFrameworkAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Versioning.VersioningHelper">
+      <topicdata group="api" />
+      <apidata name="VersioningHelper" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="Overload:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName">
+          <element api="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)" />
+          <element api="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Runtime.Versioning.VersioningHelper">
+      <topicdata name="VersioningHelper" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Versioning.VersioningHelper" />
+      <apidata name="VersioningHelper" group="type" subgroup="class" />
+      <typedata visibility="public" abstract="true" sealed="true" serializable="false" />
+      <elements>
+        <element api="Overload:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName">
+          <element api="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)" />
+          <element api="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type)" />
+        </element>
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.VersioningHelper" />
+      </containers>
+    </api>
+    <api id="Overload:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName">
+      <topicdata name="MakeVersionSafeName" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="MakeVersionSafeName" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)" />
+        <element api="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.VersioningHelper" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope)">
+      <topicdata group="api" />
+      <apidata name="MakeVersionSafeName" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="from">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+        <parameter name="to">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.VersioningHelper" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName(System.String,System.Runtime.Versioning.ResourceScope,System.Runtime.Versioning.ResourceScope,System.Type)">
+      <topicdata group="api" />
+      <apidata name="MakeVersionSafeName" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" overload="Overload:System.Runtime.Versioning.VersioningHelper.MakeVersionSafeName" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="from">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+        <parameter name="to">
+          <type api="T:System.Runtime.Versioning.ResourceScope" ref="false" />
+        </parameter>
+        <parameter name="type">
+          <type api="T:System.Type" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Versioning" />
+        <type api="T:System.Runtime.Versioning.VersioningHelper" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

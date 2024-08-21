@@ -1,0 +1,2174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.ServiceModel">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.ServiceModel.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.ServiceModel.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.ServiceModel.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.ServiceModel.MsmqIntegration">
+      <topicdata group="api" />
+      <apidata name="System.ServiceModel.MsmqIntegration" group="namespace" />
+      <elements>
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" />
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" />
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" />
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" />
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+        <element api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" />
+      </elements>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding">
+      <topicdata group="api" />
+      <apidata name="MsmqIntegrationBinding" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.ServiceModel.MsmqBindingBase" ref="true" />
+          <type api="T:System.ServiceModel.Channels.Binding" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.BuildChannelFactory">
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelFactory``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelFactory``1(System.Object[])" />
+        </element>
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.BuildChannelListener">
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.ServiceModel.Description.ListenUriMode,System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.ServiceModel.Description.ListenUriMode,System.ServiceModel.Channels.BindingParameterCollection)" />
+        </element>
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CanBuildChannelFactory">
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelFactory``1(System.Object[])" />
+        </element>
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CanBuildChannelListener">
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelListener``1(System.Object[])" />
+        </element>
+        <element api="M:System.ServiceModel.Channels.Binding.GetProperty``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor">
+          <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+          <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor(System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode)" />
+          <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor(System.String)" />
+        </element>
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CreateBindingElements" />
+        <element api="P:System.ServiceModel.Channels.Binding.CloseTimeout" />
+        <element api="P:System.ServiceModel.Channels.Binding.MessageVersion" />
+        <element api="P:System.ServiceModel.Channels.Binding.Name" />
+        <element api="P:System.ServiceModel.Channels.Binding.Namespace" />
+        <element api="P:System.ServiceModel.Channels.Binding.OpenTimeout" />
+        <element api="P:System.ServiceModel.Channels.Binding.ReceiveTimeout" />
+        <element api="P:System.ServiceModel.Channels.Binding.SendTimeout" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.DeadLetterQueue" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.Durable" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ExactlyOnce" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.MaxReceivedMessageSize" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.MaxRetryCycles" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ReceiveContextEnabled" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ReceiveErrorHandling" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ReceiveRetryCount" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.RetryCycleDelay" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.Scheme" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.System#ServiceModel#Channels#IBindingRuntimePreferences#ReceiveSynchronously" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.TimeToLive" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.UseMsmqTracing" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.UseSourceJournal" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ValidityDuration" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.Security" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.SerializationFormat" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding">
+      <topicdata name="MsmqIntegrationBinding" group="list" subgroup="Methods" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" />
+      <apidata name="MsmqIntegrationBinding" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.BuildChannelFactory">
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelFactory``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelFactory``1(System.Object[])" />
+        </element>
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.BuildChannelListener">
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.ServiceModel.Description.ListenUriMode,System.Object[])" />
+          <element api="M:System.ServiceModel.Channels.Binding.BuildChannelListener``1(System.Uri,System.String,System.ServiceModel.Description.ListenUriMode,System.ServiceModel.Channels.BindingParameterCollection)" />
+        </element>
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CanBuildChannelFactory">
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelFactory``1(System.Object[])" />
+        </element>
+        <element api="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CanBuildChannelListener">
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+          <element api="M:System.ServiceModel.Channels.Binding.CanBuildChannelListener``1(System.Object[])" />
+        </element>
+        <element api="M:System.ServiceModel.Channels.Binding.GetProperty``1(System.ServiceModel.Channels.BindingParameterCollection)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CreateBindingElements" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding">
+      <topicdata name="MsmqIntegrationBinding" group="list" subgroup="Properties" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" />
+      <apidata name="MsmqIntegrationBinding" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+      <elements>
+        <element api="P:System.ServiceModel.Channels.Binding.CloseTimeout" />
+        <element api="P:System.ServiceModel.Channels.Binding.MessageVersion" />
+        <element api="P:System.ServiceModel.Channels.Binding.Name" />
+        <element api="P:System.ServiceModel.Channels.Binding.Namespace" />
+        <element api="P:System.ServiceModel.Channels.Binding.OpenTimeout" />
+        <element api="P:System.ServiceModel.Channels.Binding.ReceiveTimeout" />
+        <element api="P:System.ServiceModel.Channels.Binding.SendTimeout" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.CustomDeadLetterQueue" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.DeadLetterQueue" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.Durable" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ExactlyOnce" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.MaxReceivedMessageSize" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.MaxRetryCycles" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ReceiveContextEnabled" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ReceiveErrorHandling" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ReceiveRetryCount" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.RetryCycleDelay" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.Scheme" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.System#ServiceModel#Channels#IBindingRuntimePreferences#ReceiveSynchronously" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.TimeToLive" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.UseMsmqTracing" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.UseSourceJournal" />
+        <element api="P:System.ServiceModel.MsmqBindingBase.ValidityDuration" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.Security" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.SerializationFormat" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" />
+      </containers>
+    </api>
+    <api id="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor(System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor(System.String)" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor(System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+      <parameters>
+        <parameter name="securityMode">
+          <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.#ctor" />
+      <parameters>
+        <parameter name="configurationName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.CreateBindingElements">
+      <topicdata group="api" />
+      <apidata name="CreateBindingElements" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.Binding.CreateBindingElements">
+          <type api="T:System.ServiceModel.Channels.Binding" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.ServiceModel.Channels.BindingElementCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.Security">
+      <topicdata group="api" />
+      <apidata name="Security" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Security" />
+      <setter name="set_Security" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding.SerializationFormat">
+      <topicdata group="api" />
+      <apidata name="SerializationFormat" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_SerializationFormat" />
+      <setter name="set_SerializationFormat" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBinding" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ComponentModel.DefaultValueAttribute" ref="true" />
+          <argument>
+            <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+            <enumValue>
+              <field name="Xml" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement">
+      <topicdata group="api" />
+      <apidata name="MsmqIntegrationBindingElement" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.ServiceModel.Channels.MsmqBindingElementBase" ref="true" />
+          <type api="T:System.ServiceModel.Channels.TransportBindingElement" ref="true" />
+          <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.ServiceModel.Channels.MsmqBindingElementBase.System#ServiceModel#Description#IPolicyExportExtension#ExportPolicy(System.ServiceModel.Description.MetadataExporter,System.ServiceModel.Description.PolicyConversionContext)" />
+        <element api="M:System.ServiceModel.Channels.MsmqBindingElementBase.System#ServiceModel#Description#IWsdlExportExtension#ExportContract(System.ServiceModel.Description.WsdlExporter,System.ServiceModel.Description.WsdlContractConversionContext)" />
+        <element api="M:System.ServiceModel.Channels.MsmqBindingElementBase.System#ServiceModel#Description#IWsdlExportExtension#ExportEndpoint(System.ServiceModel.Description.WsdlExporter,System.ServiceModel.Description.WsdlEndpointConversionContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.#ctor" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelListener``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.Clone" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.GetProperty``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.CustomDeadLetterQueue" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.DeadLetterQueue" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.Durable" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ExactlyOnce" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.MaxRetryCycles" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.MsmqTransportSecurity" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveContextEnabled" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveRetryCount" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.RetryCycleDelay" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.TimeToLive" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.TransactedReceiveEnabled" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.UseMsmqTracing" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.UseSourceJournal" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ValidityDuration" />
+        <element api="P:System.ServiceModel.Channels.TransportBindingElement.ManualAddressing" />
+        <element api="P:System.ServiceModel.Channels.TransportBindingElement.MaxBufferPoolSize" />
+        <element api="P:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.Scheme" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.SerializationFormat" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.TargetSerializationTypes" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement">
+      <topicdata name="MsmqIntegrationBindingElement" group="list" subgroup="Methods" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" />
+      <apidata name="MsmqIntegrationBindingElement" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.ServiceModel.Channels.MsmqBindingElementBase.System#ServiceModel#Description#IPolicyExportExtension#ExportPolicy(System.ServiceModel.Description.MetadataExporter,System.ServiceModel.Description.PolicyConversionContext)" />
+        <element api="M:System.ServiceModel.Channels.MsmqBindingElementBase.System#ServiceModel#Description#IWsdlExportExtension#ExportContract(System.ServiceModel.Description.WsdlExporter,System.ServiceModel.Description.WsdlContractConversionContext)" />
+        <element api="M:System.ServiceModel.Channels.MsmqBindingElementBase.System#ServiceModel#Description#IWsdlExportExtension#ExportEndpoint(System.ServiceModel.Description.WsdlExporter,System.ServiceModel.Description.WsdlEndpointConversionContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelListener``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingContext)" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.Clone" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.GetProperty``1(System.ServiceModel.Channels.BindingContext)" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement">
+      <topicdata name="MsmqIntegrationBindingElement" group="list" subgroup="Properties" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" />
+      <apidata name="MsmqIntegrationBindingElement" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.#ctor" />
+      <elements>
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.CustomDeadLetterQueue" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.DeadLetterQueue" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.Durable" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ExactlyOnce" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.MaxRetryCycles" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.MsmqTransportSecurity" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveContextEnabled" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveErrorHandling" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ReceiveRetryCount" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.RetryCycleDelay" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.TimeToLive" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.TransactedReceiveEnabled" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.UseMsmqTracing" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.UseSourceJournal" />
+        <element api="P:System.ServiceModel.Channels.MsmqBindingElementBase.ValidityDuration" />
+        <element api="P:System.ServiceModel.Channels.TransportBindingElement.ManualAddressing" />
+        <element api="P:System.ServiceModel.Channels.TransportBindingElement.MaxBufferPoolSize" />
+        <element api="P:System.ServiceModel.Channels.TransportBindingElement.MaxReceivedMessageSize" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.Scheme" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.SerializationFormat" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.TargetSerializationTypes" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)">
+      <topicdata group="api" />
+      <apidata name="BuildChannelFactory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.BindingElement.BuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)">
+          <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+        </member>
+      </overrides>
+      <templates>
+        <template name="TChannel" />
+      </templates>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ServiceModel.Channels.BindingContext" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.ServiceModel.Channels.IChannelFactory`1" ref="true">
+          <specialization>
+            <template name="TChannel" index="0" api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelListener``1(System.ServiceModel.Channels.BindingContext)">
+      <topicdata group="api" />
+      <apidata name="BuildChannelListener" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.BindingElement.BuildChannelListener``1(System.ServiceModel.Channels.BindingContext)">
+          <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+        </member>
+      </overrides>
+      <templates>
+        <template name="TChannel">
+          <constrained ref="true">
+            <implements>
+              <type api="T:System.ServiceModel.Channels.IChannel" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ServiceModel.Channels.BindingContext" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.ServiceModel.Channels.IChannelListener`1" ref="true">
+          <specialization>
+            <template name="TChannel" index="0" api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.BuildChannelListener``1(System.ServiceModel.Channels.BindingContext)" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)">
+      <topicdata group="api" />
+      <apidata name="CanBuildChannelFactory" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.BindingElement.CanBuildChannelFactory``1(System.ServiceModel.Channels.BindingContext)">
+          <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+        </member>
+      </overrides>
+      <templates>
+        <template name="TChannel" />
+      </templates>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ServiceModel.Channels.BindingContext" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingContext)">
+      <topicdata group="api" />
+      <apidata name="CanBuildChannelListener" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.BindingElement.CanBuildChannelListener``1(System.ServiceModel.Channels.BindingContext)">
+          <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+        </member>
+      </overrides>
+      <templates>
+        <template name="TChannel">
+          <constrained ref="true">
+            <implements>
+              <type api="T:System.ServiceModel.Channels.IChannel" ref="true" />
+            </implements>
+          </constrained>
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ServiceModel.Channels.BindingContext" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.Clone">
+      <topicdata group="api" />
+      <apidata name="Clone" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.BindingElement.Clone">
+          <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.ServiceModel.Channels.BindingElement" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.GetProperty``1(System.ServiceModel.Channels.BindingContext)">
+      <topicdata group="api" />
+      <apidata name="GetProperty" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.ServiceModel.Channels.MsmqBindingElementBase.GetProperty``1(System.ServiceModel.Channels.BindingContext)">
+          <type api="T:System.ServiceModel.Channels.MsmqBindingElementBase" ref="true" />
+        </member>
+      </overrides>
+      <templates>
+        <template name="T">
+          <constrained ref="true" />
+        </template>
+      </templates>
+      <parameters>
+        <parameter name="context">
+          <type api="T:System.ServiceModel.Channels.BindingContext" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <template name="T" index="0" api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.GetProperty``1(System.ServiceModel.Channels.BindingContext)" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.Scheme">
+      <topicdata group="api" />
+      <apidata name="Scheme" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="P:System.ServiceModel.Channels.TransportBindingElement.Scheme">
+          <type api="T:System.ServiceModel.Channels.TransportBindingElement" ref="true" />
+        </member>
+      </overrides>
+      <propertydata get="true" />
+      <getter name="get_Scheme" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.SerializationFormat">
+      <topicdata group="api" />
+      <apidata name="SerializationFormat" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_SerializationFormat" />
+      <setter name="set_SerializationFormat" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement.TargetSerializationTypes">
+      <topicdata group="api" />
+      <apidata name="TargetSerializationTypes" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_TargetSerializationTypes" />
+      <setter name="set_TargetSerializationTypes" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Type" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationBindingElement" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty">
+      <topicdata group="api" />
+      <apidata name="MsmqIntegrationMessageProperty" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Name" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.#ctor" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Get(System.ServiceModel.Channels.Message)" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AcknowledgeType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Acknowledgment" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AdministrationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AppSpecific" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.ArrivedTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Authenticated" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Body" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.BodyType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.CorrelationId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.DestinationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Extension" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Id" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Label" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.MessageType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Priority" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.ResponseQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.SenderId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.SentTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.TimeToReachQueue" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty">
+      <topicdata name="MsmqIntegrationMessageProperty" group="list" subgroup="Methods" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+      <apidata name="MsmqIntegrationMessageProperty" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Get(System.ServiceModel.Channels.Message)" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty">
+      <topicdata name="MsmqIntegrationMessageProperty" group="list" subgroup="Properties" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+      <apidata name="MsmqIntegrationMessageProperty" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.#ctor" />
+      <elements>
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AcknowledgeType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Acknowledgment" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AdministrationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AppSpecific" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.ArrivedTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Authenticated" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Body" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.BodyType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.CorrelationId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.DestinationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Extension" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Id" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Label" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.MessageType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Priority" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.ResponseQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.SenderId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.SentTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.TimeToReachQueue" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+      </containers>
+    </api>
+    <api id="Fields.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty">
+      <topicdata name="MsmqIntegrationMessageProperty" group="list" subgroup="Fields" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+      <apidata name="MsmqIntegrationMessageProperty" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.#ctor" />
+      <elements>
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Name" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AcknowledgeType">
+      <topicdata group="api" />
+      <apidata name="AcknowledgeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AcknowledgeType" />
+      <setter name="set_AcknowledgeType" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.AcknowledgeTypes" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Acknowledgment">
+      <topicdata group="api" />
+      <apidata name="Acknowledgment" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Acknowledgment" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.Acknowledgment" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AdministrationQueue">
+      <topicdata group="api" />
+      <apidata name="AdministrationQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AdministrationQueue" />
+      <setter name="set_AdministrationQueue" />
+      <returns>
+        <type api="T:System.Uri" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.AppSpecific">
+      <topicdata group="api" />
+      <apidata name="AppSpecific" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AppSpecific" />
+      <setter name="set_AppSpecific" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Int32" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.ArrivedTime">
+      <topicdata group="api" />
+      <apidata name="ArrivedTime" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ArrivedTime" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.DateTime" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Authenticated">
+      <topicdata group="api" />
+      <apidata name="Authenticated" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Authenticated" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Boolean" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Body">
+      <topicdata group="api" />
+      <apidata name="Body" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Body" />
+      <setter name="set_Body" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.BodyType">
+      <topicdata group="api" />
+      <apidata name="BodyType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_BodyType" />
+      <setter name="set_BodyType" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Int32" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.CorrelationId">
+      <topicdata group="api" />
+      <apidata name="CorrelationId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_CorrelationId" />
+      <setter name="set_CorrelationId" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.DestinationQueue">
+      <topicdata group="api" />
+      <apidata name="DestinationQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_DestinationQueue" />
+      <returns>
+        <type api="T:System.Uri" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Extension">
+      <topicdata group="api" />
+      <apidata name="Extension" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Extension" />
+      <setter name="set_Extension" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Byte" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Get(System.ServiceModel.Channels.Message)">
+      <topicdata group="api" />
+      <apidata name="Get" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.ServiceModel.Channels.Message" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Id">
+      <topicdata group="api" />
+      <apidata name="Id" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Id" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Label">
+      <topicdata group="api" />
+      <apidata name="Label" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Label" />
+      <setter name="set_Label" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.MessageType">
+      <topicdata group="api" />
+      <apidata name="MessageType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_MessageType" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.MessageType" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <value>MsmqIntegrationMessageProperty</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.Priority">
+      <topicdata group="api" />
+      <apidata name="Priority" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Priority" />
+      <setter name="set_Priority" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.MessagePriority" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.ResponseQueue">
+      <topicdata group="api" />
+      <apidata name="ResponseQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ResponseQueue" />
+      <setter name="set_ResponseQueue" />
+      <returns>
+        <type api="T:System.Uri" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.SenderId">
+      <topicdata group="api" />
+      <apidata name="SenderId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SenderId" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Byte" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.SentTime">
+      <topicdata group="api" />
+      <apidata name="SentTime" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SentTime" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.DateTime" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty.TimeToReachQueue">
+      <topicdata group="api" />
+      <apidata name="TimeToReachQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_TimeToReachQueue" />
+      <setter name="set_TimeToReachQueue" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.TimeSpan" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationMessageProperty" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity">
+      <topicdata group="api" />
+      <apidata name="MsmqIntegrationSecurity" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.#ctor" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.Mode" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.Transport" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity">
+      <topicdata name="MsmqIntegrationSecurity" group="list" subgroup="Methods" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" />
+      <apidata name="MsmqIntegrationSecurity" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity">
+      <topicdata name="MsmqIntegrationSecurity" group="list" subgroup="Properties" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" />
+      <apidata name="MsmqIntegrationSecurity" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.#ctor" />
+      <elements>
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.Mode" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.Transport" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.Mode">
+      <topicdata group="api" />
+      <apidata name="Mode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Mode" />
+      <setter name="set_Mode" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ComponentModel.DefaultValueAttribute" ref="true" />
+          <argument>
+            <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+            <enumValue>
+              <field name="Transport" />
+            </enumValue>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity.Transport">
+      <topicdata group="api" />
+      <apidata name="Transport" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Transport" />
+      <setter name="set_Transport" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqTransportSecurity" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurity" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode">
+      <topicdata group="api" />
+      <apidata name="MsmqIntegrationSecurityMode" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode.None" />
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode.Transport" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode.None">
+      <topicdata group="api" notopic="" />
+      <apidata name="None" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode.Transport">
+      <topicdata group="api" notopic="" />
+      <apidata name="Transport" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqIntegrationSecurityMode" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1">
+      <topicdata group="api" />
+      <apidata name="MsmqMessage" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.ServiceModel.MsmqIntegration.MsmqMessage`1.#ctor(`0)" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AcknowledgeType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Acknowledgment" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AdministrationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AppSpecific" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.ArrivedTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Authenticated" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Body" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.BodyType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.CorrelationId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.DestinationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Extension" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Id" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Label" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.MessageType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Priority" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.ResponseQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.SenderId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.SentTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.TimeToReachQueue" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ServiceModel.MessageContractAttribute" ref="true" />
+          <assignment name="IsWrapped">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.ServiceModel.MsmqIntegration.MsmqMessage`1">
+      <topicdata name="MsmqMessage" group="list" subgroup="Methods" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+      <apidata name="MsmqMessage" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.ServiceModel.MsmqIntegration.MsmqMessage`1">
+      <topicdata name="MsmqMessage" group="list" subgroup="Properties" typeTopicId="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+      <apidata name="MsmqMessage" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <templates>
+        <template name="T" />
+      </templates>
+      <elements>
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AcknowledgeType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Acknowledgment" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AdministrationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AppSpecific" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.ArrivedTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Authenticated" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Body" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.BodyType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.CorrelationId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.DestinationQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Extension" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Id" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Label" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.MessageType" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Priority" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.ResponseQueue" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.SenderId" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.SentTime" />
+        <element api="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.TimeToReachQueue" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+      </containers>
+    </api>
+    <api id="M:System.ServiceModel.MsmqIntegration.MsmqMessage`1.#ctor(`0)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="body">
+          <template name="T" index="0" api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AcknowledgeType">
+      <topicdata group="api" />
+      <apidata name="AcknowledgeType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AcknowledgeType" />
+      <setter name="set_AcknowledgeType" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.AcknowledgeTypes" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Acknowledgment">
+      <topicdata group="api" />
+      <apidata name="Acknowledgment" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Acknowledgment" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.Acknowledgment" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AdministrationQueue">
+      <topicdata group="api" />
+      <apidata name="AdministrationQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AdministrationQueue" />
+      <setter name="set_AdministrationQueue" />
+      <returns>
+        <type api="T:System.Uri" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.AppSpecific">
+      <topicdata group="api" />
+      <apidata name="AppSpecific" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_AppSpecific" />
+      <setter name="set_AppSpecific" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Int32" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.ArrivedTime">
+      <topicdata group="api" />
+      <apidata name="ArrivedTime" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ArrivedTime" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.DateTime" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Authenticated">
+      <topicdata group="api" />
+      <apidata name="Authenticated" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Authenticated" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Boolean" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Body">
+      <topicdata group="api" />
+      <apidata name="Body" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Body" />
+      <setter name="set_Body" />
+      <returns>
+        <template name="T" index="0" api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.BodyType">
+      <topicdata group="api" />
+      <apidata name="BodyType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_BodyType" />
+      <setter name="set_BodyType" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Int32" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.CorrelationId">
+      <topicdata group="api" />
+      <apidata name="CorrelationId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_CorrelationId" />
+      <setter name="set_CorrelationId" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.DestinationQueue">
+      <topicdata group="api" />
+      <apidata name="DestinationQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_DestinationQueue" />
+      <returns>
+        <type api="T:System.Uri" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Extension">
+      <topicdata group="api" />
+      <apidata name="Extension" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Extension" />
+      <setter name="set_Extension" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Byte" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Id">
+      <topicdata group="api" />
+      <apidata name="Id" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Id" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Label">
+      <topicdata group="api" />
+      <apidata name="Label" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Label" />
+      <setter name="set_Label" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.MessageType">
+      <topicdata group="api" />
+      <apidata name="MessageType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_MessageType" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.MessageType" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.Priority">
+      <topicdata group="api" />
+      <apidata name="Priority" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Priority" />
+      <setter name="set_Priority" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.Messaging.MessagePriority" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.ResponseQueue">
+      <topicdata group="api" />
+      <apidata name="ResponseQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ResponseQueue" />
+      <setter name="set_ResponseQueue" />
+      <returns>
+        <type api="T:System.Uri" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.SenderId">
+      <topicdata group="api" />
+      <apidata name="SenderId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SenderId" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Byte" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.SentTime">
+      <topicdata group="api" />
+      <apidata name="SentTime" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SentTime" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.DateTime" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.ServiceModel.MsmqIntegration.MsmqMessage`1.TimeToReachQueue">
+      <topicdata group="api" />
+      <apidata name="TimeToReachQueue" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_TimeToReachQueue" />
+      <setter name="set_TimeToReachQueue" />
+      <returns>
+        <type api="T:System.Nullable`1" ref="false">
+          <specialization>
+            <type api="T:System.TimeSpan" ref="false" />
+          </specialization>
+        </type>
+      </returns>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessage`1" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat">
+      <topicdata group="api" />
+      <apidata name="MsmqMessageSerializationFormat" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.Xml" />
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.Binary" />
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.ActiveX" />
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.ByteArray" />
+        <element api="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.Stream" />
+      </elements>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.ActiveX">
+      <topicdata group="api" notopic="" />
+      <apidata name="ActiveX" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.Binary">
+      <topicdata group="api" notopic="" />
+      <apidata name="Binary" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.ByteArray">
+      <topicdata group="api" notopic="" />
+      <apidata name="ByteArray" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.Stream">
+      <topicdata group="api" notopic="" />
+      <apidata name="Stream" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <value>4</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat.Xml">
+      <topicdata group="api" notopic="" />
+      <apidata name="Xml" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.ServiceModel" module="System.ServiceModel" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.ServiceModel.MsmqIntegration" />
+        <type api="T:System.ServiceModel.MsmqIntegration.MsmqMessageSerializationFormat" ref="false" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

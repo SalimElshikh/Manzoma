@@ -1,0 +1,1191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.Workflow.Runtime">
+      <assemblydata version="4.0.0.0" culture="" key="0024000004800000940000000602000000240000525341310004000001000100B5FC90E7027F67871E773A8FDE8938C81DD402BA65B9201D60593E96C492651E889CC13F1415EBB53FAC1131AE0BD333C5EE6021672D9718EA31A8AEBD0DA0072F25D87DBA6FC90FFD598ED4DA35E44C398C454307E8E33B8426143DAEC9F596836F97C8F74750E5975C64E2189F45DEF46B2A2B1247ADC3652BF5C308055DA9" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Workflow.ComponentModel.Serialization.XmlnsDefinitionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>http://schemas.microsoft.com/winfx/2006/xaml/workflow</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Workflow.ComponentModel.Serialization.XmlnsDefinitionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>http://schemas.microsoft.com/winfx/2006/xaml/workflow</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime.Configuration</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Workflow.ComponentModel.Serialization.XmlnsDefinitionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>http://schemas.microsoft.com/winfx/2006/xaml/workflow</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime.Hosting</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Workflow.ComponentModel.Serialization.XmlnsDefinitionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>http://schemas.microsoft.com/winfx/2006/xaml/workflow</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime.Tracking</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Workflow.ComponentModel.Serialization.XmlnsPrefixAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>http://schemas.microsoft.com/winfx/2006/xaml/workflow</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>wf</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Workflow.Runtime.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\35MSSharedLib1024.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c80000014010000060200000024000052534131000800000100010085aad0bef0688d1b994a0d78e1fd29fc24ac34ed3d3ac3fb9b3d0c48386ba834aa880035060a8848b2d8adf58e670ed20914be3681a891c9c8c01eef2ab22872547c39be00af0e6c72485d7cfd1a51df8947d36ceba9989106b58abe79e6a3e71a01ed6bdc867012883e0b1a4d35b1b5eeed6df21e401bb0c22f2246ccb69979dc9e61eef262832ed0f2064853725a75485fa8a3efb7e027319c86dec03dc3b1bca2b5081bab52a627b9917450dfad534799e1c7af58683bdfa135f1518ff1ea60e90d7b993a6c87fd3dd93408e35d1296f9a7f9a97c5db56c0f3cc25ad11e9777f94d138b3cea53b9a8331c2e6dcb8d2ea94e18bf1163ff112a22dbd92d429a</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>8913ef869646d14971df222c210018ab394cfe63f8eb9b4d894c0dda7368cfb69df15d049b347f8a8b9205cdcc3d6bd6690f0bd24b3da3179feb8c03f410703027c7844ff654997e38015dfc97222c15061af2a1d3fe91775b9dd4b8ede64d3d59816270a9520e393c8e60619b80d40fc1dc4f12b5aa0c2df20d02ea32960851</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Workflow.Runtime.DebugEngine">
+      <topicdata group="api" />
+      <apidata name="System.Workflow.Runtime.DebugEngine" group="namespace" />
+      <elements>
+        <element api="T:System.Workflow.Runtime.DebugEngine.DebugController" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.IInstanceTable" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.DebugEngineCallback" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame" />
+        <element api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" />
+      </elements>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor">
+      <topicdata group="api" />
+      <apidata name="ActivityHandlerDescriptor" group="type" subgroup="structure" />
+      <typedata visibility="public" sealed="true" serializable="true" noSettableProperties="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.ValueType" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="F:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor.Name" />
+        <element api="F:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor.Token" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.ValueType.Equals(System.Object)" />
+        <element api="M:System.ValueType.GetHashCode" />
+        <element api="M:System.ValueType.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor">
+      <topicdata name="ActivityHandlerDescriptor" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" />
+      <apidata name="ActivityHandlerDescriptor" group="type" subgroup="structure" />
+      <typedata visibility="public" sealed="true" serializable="true" noSettableProperties="true" />
+      <elements>
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.ValueType.Equals(System.Object)" />
+        <element api="M:System.ValueType.GetHashCode" />
+        <element api="M:System.ValueType.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" />
+      </containers>
+    </api>
+    <api id="Fields.T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor">
+      <topicdata name="ActivityHandlerDescriptor" group="list" subgroup="Fields" typeTopicId="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" />
+      <apidata name="ActivityHandlerDescriptor" group="type" subgroup="structure" />
+      <typedata visibility="public" sealed="true" serializable="true" noSettableProperties="true" />
+      <elements>
+        <element api="F:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor.Name" />
+        <element api="F:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor.Token" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" />
+      </containers>
+    </api>
+    <api id="F:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="field" />
+      <memberdata visibility="public" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor.Token">
+      <topicdata group="api" />
+      <apidata name="Token" group="member" subgroup="field" />
+      <memberdata visibility="public" />
+      <fielddata literal="false" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.DebugController">
+      <topicdata group="api" />
+      <apidata name="DebugController" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.MarshalByRefObject" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.DebugController.AttachToConduit(System.Uri)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.DebugController.InitializeLifetimeService" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.DebugController">
+      <topicdata name="DebugController" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.DebugController" />
+      <apidata name="DebugController" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.MarshalByRefObject.CreateObjRef(System.Type)" />
+        <element api="M:System.MarshalByRefObject.GetLifetimeService" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.DebugController.AttachToConduit(System.Uri)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.DebugController.InitializeLifetimeService" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.DebugController" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.DebugController.AttachToConduit(System.Uri)">
+      <topicdata group="api" />
+      <apidata name="AttachToConduit" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="url">
+          <type api="T:System.Uri" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.DebugController" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.DebugController.InitializeLifetimeService">
+      <topicdata group="api" />
+      <apidata name="InitializeLifetimeService" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.MarshalByRefObject.InitializeLifetimeService">
+          <type api="T:System.MarshalByRefObject" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.DebugController" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.DebugEngineCallback">
+      <topicdata group="api" />
+      <apidata name="DebugEngineCallback" group="type" subgroup="delegate" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame">
+      <topicdata group="api" />
+      <apidata name="IExpressionEvaluationFrame" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame.CreateEvaluationFrame(System.Workflow.Runtime.DebugEngine.IInstanceTable,System.Workflow.Runtime.DebugEngine.DebugEngineCallback)" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame">
+      <topicdata name="IExpressionEvaluationFrame" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame" />
+      <apidata name="IExpressionEvaluationFrame" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame.CreateEvaluationFrame(System.Workflow.Runtime.DebugEngine.IInstanceTable,System.Workflow.Runtime.DebugEngine.DebugEngineCallback)" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame.CreateEvaluationFrame(System.Workflow.Runtime.DebugEngine.IInstanceTable,System.Workflow.Runtime.DebugEngine.DebugEngineCallback)">
+      <topicdata group="api" />
+      <apidata name="CreateEvaluationFrame" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="instanceTable">
+          <type api="T:System.Workflow.Runtime.DebugEngine.IInstanceTable" ref="true" />
+        </parameter>
+        <parameter name="callback">
+          <type api="T:System.Workflow.Runtime.DebugEngine.DebugEngineCallback" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IExpressionEvaluationFrame" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.IInstanceTable">
+      <topicdata group="api" />
+      <apidata name="IInstanceTable" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IInstanceTable.GetActivity(System.String,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.IInstanceTable">
+      <topicdata name="IInstanceTable" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.IInstanceTable" />
+      <apidata name="IInstanceTable" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IInstanceTable.GetActivity(System.String,System.String)" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IInstanceTable" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IInstanceTable.GetActivity(System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="GetActivity" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="instanceId">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="activityName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Workflow.ComponentModel.Activity" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IInstanceTable" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger">
+      <topicdata group="api" />
+      <apidata name="IWorkflowDebugger" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.ActivityStatusChanged(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.AssemblyLoaded(System.Guid,System.String,System.Boolean)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.BeforeActivityStatusChanged(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.BeforeHandlerInvoked(System.Guid,System.Guid,System.String,System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.HandlerInvoked(System.Guid,System.Guid,System.Int32,System.String)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceCompleted(System.Guid,System.Guid)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceCreated(System.Guid,System.Guid,System.Guid)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceDynamicallyUpdated(System.Guid,System.Guid,System.Guid)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.ScheduleTypeLoaded(System.Guid,System.Guid,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.SetInitialActivityStatus(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.UpdateHandlerMethodsForActivity(System.Guid,System.Guid,System.String,System.Collections.Generic.List{System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor})" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger">
+      <topicdata name="IWorkflowDebugger" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" />
+      <apidata name="IWorkflowDebugger" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.ActivityStatusChanged(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.AssemblyLoaded(System.Guid,System.String,System.Boolean)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.BeforeActivityStatusChanged(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.BeforeHandlerInvoked(System.Guid,System.Guid,System.String,System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.HandlerInvoked(System.Guid,System.Guid,System.Int32,System.String)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceCompleted(System.Guid,System.Guid)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceCreated(System.Guid,System.Guid,System.Guid)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceDynamicallyUpdated(System.Guid,System.Guid,System.Guid)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.ScheduleTypeLoaded(System.Guid,System.Guid,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.SetInitialActivityStatus(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.UpdateHandlerMethodsForActivity(System.Guid,System.Guid,System.String,System.Collections.Generic.List{System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor})" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.ActivityStatusChanged(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="ActivityStatusChanged" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="activityQualifiedName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="hierarchicalActivityId">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="status">
+          <type api="T:System.Workflow.ComponentModel.ActivityExecutionStatus" ref="false" />
+        </parameter>
+        <parameter name="stateReaderId">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.AssemblyLoaded(System.Guid,System.String,System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="AssemblyLoaded" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="assemblyPath">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="fromGlobalAssemblyCache">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.BeforeActivityStatusChanged(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="BeforeActivityStatusChanged" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="activityQualifiedName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="hierarchicalActivityId">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="status">
+          <type api="T:System.Workflow.ComponentModel.ActivityExecutionStatus" ref="false" />
+        </parameter>
+        <parameter name="stateReaderId">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.BeforeHandlerInvoked(System.Guid,System.Guid,System.String,System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor)">
+      <topicdata group="api" />
+      <apidata name="BeforeHandlerInvoked" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="activityQualifiedName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="handlerMethod">
+          <type api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.HandlerInvoked(System.Guid,System.Guid,System.Int32,System.String)">
+      <topicdata group="api" />
+      <apidata name="HandlerInvoked" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="threadId">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="activityQualifiedName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceCompleted(System.Guid,System.Guid)">
+      <topicdata group="api" />
+      <apidata name="InstanceCompleted" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceCreated(System.Guid,System.Guid,System.Guid)">
+      <topicdata group="api" />
+      <apidata name="InstanceCreated" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.InstanceDynamicallyUpdated(System.Guid,System.Guid,System.Guid)">
+      <topicdata group="api" />
+      <apidata name="InstanceDynamicallyUpdated" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.ScheduleTypeLoaded(System.Guid,System.Guid,System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name="ScheduleTypeLoaded" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="assemblyFullName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="fileName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="md5Digest">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="isDynamic">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="scheduleNamespace">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="scheduleName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="workflowMarkup">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.SetInitialActivityStatus(System.Guid,System.Guid,System.Guid,System.String,System.String,System.Workflow.ComponentModel.ActivityExecutionStatus,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="SetInitialActivityStatus" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="instanceId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="activityQualifiedName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="hierarchicalActivityId">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="status">
+          <type api="T:System.Workflow.ComponentModel.ActivityExecutionStatus" ref="false" />
+        </parameter>
+        <parameter name="stateReaderId">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger.UpdateHandlerMethodsForActivity(System.Guid,System.Guid,System.String,System.Collections.Generic.List{System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor})">
+      <topicdata group="api" />
+      <apidata name="UpdateHandlerMethodsForActivity" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="programId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="scheduleTypeId">
+          <type api="T:System.Guid" ref="false" />
+        </parameter>
+        <parameter name="activityQualifiedName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="handlerMethods">
+          <type api="T:System.Collections.Generic.List`1" ref="true">
+            <specialization>
+              <type api="T:System.Workflow.Runtime.DebugEngine.ActivityHandlerDescriptor" ref="false" />
+            </specialization>
+          </type>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebugger" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService">
+      <topicdata group="api" />
+      <apidata name="IWorkflowDebuggerService" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService.NotifyHandlerInvoked" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService.NotifyHandlerInvoking(System.Delegate)" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService">
+      <topicdata name="IWorkflowDebuggerService" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService" />
+      <apidata name="IWorkflowDebuggerService" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService.NotifyHandlerInvoked" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService.NotifyHandlerInvoking(System.Delegate)" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService.NotifyHandlerInvoked">
+      <topicdata group="api" />
+      <apidata name="NotifyHandlerInvoked" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService.NotifyHandlerInvoking(System.Delegate)">
+      <topicdata group="api" />
+      <apidata name="NotifyHandlerInvoking" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <parameters>
+        <parameter name="delegateHandler">
+          <type api="T:System.Delegate" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.IWorkflowDebuggerService" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute">
+      <topicdata group="api" />
+      <apidata name="WorkflowDebuggerSteppingAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute.#ctor(System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption)" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute.SteppingOption" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Class" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute">
+      <topicdata name="WorkflowDebuggerSteppingAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" />
+      <apidata name="WorkflowDebuggerSteppingAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute">
+      <topicdata name="WorkflowDebuggerSteppingAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" />
+      <apidata name="WorkflowDebuggerSteppingAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute.SteppingOption" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute.#ctor(System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="steppingOption">
+          <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute.SteppingOption">
+      <topicdata group="api" />
+      <apidata name="SteppingOption" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_SteppingOption" />
+      <returns>
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption">
+      <topicdata group="api" />
+      <apidata name="WorkflowDebuggerSteppingOption" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption.Sequential" />
+        <element api="F:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption.Concurrent" />
+      </elements>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.ObsoleteAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>The System.Workflow.* types are deprecated.  Instead, please use the new types from System.Activities.*</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption.Concurrent">
+      <topicdata group="api" notopic="" />
+      <apidata name="Concurrent" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption.Sequential">
+      <topicdata group="api" notopic="" />
+      <apidata name="Sequential" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Workflow.Runtime" module="System.Workflow.Runtime" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+          <noAptca />
+        </library>
+        <namespace api="N:System.Workflow.Runtime.DebugEngine" />
+        <type api="T:System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption" ref="false" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

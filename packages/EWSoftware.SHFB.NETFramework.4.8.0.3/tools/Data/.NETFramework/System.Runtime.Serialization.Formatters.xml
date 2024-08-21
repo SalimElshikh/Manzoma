@@ -1,0 +1,1599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="mscorlib">
+      <assemblydata version="4.0.0.0" culture="" key="00000000000000000400000000000000" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.CompilerServices.ExtensionAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.GuidAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>BED7F4EA-1A96-11d2-8F08-00A0C9A6186D</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>mscorlib.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\EcmaPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Runtime.Serialization.Formatters">
+      <topicdata group="api" />
+      <apidata name="System.Runtime.Serialization.Formatters" group="namespace" />
+      <elements>
+        <element api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" />
+        <element api="T:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle" />
+        <element api="T:System.Runtime.Serialization.Formatters.TypeFilterLevel" />
+        <element api="T:System.Runtime.Serialization.Formatters.ISoapMessage" />
+        <element api="T:System.Runtime.Serialization.Formatters.IFieldInfo" />
+        <element api="T:System.Runtime.Serialization.Formatters.InternalRM" />
+        <element api="T:System.Runtime.Serialization.Formatters.InternalST" />
+        <element api="T:System.Runtime.Serialization.Formatters.SoapMessage" />
+        <element api="T:System.Runtime.Serialization.Formatters.SoapFault" />
+        <element api="T:System.Runtime.Serialization.Formatters.ServerFault" />
+      </elements>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle">
+      <topicdata group="api" />
+      <apidata name="FormatterAssemblyStyle" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="F:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple" />
+        <element api="F:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Full" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Full">
+      <topicdata group="api" notopic="" />
+      <apidata name="Full" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple">
+      <topicdata group="api" notopic="" />
+      <apidata name="Simple" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterAssemblyStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle">
+      <topicdata group="api" />
+      <apidata name="FormatterTypeStyle" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="F:System.Runtime.Serialization.Formatters.FormatterTypeStyle.TypesWhenNeeded" />
+        <element api="F:System.Runtime.Serialization.Formatters.FormatterTypeStyle.TypesAlways" />
+        <element api="F:System.Runtime.Serialization.Formatters.FormatterTypeStyle.XsdString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.FormatterTypeStyle.TypesAlways">
+      <topicdata group="api" notopic="" />
+      <apidata name="TypesAlways" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.FormatterTypeStyle.TypesWhenNeeded">
+      <topicdata group="api" notopic="" />
+      <apidata name="TypesWhenNeeded" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.FormatterTypeStyle.XsdString">
+      <topicdata group="api" notopic="" />
+      <apidata name="XsdString" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.FormatterTypeStyle" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.IFieldInfo">
+      <topicdata group="api" />
+      <apidata name="IFieldInfo" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames" />
+        <element api="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldTypes" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:System.Runtime.Serialization.Formatters.IFieldInfo">
+      <topicdata name="IFieldInfo" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Serialization.Formatters.IFieldInfo" />
+      <apidata name="IFieldInfo" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames" />
+        <element api="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldTypes" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.IFieldInfo" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldNames">
+      <topicdata group="api" />
+      <apidata name="FieldNames" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FieldNames">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </getter>
+      <setter name="set_FieldNames">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </setter>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.IFieldInfo" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.IFieldInfo.FieldTypes">
+      <topicdata group="api" />
+      <apidata name="FieldTypes" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FieldTypes">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </getter>
+      <setter name="set_FieldTypes">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </setter>
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Type" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.IFieldInfo" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.InternalRM">
+      <topicdata group="api" />
+      <apidata name="InternalRM" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Runtime.Serialization.Formatters.InternalRM.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalRM.#ctor" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalRM.InfoSoap(System.Object[])" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalRM.SoapCheckEnabled" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Serialization.Formatters.InternalRM">
+      <topicdata name="InternalRM" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Serialization.Formatters.InternalRM" />
+      <apidata name="InternalRM" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" defaultConstructor="M:System.Runtime.Serialization.Formatters.InternalRM.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalRM.InfoSoap(System.Object[])" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalRM.SoapCheckEnabled" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalRM" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalRM.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalRM" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalRM.InfoSoap(System.Object[])">
+      <topicdata group="api" />
+      <apidata name="InfoSoap" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="messages" params="true">
+          <arrayOf rank="1">
+            <type api="T:System.Object" ref="true" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalRM" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>_LOGGING</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalRM.SoapCheckEnabled">
+      <topicdata group="api" />
+      <apidata name="SoapCheckEnabled" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalRM" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.InternalST">
+      <topicdata group="api" />
+      <apidata name="InternalST" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.InfoSoap(System.Object[])" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.LoadAssemblyFromString(System.String)" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.SerializationSetValue(System.Reflection.FieldInfo,System.Object,System.Object)" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.Soap(System.Object[])" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.SoapAssert(System.Boolean,System.String)" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.SoapCheckEnabled" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Serialization.Formatters.InternalST">
+      <topicdata name="InternalST" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Serialization.Formatters.InternalST" />
+      <apidata name="InternalST" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.InfoSoap(System.Object[])" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.LoadAssemblyFromString(System.String)" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.SerializationSetValue(System.Reflection.FieldInfo,System.Object,System.Object)" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.Soap(System.Object[])" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.SoapAssert(System.Boolean,System.String)" />
+        <element api="M:System.Runtime.Serialization.Formatters.InternalST.SoapCheckEnabled" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalST.InfoSoap(System.Object[])">
+      <topicdata group="api" />
+      <apidata name="InfoSoap" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="messages" params="true">
+          <arrayOf rank="1">
+            <type api="T:System.Object" ref="true" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>_LOGGING</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalST.LoadAssemblyFromString(System.String)">
+      <topicdata group="api" />
+      <apidata name="LoadAssemblyFromString" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="assemblyString">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Reflection.Assembly" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalST.SerializationSetValue(System.Reflection.FieldInfo,System.Object,System.Object)">
+      <topicdata group="api" />
+      <apidata name="SerializationSetValue" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="fi">
+          <type api="T:System.Reflection.FieldInfo" ref="true" />
+        </parameter>
+        <parameter name="target">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+        <parameter name="value">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalST.Soap(System.Object[])">
+      <topicdata group="api" />
+      <apidata name="Soap" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="messages" params="true">
+          <arrayOf rank="1">
+            <type api="T:System.Object" ref="true" />
+          </arrayOf>
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>SER_LOGGING</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalST.SoapAssert(System.Boolean,System.String)">
+      <topicdata group="api" />
+      <apidata name="SoapAssert" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="condition">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Diagnostics.ConditionalAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>_DEBUG</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.InternalST.SoapCheckEnabled">
+      <topicdata group="api" />
+      <apidata name="SoapCheckEnabled" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.InternalST" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.ISoapMessage">
+      <topicdata group="api" />
+      <apidata name="ISoapMessage" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <implementors>
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </implementors>
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.Headers" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.MethodName" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamNames" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamTypes" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamValues" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.XmlNameSpace" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Properties.T:System.Runtime.Serialization.Formatters.ISoapMessage">
+      <topicdata name="ISoapMessage" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Serialization.Formatters.ISoapMessage" />
+      <apidata name="ISoapMessage" group="type" subgroup="interface" />
+      <typedata visibility="public" abstract="true" serializable="false" />
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.Headers" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.MethodName" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamNames" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamTypes" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamValues" />
+        <element api="P:System.Runtime.Serialization.Formatters.ISoapMessage.XmlNameSpace" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ISoapMessage.Headers">
+      <topicdata group="api" />
+      <apidata name="Headers" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Headers" />
+      <setter name="set_Headers" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Runtime.Remoting.Messaging.Header" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ISoapMessage.MethodName">
+      <topicdata group="api" />
+      <apidata name="MethodName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_MethodName" />
+      <setter name="set_MethodName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamNames">
+      <topicdata group="api" />
+      <apidata name="ParamNames" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ParamNames" />
+      <setter name="set_ParamNames" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamTypes">
+      <topicdata group="api" />
+      <apidata name="ParamTypes" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ParamTypes" />
+      <setter name="set_ParamTypes" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Type" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamValues">
+      <topicdata group="api" />
+      <apidata name="ParamValues" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ParamValues" />
+      <setter name="set_ParamValues" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Object" ref="true" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ISoapMessage.XmlNameSpace">
+      <topicdata group="api" />
+      <apidata name="XmlNameSpace" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata abstract="true" virtual="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_XmlNameSpace" />
+      <setter name="set_XmlNameSpace" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.ServerFault">
+      <topicdata group="api" />
+      <apidata name="ServerFault" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.ServerFault.#ctor(System.String,System.String,System.String)" />
+        <element api="P:System.Runtime.Serialization.Formatters.ServerFault.ExceptionMessage" />
+        <element api="P:System.Runtime.Serialization.Formatters.ServerFault.ExceptionType" />
+        <element api="P:System.Runtime.Serialization.Formatters.ServerFault.StackTrace" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.Remoting.Metadata.SoapTypeAttribute" ref="true" />
+          <assignment name="Embedded">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Serialization.Formatters.ServerFault">
+      <topicdata name="ServerFault" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Serialization.Formatters.ServerFault" />
+      <apidata name="ServerFault" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ServerFault" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Serialization.Formatters.ServerFault">
+      <topicdata name="ServerFault" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Serialization.Formatters.ServerFault" />
+      <apidata name="ServerFault" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.ServerFault.ExceptionMessage" />
+        <element api="P:System.Runtime.Serialization.Formatters.ServerFault.ExceptionType" />
+        <element api="P:System.Runtime.Serialization.Formatters.ServerFault.StackTrace" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ServerFault" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.ServerFault.#ctor(System.String,System.String,System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="exceptionType">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="stackTrace">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ServerFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ServerFault.ExceptionMessage">
+      <topicdata group="api" />
+      <apidata name="ExceptionMessage" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ExceptionMessage" />
+      <setter name="set_ExceptionMessage" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ServerFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ServerFault.ExceptionType">
+      <topicdata group="api" />
+      <apidata name="ExceptionType" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ExceptionType" />
+      <setter name="set_ExceptionType" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ServerFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.ServerFault.StackTrace">
+      <topicdata group="api" />
+      <apidata name="StackTrace" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_StackTrace" />
+      <setter name="set_StackTrace" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.ServerFault" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.SoapFault">
+      <topicdata group="api" />
+      <apidata name="SoapFault" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" defaultConstructor="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="Overload:System.Runtime.Serialization.Formatters.SoapFault.#ctor">
+          <element api="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+          <element api="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor(System.String,System.String,System.String,System.Runtime.Serialization.Formatters.ServerFault)" />
+        </element>
+        <element api="M:System.Runtime.Serialization.Formatters.SoapFault.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.Detail" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.FaultActor" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.FaultCode" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.FaultString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.Remoting.Metadata.SoapTypeAttribute" ref="true" />
+          <assignment name="Embedded">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Serialization.Formatters.SoapFault">
+      <topicdata name="SoapFault" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Serialization.Formatters.SoapFault" />
+      <apidata name="SoapFault" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" defaultConstructor="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.SoapFault.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Serialization.Formatters.SoapFault">
+      <topicdata name="SoapFault" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Serialization.Formatters.SoapFault" />
+      <apidata name="SoapFault" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" defaultConstructor="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.Detail" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.FaultActor" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.FaultCode" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapFault.FaultString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" />
+      </containers>
+    </api>
+    <api id="Overload:System.Runtime.Serialization.Formatters.SoapFault.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+        <element api="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor(System.String,System.String,System.String,System.Runtime.Serialization.Formatters.ServerFault)" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.SoapFault.#ctor(System.String,System.String,System.String,System.Runtime.Serialization.Formatters.ServerFault)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Runtime.Serialization.Formatters.SoapFault.#ctor" />
+      <parameters>
+        <parameter name="faultCode">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="faultString">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="faultActor">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="serverFault">
+          <type api="T:System.Runtime.Serialization.Formatters.ServerFault" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapFault.Detail">
+      <topicdata group="api" />
+      <apidata name="Detail" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Detail" />
+      <setter name="set_Detail" />
+      <returns>
+        <type api="T:System.Object" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapFault.FaultActor">
+      <topicdata group="api" />
+      <apidata name="FaultActor" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FaultActor" />
+      <setter name="set_FaultActor" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapFault.FaultCode">
+      <topicdata group="api" />
+      <apidata name="FaultCode" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FaultCode" />
+      <setter name="set_FaultCode" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapFault.FaultString">
+      <topicdata group="api" />
+      <apidata name="FaultString" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_FaultString" />
+      <setter name="set_FaultString" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.SoapFault.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapFault" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.SoapMessage">
+      <topicdata group="api" />
+      <apidata name="SoapMessage" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Runtime.Serialization.Formatters.SoapMessage.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="M:System.Runtime.Serialization.Formatters.SoapMessage.#ctor" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.Headers" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.MethodName" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamNames" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamTypes" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamValues" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.XmlNameSpace" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Runtime.Serialization.Formatters.SoapMessage">
+      <topicdata name="SoapMessage" group="list" subgroup="Methods" typeTopicId="T:System.Runtime.Serialization.Formatters.SoapMessage" />
+      <apidata name="SoapMessage" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Runtime.Serialization.Formatters.SoapMessage.#ctor" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Runtime.Serialization.Formatters.SoapMessage">
+      <topicdata name="SoapMessage" group="list" subgroup="Properties" typeTopicId="T:System.Runtime.Serialization.Formatters.SoapMessage" />
+      <apidata name="SoapMessage" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Runtime.Serialization.Formatters.SoapMessage.#ctor" />
+      <elements>
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.Headers" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.MethodName" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamNames" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamTypes" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamValues" />
+        <element api="P:System.Runtime.Serialization.Formatters.SoapMessage.XmlNameSpace" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" />
+      </containers>
+    </api>
+    <api id="M:System.Runtime.Serialization.Formatters.SoapMessage.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapMessage.Headers">
+      <topicdata group="api" />
+      <apidata name="Headers" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Headers" />
+      <setter name="set_Headers" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Runtime.Remoting.Messaging.Header" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.Serialization.Formatters.ISoapMessage.Headers">
+          <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapMessage.MethodName">
+      <topicdata group="api" />
+      <apidata name="MethodName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_MethodName" />
+      <setter name="set_MethodName" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.Serialization.Formatters.ISoapMessage.MethodName">
+          <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamNames">
+      <topicdata group="api" />
+      <apidata name="ParamNames" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ParamNames" />
+      <setter name="set_ParamNames" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.String" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamNames">
+          <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamTypes">
+      <topicdata group="api" />
+      <apidata name="ParamTypes" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ParamTypes" />
+      <setter name="set_ParamTypes" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Type" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamTypes">
+          <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapMessage.ParamValues">
+      <topicdata group="api" />
+      <apidata name="ParamValues" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_ParamValues" />
+      <setter name="set_ParamValues" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Object" ref="true" />
+        </arrayOf>
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.Serialization.Formatters.ISoapMessage.ParamValues">
+          <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Runtime.Serialization.Formatters.SoapMessage.XmlNameSpace">
+      <topicdata group="api" />
+      <apidata name="XmlNameSpace" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <propertydata get="true" set="true" />
+      <getter name="get_XmlNameSpace" />
+      <setter name="set_XmlNameSpace" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <implements>
+        <member api="P:System.Runtime.Serialization.Formatters.ISoapMessage.XmlNameSpace">
+          <type api="T:System.Runtime.Serialization.Formatters.ISoapMessage" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.SoapMessage" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Runtime.Serialization.Formatters.TypeFilterLevel">
+      <topicdata group="api" />
+      <apidata name="TypeFilterLevel" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Runtime.Serialization.Formatters.TypeFilterLevel.Low" />
+        <element api="F:System.Runtime.Serialization.Formatters.TypeFilterLevel.Full" />
+      </elements>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.TypeFilterLevel.Full">
+      <topicdata group="api" notopic="" />
+      <apidata name="Full" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.TypeFilterLevel" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.TypeFilterLevel" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Runtime.Serialization.Formatters.TypeFilterLevel.Low">
+      <topicdata group="api" notopic="" />
+      <apidata name="Low" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Runtime.Serialization.Formatters.TypeFilterLevel" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="mscorlib" module="mscorlib" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Runtime.Serialization.Formatters" />
+        <type api="T:System.Runtime.Serialization.Formatters.TypeFilterLevel" ref="false" />
+      </containers>
+    </api>
+  </apis>
+</reflection>

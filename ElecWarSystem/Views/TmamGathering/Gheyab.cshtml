@@ -1,0 +1,67 @@
+﻿@using ElecWarSystem.Models
+@{
+    ViewBag.Title = "Gheyab";
+    Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
+    Dictionary<String, Dictionary<String, List<Gheyab>>> AllGheyabs = ViewBag.Gheyab;
+    int i = 1;
+}
+
+<h1 class="title-of-page">
+    الأفراد الغياب لوحدات الحرب الإلكترونیة
+</h1>
+@if (AllGheyabs.Count > 0)
+{
+    foreach (var GheyabrPerZone in AllGheyabs)
+    {
+        <h3 style="text-align:center">@String.Format($"وحدات فى نطاق {GheyabrPerZone.Key}") </h3>
+        <table class="table table-bordered table-review">
+            <tr class="table-review-baseeLine">
+                <th>م</th>
+                <th>الوحدة</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>التاريخ الغياب</th>
+                <th>دفعة الغياب</th>
+                <th colspan="2" style="text-align:center;">بند الأوامر</th>
+            </tr>
+            <tbody>
+                @foreach (var GheyabPerUnit in GheyabrPerZone.Value)
+                {
+                    int j = 0;
+                    string padding = $"{Math.Round((37.5 * GheyabPerUnit.Value.Count) / 2) - 15}px";
+                    foreach (var Gheyab in GheyabPerUnit.Value)
+                    {
+                        <tr>
+                            <td class="aribiano">@(i++)</td>
+                            @if (j == 0)
+                            {
+                                <td class="aribiano" rowspan="@GheyabPerUnit.Value.Count" style="font-weight:bold; padding-top:@padding;">
+                                    @GheyabPerUnit.Key
+                                </td>
+                            }
+                            <td>@Gheyab.GheyabDetails.FardDetails.Rotba.RotbaName</td>
+                            <td>@Gheyab.GheyabDetails.FardDetails.FullName</td>
+                            <td class="aribiano">@Gheyab.GheyabDetails.DateFrom.ToString("dd/MM/yyyyy")</td>
+                            <td class="aribiano">@Gheyab.GheyabDetails.GheyabTimes</td>
+                            <td class="aribiano">@Gheyab.GheyabDetails.commandItem.Number</td>
+                            <td class="aribiano">@Gheyab.GheyabDetails.commandItem.Date.ToString("dd/MM/yyyyy")</td>
+                        </tr>
+                        j++;
+                    }
+
+                }
+            </tbody>
+        </table>
+    }
+
+        @Html.ActionLink("تنزيل  ", actionName: "GheyabsReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "" });
+
+}
+else
+{
+
+    <div >
+        <h2 style="text-align:center">لم يوجد أفراد غياب حتى الآن !!</h2>
+        <img src="~/Images/page.png" />
+    </div>
+}

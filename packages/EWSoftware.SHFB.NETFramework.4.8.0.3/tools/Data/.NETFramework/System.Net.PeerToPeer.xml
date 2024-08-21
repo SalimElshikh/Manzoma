@@ -1,0 +1,3731 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reflection>
+  <assemblies>
+    <assembly name="System.Net">
+      <assemblydata version="4.0.0.0" culture="" key="002400000480000094000000060200000024000052534131000400000100010007D1FA57C4AED9F0A32E84AA0FAEFD0DE9E8FD6AEC8F87FB03766C834C99921EB23BE79AD9D5DCC1DD9AD236132102900B723CF980957FC4E177108FC607774F29E8320E92EA05ECE4E821C0A5EFE8F1645C4C0C93C1AB99285D622CAA652C1DFAD63D745D6F2DE5F17E5EAF0FC4963D261C8A12436518206DC093344D5AD293" hash="SHA1" />
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Runtime.InteropServices.ComVisibleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.CLSCompliantAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.AllowPartiallyTrustedCallersAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyTitleAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Net.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDescriptionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Net.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDefaultAliasAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>System.Net.dll</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCompanyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft Corporation</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyProductAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>Microsoft® .NET Framework</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyCopyrightAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>© Microsoft Corporation.  All rights reserved.</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyFileVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyInformationalVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.8.3761.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.SatelliteContractVersionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>4.0.0.0</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Resources.NeutralResourcesLanguageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>en-US</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyDelaySignAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblyKeyFileAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>f:\dd\tools\devdiv\FinalPublicKey.snk</value>
+          </argument>
+        </attribute>
+        <attribute>
+          <type api="T:System.Reflection.AssemblySignatureKeyAttribute" ref="true" />
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>002400000c800000140100000602000000240000525341310008000001000100613399aff18ef1a2c2514a273a42d9042b72321f1757102df9ebada69923e2738406c21e5b801552ab8d200a65a235e001ac9adc25f2d811eb09496a4c6a59d4619589c69f5baf0c4179a47311d92555cd006acc8b5959f2bd6e10e360c34537a1d266da8085856583c85d81da7f3ec01ed9564c58d93d713cd0172c8e23a10f0239b80c96b07736f5d8b022542a4e74251a5f432824318b3539a5a087f8e53d2f135f9ca47f3bb2e10aff0af0849504fb7cea3ff192dc8de0edad64c68efde34c56d302ad55fd6e80f302d5efcdeae953658d3452561b5f36c542efdbdd9f888538d374cef106acf7d93a4445c3c73cd911f0571aaf3d54da12b11ddec375b3</value>
+          </argument>
+          <argument>
+            <type api="T:System.String" ref="true" />
+            <value>a5a866e1ee186f807668209f3b11236ace5e21f117803a3143abb126dd035d7d2f876b6938aaf2ee3414d5420d753621400db44a49c486ce134300a2106adb6bdb433590fef8ad5c43cba82290dc49530effd86523d9483c00f458af46890036b0e2c61d077d7fbac467a506eba29e467a87198b053c749aa2a4d2840c784e6d</value>
+          </argument>
+        </attribute>
+      </attributes>
+    </assembly>
+  </assemblies>
+  <apis>
+    <api id="N:System.Net.PeerToPeer">
+      <topicdata group="api" />
+      <apidata name="System.Net.PeerToPeer" group="namespace" />
+      <elements>
+        <element api="T:System.Net.PeerToPeer.Cloud" />
+        <element api="T:System.Net.PeerToPeer.CloudCollection" />
+        <element api="T:System.Net.PeerToPeer.PeerName" />
+        <element api="T:System.Net.PeerToPeer.PeerNameRecord" />
+        <element api="T:System.Net.PeerToPeer.PeerNameRecordCollection" />
+        <element api="T:System.Net.PeerToPeer.PeerNameRegistration" />
+        <element api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" />
+        <element api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" />
+        <element api="T:System.Net.PeerToPeer.PeerNameResolver" />
+        <element api="T:System.Net.PeerToPeer.PeerNameType" />
+        <element api="T:System.Net.PeerToPeer.PeerToPeerException" />
+        <element api="T:System.Net.PeerToPeer.PnrpPermissionAttribute" />
+        <element api="T:System.Net.PeerToPeer.PnrpPermission" />
+        <element api="T:System.Net.PeerToPeer.PnrpScope" />
+      </elements>
+    </api>
+    <api id="T:System.Net.PeerToPeer.Cloud">
+      <topicdata group="api" />
+      <apidata name="Cloud" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        <type api="T:System.IEquatable`1" ref="true">
+          <specialization>
+            <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+          </specialization>
+        </type>
+      </implements>
+      <elements>
+        <element api="F:System.Net.PeerToPeer.Cloud.AllLinkLocal" />
+        <element api="F:System.Net.PeerToPeer.Cloud.Available" />
+        <element api="M:System.Net.PeerToPeer.Cloud.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="Overload:System.Net.PeerToPeer.Cloud.Equals">
+          <element api="M:System.Net.PeerToPeer.Cloud.Equals(System.Net.PeerToPeer.Cloud)" />
+          <element api="M:System.Net.PeerToPeer.Cloud.Equals(System.Object)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.Cloud.GetAvailableClouds" />
+        <element api="M:System.Net.PeerToPeer.Cloud.GetCloudByName(System.String)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.GetHashCode" />
+        <element api="M:System.Net.PeerToPeer.Cloud.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.ToString" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="P:System.Net.PeerToPeer.Cloud.Global" />
+        <element api="P:System.Net.PeerToPeer.Cloud.Name" />
+        <element api="P:System.Net.PeerToPeer.Cloud.Scope" />
+        <element api="P:System.Net.PeerToPeer.Cloud.ScopeId" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.Cloud">
+      <topicdata name="Cloud" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.Cloud" />
+      <apidata name="Cloud" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <elements>
+        <element api="Overload:System.Net.PeerToPeer.Cloud.Equals">
+          <element api="M:System.Net.PeerToPeer.Cloud.Equals(System.Net.PeerToPeer.Cloud)" />
+          <element api="M:System.Net.PeerToPeer.Cloud.Equals(System.Object)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.Cloud.GetAvailableClouds" />
+        <element api="M:System.Net.PeerToPeer.Cloud.GetCloudByName(System.String)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.GetHashCode" />
+        <element api="M:System.Net.PeerToPeer.Cloud.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.ToString" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.Cloud">
+      <topicdata name="Cloud" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.Cloud" />
+      <apidata name="Cloud" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <elements>
+        <element api="P:System.Net.PeerToPeer.Cloud.Global" />
+        <element api="P:System.Net.PeerToPeer.Cloud.Name" />
+        <element api="P:System.Net.PeerToPeer.Cloud.Scope" />
+        <element api="P:System.Net.PeerToPeer.Cloud.ScopeId" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" />
+      </containers>
+    </api>
+    <api id="Fields.T:System.Net.PeerToPeer.Cloud">
+      <topicdata name="Cloud" group="list" subgroup="Fields" typeTopicId="T:System.Net.PeerToPeer.Cloud" />
+      <apidata name="Cloud" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <elements>
+        <element api="F:System.Net.PeerToPeer.Cloud.AllLinkLocal" />
+        <element api="F:System.Net.PeerToPeer.Cloud.Available" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.Cloud.Equals">
+      <topicdata name="Equals" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.Cloud.Equals(System.Net.PeerToPeer.Cloud)" />
+        <element api="M:System.Net.PeerToPeer.Cloud.Equals(System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.Cloud.AllLinkLocal">
+      <topicdata group="api" />
+      <apidata name="AllLinkLocal" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="false" initonly="true" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.Cloud.Available">
+      <topicdata group="api" />
+      <apidata name="Available" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="false" initonly="true" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.Equals(System.Net.PeerToPeer.Cloud)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.Cloud.Equals" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="other">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.IEquatable`1.Equals(`0)">
+          <type api="T:System.IEquatable`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.Equals(System.Object)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.Cloud.Equals" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Equals(System.Object)">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.GetAvailableClouds">
+      <topicdata group="api" />
+      <apidata name="GetAvailableClouds" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.CloudCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.GetCloudByName(System.String)">
+      <topicdata group="api" />
+      <apidata name="GetCloudByName" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="cloudName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.GetHashCode">
+      <topicdata group="api" />
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.GetHashCode">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.Cloud.Global">
+      <topicdata group="api" />
+      <apidata name="Global" group="member" subgroup="property" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Global" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.Cloud.Name">
+      <topicdata group="api" />
+      <apidata name="Name" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Name" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.Cloud.Scope">
+      <topicdata group="api" />
+      <apidata name="Scope" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Scope" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.Cloud.ScopeId">
+      <topicdata group="api" />
+      <apidata name="ScopeId" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_ScopeId" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" eiiName="ISerializable.GetObjectData" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.Cloud.ToString">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.CloudCollection">
+      <topicdata group="api" />
+      <apidata name="CloudCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.CloudCollection.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Collections.ObjectModel.Collection`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+            </specialization>
+          </type>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Collections.ObjectModel.Collection`1.Add(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Clear" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.ClearItems" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Contains(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.IndexOf(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Remove(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveItem(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)" />
+        <element api="M:System.Net.PeerToPeer.CloudCollection.#ctor" />
+        <element api="M:System.Net.PeerToPeer.CloudCollection.InsertItem(System.Int32,System.Net.PeerToPeer.Cloud)" />
+        <element api="M:System.Net.PeerToPeer.CloudCollection.SetItem(System.Int32,System.Net.PeerToPeer.Cloud)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Count" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Item(System.Int32)" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Items" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.CloudCollection">
+      <topicdata name="CloudCollection" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.CloudCollection" />
+      <apidata name="CloudCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.CloudCollection.#ctor" />
+      <elements>
+        <element api="M:System.Collections.ObjectModel.Collection`1.Add(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Clear" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.ClearItems" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Contains(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.IndexOf(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Remove(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveItem(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)" />
+        <element api="M:System.Net.PeerToPeer.CloudCollection.InsertItem(System.Int32,System.Net.PeerToPeer.Cloud)" />
+        <element api="M:System.Net.PeerToPeer.CloudCollection.SetItem(System.Int32,System.Net.PeerToPeer.Cloud)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.CloudCollection" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.CloudCollection">
+      <topicdata name="CloudCollection" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.CloudCollection" />
+      <apidata name="CloudCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.CloudCollection.#ctor" />
+      <elements>
+        <element api="P:System.Collections.ObjectModel.Collection`1.Count" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Item(System.Int32)" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Items" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.CloudCollection" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.CloudCollection.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.CloudCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.CloudCollection.InsertItem(System.Int32,System.Net.PeerToPeer.Cloud)">
+      <topicdata group="api" />
+      <apidata name="InsertItem" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Collections.ObjectModel.Collection`1.InsertItem(System.Int32,`0)">
+          <type api="T:System.Collections.ObjectModel.Collection`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.CloudCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.CloudCollection.SetItem(System.Int32,System.Net.PeerToPeer.Cloud)">
+      <topicdata group="api" />
+      <apidata name="SetItem" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Collections.ObjectModel.Collection`1.SetItem(System.Int32,`0)">
+          <type api="T:System.Collections.ObjectModel.Collection`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.CloudCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerName">
+      <topicdata group="api" />
+      <apidata name="PeerName" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        <type api="T:System.IEquatable`1" ref="true">
+          <specialization>
+            <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+          </specialization>
+        </type>
+      </implements>
+      <elements>
+        <element api="Overload:System.Net.PeerToPeer.PeerName.#ctor">
+          <element api="M:System.Net.PeerToPeer.PeerName.#ctor(System.String)" />
+          <element api="M:System.Net.PeerToPeer.PeerName.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Net.PeerToPeer.PeerName.#ctor(System.String,System.Net.PeerToPeer.PeerNameType)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerName.CreateFromPeerHostName(System.String)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.CreateRelativePeerName(System.Net.PeerToPeer.PeerName,System.String)" />
+        <element api="Overload:System.Net.PeerToPeer.PeerName.Equals">
+          <element api="M:System.Net.PeerToPeer.PeerName.Equals(System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerName.Equals(System.Net.PeerToPeer.PeerName)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerName.GetHashCode" />
+        <element api="M:System.Net.PeerToPeer.PeerName.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.ToString" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="P:System.Net.PeerToPeer.PeerName.Authority" />
+        <element api="P:System.Net.PeerToPeer.PeerName.Classifier" />
+        <element api="P:System.Net.PeerToPeer.PeerName.IsSecured" />
+        <element api="P:System.Net.PeerToPeer.PeerName.PeerHostName" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PeerName">
+      <topicdata name="PeerName" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PeerName" />
+      <apidata name="PeerName" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerName.CreateFromPeerHostName(System.String)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.CreateRelativePeerName(System.Net.PeerToPeer.PeerName,System.String)" />
+        <element api="Overload:System.Net.PeerToPeer.PeerName.Equals">
+          <element api="M:System.Net.PeerToPeer.PeerName.Equals(System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerName.Equals(System.Net.PeerToPeer.PeerName)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerName.GetHashCode" />
+        <element api="M:System.Net.PeerToPeer.PeerName.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.ToString" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.PeerName">
+      <topicdata name="PeerName" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.PeerName" />
+      <apidata name="PeerName" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" />
+      <elements>
+        <element api="P:System.Net.PeerToPeer.PeerName.Authority" />
+        <element api="P:System.Net.PeerToPeer.PeerName.Classifier" />
+        <element api="P:System.Net.PeerToPeer.PeerName.IsSecured" />
+        <element api="P:System.Net.PeerToPeer.PeerName.PeerHostName" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerName.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerName.#ctor(System.String)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.#ctor(System.String,System.Net.PeerToPeer.PeerNameType)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerName.Equals">
+      <topicdata name="Equals" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerName.Equals(System.Object)" />
+        <element api="M:System.Net.PeerToPeer.PeerName.Equals(System.Net.PeerToPeer.PeerName)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Net.PeerToPeer.PeerName.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerName.#ctor" />
+      <parameters>
+        <parameter name="remotePeerName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.#ctor(System.String,System.Net.PeerToPeer.PeerNameType)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerName.#ctor" />
+      <parameters>
+        <parameter name="classifier">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="peerNameType">
+          <type api="T:System.Net.PeerToPeer.PeerNameType" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerName.Authority">
+      <topicdata group="api" />
+      <apidata name="Authority" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Authority" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerName.Classifier">
+      <topicdata group="api" />
+      <apidata name="Classifier" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_Classifier" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.CreateFromPeerHostName(System.String)">
+      <topicdata group="api" />
+      <apidata name="CreateFromPeerHostName" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerHostName">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.CreateRelativePeerName(System.Net.PeerToPeer.PeerName,System.String)">
+      <topicdata group="api" />
+      <apidata name="CreateRelativePeerName" group="member" subgroup="method" />
+      <memberdata visibility="public" static="true" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="classifier">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.Equals(System.Net.PeerToPeer.PeerName)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerName.Equals" />
+      <proceduredata virtual="true" final="true" />
+      <parameters>
+        <parameter name="other">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.IEquatable`1.Equals(`0)">
+          <type api="T:System.IEquatable`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.Equals(System.Object)">
+      <topicdata group="api" />
+      <apidata name="Equals" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerName.Equals" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.Equals(System.Object)">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="obj">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.GetHashCode">
+      <topicdata group="api" />
+      <apidata name="GetHashCode" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.GetHashCode">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerName.IsSecured">
+      <topicdata group="api" />
+      <apidata name="IsSecured" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_IsSecured" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerName.PeerHostName">
+      <topicdata group="api" />
+      <apidata name="PeerHostName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_PeerHostName">
+        <attributes>
+          <attribute>
+            <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+          </attribute>
+        </attributes>
+      </getter>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" eiiName="ISerializable.GetObjectData" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerName.ToString">
+      <topicdata group="api" />
+      <apidata name="ToString" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Object.ToString">
+          <type api="T:System.Object" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerNameRecord">
+      <topicdata group="api" />
+      <apidata name="PeerNameRecord" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+      </implements>
+      <elements>
+        <element api="Overload:System.Net.PeerToPeer.PeerNameRecord.#ctor">
+          <element api="M:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+          <element api="M:System.Net.PeerToPeer.PeerNameRecord.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerNameRecord.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecord.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.Comment" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.Data" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.EndPointCollection" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.PeerName" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PeerNameRecord">
+      <topicdata name="PeerNameRecord" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PeerNameRecord" />
+      <apidata name="PeerNameRecord" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameRecord.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecord.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.PeerNameRecord">
+      <topicdata name="PeerNameRecord" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.PeerNameRecord" />
+      <apidata name="PeerNameRecord" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+      <elements>
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.Comment" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.Data" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.EndPointCollection" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRecord.PeerName" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerNameRecord.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecord.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecord.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecord.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Net.PeerToPeer.PeerNameRecord.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRecord.Comment">
+      <topicdata group="api" />
+      <apidata name="Comment" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Comment" />
+      <setter name="set_Comment" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRecord.Data">
+      <topicdata group="api" />
+      <apidata name="Data" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Data" />
+      <setter name="set_Data" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Byte" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRecord.EndPointCollection">
+      <topicdata group="api" />
+      <apidata name="EndPointCollection" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_EndPointCollection" />
+      <returns>
+        <type api="T:System.Net.IPEndPointCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecord.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRecord.PeerName">
+      <topicdata group="api" />
+      <apidata name="PeerName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_PeerName" />
+      <setter name="set_PeerName" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecord.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" eiiName="ISerializable.GetObjectData" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerNameRecordCollection">
+      <topicdata group="api" />
+      <apidata name="PeerNameRecordCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRecordCollection.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Collections.ObjectModel.Collection`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+            </specialization>
+          </type>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Collections.ObjectModel.Collection`1.Add(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Clear" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.ClearItems" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Contains(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.IndexOf(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Remove(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveItem(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecordCollection.#ctor" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecordCollection.InsertItem(System.Int32,System.Net.PeerToPeer.PeerNameRecord)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecordCollection.SetItem(System.Int32,System.Net.PeerToPeer.PeerNameRecord)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Count" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Item(System.Int32)" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Items" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PeerNameRecordCollection">
+      <topicdata name="PeerNameRecordCollection" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PeerNameRecordCollection" />
+      <apidata name="PeerNameRecordCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRecordCollection.#ctor" />
+      <elements>
+        <element api="M:System.Collections.ObjectModel.Collection`1.Add(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Clear" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.ClearItems" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Contains(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.CopyTo(`0[],System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.IndexOf(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Insert(System.Int32,`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.Remove(`0)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveAt(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.RemoveItem(System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IEnumerable#GetEnumerator" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Add(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Contains(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IndexOf(System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Insert(System.Int32,System.Object)" />
+        <element api="M:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Remove(System.Object)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecordCollection.InsertItem(System.Int32,System.Net.PeerToPeer.PeerNameRecord)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRecordCollection.SetItem(System.Int32,System.Net.PeerToPeer.PeerNameRecord)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.PeerNameRecordCollection">
+      <topicdata name="PeerNameRecordCollection" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.PeerNameRecordCollection" />
+      <apidata name="PeerNameRecordCollection" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRecordCollection.#ctor" />
+      <elements>
+        <element api="P:System.Collections.ObjectModel.Collection`1.Count" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Item(System.Int32)" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.Items" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsReadOnly" />
+        <element api="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#Item(System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecordCollection.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecordCollection.InsertItem(System.Int32,System.Net.PeerToPeer.PeerNameRecord)">
+      <topicdata group="api" />
+      <apidata name="InsertItem" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Collections.ObjectModel.Collection`1.InsertItem(System.Int32,`0)">
+          <type api="T:System.Collections.ObjectModel.Collection`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRecordCollection.SetItem(System.Int32,System.Net.PeerToPeer.PeerNameRecord)">
+      <topicdata group="api" />
+      <apidata name="SetItem" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Collections.ObjectModel.Collection`1.SetItem(System.Int32,`0)">
+          <type api="T:System.Collections.ObjectModel.Collection`1" ref="true">
+            <specialization>
+              <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+            </specialization>
+          </type>
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="index">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="item">
+          <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerNameRegistration">
+      <topicdata group="api" />
+      <apidata name="PeerNameRegistration" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.IDisposable" ref="true" />
+        <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+      </implements>
+      <elements>
+        <element api="Overload:System.Net.PeerToPeer.PeerNameRegistration.#ctor">
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Net.PeerToPeer.PeerName,System.Int32)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Net.PeerToPeer.PeerName,System.Int32,System.Net.PeerToPeer.Cloud)" />
+        </element>
+        <element api="Overload:System.Net.PeerToPeer.PeerNameRegistration.Dispose">
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose" />
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose(System.Boolean)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.IsRegistered" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Start" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Stop" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Update" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Cloud" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Comment" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Data" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.EndPointCollection" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.PeerName" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Port" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.UseAutoEndPointSelection" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PeerNameRegistration">
+      <topicdata name="PeerNameRegistration" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PeerNameRegistration" />
+      <apidata name="PeerNameRegistration" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <elements>
+        <element api="Overload:System.Net.PeerToPeer.PeerNameRegistration.Dispose">
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose" />
+          <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose(System.Boolean)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.IsRegistered" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Start" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Stop" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Update" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.PeerNameRegistration">
+      <topicdata name="PeerNameRegistration" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.PeerNameRegistration" />
+      <apidata name="PeerNameRegistration" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <elements>
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Cloud" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Comment" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Data" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.EndPointCollection" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.PeerName" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.Port" />
+        <element api="P:System.Net.PeerToPeer.PeerNameRegistration.UseAutoEndPointSelection" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerNameRegistration.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Net.PeerToPeer.PeerName,System.Int32)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Net.PeerToPeer.PeerName,System.Int32,System.Net.PeerToPeer.Cloud)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerNameRegistration.Dispose">
+      <topicdata name="Dispose" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose" />
+        <element api="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose(System.Boolean)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Net.PeerToPeer.PeerName,System.Int32)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="port">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Net.PeerToPeer.PeerName,System.Int32,System.Net.PeerToPeer.Cloud)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <parameters>
+        <parameter name="name">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="port">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="cloud">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Net.PeerToPeer.PeerNameRegistration.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.Cloud">
+      <topicdata group="api" />
+      <apidata name="Cloud" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Cloud" />
+      <setter name="set_Cloud" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.Comment">
+      <topicdata group="api" />
+      <apidata name="Comment" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Comment" />
+      <setter name="set_Comment" />
+      <returns>
+        <type api="T:System.String" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.Data">
+      <topicdata group="api" />
+      <apidata name="Data" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Data" />
+      <setter name="set_Data" />
+      <returns>
+        <arrayOf rank="1">
+          <type api="T:System.Byte" ref="false" />
+        </arrayOf>
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameRegistration.Dispose" />
+      <proceduredata virtual="true" final="true" />
+      <implements>
+        <member api="M:System.IDisposable.Dispose">
+          <type api="T:System.IDisposable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.Dispose(System.Boolean)">
+      <topicdata group="api" />
+      <apidata name="Dispose" group="member" subgroup="method" />
+      <memberdata visibility="family" overload="Overload:System.Net.PeerToPeer.PeerNameRegistration.Dispose" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="disposing">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.EndPointCollection">
+      <topicdata group="api" />
+      <apidata name="EndPointCollection" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_EndPointCollection" />
+      <returns>
+        <type api="T:System.Net.IPEndPointCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.IsRegistered">
+      <topicdata group="api" />
+      <apidata name="IsRegistered" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.PeerName">
+      <topicdata group="api" />
+      <apidata name="PeerName" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_PeerName" />
+      <setter name="set_PeerName" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.Port">
+      <topicdata group="api" />
+      <apidata name="Port" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_Port" />
+      <setter name="set_Port" />
+      <returns>
+        <type api="T:System.Int32" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.Start">
+      <topicdata group="api" />
+      <apidata name="Start" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.Stop">
+      <topicdata group="api" />
+      <apidata name="Stop" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" eiiName="ISerializable.GetObjectData" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameRegistration.Update">
+      <topicdata group="api" />
+      <apidata name="Update" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="P:System.Net.PeerToPeer.PeerNameRegistration.UseAutoEndPointSelection">
+      <topicdata group="api" />
+      <apidata name="UseAutoEndPointSelection" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" set="true" />
+      <getter name="get_UseAutoEndPointSelection" />
+      <setter name="set_UseAutoEndPointSelection" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameRegistration" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerNameResolver">
+      <topicdata group="api" />
+      <apidata name="PeerNameResolver" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Net.PeerToPeer.PeerNameResolver.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="E:System.Net.PeerToPeer.PeerNameResolver.ResolveCompleted" />
+        <element api="E:System.Net.PeerToPeer.PeerNameResolver.ResolveProgressChanged" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.#ctor" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.OnResolveCompleted(System.Net.PeerToPeer.ResolveCompletedEventArgs)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.OnResolveProgressChanged(System.Net.PeerToPeer.ResolveProgressChangedEventArgs)" />
+        <element api="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve">
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Int32)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32)" />
+        </element>
+        <element api="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync">
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Int32,System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32,System.Object)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsyncCancel(System.Object)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PeerNameResolver">
+      <topicdata name="PeerNameResolver" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PeerNameResolver" />
+      <apidata name="PeerNameResolver" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Net.PeerToPeer.PeerNameResolver.#ctor" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.OnResolveCompleted(System.Net.PeerToPeer.ResolveCompletedEventArgs)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.OnResolveProgressChanged(System.Net.PeerToPeer.ResolveProgressChangedEventArgs)" />
+        <element api="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve">
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Int32)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32)" />
+        </element>
+        <element api="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync">
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Int32,System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Object)" />
+          <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32,System.Object)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsyncCancel(System.Object)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Net.PeerToPeer.PeerNameResolver">
+      <topicdata name="PeerNameResolver" group="list" subgroup="Events" typeTopicId="T:System.Net.PeerToPeer.PeerNameResolver" />
+      <apidata name="PeerNameResolver" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" defaultConstructor="M:System.Net.PeerToPeer.PeerNameResolver.#ctor" />
+      <elements>
+        <element api="E:System.Net.PeerToPeer.PeerNameResolver.ResolveCompleted" />
+        <element api="E:System.Net.PeerToPeer.PeerNameResolver.ResolveProgressChanged" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve">
+      <topicdata name="Resolve" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="Resolve" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Int32)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync">
+      <topicdata name="ResolveAsync" group="list" subgroup="overload" memberSubgroup="method" pseudo="true" />
+      <apidata name="ResolveAsync" group="member" subgroup="method" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Object)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Int32,System.Object)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Object)" />
+        <element api="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32,System.Object)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.OnResolveCompleted(System.Net.PeerToPeer.ResolveCompletedEventArgs)">
+      <topicdata group="api" />
+      <apidata name="OnResolveCompleted" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="e">
+          <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.OnResolveProgressChanged(System.Net.PeerToPeer.ResolveProgressChangedEventArgs)">
+      <topicdata group="api" />
+      <apidata name="OnResolveProgressChanged" group="member" subgroup="method" />
+      <memberdata visibility="family" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="e">
+          <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName)">
+      <topicdata group="api" />
+      <apidata name="Resolve" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Resolve" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="maxRecords">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud)">
+      <topicdata group="api" />
+      <apidata name="Resolve" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="cloud">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.Resolve(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32)">
+      <topicdata group="api" />
+      <apidata name="Resolve" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.Resolve" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="cloud">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+        <parameter name="maxRecords">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Int32,System.Object)">
+      <topicdata group="api" />
+      <apidata name="ResolveAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="maxRecords">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="userState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.Permissions.HostProtectionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+            <enumValue>
+              <field name="LinkDemand" />
+            </enumValue>
+          </argument>
+          <assignment name="ExternalThreading">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Int32,System.Object)">
+      <topicdata group="api" />
+      <apidata name="ResolveAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="cloud">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+        <parameter name="maxRecords">
+          <type api="T:System.Int32" ref="false" />
+        </parameter>
+        <parameter name="userState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+        <attribute>
+          <type api="T:System.Security.Permissions.HostProtectionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+            <enumValue>
+              <field name="LinkDemand" />
+            </enumValue>
+          </argument>
+          <assignment name="ExternalThreading">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Net.PeerToPeer.Cloud,System.Object)">
+      <topicdata group="api" />
+      <apidata name="ResolveAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="cloud">
+          <type api="T:System.Net.PeerToPeer.Cloud" ref="true" />
+        </parameter>
+        <parameter name="userState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.Permissions.HostProtectionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+            <enumValue>
+              <field name="LinkDemand" />
+            </enumValue>
+          </argument>
+          <assignment name="ExternalThreading">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync(System.Net.PeerToPeer.PeerName,System.Object)">
+      <topicdata group="api" />
+      <apidata name="ResolveAsync" group="member" subgroup="method" />
+      <memberdata visibility="public" overload="Overload:System.Net.PeerToPeer.PeerNameResolver.ResolveAsync" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="peerName">
+          <type api="T:System.Net.PeerToPeer.PeerName" ref="true" />
+        </parameter>
+        <parameter name="userState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.Permissions.HostProtectionAttribute" ref="true" />
+          <argument>
+            <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+            <enumValue>
+              <field name="LinkDemand" />
+            </enumValue>
+          </argument>
+          <assignment name="ExternalThreading">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerNameResolver.ResolveAsyncCancel(System.Object)">
+      <topicdata group="api" />
+      <apidata name="ResolveAsyncCancel" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <parameters>
+        <parameter name="userState">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="E:System.Net.PeerToPeer.PeerNameResolver.ResolveCompleted">
+      <topicdata group="api" />
+      <apidata name="ResolveCompleted" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_ResolveCompleted" />
+      <remover name="remove_ResolveCompleted" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="E:System.Net.PeerToPeer.PeerNameResolver.ResolveProgressChanged">
+      <topicdata group="api" />
+      <apidata name="ResolveProgressChanged" group="member" subgroup="event" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <eventdata add="true" remove="true" />
+      <adder name="add_ResolveProgressChanged" />
+      <remover name="remove_ResolveProgressChanged" />
+      <eventhandler>
+        <type api="T:System.EventHandler`1" ref="true">
+          <specialization>
+            <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" ref="true" />
+          </specialization>
+        </type>
+      </eventhandler>
+      <eventargs>
+        <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" ref="true" />
+      </eventargs>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameResolver" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerNameType">
+      <topicdata group="api" />
+      <apidata name="PeerNameType" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Net.PeerToPeer.PeerNameType.Secured" />
+        <element api="F:System.Net.PeerToPeer.PeerNameType.Unsecured" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.PeerNameType.Secured">
+      <topicdata group="api" notopic="" />
+      <apidata name="Secured" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameType" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameType" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.PeerNameType.Unsecured">
+      <topicdata group="api" notopic="" />
+      <apidata name="Unsecured" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameType" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerNameType" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PeerToPeerException">
+      <topicdata group="api" />
+      <apidata name="PeerToPeerException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <family>
+        <ancestors>
+          <type api="T:System.Exception" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+      </implements>
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="Overload:System.Net.PeerToPeer.PeerToPeerException.#ctor">
+          <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+          <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.String)" />
+          <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+          <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.String,System.Exception)" />
+        </element>
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PeerToPeerException">
+      <topicdata name="PeerToPeerException" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PeerToPeerException" />
+      <apidata name="PeerToPeerException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <elements>
+        <element api="M:System.Exception.GetBaseException" />
+        <element api="M:System.Exception.GetType" />
+        <element api="M:System.Exception.ToString" />
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.MemberwiseClone" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.PeerToPeerException">
+      <topicdata name="PeerToPeerException" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.PeerToPeerException" />
+      <apidata name="PeerToPeerException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <elements>
+        <element api="P:System.Exception.Data" />
+        <element api="P:System.Exception.HelpLink" />
+        <element api="P:System.Exception.HResult" />
+        <element api="P:System.Exception.InnerException" />
+        <element api="P:System.Exception.Message" />
+        <element api="P:System.Exception.Source" />
+        <element api="P:System.Exception.StackTrace" />
+        <element api="P:System.Exception.TargetSite" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" />
+      </containers>
+    </api>
+    <api id="Events.T:System.Net.PeerToPeer.PeerToPeerException">
+      <topicdata name="PeerToPeerException" group="list" subgroup="Events" typeTopicId="T:System.Net.PeerToPeer.PeerToPeerException" />
+      <apidata name="PeerToPeerException" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="true" defaultConstructor="M:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <elements>
+        <element api="E:System.Exception.SerializeObjectState" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" />
+      </containers>
+    </api>
+    <api id="Overload:System.Net.PeerToPeer.PeerToPeerException.#ctor">
+      <topicdata name=".ctor" group="list" subgroup="overload" memberSubgroup="constructor" pseudo="true" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.String)" />
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
+        <element api="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.String,System.Exception)" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerToPeerException.#ctor">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="family" special="true" overload="Overload:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.String)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerToPeerException.#ctor(System.String,System.Exception)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" overload="Overload:System.Net.PeerToPeer.PeerToPeerException.#ctor" />
+      <parameters>
+        <parameter name="message">
+          <type api="T:System.String" ref="true" />
+        </parameter>
+        <parameter name="innerException">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerToPeerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Exception" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.InteropServices._Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.InteropServices._Exception" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PeerToPeerException.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+      <topicdata group="api" eiiName="ISerializable.GetObjectData" />
+      <apidata name="GetObjectData" group="member" subgroup="method" />
+      <memberdata visibility="private" />
+      <proceduredata virtual="true" final="true" eii="true" />
+      <parameters>
+        <parameter name="info">
+          <type api="T:System.Runtime.Serialization.SerializationInfo" ref="true" />
+        </parameter>
+        <parameter name="context">
+          <type api="T:System.Runtime.Serialization.StreamingContext" ref="false" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+          <type api="T:System.Runtime.Serialization.ISerializable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PeerToPeerException" ref="true" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.Security.SecurityCriticalAttribute" ref="true" />
+        </attribute>
+      </attributes>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PnrpPermission">
+      <topicdata group="api" />
+      <apidata name="PnrpPermission" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <implements>
+        <type api="T:System.Security.Permissions.IUnrestrictedPermission" ref="true" />
+      </implements>
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.#ctor(System.Security.Permissions.PermissionState)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.Copy" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.FromXml(System.Security.SecurityElement)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.Intersect(System.Security.IPermission)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.IsSubsetOf(System.Security.IPermission)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.IsUnrestricted" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.ToXml" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.Union(System.Security.IPermission)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Security.CodeAccessPermission.Assert" />
+        <element api="M:System.Security.CodeAccessPermission.Demand" />
+        <element api="M:System.Security.CodeAccessPermission.Deny" />
+        <element api="M:System.Security.CodeAccessPermission.Equals(System.Object)" />
+        <element api="M:System.Security.CodeAccessPermission.GetHashCode" />
+        <element api="M:System.Security.CodeAccessPermission.PermitOnly" />
+        <element api="M:System.Security.CodeAccessPermission.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PnrpPermission">
+      <topicdata name="PnrpPermission" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PnrpPermission" />
+      <apidata name="PnrpPermission" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.Copy" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.FromXml(System.Security.SecurityElement)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.Intersect(System.Security.IPermission)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.IsSubsetOf(System.Security.IPermission)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.IsUnrestricted" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.ToXml" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermission.Union(System.Security.IPermission)" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Security.CodeAccessPermission.Assert" />
+        <element api="M:System.Security.CodeAccessPermission.Demand" />
+        <element api="M:System.Security.CodeAccessPermission.Deny" />
+        <element api="M:System.Security.CodeAccessPermission.Equals(System.Object)" />
+        <element api="M:System.Security.CodeAccessPermission.GetHashCode" />
+        <element api="M:System.Security.CodeAccessPermission.PermitOnly" />
+        <element api="M:System.Security.CodeAccessPermission.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.#ctor(System.Security.Permissions.PermissionState)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="state">
+          <type api="T:System.Security.Permissions.PermissionState" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.Copy">
+      <topicdata group="api" />
+      <apidata name="Copy" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.CodeAccessPermission.Copy">
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Security.IPermission" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Security.IPermission.Copy">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.FromXml(System.Security.SecurityElement)">
+      <topicdata group="api" />
+      <apidata name="FromXml" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.CodeAccessPermission.FromXml(System.Security.SecurityElement)">
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="e">
+          <type api="T:System.Security.SecurityElement" ref="true" />
+        </parameter>
+      </parameters>
+      <implements>
+        <member api="M:System.Security.ISecurityEncodable.FromXml(System.Security.SecurityElement)">
+          <type api="T:System.Security.ISecurityEncodable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.Intersect(System.Security.IPermission)">
+      <topicdata group="api" />
+      <apidata name="Intersect" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.CodeAccessPermission.Intersect(System.Security.IPermission)">
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="target">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Security.IPermission" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Security.IPermission.Intersect(System.Security.IPermission)">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.IsSubsetOf(System.Security.IPermission)">
+      <topicdata group="api" />
+      <apidata name="IsSubsetOf" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.CodeAccessPermission.IsSubsetOf(System.Security.IPermission)">
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="target">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.Security.IPermission.IsSubsetOf(System.Security.IPermission)">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.IsUnrestricted">
+      <topicdata group="api" />
+      <apidata name="IsUnrestricted" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" final="true" />
+      <returns>
+        <type api="T:System.Boolean" ref="false" />
+      </returns>
+      <implements>
+        <member api="M:System.Security.Permissions.IUnrestrictedPermission.IsUnrestricted">
+          <type api="T:System.Security.Permissions.IUnrestrictedPermission" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.ToXml">
+      <topicdata group="api" />
+      <apidata name="ToXml" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.CodeAccessPermission.ToXml">
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Security.SecurityElement" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Security.ISecurityEncodable.ToXml">
+          <type api="T:System.Security.ISecurityEncodable" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermission.Union(System.Security.IPermission)">
+      <topicdata group="api" />
+      <apidata name="Union" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.CodeAccessPermission.Union(System.Security.IPermission)">
+          <type api="T:System.Security.CodeAccessPermission" ref="true" />
+        </member>
+      </overrides>
+      <parameters>
+        <parameter name="target">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </parameter>
+      </parameters>
+      <returns>
+        <type api="T:System.Security.IPermission" ref="true" />
+      </returns>
+      <implements>
+        <member api="M:System.Security.IPermission.Union(System.Security.IPermission)">
+          <type api="T:System.Security.IPermission" ref="true" />
+        </member>
+      </implements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermission" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PnrpPermissionAttribute">
+      <topicdata group="api" />
+      <apidata name="PnrpPermissionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <family>
+        <ancestors>
+          <type api="T:System.Security.Permissions.CodeAccessSecurityAttribute" ref="true" />
+          <type api="T:System.Security.Permissions.SecurityAttribute" ref="true" />
+          <type api="T:System.Attribute" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermissionAttribute.#ctor(System.Security.Permissions.SecurityAction)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermissionAttribute.CreatePermission" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Security.Permissions.SecurityAttribute.Action" />
+        <element api="P:System.Security.Permissions.SecurityAttribute.Unrestricted" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+      <attributes>
+        <attribute>
+          <type api="T:System.AttributeUsageAttribute" ref="true" />
+          <argument>
+            <type api="T:System.AttributeTargets" ref="false" />
+            <enumValue>
+              <field name="Assembly" />
+              <field name="Class" />
+              <field name="Struct" />
+              <field name="Constructor" />
+              <field name="Method" />
+            </enumValue>
+          </argument>
+          <assignment name="AllowMultiple">
+            <type api="T:System.Boolean" ref="false" />
+            <value>True</value>
+          </assignment>
+          <assignment name="Inherited">
+            <type api="T:System.Boolean" ref="false" />
+            <value>False</value>
+          </assignment>
+        </attribute>
+      </attributes>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.PnrpPermissionAttribute">
+      <topicdata name="PnrpPermissionAttribute" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.PnrpPermissionAttribute" />
+      <apidata name="PnrpPermissionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="M:System.Attribute.Equals(System.Object)" />
+        <element api="M:System.Attribute.GetHashCode" />
+        <element api="M:System.Attribute.IsDefaultAttribute" />
+        <element api="M:System.Attribute.Match(System.Object)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetIDsOfNames(System.Guid@,System.IntPtr,System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfo(System.UInt32,System.UInt32,System.IntPtr)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#GetTypeInfoCount(System.UInt32@)" />
+        <element api="M:System.Attribute.System#Runtime#InteropServices#_Attribute#Invoke(System.UInt32,System.Guid@,System.UInt32,System.Int16,System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr)" />
+        <element api="M:System.Net.PeerToPeer.PnrpPermissionAttribute.CreatePermission" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermissionAttribute" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.PnrpPermissionAttribute">
+      <topicdata name="PnrpPermissionAttribute" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.PnrpPermissionAttribute" />
+      <apidata name="PnrpPermissionAttribute" group="type" subgroup="class" />
+      <typedata visibility="public" sealed="true" serializable="true" />
+      <elements>
+        <element api="P:System.Attribute.TypeId" />
+        <element api="P:System.Security.Permissions.SecurityAttribute.Action" />
+        <element api="P:System.Security.Permissions.SecurityAttribute.Unrestricted" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermissionAttribute" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermissionAttribute.#ctor(System.Security.Permissions.SecurityAction)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="action">
+          <type api="T:System.Security.Permissions.SecurityAction" ref="false" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermissionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.PnrpPermissionAttribute.CreatePermission">
+      <topicdata group="api" />
+      <apidata name="CreatePermission" group="member" subgroup="method" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="true" />
+      <overrides>
+        <member api="M:System.Security.Permissions.SecurityAttribute.CreatePermission">
+          <type api="T:System.Security.Permissions.SecurityAttribute" ref="true" />
+        </member>
+      </overrides>
+      <returns>
+        <type api="T:System.Security.IPermission" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpPermissionAttribute" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.PnrpScope">
+      <topicdata group="api" />
+      <apidata name="PnrpScope" group="type" subgroup="enumeration" />
+      <typedata visibility="public" sealed="true" serializable="false" />
+      <elements>
+        <element api="F:System.Net.PeerToPeer.PnrpScope.All" />
+        <element api="F:System.Net.PeerToPeer.PnrpScope.Global" />
+        <element api="F:System.Net.PeerToPeer.PnrpScope.SiteLocal" />
+        <element api="F:System.Net.PeerToPeer.PnrpScope.LinkLocal" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.PnrpScope.All">
+      <topicdata group="api" notopic="" />
+      <apidata name="All" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </returns>
+      <value>0</value>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.PnrpScope.Global">
+      <topicdata group="api" notopic="" />
+      <apidata name="Global" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </returns>
+      <value>1</value>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.PnrpScope.LinkLocal">
+      <topicdata group="api" notopic="" />
+      <apidata name="LinkLocal" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </returns>
+      <value>3</value>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </containers>
+    </api>
+    <api id="F:System.Net.PeerToPeer.PnrpScope.SiteLocal">
+      <topicdata group="api" notopic="" />
+      <apidata name="SiteLocal" group="member" subgroup="field" />
+      <memberdata visibility="public" static="true" />
+      <fielddata literal="true" initonly="false" serialized="true" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </returns>
+      <value>2</value>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.PnrpScope" ref="false" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.ResolveCompletedEventArgs">
+      <topicdata group="api" />
+      <apidata name="ResolveCompletedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.ComponentModel.AsyncCompletedEventArgs" ref="true" />
+          <type api="T:System.EventArgs" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary" />
+        <element api="M:System.Net.PeerToPeer.ResolveCompletedEventArgs.#ctor(System.Net.PeerToPeer.PeerNameRecordCollection,System.Exception,System.Boolean,System.Object)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Cancelled" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Error" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.UserState" />
+        <element api="P:System.Net.PeerToPeer.ResolveCompletedEventArgs.PeerNameRecordCollection" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.ResolveCompletedEventArgs">
+      <topicdata name="ResolveCompletedEventArgs" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" />
+      <apidata name="ResolveCompletedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.ComponentModel.AsyncCompletedEventArgs.RaiseExceptionIfNecessary" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.ResolveCompletedEventArgs">
+      <topicdata name="ResolveCompletedEventArgs" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" />
+      <apidata name="ResolveCompletedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Cancelled" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.Error" />
+        <element api="P:System.ComponentModel.AsyncCompletedEventArgs.UserState" />
+        <element api="P:System.Net.PeerToPeer.ResolveCompletedEventArgs.PeerNameRecordCollection" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.ResolveCompletedEventArgs.#ctor(System.Net.PeerToPeer.PeerNameRecordCollection,System.Exception,System.Boolean,System.Object)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="peerNameRecordCollection">
+          <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+        </parameter>
+        <parameter name="error">
+          <type api="T:System.Exception" ref="true" />
+        </parameter>
+        <parameter name="canceled">
+          <type api="T:System.Boolean" ref="false" />
+        </parameter>
+        <parameter name="userToken">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.ResolveCompletedEventArgs.PeerNameRecordCollection">
+      <topicdata group="api" />
+      <apidata name="PeerNameRecordCollection" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_PeerNameRecordCollection" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameRecordCollection" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveCompletedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs">
+      <topicdata group="api" />
+      <apidata name="ResolveProgressChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <family>
+        <ancestors>
+          <type api="T:System.ComponentModel.ProgressChangedEventArgs" ref="true" />
+          <type api="T:System.EventArgs" ref="true" />
+          <type api="T:System.Object" ref="true" />
+        </ancestors>
+      </family>
+      <elements>
+        <element api="M:System.Net.PeerToPeer.ResolveProgressChangedEventArgs.#ctor(System.Net.PeerToPeer.PeerNameRecord,System.Object)" />
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+        <element api="P:System.ComponentModel.ProgressChangedEventArgs.ProgressPercentage" />
+        <element api="P:System.ComponentModel.ProgressChangedEventArgs.UserState" />
+        <element api="P:System.Net.PeerToPeer.ResolveProgressChangedEventArgs.PeerNameRecord" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+      </containers>
+    </api>
+    <api id="Methods.T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs">
+      <topicdata name="ResolveProgressChangedEventArgs" group="list" subgroup="Methods" typeTopicId="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" />
+      <apidata name="ResolveProgressChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="M:System.Object.Equals(System.Object)" />
+        <element api="M:System.Object.Finalize" />
+        <element api="M:System.Object.GetHashCode" />
+        <element api="M:System.Object.GetType" />
+        <element api="M:System.Object.MemberwiseClone" />
+        <element api="M:System.Object.ToString" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" />
+      </containers>
+    </api>
+    <api id="Properties.T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs">
+      <topicdata name="ResolveProgressChangedEventArgs" group="list" subgroup="Properties" typeTopicId="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" />
+      <apidata name="ResolveProgressChangedEventArgs" group="type" subgroup="class" />
+      <typedata visibility="public" serializable="false" />
+      <elements>
+        <element api="P:System.ComponentModel.ProgressChangedEventArgs.ProgressPercentage" />
+        <element api="P:System.ComponentModel.ProgressChangedEventArgs.UserState" />
+        <element api="P:System.Net.PeerToPeer.ResolveProgressChangedEventArgs.PeerNameRecord" />
+      </elements>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" />
+      </containers>
+    </api>
+    <api id="M:System.Net.PeerToPeer.ResolveProgressChangedEventArgs.#ctor(System.Net.PeerToPeer.PeerNameRecord,System.Object)">
+      <topicdata group="api" />
+      <apidata name=".ctor" group="member" subgroup="constructor" />
+      <memberdata visibility="public" special="true" />
+      <parameters>
+        <parameter name="peerNameRecord">
+          <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+        </parameter>
+        <parameter name="userToken">
+          <type api="T:System.Object" ref="true" />
+        </parameter>
+      </parameters>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" ref="true" />
+      </containers>
+    </api>
+    <api id="P:System.Net.PeerToPeer.ResolveProgressChangedEventArgs.PeerNameRecord">
+      <topicdata group="api" />
+      <apidata name="PeerNameRecord" group="member" subgroup="property" />
+      <memberdata visibility="public" />
+      <proceduredata virtual="false" />
+      <propertydata get="true" />
+      <getter name="get_PeerNameRecord" />
+      <returns>
+        <type api="T:System.Net.PeerToPeer.PeerNameRecord" ref="true" />
+      </returns>
+      <containers>
+        <library assembly="System.Net" module="System.Net" kind="DynamicallyLinkedLibrary">
+          <assemblydata version="4.8.3761.0" />
+        </library>
+        <namespace api="N:System.Net.PeerToPeer" />
+        <type api="T:System.Net.PeerToPeer.ResolveProgressChangedEventArgs" ref="true" />
+      </containers>
+    </api>
+  </apis>
+</reflection>
