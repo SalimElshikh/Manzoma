@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Manzoma\\V2\\mn\\",
+  "WorkspaceRootPath": "C:\\GitHupRepo\\Manzoma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\manzoma\\v2\\mn\\elecwarsystem\\controllers\\mot8ayeratest3dadqetalicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\controllers\\mot8ayeratest3dadqetalicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\migrations\\202408212353433_khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\migrations\\202408212353433_khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\manzoma\\v2\\mn\\elecwarsystem\\controllers\\tmamgatheringreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\controllers\\tmamgatheringreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\manzoma\\v2\\mn\\elecwarsystem\\views\\tmamgathering\\mo3askr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\tmamgathering\\mo3askr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\models\\outdoor\\outdoornew\\khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\models\\outdoor\\outdoornew\\khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\manzoma\\v2\\mn\\elecwarsystem\\views\\tmamgathering\\fer2a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\tmamgathering\\fer2a.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\models\\outdoor\\outdoornew\\kharegtmarkoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\models\\outdoor\\outdoornew\\kharegtmarkoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\manzoma\\v2\\mn\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,8 +30,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -43,67 +47,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Mot8ayeratEst3dadQetaliController.cs",
-              "DocumentMoniker": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Controllers\\Mot8ayeratEst3dadQetaliController.cs",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Controllers\\Mot8ayeratEst3dadQetaliController.cs",
-              "ToolTip": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Controllers\\Mot8ayeratEst3dadQetaliController.cs",
-              "RelativeToolTip": "ElecWarSystem\\Controllers\\Mot8ayeratEst3dadQetaliController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAkwFIAAAAjAAAA",
+              "Title": "202408212353433_KhetaErada.cs",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
+              "RelativeToolTip": "ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T11:50:28.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Mo3askr.cshtml",
-              "DocumentMoniker": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Views\\TmamGathering\\Mo3askr.cshtml",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\TmamGathering\\Mo3askr.cshtml",
-              "ToolTip": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Views\\TmamGathering\\Mo3askr.cshtml",
-              "RelativeToolTip": "ElecWarSystem\\Views\\TmamGathering\\Mo3askr.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAABqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T11:36:44.329Z",
+              "WhenOpened": "2024-08-21T23:53:51.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TmamGatheringReportsController.cs",
-              "DocumentMoniker": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Controllers\\TmamGatheringReportsController.cs",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Controllers\\TmamGatheringReportsController.cs",
-              "ToolTip": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Controllers\\TmamGatheringReportsController.cs",
-              "RelativeToolTip": "ElecWarSystem\\Controllers\\TmamGatheringReportsController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAmwIkAAAAAAAAA",
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Data\\AppDBContext.cs",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "ElecWarSystem\\Data\\AppDBContext.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAADwv0wAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T11:25:48.99Z",
+              "WhenOpened": "2024-08-21T23:52:36.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KhetaErada.cs",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
+              "RelativeToolTip": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:44:01.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Fer2a.cshtml",
-              "DocumentMoniker": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Views\\TmamGathering\\Fer2a.cshtml",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\TmamGathering\\Fer2a.cshtml",
-              "ToolTip": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Views\\TmamGathering\\Fer2a.cshtml",
-              "RelativeToolTip": "ElecWarSystem\\Views\\TmamGathering\\Fer2a.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-21T11:25:16.283Z",
-              "EditorCaption": ""
+              "Title": "KharegTmarkoz.cs",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
+              "RelativeToolTip": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T23:44:11.128Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Manzoma\\V2\\mn\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T04:24:28.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T04:24:28.691Z"
             }
           ]
         }

@@ -345,6 +345,10 @@
     <Compile Include="Migrations\202408121108451_dd2.Designer.cs">
       <DependentUpon>202408121108451_dd2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202408212353433_KhetaErada.cs" />
+    <Compile Include="Migrations\202408212353433_KhetaErada.Designer.cs">
+      <DependentUpon>202408212353433_KhetaErada.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\FileShare\BaseEntityOf4Table.cs" />
     <Compile Include="Models\FileShare\BaseKharegTmarkoz.cs" />
@@ -381,6 +385,7 @@
     <Compile Include="Models\OutDoor\OutDoorNew\Asl7aName.cs" />
     <Compile Include="Models\OutDoor\OutDoorNew\Elsala7eyaEl8aneya.cs" />
     <Compile Include="Models\OutDoor\OutDoorNew\Ge7aTasdek.cs" />
+    <Compile Include="Models\OutDoor\OutDoorNew\KhetaErada.cs" />
     <Compile Include="Models\OutDoor\OutDoorNew\MakanEsla7.cs" />
     <Compile Include="Models\OutDoor\OutDoorNew\MostawaEsla7.cs" />
     <Compile Include="Models\OutDoor\OutDoorNew\Mowasalat.cs" />
@@ -763,6 +768,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202408121108451_dd2.resx">
       <DependentUpon>202408121108451_dd2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202408212353433_KhetaErada.resx">
+      <DependentUpon>202408212353433_KhetaErada.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
