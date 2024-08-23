@@ -3,23 +3,7 @@
   "WorkspaceRootPath": "C:\\GitHupRepo\\Manzoma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\migrations\\202408212353433_khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\migrations\\202408212353433_khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\models\\outdoor\\outdoornew\\khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\models\\outdoor\\outdoornew\\khetaerada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\models\\outdoor\\outdoornew\\kharegtmarkoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\models\\outdoor\\outdoornew\\kharegtmarkoz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -30,12 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -47,65 +27,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "202408212353433_KhetaErada.cs",
-              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
-              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
-              "RelativeToolTip": "ElecWarSystem\\Migrations\\202408212353433_KhetaErada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T23:53:51.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Data\\AppDBContext.cs",
-              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "ElecWarSystem\\Data\\AppDBContext.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAADwv0wAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T23:52:36.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KhetaErada.cs",
-              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
-              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
-              "RelativeToolTip": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KhetaErada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T23:44:01.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KharegTmarkoz.cs",
-              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
-              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
-              "RelativeToolTip": "ElecWarSystem\\Models\\OutDoor\\OutDoorNew\\KharegTmarkoz.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAACgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T23:44:11.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAmAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJ8AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T04:24:28.691Z"
+              "WhenOpened": "2024-08-23T23:14:52.212Z",
+              "EditorCaption": ""
             }
           ]
         }

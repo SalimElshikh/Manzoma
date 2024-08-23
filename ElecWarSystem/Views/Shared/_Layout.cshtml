@@ -138,6 +138,9 @@
                                 <li>
                                     @Html.ActionLink("عناصر مناوبة ", "Index", "AnaserMonawbas")
                                 </li>
+                                <li>
+                                    @Html.ActionLink("خطة إرادة  ", "Index", "KhetaEradas")
+                                </li>
 
                             </ul>
 
@@ -154,8 +157,8 @@
             <form class="email-info">
                 <ul>
                     <li class="sub-link1">
-                        <label for="userNameNavSpan"> مرحبا/</label>
-                        <span id="userNameNavSpan" style="color: var(--button);">
+                        <label for="userNameNavSpan"> مرحبا</label>
+                        <span id="userNameNavSpan" style="color: var(--text);">
                             @Request.Cookies["userName"].Value
                         </span>
                         <ul style="text-align: center; padding: 10px;">

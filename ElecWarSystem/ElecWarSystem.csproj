@@ -294,6 +294,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AnaserMonawbaController.cs" />
     <Compile Include="Controllers\Elsala7eyaEl8aneyaController.cs" />
+    <Compile Include="Controllers\KhetaEradasController.cs" />
     <Compile Include="Controllers\Mot8ayeratEst3dadQetaliController.cs" />
     <Compile Include="Controllers\MowasalatsController.cs" />
     <Compile Include="Controllers\TagrobaController.cs" />
@@ -454,6 +455,7 @@
     <Compile Include="Serivces\ZoneService.cs" />
     <Compile Include="ViewModel\AnaserMonawbaViewModel.cs" />
     <Compile Include="ViewModel\BaseEntitityNewTmam.cs" />
+    <Compile Include="ViewModel\KhetaEradaViewModel.cs" />
     <Compile Include="ViewModel\Mot8ayeratEst3dadQetaliViewModel.cs" />
     <Compile Include="ViewModel\TagarobViewModel.cs" />
     <Compile Include="ViewModel\EmailUtilies.cs" />
@@ -503,6 +505,7 @@
     <Content Include="Content\fontawesome.css" />
     <Content Include="Content\fontawesome.min.css" />
     <Content Include="Content\KharegTmarkoz.css" />
+    <Content Include="Content\KhetaErada.css" />
     <Content Include="Content\leadership-style.css" />
     <Content Include="Content\Leadership.css" />
     <Content Include="Content\Login.css" />
@@ -657,6 +660,7 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\NewTmam\AnaserMonawba.js" />
     <Content Include="Scripts\NewTmam\KharegTmarkozs.js" />
+    <Content Include="Scripts\NewTmam\KhetaErada.js" />
     <Content Include="Scripts\NewTmam\Tagarob.js" />
     <Content Include="Scripts\TmamScripts\Gheyab-crud.js" />
     <Content Include="Scripts\TmamScripts\angular.js" />
@@ -740,6 +744,7 @@
     <Content Include="Views\Elsala7eyaEl8aneya\Edit.cshtml" />
     <Content Include="Views\Elsala7eyaEl8aneya\Index.cshtml" />
     <Content Include="Views\AnaserMonawbas\Index.cshtml" />
+    <Content Include="Views\KhetaEradas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
