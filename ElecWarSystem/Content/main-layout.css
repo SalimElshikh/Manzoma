@@ -1,8 +1,10 @@
 body {
     font-family: 'Cairo', sans-serif !important;
 }
+
 .text {
     text-align: center;
+    color: var(--text);
     font-size: 40px;
     font-weight: bold;
     margin: 20px 0;

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\GitHupRepo\\Manzoma\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\content\\main-layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\content\\main-layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\views\\tmam\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\tmam\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\views\\agaza\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\agaza\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -27,12 +39,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main-layout.css",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\main-layout.css",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Content\\main-layout.css",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\main-layout.css",
+              "RelativeToolTip": "ElecWarSystem\\Content\\main-layout.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-24T06:37:38.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Tmam\\Review.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Tmam\\Review.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Tmam\\Review.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\Tmam\\Review.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T06:34:49.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Agaza\\Index.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Agaza\\Index.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Agaza\\Index.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\Agaza\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T06:28:18.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAAAJ8AAAA7AAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAJUAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-23T23:14:52.212Z",
               "EditorCaption": ""
