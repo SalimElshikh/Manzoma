@@ -26,9 +26,6 @@ table {
     background: linear-gradient(90deg, rgba(193,193,193,1) 0%, rgba(199,199,199,1) 48%, rgba(172,172,172,1) 79%);
     border-radius: 10px;
 }
-.background {
-    background-image: src("../Images/bg12.png")
-}
 header {
     background-color: var(--header);
     height: fit-content;
@@ -362,11 +359,12 @@ footer p {
 .body-content {
     position: relative;
     height: fit-content;
-    background-color: var(--background);
-    background-image: url("../Images/bg12.png");
+    /*    background-color: var(--background);
+    background-image: url("../Images/bg12.png");*/
+    background: rgb(193,193,193);
+    background: linear-gradient(90deg, rgba(193,193,193,1) 0%, rgba(199,199,199,1) 48%, rgba(172,172,172,1) 79%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     padding-top: 1rem;
 }

@@ -562,6 +562,8 @@
     <Content Include="Images\information1.png" />
     <Content Include="Images\information2.png" />
     <Content Include="Images\information3.png" />
+    <Content Include="Images\LoginBG.png" />
+    <Content Include="Images\LoginLogo.png" />
     <Content Include="Images\login_bg2.jpg" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo1.jpg" />
