@@ -1,0 +1,139 @@
+﻿
+@using ElecWarSystem.Models
+@{
+    UserRoles userRoles = (ElecWarSystem.Models.UserRoles)byte.Parse(Request.Cookies["Roles"].Value);
+}
+
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="~/4500.ico" />
+    <title>منظومة الحرب الإلكترونية</title>
+    <link rel="stylesheet" href="~/Content/bootstrap.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-theme.css" />
+    <link rel="stylesheet" href="~/Content/all.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/css/all.min.css" />
+    <link rel="stylesheet" href="~/Content/aside.css" />
+    <link rel="stylesheet" href="~/Content/main-layout.css" />
+    <script src="~/Scripts/jquery-3.7.1.js"></script>
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="~/Scripts/Aribiano.js"></script>
+    <script src="~/Scripts/TmamScripts/angular.js"></script>
+    <link href="~/Content/New_Design/Startup_Page.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @RenderSection("Styles", required: false)
+    <link rel="icon"
+          href="~/favicon.ico"
+          type="image/x-icon" />
+    <script src="~/Scripts/New_Design/plugin/webfont/webfont.min.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ["Public Sans:300,400,500,600,700"] },
+            custom: {
+                families: [
+                    "Font Awesome 5 Solid",
+                    "Font Awesome 5 Regular",
+                    "Font Awesome 5 Brands",
+                    "simple-line-icons",
+                ],
+                urls: ["Content/New_Design/fonts.min.css"],
+            },
+            active: function () {
+                sessionStorage.fonts = true;
+            },
+        });
+    </script>
+    <link rel="stylesheet" href="~/Content/New_Design/plugins.min.css" />
+    <link rel="stylesheet" href="~/Content/New_Design/kaiadmin.min.css" />
+    <link href="~/Content/New_Design/main-body.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+</head>
+
+
+<body>
+    <div class="wrapper d-flex flex-row-reverse">
+        <div class="sidebar " data-background-color="dark">
+            <div class="sidebar-logo">
+                <div class="logo-header fs-4" data-background-color="dark">
+                    <p> منظومة الحرب الإلكترونية</p>
+                </div>
+            </div>
+            <div class="sidebar-wrapper scrollbar scrollbar-inner">
+                <div class="sidebar-content">
+                    <ul class="nav nav-secondary">
+                        <li class="nav-item active">
+                            <a data-bs-toggle="collapse"
+                               href="#dashboard"
+                               class="collapsed"
+                               aria-expanded="false">
+                                <i class="fas fa-home"></i>
+                                <p>الصفحة الرئيسية </p>
+                                <span class‌="caret"></span>
+                            </a>
+                            <div class="collapse" id="dashboard">
+                                <ul class="nav nav-collapse">
+                                    @if ((userRoles & UserRoles.Analyzer) == UserRoles.Analyzer)
+                                    {
+                                        <li>@Html.ActionLink("تبادل الملفات", "Index", "Email")</li>
+                                    }
+                                    <li>@Html.ActionLink("منظومة التمامات ", "LeaderShip", "TmamGathering")</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <div class="main-header">
+                <div class="main-header-logo">
+                    <div class="logo-header" data-background-color="dark">
+                        <a href="index.html" class="logo">
+
+                        </a>
+                        <div class="nav-toggle">
+                            <button class="btn btn-toggle toggle-sidebar">
+                                <i class="gg-menu-right"></i>
+                            </button>
+                            <button class="btn btn-toggle sidenav-toggler">
+                                <i class="gg-menu-left"></i>
+                            </button>
+                        </div>
+                        <button class="topbar-toggler more">
+                            <i class="gg-more-vertical-alt"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="page-inner">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p> منظومة الحرب الإلكترونية مركز عمليات 250 - &copy; @DateTime.Now.Year </p>
+    </footer>
+
+    <script src="~/Scripts/New_Design/core/popper.min.js"></script>
+    <script src="~/Scripts/New_Design/core/bootstrap.min.js"></script>
+    <script src="~/Scripts/New_Design/kaiadmin.js"></script>
+    <script src="~/Scripts/New_Design/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/sweetalert/sweetalert.min.js"></script>
+    <script src="~/Scripts/New_Design/kaiadmin.min.js"></script>
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/modernizr")
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

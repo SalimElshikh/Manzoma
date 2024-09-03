@@ -2495,3 +2495,5 @@ C:\GitHupRepo\Manzoma\ElecWarSystem\obj\Debug\ElecWarS.356A5F51.Up2Date
 C:\GitHupRepo\Manzoma\ElecWarSystem\obj\Debug\ElecWarSystem.dll
 C:\GitHupRepo\Manzoma\ElecWarSystem\obj\Debug\ElecWarSystem.pdb
 C:\GitHupRepo\Manzoma\ElecWarSystem\obj\Debug\ElecWarSystem.Migrations.KhetaErada.resources
+C:\GitHupRepo\Manzoma\ElecWarSystem\obj\Debug\ElecWarSystem.Migrations.manzomat.resources
+C:\GitHupRepo\Manzoma\ElecWarSystem\obj\Debug\ElecWarSystem.Migrations.EditLinkUrl.resources

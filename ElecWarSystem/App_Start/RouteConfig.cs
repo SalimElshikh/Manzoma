@@ -14,11 +14,6 @@ namespace ElecWarSystem
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "User", action = "Login", id = UrlParameter.Optional }
             );
-            routes.MapRoute(
-                name: "GetData",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "KharegTmarkozs", action = "GetData", id = UrlParameter.Optional }
-            );
         }
     }
 }

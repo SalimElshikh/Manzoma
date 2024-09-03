@@ -59,11 +59,11 @@ namespace ElecWarSystem.Controllers
                     (user.Roles & UserRoles.Viewer) == UserRoles.Viewer)
                 {
                     ViewBag.userName = user.UserName;
-                    return RedirectToAction("LeaderShip", "TmamGathering");
+                    return RedirectToAction("Index", "Manzomat");
                 }
                 else
                 {
-                    return RedirectToAction("Review", "Tmam");
+                    return RedirectToAction("Index", "Manzomat");
                 }
             }
             else

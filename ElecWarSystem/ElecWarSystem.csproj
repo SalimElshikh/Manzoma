@@ -295,6 +295,7 @@
     <Compile Include="Controllers\AnaserMonawbaController.cs" />
     <Compile Include="Controllers\Elsala7eyaEl8aneyaController.cs" />
     <Compile Include="Controllers\KhetaEradasController.cs" />
+    <Compile Include="Controllers\ManzomatController.cs" />
     <Compile Include="Controllers\Mot8ayeratEst3dadQetaliController.cs" />
     <Compile Include="Controllers\MowasalatsController.cs" />
     <Compile Include="Controllers\TagrobaController.cs" />
@@ -350,6 +351,14 @@
     <Compile Include="Migrations\202408212353433_KhetaErada.Designer.cs">
       <DependentUpon>202408212353433_KhetaErada.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409010527585_manzomat.cs" />
+    <Compile Include="Migrations\202409010527585_manzomat.Designer.cs">
+      <DependentUpon>202409010527585_manzomat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409011622054_EditLinkUrl.cs" />
+    <Compile Include="Migrations\202409011622054_EditLinkUrl.Designer.cs">
+      <DependentUpon>202409011622054_EditLinkUrl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\FileShare\BaseEntityOf4Table.cs" />
     <Compile Include="Models\FileShare\BaseKharegTmarkoz.cs" />
@@ -358,6 +367,7 @@
     <Compile Include="Models\FileShare\Mostalem.cs" />
     <Compile Include="Models\IModel\ICleanNav.cs" />
     <Compile Include="Models\IModel\IDateLogic.cs" />
+    <Compile Include="Models\Manzomat.cs" />
     <Compile Include="Models\OutDoorDetails\AgazaDetails.cs" />
     <Compile Include="Models\OutDoorDetails\CommandItems.cs" />
     <Compile Include="Models\OutDoorDetails\Fer2aDetails.cs" />
@@ -513,6 +523,55 @@
     <Content Include="Content\main-layout.css" />
     <Content Include="Content\Mot8ayeratEst3dadQetali.css" />
     <Content Include="Content\Mowasalat.css" />
+    <Content Include="Content\New_Design\demo.css" />
+    <Content Include="Content\New_Design\fonts.css" />
+    <Content Include="Content\fonts.min.css" />
+    <Content Include="Content\New_Design\HideSidebar.css" />
+    <Content Include="Content\New_Design\Startup_Page.css" />
+    <Content Include="Content\webfonts\fontawesome\fa-brands-400.svg" />
+    <Content Include="Content\webfonts\fontawesome\fa-regular-400.svg" />
+    <Content Include="Content\webfonts\fontawesome\fa-solid-900.svg" />
+    <Content Include="Content\webfonts\simple-line-icons\Simple-Line-Icons.svg" />
+    <Content Include="Content\New_Design\main-body.css" />
+    <Content Include="Scripts\New_Design\core\bootstrap.min.js" />
+    <Content Include="Scripts\New_Design\core\jquery-3.7.1.min.js" />
+    <Content Include="Scripts\New_Design\core\popper.min.js" />
+    <Content Include="Scripts\New_Design\demo.js" />
+    <Content Include="Scripts\New_Design\kaiadmin.js" />
+    <Content Include="Scripts\New_Design\kaiadmin.min.js" />
+    <Content Include="Scripts\New_Design\plugin\bootstrap-notify\bootstrap-notify.min.js" />
+    <Content Include="Scripts\New_Design\plugin\bootstrap-tagsinput\bootstrap-tagsinput.min.js" />
+    <Content Include="Scripts\New_Design\plugin\bootstrap-toggle\bootstrap-toggle.min.js" />
+    <Content Include="Scripts\New_Design\plugin\chart-circle\circles.min.js" />
+    <Content Include="Scripts\New_Design\plugin\chart.js\chart.min.js" />
+    <Content Include="Scripts\New_Design\plugin\datatables\datatables.min.js" />
+    <Content Include="Scripts\New_Design\plugin\datepicker\bootstrap-datetimepicker.min.js" />
+    <Content Include="Scripts\New_Design\plugin\dropzone\dropzone.min.js" />
+    <Content Include="Scripts\New_Design\plugin\fullcalendar\fullcalendar.min.js" />
+    <Content Include="Scripts\New_Design\plugin\gmaps\gmaps.js" />
+    <Content Include="Scripts\New_Design\plugin\jquery-scrollbar\jquery.scrollbar.min.js" />
+    <Content Include="Scripts\New_Design\plugin\jquery.magnific-popup\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\New_Design\plugin\jquery.sparkline\jquery.sparkline.min.js" />
+    <Content Include="Scripts\New_Design\plugin\jquery.validate\jquery.validate.min.js" />
+    <Content Include="Scripts\New_Design\plugin\jsvectormap\jsvectormap.min.js" />
+    <Content Include="Scripts\New_Design\plugin\jsvectormap\world.js" />
+    <Content Include="Scripts\New_Design\plugin\list.js\list.min.js" />
+    <Content Include="Scripts\New_Design\plugin\moment\moment.min.js" />
+    <Content Include="Scripts\New_Design\plugin\owl-carousel\ajax-loader.gif" />
+    <Content Include="Scripts\New_Design\plugin\owl-carousel\owl.carousel.min.js" />
+    <Content Include="Scripts\New_Design\plugin\owl-carousel\owl.video.play.png" />
+    <Content Include="Scripts\New_Design\plugin\select2\select2.full.min.js" />
+    <Content Include="Scripts\New_Design\plugin\sortable\sortable.min.js" />
+    <Content Include="Scripts\New_Design\plugin\sticky-sidebar\sticky-sidebar.min.js" />
+    <Content Include="Scripts\New_Design\plugin\summernote\summernote-lite.min.js" />
+    <Content Include="Scripts\New_Design\plugin\sweetalert\sweetalert.min.js" />
+    <Content Include="Scripts\New_Design\plugin\webfont\webfont.min.js" />
+    <Content Include="Scripts\New_Design\setting-demo.js" />
+    <Content Include="Scripts\New_Design\setting-demo2.js" />
+    <Content Include="Content\New_Design\kaiadmin.css" />
+    <Content Include="Content\New_Design\kaiadmin.min.css" />
+    <Content Include="Content\New_Design\plugins.css" />
+    <Content Include="Content\New_Design\plugins.min.css" />
     <Content Include="Content\regular.css" />
     <Content Include="Content\regular.min.css" />
     <Content Include="Content\rules.css" />
@@ -566,7 +625,7 @@
     <Content Include="Images\LoginLogo.png" />
     <Content Include="Images\login_bg2.jpg" />
     <Content Include="Images\logo.jpg" />
-    <Content Include="Images\logo1.jpg" />
+    <Content Include="Images\logo_light.svg" />
     <Content Include="Images\mp3.ico" />
     <Content Include="Images\no-task.png" />
     <Content Include="Images\NoRes.png" />
@@ -643,6 +702,29 @@
     <Content Include="Content\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Content\webfonts\fa-v4compatibility.woff2" />
     <Content Include="Images\bg12.webp" />
+    <Content Include="Content\New_Design\demo.css.map" />
+    <Content Include="Content\New_Design\kaiadmin.css.map" />
+    <Content Include="Content\New_Design\plugins.css.map" />
+    <Content Include="Content\webfonts\fontawesome\fa-brands-400.eot" />
+    <Content Include="Content\webfonts\fontawesome\fa-brands-400.ttf" />
+    <Content Include="Content\webfonts\fontawesome\fa-brands-400.woff" />
+    <Content Include="Content\webfonts\fontawesome\fa-brands-400.woff2" />
+    <Content Include="Content\webfonts\fontawesome\fa-regular-400.eot" />
+    <Content Include="Content\webfonts\fontawesome\fa-regular-400.ttf" />
+    <Content Include="Content\webfonts\fontawesome\fa-regular-400.woff" />
+    <Content Include="Content\webfonts\fontawesome\fa-regular-400.woff2" />
+    <Content Include="Content\webfonts\fontawesome\fa-solid-900.eot" />
+    <Content Include="Content\webfonts\fontawesome\fa-solid-900.ttf" />
+    <Content Include="Content\webfonts\fontawesome\fa-solid-900.woff" />
+    <Content Include="Content\webfonts\fontawesome\fa-solid-900.woff2" />
+    <Content Include="Content\webfonts\simple-line-icons\Simple-Line-Icons.eot" />
+    <Content Include="Content\webfonts\simple-line-icons\Simple-Line-Icons.ttf" />
+    <Content Include="Content\webfonts\simple-line-icons\Simple-Line-Icons.woff" />
+    <Content Include="Content\webfonts\simple-line-icons\Simple-Line-Icons.woff2" />
+    <Content Include="Content\webfonts\summernote\summernote.eot" />
+    <Content Include="Content\webfonts\summernote\summernote.ttf" />
+    <Content Include="Content\webfonts\summernote\summernote.woff" />
+    <Content Include="Content\webfonts\summernote\summernote.woff2" />
     <None Include="Scripts\jquery-3.6.0-vsdoc.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
@@ -747,6 +829,8 @@
     <Content Include="Views\Elsala7eyaEl8aneya\Index.cshtml" />
     <Content Include="Views\AnaserMonawbas\Index.cshtml" />
     <Content Include="Views\KhetaEradas\Index.cshtml" />
+    <Content Include="Views\Shared\_Startup.cshtml" />
+    <Content Include="Views\Manzomat\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -778,6 +862,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202408212353433_KhetaErada.resx">
       <DependentUpon>202408212353433_KhetaErada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409010527585_manzomat.resx">
+      <DependentUpon>202409010527585_manzomat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409011622054_EditLinkUrl.resx">
+      <DependentUpon>202409011622054_EditLinkUrl.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

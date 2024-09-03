@@ -76,6 +76,7 @@ namespace ElecWarSystem.Data
 
         public DbSet<Mowasalat> Mowasalats { get; set; }
         public DbSet<KhetaErada> KhetaEradas { get; set; }
+        public DbSet<Manzomat> Manzomats { get; set; }
 
 
     }

@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ElecWarSystem.Models.Manzomat>
+@{
+    ViewBag.Title = "الصفحة الرئيسية";
+    Layout = "~/Views/Shared/_Startup.cshtml";
+}
+<link href="~/Content/New_Design/Startup_Page.css" rel="stylesheet" />
+
+<div class="row justify-content-center">
+    @foreach (var card in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="@card.ImageUrl" alt="@card.Title">
+                    <div class="card-body">
+                        <h4 class="card-title">@card.Title</h4>
+                        <p class="card-text">@card.Description</p>
+                        <a href="@card.LinkUrl" class="btn btn-primary">@card.ButtonText</a>
+                    </div>
+                </div>
+            </div>
+        }
+</div>
