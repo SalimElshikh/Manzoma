@@ -7,11 +7,11 @@
 
 
 <div class="container">
-    <div class="row">
+
         @if (ViewBag.SubmittedTmams.Count > 0)
         {
-            <div class="col-lg-2 col-md-2"></div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            
+            <div>
                 <h2 style="text-align:center">تمام الإستلام</h2>
                 <table class="table table-bordered table-hover" style="background-color:blanchedalmond">
                     <tr style="background-color:burlywood">
@@ -23,15 +23,15 @@
                     </tr>
                     @foreach (Tmam tmam in ViewBag.SubmittedTmams)
                     {
-                        <tr onclick="GetTmamDetail(@tmam.UnitID)">
+                        <tr onclick="GetTmamDetail(@tmam.We7daID)">
                             <td class="aribiano" style="text-align:center;">
                                 @(++i)
                             </td>
                             <td class="aribiano">
-                                 @tmam.Unit.UnitName
+                                 @tmam.We7daRa2eeseya.We7daName
                             </td>
                             <td class="aribiano" style="text-align:center;">
-                                @(tmam.TimeSended ?? "-")
+                                @(tmam.Sa3at ?? "-")
                             </td>
                             <td style="text-align:center;">
                                 @if (tmam.Recieved)
@@ -46,11 +46,10 @@
         }
         else
         {
-            <div class="col-lg-3 col-md-3"></div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+            <div>
                 <h2 style="text-align:center">لم يتم إرسال أى تمامات حتى الآن !!</h2>
                 <img src="~/Images/page.png" />
             </div>
         }
-    </div>
 </div>

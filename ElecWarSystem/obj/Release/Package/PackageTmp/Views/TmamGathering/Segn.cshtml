@@ -1,0 +1,78 @@
+﻿@using ElecWarSystem.Models
+@{
+    ViewBag.Title = "Segn";
+    Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
+    Dictionary<String, Dictionary<String, List<Segn>>> AllSegns = ViewBag.Segn;
+    int i = 1;
+}
+
+<h1 class="title-of-page">
+    الأفراد (سجن / حبس) لوحدات الحرب الإلكترونیة
+</h1>
+@if (AllSegns.Count > 0)
+{
+    foreach (var SegnrPerZone in AllSegns)
+    {
+
+        <p id="zone-text">@String.Format($"وحدات فى نطاق {SegnrPerZone.Key}") </p>
+
+        <table class="table table-bordered table-review">
+            <tr class="table-review-baseeLine">
+                <th>م</th>
+                <th>الوحدة</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>الجريمة</th>
+                <th>العقوبة</th>
+                <th>الآمر بالعقوبة</th>
+                <th>مدة التنفذ من</th>
+                <th>مدة التنفذ إلى</th>
+                <th>مكان التنفيذ</th>
+                <th colspan="2" style="text-align:center;">بند الأوامر</th>
+            </tr>
+            <tbody>
+                @foreach (var SegnPerUnit in SegnrPerZone.Value)
+                {
+                    int j = 0;
+                    string padding = $"{Math.Round((37.5 * SegnPerUnit.Value.Count) / 2) - 15}px";
+                    foreach (var Segn in SegnPerUnit.Value)
+                    {
+                        <tr>
+                            <td  class="aribiano">@(i++)</td>
+                            @if (j == 0)
+                            {
+                                <td class="aribiano" rowspan="@SegnPerUnit.Value.Count" style="font-weight:bold; padding-top:@padding;">
+                                    @SegnPerUnit.Key
+                                </td>
+                            }
+                            <td>@Segn.SegnDetails.FardDetails.Rotba.RotbaName</td>
+                            <td>@Segn.SegnDetails.FardDetails.FullName</td>
+                            <td class="aribiano">@Segn.SegnDetails.Gareema</td>
+                            <td class="aribiano">@Segn.SegnDetails.Eqab</td>
+                            <td class="aribiano">@Segn.SegnDetails.Mo3aqeb</td>
+                            <td class="aribiano">@Segn.SegnDetails.DateFrom.ToString("dd-MM-yyyy")</td>
+                            <td class="aribiano">@Segn.SegnDetails.DateTo.ToString("dd-MM-yyyy")</td>
+                            <td class="aribiano">@Segn.SegnDetails.SegnPlace</td>
+                            <td class="aribiano">@Segn.SegnDetails.CommandItem.Number</td>
+                            <td class="aribiano">@Segn.SegnDetails.CommandItem.Date.ToString("dd-MM-yyyy")</td>
+                        </tr>
+                        j++;
+                    }
+
+                }
+            </tbody>
+        </table>
+    }
+
+        @Html.ActionLink("تنزيل", actionName: "SegnsReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "" });
+
+}
+else
+{
+
+    <div>
+        <h2 style="text-align:center">لم يوجد الأفراد (سجن / حبس) حتى الآن !!</h2>
+        <img src="~/Images/page.png" />
+    </div>
+}
+

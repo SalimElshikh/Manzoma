@@ -3,7 +3,35 @@
   "WorkspaceRootPath": "C:\\GitHupRepo\\Manzoma\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\content\\new_design\\fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\content\\new_design\\fonts.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\githuprepo\\manzoma\\elecwarsystem\\content\\new_design\\demo.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\content\\new_design\\demo.css.map||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\views\\shared\\_newtamam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\_newtamam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\views\\kharegtmarkozs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\kharegtmarkozs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\views\\shared\\tmam_gathering_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\tmam_gathering_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\content\\new_design\\scroll_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\content\\new_design\\scroll_style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|C:\\GitHupRepo\\Manzoma\\elecwarsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -14,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +50,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Web.config",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Web.config",
-              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Web.config",
-              "RelativeToolTip": "ElecWarSystem\\Web.config",
-              "ViewState": "AQIAAKsAAAAAAAAAAAAAALwAAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-03T22:51:22.452Z",
+              "DocumentIndex": 1,
+              "Title": "fonts.css",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\New_Design\\fonts.css",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Content\\New_Design\\fonts.css",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\New_Design\\fonts.css",
+              "RelativeToolTip": "ElecWarSystem\\Content\\New_Design\\fonts.css",
+              "ViewState": "AQIAACsZAAAAAAAAAADwv08ZAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T11:27:14.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "demo.css.map",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\New_Design\\demo.css.map",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Content\\New_Design\\demo.css.map",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\New_Design\\demo.css.map",
+              "RelativeToolTip": "ElecWarSystem\\Content\\New_Design\\demo.css.map",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-04T11:27:13.656Z",
               "EditorCaption": ""
             },
             {
@@ -40,6 +81,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEoBAAAAAAAAAAAAAFQBAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T06:32:51.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Scroll_Style.css",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\New_Design\\Scroll_Style.css",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Content\\New_Design\\Scroll_Style.css",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Content\\New_Design\\Scroll_Style.css",
+              "RelativeToolTip": "ElecWarSystem\\Content\\New_Design\\Scroll_Style.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-04T08:59:15.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_NewTamam.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_NewTamam.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\_NewTamam.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\_NewTamam.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\_NewTamam.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T06:21:37.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tmam_gathering_layout.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\tmam_gathering_layout.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\tmam_gathering_layout.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\Shared\\tmam_gathering_layout.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\tmam_gathering_layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T06:21:38.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T06:21:21.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Web.config",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Web.config",
+              "ToolTip": "C:\\GitHupRepo\\Manzoma\\ElecWarSystem\\Web.config",
+              "RelativeToolTip": "ElecWarSystem\\Web.config",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAALEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-04T06:19:25.633Z",
+              "EditorCaption": ""
             }
           ]
         }

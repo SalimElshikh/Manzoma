@@ -1,0 +1,67 @@
+﻿@model ElecWarSystem.Models.OutDoor.OutDoorNew.Elsala7eyaEl8aneya
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Elsala7eyaEl8aneya</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MakanEsla7s.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MakanEsla7s.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MostawaEIsla7s.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MostawaEIsla7s.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TypeMo2edas.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TypeMo2edas.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NameMo2eda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NameMo2eda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumMo2eda)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumMo2eda)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.El2gra)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.El2gra)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

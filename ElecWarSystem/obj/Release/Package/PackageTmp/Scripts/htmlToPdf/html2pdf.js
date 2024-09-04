@@ -190,7 +190,7 @@ jspdf__WEBPACK_IMPORTED_MODULE_7__.jsPDF.getPageSize = function (orientation, un
     'ledger': [1224, 792],
     'tabloid': [792, 1224],
     'credit-card': [153, 243]
-  }; // Unit conversion
+  }; // We7daRa2eeseya conversion
 
   switch (unit) {
     case 'pt':

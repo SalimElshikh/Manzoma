@@ -1,0 +1,71 @@
+﻿@using ElecWarSystem.Models
+
+@{
+    ViewBag.Title = "Ma2moreya";
+    Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
+    Dictionary<String, Dictionary<String, List<Ma2moreya>>> AllMa2moreyas = ViewBag.Ma2moreya;
+    int i = 1;
+}
+
+<h1 class="title-of-page">
+    تمام المأموريات لوحدات الحرب الإلكترونیة
+</h1>
+@if (AllMa2moreyas.Count > 0)
+{
+    foreach (var Ma2moreyarPerZone in AllMa2moreyas)
+    {
+
+        <p id="zone-text">@String.Format($"وحدات فى نطاق {Ma2moreyarPerZone.Key}") </p>
+
+        <table class="table table-bordered table-review">
+            <tr class="table-review-baseeLine">
+                <th>م</th>
+                <th>الوحدة</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>جهة المأمورية</th>
+                <th>الأمر بالمأمورية</th>
+                <th>التاريخ من</th>
+                <th>التاريخ إلى</th>
+            </tr>
+            <tbody>
+                @foreach (var Ma2moreyaPerUnit in Ma2moreyarPerZone.Value)
+                {
+                    int j = 0;
+                    string padding = $"{Math.Round((37.5 * Ma2moreyaPerUnit.Value.Count) / 2) - 15}px";
+                    foreach (var Ma2moreya in Ma2moreyaPerUnit.Value)
+                    {
+                        <tr>
+                            <td class="aribiano">@(i++)</td>
+                            @if (j == 0)
+                            {
+                                <td class="aribiano" rowspan="@Ma2moreyaPerUnit.Value.Count" style="font-weight:bold; padding-top:@padding;">
+                                    @Ma2moreyaPerUnit.Key
+                                </td>
+                            }
+                            <td>@Ma2moreya.Ma2moreyaDetails.FardDetails.Rotba.RotbaName</td>
+                            <td>@Ma2moreya.Ma2moreyaDetails.FardDetails.FullName</td>
+                            <td class="aribiano">@Ma2moreya.Ma2moreyaDetails.Ma2moreyaPlace</td>
+                            <td class="aribiano">@Ma2moreya.Ma2moreyaDetails.Ma2moreyaCommandor</td>
+                            <td class="aribiano">@Ma2moreya.Ma2moreyaDetails.DateFrom.ToString("dd-MM-yyyy")</td>
+                            <td class="aribiano">@Ma2moreya.Ma2moreyaDetails.DateTo.ToString("dd-MM-yyyy")</td>
+                        </tr>
+                        j++;
+                    }
+
+                }
+            </tbody>
+        </table>
+
+
+    }
+        @Html.ActionLink("تنزيل", actionName: "Ma2moreyasReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "" });
+}
+else
+{
+    <div>
+        <h2 style="text-align:center">لم يوجد مأموريات حتى الآن !!</h2>
+        <img src="~/Images/page.png" />
+    </div>
+}
+

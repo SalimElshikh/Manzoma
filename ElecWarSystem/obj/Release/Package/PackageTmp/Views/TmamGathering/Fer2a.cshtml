@@ -1,0 +1,73 @@
+﻿@using ElecWarSystem.Models.OutDoor
+@{
+    ViewBag.Title = "Fer2a";
+    Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
+    Dictionary<String, Dictionary<String, List<Fer2a>>> Fer2a = ViewBag.Fer2a;
+    int i = 1;
+}
+
+<h1 class="title-of-page">
+    تمام الفرق و الدورات لجيمع وحدات الحرب الإلكترونیة
+</h1>
+@if (Fer2a.Count > 0)
+{
+    foreach (var Fer2aZone in Fer2a)
+    {
+
+        <p id="zone-text">@String.Format($"وحدات فى نطاق {Fer2aZone.Key}") </p>
+
+        <table class="table table-bordered table-review">
+            <tr class="table-review-baseeLine">
+                <th>م</th>
+                <th>الوحدة</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>الفرقة/الدورة</th>
+                <th>مكان إنعقاد الفرقة/الدورة</th>
+                <th>المدة من</th>
+                <th>المدة إلى</th>
+                <th colspan="2" style="text-align:center;">بند الأوامر</th>
+            </tr>
+            <tbody>
+                @foreach (var Fer2aUnit in Fer2aZone.Value)
+                {
+                    int j = 0;
+                    string padding = $"{Math.Round((37.5 * Fer2aUnit.Value.Count) / 2) - 15}px";
+                    foreach (var fer2a in Fer2aUnit.Value)
+                    {
+                        <tr>
+                            <td class="aribiano">@(i++)</td>
+                            @if (j == 0)
+                            {
+                                <td class="aribiano" rowspan="@Fer2aUnit.Value.Count" style="font-weight:bold; padding-top:@padding;">
+                                    @Fer2aUnit.Key
+                                </td>
+                            }
+                            <td>@fer2a.Fer2aDetails.FardDetails.Rotba.RotbaName</td>
+                            <td>@fer2a.Fer2aDetails.FardDetails.FullName</td>
+                            <td class="aribiano">@fer2a.Fer2aDetails.Fer2aName</td>
+                            <td class="aribiano">@fer2a.Fer2aDetails.Fer2aPlace</td>
+                            <td class="aribiano">@fer2a.Fer2aDetails.DateFrom.ToString("yyyy/MM/dd")</td>
+                            <td class="aribiano">@fer2a.Fer2aDetails.DateTo.ToString("yyyy/MM/dd")</td>
+                            <td class="aribiano">@fer2a.Fer2aDetails.CommandItem.Number</td>
+                            <td class="aribiano">@fer2a.Fer2aDetails.CommandItem.Date.ToString("yyyy/MM/dd")</td>
+                        </tr>
+                        j++;
+                    }
+
+                }
+            </tbody>
+        </table>
+    }
+
+        @Html.ActionLink("تنزيل", actionName: "Fer2asReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "" });
+
+}
+else
+{
+
+    <div class="">
+        <h2 style="text-align:center">لم يوجد فرق و دورات حتى الآن !!</h2>
+        <img src="~/Images/page.png" />
+    </div>
+}

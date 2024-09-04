@@ -1,0 +1,28 @@
+﻿@model ElecWarSystem.Models.OutDoor.OutDoorNew.Elsala7eyaEl8aneya
+
+<link href="~/Content/Mot8ayeratEst3dadQetali.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="shadowbox">
+            <h2 class="text-center"> هل انت متاكد من حذف هذا </h2>
+
+            <div class="form-actions no-color text-center">
+                @Html.ActionLink("الرجوع الي القائمة", "Index", "", new { @class = "save-btn text-decoration-none p-3" }) ||
+                <input type="submit" value="حذف" class="save-btn" style="width: 152px; height: 53px;" />
+            </div>
+
+        </div>
+
+    </div>
+
+}
+
+

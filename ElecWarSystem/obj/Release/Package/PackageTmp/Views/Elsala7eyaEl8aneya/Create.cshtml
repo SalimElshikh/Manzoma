@@ -1,0 +1,82 @@
+﻿
+@model ElecWarSystem.Models.OutDoor.OutDoorNew.Elsala7eyaEl8aneya
+<link href="~/Content/Mot8ayeratEst3dadQetali.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+@using (Html.BeginForm("Create", "Elsala7eyaEl8aneya", FormMethod.Post, new { onsubmit = "return validateForm();" }))
+{
+    @Html.AntiForgeryToken()
+    <div class=" shadowbox container">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <h2 class="text-center">المتغيرات في الصلاحية الفنية </h2>
+        <hr />
+        <div class="main-div row container">
+            <div class="col-6 div-one">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NameMo2eda, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NameMo2eda, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NameMo2eda, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.NumMo2eda, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.NumMo2eda, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.NumMo2eda, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.TypeMo2eda_ID, "نوع المعدة", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("TypeMo2eda_ID", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.TypeMo2eda_ID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 div-two">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.El2gra, htmlAttributes: new { @class = "control-label col-md-6" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.El2gra, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.El2gra, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MostawaEIsla7_ID, "مستوي الاصلاح", htmlAttributes: new { @class = "control-label col-md-6" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("MostawaEIsla7_ID", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.MostawaEIsla7_ID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.MakanEsla7_ID, "مكان الإصلاح ", htmlAttributes: new { @class = "control-label col-md-6" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("MakanEsla7_ID", null, htmlAttributes: new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.MakanEsla7_ID, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="حفظ" class="save-btn" />
+            </div>
+        </div>
+    </div>
+    <div>
+        @Html.ActionLink("الرجوع الي القائمة", "Index", "", new { @class = "save-btn text-decoration-none p-3" })
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

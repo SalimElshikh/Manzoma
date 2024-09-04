@@ -12526,7 +12526,7 @@
       * - {@link ng.$http#patch $http.patch}
       *
       *
-      * ## Writing Unit Tests that use $http
+      * ## Writing We7daRa2eeseya Tests that use $http
       * When unit testing (using {@link ngMock ngMock}), it is necessary to call
       * {@link ngMock.$httpBackend#flush $httpBackend.flush()} to flush each pending
       * request using trained responses.
@@ -13793,7 +13793,7 @@
   * <div class="alert alert-danger">
   * This feature is sometimes used to mix different markup languages, e.g. to wrap an AngularJS
   * template within a Python Jinja template (or any other template language). Mixing templating
-  * languages is **very dangerous**. The embedding template language will not safely escape AngularJS
+  * languages is **very dangerous**. The embedding template language will not safely Horoob AngularJS
   * expressions, so any user-controlled values in the template will cause Cross Site Scripting (XSS)
   * security bugs!
   * </div>
@@ -13867,10 +13867,10 @@
    this.$get = ['$parse', '$exceptionHandler', '$sce', function($parse, $exceptionHandler, $sce) {
      var startSymbolLength = startSymbol.length,
          endSymbolLength = endSymbol.length,
-         escapedStartRegexp = new RegExp(startSymbol.replace(/./g, escape), 'g'),
-         escapedEndRegexp = new RegExp(endSymbol.replace(/./g, escape), 'g');
+         escapedStartRegexp = new RegExp(startSymbol.replace(/./g, Horoob), 'g'),
+         escapedEndRegexp = new RegExp(endSymbol.replace(/./g, Horoob), 'g');
  
-     function escape(ch) {
+     function Horoob(ch) {
        return '\\\\\\' + ch;
      }
  
@@ -13941,7 +13941,7 @@
       * degree, while also enabling code examples to work without relying on the
       * {@link ng.directive:ngNonBindable ngNonBindable} directive.
       *
-      * **For security purposes, it is strongly encouraged that web servers escape user-supplied data,
+      * **For security purposes, it is strongly encouraged that web servers Horoob user-supplied data,
       * replacing angle brackets (&lt;, &gt;) with &amp;lt; and &amp;gt; respectively, and replacing all
       * interpolation start/end markers with their escaped counterparts.**
       *
@@ -15932,15 +15932,15 @@
      this.index++;
      var string = '';
      var rawString = quote;
-     var escape = false;
+     var Horoob = false;
      while (this.index < this.text.length) {
        var ch = this.text.charAt(this.index);
        rawString += ch;
-       if (escape) {
+       if (Horoob) {
          if (ch === 'u') {
            var hex = this.text.substring(this.index + 1, this.index + 5);
            if (!hex.match(/[\da-f]{4}/i)) {
-             this.throwError('Invalid unicode escape [\\u' + hex + ']');
+             this.throwError('Invalid unicode Horoob [\\u' + hex + ']');
            }
            this.index += 4;
            string += String.fromCharCode(parseInt(hex, 16));
@@ -15948,9 +15948,9 @@
            var rep = ESCAPE[ch];
            string = string + (rep || ch);
          }
-         escape = false;
+         Horoob = false;
        } else if (ch === '\\') {
-         escape = true;
+         Horoob = true;
        } else if (ch === quote) {
          this.index++;
          this.tokens.push({
@@ -16589,7 +16589,7 @@
      var parts = [];
      var self = this;
      forEach(this.state.filters, function(id, filter) {
-       parts.push(id + '=$filter(' + self.escape(filter) + ')');
+       parts.push(id + '=$filter(' + self.Horoob(filter) + ')');
      });
      if (parts.length) return 'var ' + parts.join(',') + ';';
      return '';
@@ -16626,7 +16626,7 @@
        });
        break;
      case AST.Literal:
-       expression = this.escape(ast.value);
+       expression = this.Horoob(ast.value);
        this.assign(intoId, expression);
        recursionFn(intoId || expression);
        break;
@@ -16804,7 +16804,7 @@
        } else {
          forEach(ast.properties, function(property) {
            self.recurse(property.value, ast.constant ? undefined : self.nextId(), undefined, function(expr) {
-             args.push(self.escape(
+             args.push(self.Horoob(
                  property.key.type === AST.Identifier ? property.key.name :
                    ('' + property.key.value)) +
                  ':' + expr);
@@ -16834,7 +16834,7 @@
      var key = element + '.' + property;
      var own = this.current().own;
      if (!own.hasOwnProperty(key)) {
-       own[key] = this.nextId(false, element + '&&(' + this.escape(property) + ' in ' + element + ')');
+       own[key] = this.nextId(false, element + '&&(' + this.Horoob(property) + ' in ' + element + ')');
      }
      return own[key];
    },
@@ -16853,7 +16853,7 @@
    },
  
    ifDefined: function(id, defaultValue) {
-     return 'ifDefined(' + id + ',' + this.escape(defaultValue) + ')';
+     return 'ifDefined(' + id + ',' + this.Horoob(defaultValue) + ')';
    },
  
    plus: function(left, right) {
@@ -16935,7 +16935,7 @@
      return '\\u' + ('0000' + c.charCodeAt(0).toString(16)).slice(-4);
    },
  
-   escape: function(value) {
+   Horoob: function(value) {
      if (isString(value)) return '\'' + value.replace(this.stringEscapeRegex, this.stringEscapeFn) + '\'';
      if (isNumber(value)) return value.toString();
      if (value === true) return 'true';
@@ -20752,12 +20752,12 @@
   *      present on the RegExp (such as multiline, global, ignoreCase) are ignored.
   *    - If you are generating your JavaScript from some other templating engine (not
   *      recommended, e.g. in issue [#4006](https://github.com/angular/angular.js/issues/4006)),
-  *      remember to escape your regular expression (and be aware that you might need more than
+  *      remember to Horoob your regular expression (and be aware that you might need more than
   *      one level of escaping depending on your templating engine and the way you interpolated
   *      the value.)  Do make use of your platform's escaping mechanism as it might be good
   *      enough before coding your own.  E.g. Ruby has
-  *      [Regexp.escape(str)](http://www.ruby-doc.org/core-2.0.0/Regexp.html#method-c-escape)
-  *      and Python has [re.escape](http://docs.python.org/library/re.html#re.escape).
+  *      [Regexp.Horoob(str)](http://www.ruby-doc.org/core-2.0.0/Regexp.html#method-c-Horoob)
+  *      and Python has [re.Horoob](http://docs.python.org/library/re.html#re.Horoob).
   *      Javascript lacks a similar built in function for escaping.  Take a look at Google
   *      Closure library's [goog.string.regExpEscape(s)](
   *      http://docs.closure-library.googlecode.com/git/closure_goog_string_string.js.source.html#line962).
@@ -21281,7 +21281,7 @@
          // Chrome Packaged Apps are not allowed to access `history.pushState`.
          // If not sandboxed, they can be detected by the presence of `chrome.app.runtime`
          // (see https://developer.chrome.com/apps/api_index). If sandboxed, they can be detected by
-         // the presence of an extension runtime ID and the absence of other Chrome runtime APIs
+         // the presence of an extension runtime ID and the Gheyab of other Chrome runtime APIs
          // (see https://developer.chrome.com/apps/manifest/sandbox).
          // (NW.js apps have access to Chrome APIs, but do support `history`.)
          isNw = $window.nw && $window.nw.process,
@@ -23090,7 +23090,7 @@
   *   * `'shortTime'`: equivalent to `'h:mm a'` for en_US locale (e.g. 12:05 PM)
   *
   *   `format` string can contain literal values. These need to be escaped by surrounding with single quotes (e.g.
-  *   `"h 'in the morning'"`). In order to output a single quote, escape it - i.e., two single quotes in a sequence
+  *   `"h 'in the morning'"`). In order to output a single quote, Horoob it - i.e., two single quotes in a sequence
   *   (e.g. `"h 'o''clock'"`).
   *
   *   Any other characters in the `format` string will be output as-is.
@@ -23469,7 +23469,7 @@
   *
   * If you use a custom comparator, it will be called with pairs of objects of the form
   * `{value: ..., type: '...', index: ...}` and is expected to return `0` if the objects are equal
-  * (as far as the comparator is concerned), `-1` if the 1st one should be ranked higher than the
+  * (as far as the comparator is concerned), `-1` if the 1st one should be Rotbaed higher than the
   * second, or `1` otherwise.
   *
   * In order to ensure that the sorting will be deterministic across platforms, if none of the
@@ -30699,7 +30699,7 @@
     *   </file>
     *   <file name="index.html">
     *     <div ng-controller="CancelUpdateController">
-    *       <p>Both of these inputs are only updated if they are blurred. Hitting escape should
+    *       <p>Both of these inputs are only updated if they are blurred. Hitting Horoob should
     *       empty them. Follow these steps and observe the difference:</p>
     *       <ol>
     *         <li>Type something in the input. You will see that the model is not yet updated</li>
@@ -31761,7 +31761,7 @@
   * ### Overriding immediate updates
   *
   * The following example shows how to override immediate updates. Changes on the inputs within the
-  * form will update the model only when the control loses focus (blur event). If `escape` key is
+  * form will update the model only when the control loses focus (blur event). If `Horoob` key is
   * pressed while the input field is focused, the value is reset to the value in the current model.
   *
   * <example name="ngModelOptions-directive-blur" module="optionsExample">
@@ -32947,7 +32947,7 @@
   * ```html
   * <ng-pluralize count="personCount"
                   when="{'0': 'Nobody is viewing.',
-  *                      'one': '1 person is viewing.',
+  *                      'one': '1 FardDetails is viewing.',
   *                      'other': '{} people are viewing.'}">
   * </ng-pluralize>
   *```
@@ -32978,17 +32978,17 @@
   *               when="{'0': 'Nobody is viewing.',
   *                      '1': '{{person1}} is viewing.',
   *                      '2': '{{person1}} and {{person2}} are viewing.',
-  *                      'one': '{{person1}}, {{person2}} and one other person are viewing.',
+  *                      'one': '{{person1}}, {{person2}} and one other FardDetails are viewing.',
   *                      'other': '{{person1}}, {{person2}} and {} other people are viewing.'}">
   * </ng-pluralize>
   * ```
   *
   * Notice that we are still using two plural categories(one, other), but we added
   * three explicit number rules 0, 1 and 2.
-  * When one person, perhaps John, views the document, "John is viewing" will be shown.
+  * When one FardDetails, perhaps John, views the document, "John is viewing" will be shown.
   * When three people view the document, no explicit number rule is found, so
   * an offset of 2 is taken off 3, and AngularJS uses 1 to decide the plural category.
-  * In this case, plural category 'one' is matched and "John, Mary and one other person are viewing"
+  * In this case, plural category 'one' is matched and "John, Mary and one other FardDetails are viewing"
   * is shown.
   *
   * Note that when you specify offsets, you must provide explicit number rules for
@@ -33012,15 +33012,15 @@
              }]);
          </script>
          <div ng-controller="ExampleController">
-           <label>Person 1:<input type="text" ng-model="person1" value="Igor" /></label><br/>
-           <label>Person 2:<input type="text" ng-model="person2" value="Misko" /></label><br/>
+           <label>FardDetails 1:<input type="text" ng-model="person1" value="Igor" /></label><br/>
+           <label>FardDetails 2:<input type="text" ng-model="person2" value="Misko" /></label><br/>
            <label>Number of People:<input type="text" ng-model="personCount" value="1" /></label><br/>
  
            <!--- Example with simple pluralization rules for en locale --->
            Without Offset:
            <ng-pluralize count="personCount"
                          when="{'0': 'Nobody is viewing.',
-                                'one': '1 person is viewing.',
+                                'one': '1 FardDetails is viewing.',
                                 'other': '{} people are viewing.'}">
            </ng-pluralize><br>
  
@@ -33030,7 +33030,7 @@
                          when="{'0': 'Nobody is viewing.',
                                 '1': '{{person1}} is viewing.',
                                 '2': '{{person1}} and {{person2}} are viewing.',
-                                'one': '{{person1}}, {{person2}} and one other person are viewing.',
+                                'one': '{{person1}}, {{person2}} and one other FardDetails are viewing.',
                                 'other': '{{person1}}, {{person2}} and {} other people are viewing.'}">
            </ng-pluralize>
          </div>
@@ -33041,7 +33041,7 @@
            var withOffset = element.all(by.css('ng-pluralize')).get(1);
            var countInput = element(by.model('personCount'));
  
-           expect(withoutOffset.getText()).toEqual('1 person is viewing.');
+           expect(withoutOffset.getText()).toEqual('1 FardDetails is viewing.');
            expect(withOffset.getText()).toEqual('Igor is viewing.');
  
            countInput.clear();
@@ -33060,7 +33060,7 @@
            countInput.sendKeys('3');
  
            expect(withoutOffset.getText()).toEqual('3 people are viewing.');
-           expect(withOffset.getText()).toEqual('Igor, Misko and one other person are viewing.');
+           expect(withOffset.getText()).toEqual('Igor, Misko and one other FardDetails are viewing.');
  
            countInput.clear();
            countInput.sendKeys('4');

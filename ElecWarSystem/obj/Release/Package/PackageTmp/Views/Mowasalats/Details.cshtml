@@ -1,0 +1,83 @@
+﻿@model ElecWarSystem.Models.Mowasalat
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Mowasalat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EstrategyQa2ed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstrategyQa2ed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstrategyMarkazAmaliat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstrategyMarkazAmaliat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EstrategyTa7wela)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EstrategyTa7wela)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SentralQa2ed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SentralQa2ed)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SentralMarkazAmaliat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SentralMarkazAmaliat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MowaslatLaselkya)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MowaslatLaselkya)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TransfarData)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TransfarData)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.HotNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HotNumber)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

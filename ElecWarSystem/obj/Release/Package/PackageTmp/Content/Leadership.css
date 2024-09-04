@@ -1,0 +1,56 @@
+﻿th {
+    font-size: 25px;
+    text-align: center;
+}
+
+td {
+    font-size: 18px;
+    text-align: center;
+}
+#unit-name {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: start;
+}
+#alt-comm, #unit-name {
+    padding-top: 25px;
+}
+#unit-end-line, #alt-comm, #unit-name {
+    border-bottom: 3px solid black;
+}
+.export-btn a{
+    text-decoration: none;
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 35%;
+    z-index: 2;
+}
+.export-btn {
+    text-decoration: none;
+    background-color: var(--button);
+    color: var(--text);
+    border-color: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 5px;
+    cursor: pointer;
+    z-index: 2;
+}
+.export-btn a:hover {
+    background-color: var(--button) !important;
+    color: var(--alarm);
+}
+    .export-btn:hover {
+        background-color: var(--button) !important;
+        color: var(--alarm);
+    }
+.table > :not(caption) > * > * {
+    background-color: transparent;
+}
+

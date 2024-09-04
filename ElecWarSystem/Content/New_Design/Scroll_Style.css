@@ -1,0 +1,24 @@
+﻿/* تخصيص الشريط التمرير */
+.sidebar-wrapper .scrollbar-inner {
+    scrollbar-width: thin; /* للمتصفحات التي تدعم هذا الخاصية */
+    scrollbar-color: #4CAF50 #F5F5F5; /* اللون الأساسي للشريط ولون الخلفية */
+}
+
+    .sidebar-wrapper .scrollbar-inner::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .sidebar-wrapper .scrollbar-inner::-webkit-scrollbar-track {
+        background: #F5F5F5;
+    }
+
+    .sidebar-wrapper .scrollbar-inner::-webkit-scrollbar-thumb {
+        background-color: #4CAF50;
+        border-radius: 10px;
+        border: 2px solid #F5F5F5;
+    }
+
+        /* التأثير عند التمرير */
+        .sidebar-wrapper .scrollbar-inner::-webkit-scrollbar-thumb:hover {
+            background-color: #388E3C;
+        }

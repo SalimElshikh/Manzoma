@@ -497,6 +497,7 @@
     <Content Include="Content\css\brands.min.css" />
     <Content Include="Content\css\fontawesome.css" />
     <Content Include="Content\css\fontawesome.min.css" />
+    <Content Include="Content\css\fonts.min.css" />
     <Content Include="Content\css\regular.css" />
     <Content Include="Content\css\regular.min.css" />
     <Content Include="Content\css\solid.css" />
@@ -526,7 +527,9 @@
     <Content Include="Content\New_Design\demo.css" />
     <Content Include="Content\New_Design\fonts.css" />
     <Content Include="Content\fonts.min.css" />
+    <Content Include="Content\New_Design\fonts.min.css" />
     <Content Include="Content\New_Design\HideSidebar.css" />
+    <Content Include="Content\New_Design\Scroll_Style.css" />
     <Content Include="Content\New_Design\Startup_Page.css" />
     <Content Include="Content\webfonts\fontawesome\fa-brands-400.svg" />
     <Content Include="Content\webfonts\fontawesome\fa-regular-400.svg" />
@@ -701,7 +704,6 @@
     <Content Include="Content\webfonts\fa-solid-900.woff2" />
     <Content Include="Content\webfonts\fa-v4compatibility.ttf" />
     <Content Include="Content\webfonts\fa-v4compatibility.woff2" />
-    <Content Include="Images\bg12.webp" />
     <Content Include="Content\New_Design\demo.css.map" />
     <Content Include="Content\New_Design\kaiadmin.css.map" />
     <Content Include="Content\New_Design\plugins.css.map" />

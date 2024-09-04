@@ -1,0 +1,105 @@
+﻿@using ElecWarSystem.Models
+<script src="~/Scripts/TmamScripts/Marady-crud.js"></script>
+@{
+    int j;
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/tmam_layout.cshtml";
+}
+
+<h2>الأجازات المرضية</h2>
+<p id="Marady-counter" style="margin:10px; font-size:18px;">@ViewBag.MaradyEntered / @ViewBag.MaradyTotal</p>
+<div class="name-div col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="container">
+        <div class="row">
+            <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <button id="add-Marady-btn" class="export-btn" style="font-size:16px;" onclick="openMaradyPopup()">
+                    <span class="glyphicon glyphicon-plus"></span>
+                    إضافة
+                </button>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <table class="table table-bordered" id="Marady-table">
+                    <tr>
+                        <th>م</th>
+                        <th>الرتبة / الدرجة</th>
+                        <th>الإسم </th>
+                        <th>المستشفى</th>
+                        <th>تاريخ دخول المستشفى</th>
+                        <th>التشخيص</th>
+                        <th>بدء الأجازة</th>
+                        <th>عودة الأجازة</th>
+                        <th></th>
+                    </tr>
+                    @{
+                        j = 1;
+                    }
+                    <tbody style="font-size:14px;">
+                        @foreach (Marady Marady in ViewBag.Marady)
+                        {
+                            <tr>
+                                <td>@j</td>
+                                <td>@Marady.MaradyDetails.FardDetails.Rotba.RotbaName</td>
+                                <td>@Marady.MaradyDetails.FardDetails.FullName</td>
+                                <td>@Marady.MaradyDetails.Mostashfa</td>
+                                <td>@Marady.MaradyDetails.MostashfaDate.ToString("yyyy-MM-dd")</td>
+                                <td>@Marady.MaradyDetails.Hala</td>
+                                <td>@Marady.MaradyDetails.DateFrom.ToString("yyyy-MM-dd")</td>
+                                <td>@Marady.MaradyDetails.DateTo.ToString("yyyy-MM-dd")</td>
+                                <td>
+                                    <button class="export-btn timeout-btn" onclick="deleteMarady(@Marady.ID)">
+                                        حذف
+                                        <span class="glyphicon glyphicon-remove"></span>
+                                    </button>
+                                </td>
+                            </tr>
+                            j++;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="popup Marady-popup">
+    <div class="close-btn" onclick="closePop()">&times;</div>
+    <div class="form">
+        <div class="form-group" style="width: 30%; float: right;">
+            @Html.Label("الرتبة/الدرجة", htmlAttributes: new { @class = "control-label" })
+            @Html.DropDownList("FardDetails-Rotba", new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control", @id = "FardDetails-Rotba", @onchange = "UpdateFardDetailsComboBox()" })
+        </div>
+        <div class="form-group" style="width:60%; float:right; margin-right:10%">
+            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label" })
+            <select name="FardDetails-name" class="form-control" id="FardDetails-name">
+                <option></option>
+            </select>
+        </div>
+        <div class="form-group" style="width: 45%; float: right;">
+            @Html.Label("إسم المستشفى", htmlAttributes: new { @class = "control-label" })
+            @Html.Editor("Mostashfa-name", new { htmlAttributes = new { @class = "form-control", @id = "Mostashfa-name", @onkeyup = "disableBtn()" } })
+        </div>
+        <div class="form-group" style="width:45%; float:right; margin-right:10%">
+            @Html.Label("تاريخ دخول المستشفى", htmlAttributes: new { @class = "control-label" })
+            @Html.Editor("Mostashfa-date", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "Mostashfa-date", @onchange = "disableBtn()" } })
+        </div>
+        <div class="form-group">
+            @Html.Label("التشحيص", htmlAttributes: new { @class = "control-label" })
+            @Html.Editor("diagnosis", new { htmlAttributes = new { @class = "form-control", @id = "diagnosis", @onkeyup = "disableBtn()" } })
+        </div>
+        <div class="form-group" style="width: 45%; float: right;">
+            @Html.Label("تاريخ بدء الأجازة", htmlAttributes: new { @class = "control-label" })
+            @Html.Editor("date-from", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "date-from", @onchange = "disableBtn()" } })
+        </div>
+        <div class="form-group" style="width:45%; float:right; margin-right:10%">
+            @Html.Label("تاريخ عودة الأجازة", htmlAttributes: new { @class = "control-label" })
+            @Html.Editor("date-to", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "date-to", @onchange = "disableBtn()" } })
+        </div>
+        <div class="form-group">
+            <button class="btn btn-success popup-submit-btn" disabled style="font-size:16px;" onclick="Add()">
+                <span class="glyphicon glyphicon-save"></span>
+                حفظ
+            </button>
+        </div>
+    </div>
+</div>

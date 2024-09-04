@@ -1,0 +1,304 @@
+﻿@model ElecWarSystem.ViewModels.KhetaEradaViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NewTamam.cshtml";
+}
+<link href="~/Content/css/all.css" rel="stylesheet" />
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/KhetaErada.css" rel="stylesheet" />
+@using (Html.BeginForm(Html.BeginForm("GetData", "KhetaEradas", FormMethod.Post, new { id = "createForm" })))
+{
+    @Html.AntiForgeryToken()
+    <div class="container">
+        <div class="title-page d-flex justify-content-between align-items-center">
+            <img src="~/Images/elecwarIcon2.png" />
+            <div class="text d-flex flex-column" style="text-align: center;">
+                <p>الخطة إرادة </p>
+            </div>
+            <img src="~/Images/elecwarIcon2.png" />
+        </div>
+        <div class="form-horizontal shadowbox">
+            <div class="main-div">
+                <div class="first-div d-flex flex-row">
+                    <div class="title">
+                        <h3> قائد التشكيل </h3>
+                    </div>
+
+                    <div class="form-group col-3" style="z-index: 3;">
+                        @Html.LabelFor(model => model.KhetaErada.RotbaQa2ed, "الرتبة ", htmlAttributes: new { @class = "control-label col-md-2", @for = "RotbaQa2edTmarkoz" })
+                        <div class="col-md-6">
+                            @Html.DropDownListFor(model => model.KhetaErada.RotbaQa2ed, Model.Rotbas, " اختار الرتبة  ", new { @class = "form-control", @id = "RotbaQa2edTmarkoz", @onchange = "updateFardDetails()" })
+                            @Html.ValidationMessageFor(model => model.KhetaErada.RotbaQa2ed, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group col-4">
+                        @Html.LabelFor(model => model.KhetaErada.Qa2ed, "قائد التشكيل ", htmlAttributes: new { @class = "control-label col-md-3", @for = "Qa2edTmarkoz" })
+                        <div class="col-md-6 d-flex flex-row">
+                            @Html.DropDownListFor(model => model.KhetaErada.Qa2ed, new SelectList(Enumerable.Empty<SelectListItem>()), "  اختار القائد  ", new { @class = "form-control", @id = "Qa2edTmarkoz" })
+                            @Html.ValidationMessageFor(model => model.KhetaErada.Qa2ed, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*second-div*@
+            <div class="second-div d-flex flex-column mt-5">
+                <div class="title">
+                    <h3>التشكيل  </h3>
+                </div>
+                <div class="d-flex flex-row row">
+
+                    <div class="form-group col-3">
+                        @Html.LabelFor(model => model.KhetaErada.DobatNum, "عدد الضباط ", htmlAttributes: new { @class = "control-label col-6 ", @for = "DobatNum" })
+                        <div class="col-md-5">
+                            @Html.EditorFor(model => model.KhetaErada.DobatNum, new { htmlAttributes = new { @class = "form-control ", @id = "DobatNum" } })
+                            @Html.ValidationMessageFor(model => model.KhetaErada.DobatNum, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group col-3">
+                        @Html.LabelFor(model => model.KhetaErada.DargatNum, "عدد الدرجات الأخري", htmlAttributes: new { @class = "control-label col-8 ", @for = "DargatNum" })
+                        <div class="col-md-4">
+                            @Html.EditorFor(model => model.KhetaErada.DargatNum, new { htmlAttributes = new { @class = "form-control ", @id = "DargatNum" } })
+                            @Html.ValidationMessageFor(model => model.KhetaErada.DargatNum, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column mt-4">
+                        <div class="w-100 row">
+                            <table id="mo3edatsTable" class="table  table-striped w-50 text-center ">
+                                <tr>
+                                    <th colspan="2">معدات</th>
+                                    <th><button id="addMo3edat" type="button" class="" onclick="openMo3edatPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
+                                </tr>
+                                <tr>
+                                    <th class="w-25">العدد</th>
+                                    <th class="w-75">الإسم</th>
+
+                                </tr>
+
+                                @*//////////////////////////////////body
+                                    //////////////////////////*@
+
+
+
+                            </table>
+
+                            <table id="asl7asTable" class="table table-striped w-50 text-center">
+                                <tr>
+                                    <th colspan="2" class="w-50">أسلحة</th>
+                                    <th class="w-50"><button id="addAsl7a" type="button" class="" onclick="openAsl7aPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
+                                </tr>
+                                <tr>
+                                    <th class="w-25">العدد</th>
+                                    <th class="w-75">الإسم</th>
+                                </tr>
+
+                                @*//////////////////////////////////body//////////////////////////*@
+
+
+                            </table>
+                        </div>
+                        <div class="w-100 row">
+                            <table id="za5irasTable" class="table table-striped  w-50 text-center">
+                                <tr>
+                                    <th colspan="2">ذخيرة</th>
+                                    <th><button id="addZa5ira" type="button" class="" onclick="openZa5iraPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
+                                </tr>
+                                <tr>
+                                    <th class="w-25">العدد</th>
+                                    <th class="w-75">الإسم</th>
+
+                                </tr>
+
+                                @*//////////////////////////////////body//////////////////////////*@
+
+
+                            </table>
+                            <table id="markbatsTable" class="table table-striped w-50 text-center">
+                                <tr>
+                                    <th colspan="2">مركبات</th>
+                                    <th><button id="addMarkbat" type="button" class="" onclick="openMarkbatPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
+                                </tr>
+                                <tr>
+                                    <th class="w-25">العدد</th>
+                                    <th class="w-75">الإسم</th>
+
+                                </tr>
+
+
+                                @*//////////////////////////////////body//////////////////////////*@
+
+                            </table>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+            @*third-div*@
+            <div class="third-div mt-3 col d-flex flex-row time">
+                <div class="form-group col-6">
+                    @Html.LabelFor(model => model.KhetaErada.DateFrom, "الوقت من  ", htmlAttributes: new { @class = "control-label col-md-2", @for = "DateFrom" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.KhetaErada.DateFrom, new { htmlAttributes = new { @class = "form-control", @id = "DateFrom", type = "date" } })
+                        @Html.ValidationMessageFor(model => model.KhetaErada.DateFrom, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <div class="form-group col-6">
+                    @Html.LabelFor(model => model.KhetaErada.DateTo, "الوقت الي ", htmlAttributes: new { @class = "control-label col-md-2", @for = "DateTo" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.KhetaErada.DateTo, new { htmlAttributes = new { @class = "form-control", @id = "DateTo", type = "date" } })
+                        @Html.ValidationMessageFor(model => model.KhetaErada.DateTo, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="form-group mt-3 create">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="حفظ" class="export-btn" onclick="submitAllData()" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Modal for Mo3edat -->
+<div id="mo3edatModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mo3edatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mo3edatModalLabel">إضافة معدات</h5>
+            </div>
+            <div class="modal-body">
+                <form id="addNewMo3edatForm">
+                    <div class="form-group mb-3">
+                        @Html.LabelFor(model => model.SelectMo3edatNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3", @for = "DropDownListMo3edatName" })
+
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.listMo3edatNames, Model.listMo3edatNames, htmlAttributes: new { @class = "form-control", @id = "DropDownListMo3edatName" })
+                            @Html.ValidationMessageFor(model => model.listMo3edatNames, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="mo3edatNum" class="col-form-label col-3">عدد</label>
+                        <input type="number" class="form-control" id="mo3edatNum" name="mo3edatNum" required>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Asl7a -->
+<div id="asl7aModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="asl7aModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="asl7aModalLabel">إضافة أسلحة</h5>
+            </div>
+            <div class="modal-body">
+                <form id="addNewAsl7aForm">
+                    <div class="form-group mb-3">
+                        @Html.LabelFor(model => model.SelectAsl7aNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3", @for = "DropDownListAsl7aName" })
+
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.listAsl7aNames, Model.listAsl7aNames, htmlAttributes: new { @class = "form-control", @id = "DropDownListAsl7aName" })
+                            @Html.ValidationMessageFor(model => model.listAsl7aNames, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="asl7aNum" class="col-form-label col-3">عدد</label>
+                        <input type="number" class="form-control" id="asl7aNum" name="al7aNum" required>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal for Za5ira -->
+<div id="za5iraModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="za5iraModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="za5iraModalLabel">إضافة ذخيرة</h5>
+            </div>
+            <div class="modal-body">
+                <form id="addNewZa5iraForm">
+                    <div class="form-group mb-3">
+                        @Html.LabelFor(model => model.SelectZa5iraNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3", @for = "DropDownListZa5iraName" })
+
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.listZa5iraNames, Model.listZa5iraNames, htmlAttributes: new { @class = "form-control ", @id = "DropDownListZa5iraName" })
+                            @Html.ValidationMessageFor(model => model.listZa5iraNames, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="za5iraNum" class="col-form-label col-3">عدد</label>
+                        <input type="number" class="form-control" id="za5iraNum" name="za5iraNum" required>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Modal for Markbat -->
+<div id="markbatModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="markbatModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="markbatModalLabel">إضافة مركبات</h5>
+            </div>
+            <div class="modal-body">
+                <form id="addNewMarkbatForm">
+                    <div class="form-group mb-3">
+                        @Html.LabelFor(model => model.SelectMarkbatNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3 ", @for = "DropDownListMarkbatName" })
+
+                        <div class="col-md-10">
+                            @Html.DropDownListFor(model => model.listMarkbatNames, Model.listMarkbatNames, htmlAttributes: new { @class = "form-control ", @id = "DropDownListMarkbatName" })
+                            @Html.ValidationMessageFor(model => model.listMarkbatNames, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="markbatNum" class="col-form-label col-3">عدد</label>
+                        <input type="number" class="form-control" id="markbatNum" name="markbatNum" required>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Save</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/NewTmam/KhetaErada.js"></script>
+

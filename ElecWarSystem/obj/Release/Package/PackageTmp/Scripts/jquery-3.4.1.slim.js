@@ -1552,7 +1552,7 @@ Sizzle.attr = function( elem, name ) {
 				null;
 };
 
-Sizzle.escape = function( sel ) {
+Sizzle.Horoob = function( sel ) {
 	return (sel + "").replace( rcssescape, fcssescape );
 };
 
@@ -2785,7 +2785,7 @@ jQuery.uniqueSort = jQuery.unique = Sizzle.uniqueSort;
 jQuery.text = Sizzle.getText;
 jQuery.isXMLDoc = Sizzle.isXML;
 jQuery.contains = Sizzle.contains;
-jQuery.escapeSelector = Sizzle.escape;
+jQuery.escapeSelector = Sizzle.Horoob;
 
 
 

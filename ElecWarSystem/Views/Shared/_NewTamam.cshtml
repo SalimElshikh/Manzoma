@@ -1,17 +1,21 @@
 ﻿@using ElecWarSystem.Models
+<link rel="stylesheet" href="~/Content/UnitData.css" />
+<link rel="stylesheet" href="~/Content/tmamGathering.css" />
+<link rel="stylesheet" href="~/Content/second-layout.css" />
+<link rel="stylesheet" href="~/Content/aside.css" />
 <link href="~/Content/KharegTmarkoz.css" rel="stylesheet" />
 <script src="~/Scripts/jquery-3.7.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+
+<link href="~/Content/New_Design/kaiadmin.min.css" rel="stylesheet" />
 @{
     Layout = "~/Views/Shared/_layout.cshtml";
     UserRoles userRoles = (ElecWarSystem.Models.UserRoles)byte.Parse(Request.Cookies["Roles"].Value);
 }
 
-<link rel="stylesheet" href="~/Content/tmamGathering.css" />
-<link rel="stylesheet" href="~/Content/second-layout.css" />
-<link rel="stylesheet" href="~/Content/aside.css" />
-<script src="~/Scripts/TmamScripts/tmam-gathering-helper.js"></script>
+<script src="~/Content/New_Design/fonts.min.css"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 <div class="container d-flex flex-column">
     @{DateTime todayDate = DateTime.Today.AddDays(1);}
 
@@ -24,5 +28,5 @@
 <div style="width: 100%">
     @RenderBody()
 </div>
-
+<script src="~/Scripts/New_Design/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 @RenderSection("Scripts", required: false)

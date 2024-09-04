@@ -57,6 +57,16 @@ function getEmails(exported = false) {
     })
     return emails;
 }
+function disableBtn1() {
+    if ($("#subject").val() === "" ||
+        $("#text").val() === "" ||
+        $("#reciever").val() === "") {
+
+        $("#submit-btn").attr('disabled', 'disabled');
+    } else {
+        $("#submit-btn").removeAttr('disabled');
+    }
+}
 function getUnreadCount() {
     var unreadCount = 0;
     $.ajax({

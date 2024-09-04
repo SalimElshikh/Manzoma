@@ -1,0 +1,79 @@
+﻿@using ElecWarSystem.Models
+@{
+    ViewBag.Title = "Marady";
+    Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
+    Dictionary<String, Dictionary<String, List<Marady>>> AllMaradys = ViewBag.Marady;
+    int i = 1;
+}
+
+
+<h1 class="title-of-page">
+    الأجازات المرضية لوحدات الحرب الإلكترونیة
+</h1>
+@if (AllMaradys.Count > 0)
+{
+
+    foreach (var MaradyrPerZone in AllMaradys)
+    {
+
+        <p id="zone-text">@String.Format($"وحدات فى نطاق {MaradyrPerZone.Key}") </p>
+
+        <table class="table table-bordered table-review">
+            <tr class="table-review-baseeLine">
+                <th>م</th>
+                <th>الوحدة</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>المستشفى</th>
+                <th>تاريخ دخول المستشفى</th>
+                <th>التشخيص</th>
+                <th>بدء الأجازة</th>
+                <th>عودة الأجازة</th>
+            </tr>
+            <tbody>
+
+                @foreach (var MaradyPerUnit in MaradyrPerZone.Value)
+                {
+                    int j = 0;
+                    string padding = $"{Math.Round((37.5 * MaradyPerUnit.Value.Count) / 2) - 15}px";
+                    foreach (var Marady in MaradyPerUnit.Value)
+                    {
+                        <tr>
+                            <td class="aribiano">@(i++)</td>
+                            @if (j == 0)
+                            {
+                                <td rowspan="@MaradyPerUnit.Value.Count" style="font-weight: bold; padding-top: @padding;"  class="aribiano">
+                                    @MaradyPerUnit.Key
+                                </td>
+                            }
+                            <td>@Marady.MaradyDetails.FardDetails.Rotba.RotbaName</td>
+                            <td>@Marady.MaradyDetails.FardDetails.FullName</td>
+                            <td class="aribiano">@Marady.MaradyDetails.Mostashfa</td>
+                            <td class="aribiano">@Marady.MaradyDetails.MostashfaDate.ToString("yyyy-MM-dd")</td>
+                            <td class="aribiano">@Marady.MaradyDetails.Hala</td>
+                            <td class="aribiano" >@Marady.MaradyDetails.DateFrom.ToString("yyyy-MM-dd")</td>
+                            <td class="aribiano">@Marady.MaradyDetails.DateTo.ToString("yyyy-MM-dd")</td>
+                        </tr>
+                        j++;
+                    }
+
+                }
+            </tbody>
+        </table>
+
+    }
+
+        @Html.ActionLink("تنزيل", actionName: "MaradysReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "" });
+
+}
+else
+{
+
+    <div>
+        <h2 style="text-align:center">لم يوجد أجازات مرضية حتى الآن !!</h2>
+        <img src="~/Images/page.png" />
+    </div>
+}
+
+
+
