@@ -121,3 +121,48 @@ body {
 .links .tamam-links:hover ul {
     display: flex;
 }
+.table-container {
+    overflow-x: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+    .table th, .table td {
+        text-align: center;
+        padding: 8px;
+    }
+
+#zone-text {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Optional: Adjust column width */
+.table th:nth-child(1) {
+    width: 15%;
+}
+
+.table th, .table td {
+    width: 7%;
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+        .table th:nth-child(1) {
+            width: 20%;
+        }
+
+    .table th, .table td {
+        width: 10%;
+    }
+}

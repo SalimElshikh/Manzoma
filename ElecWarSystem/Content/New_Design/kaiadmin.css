@@ -5786,7 +5786,9 @@ label.error {
     border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
   .sidebar {
-    display: none;
+    position: fixed;
+    left: 0 !important;
+    right: 0;
     -webkit-transform: translate3d(-270px, 0, 0);
     -moz-transform: translate3d(-270px, 0, 0);
     -o-transform: translate3d(-270px, 0, 0);

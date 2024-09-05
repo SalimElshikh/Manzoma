@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html dir="rtl">
+<html dir="rtl" lang="ar">
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
@@ -14,51 +14,42 @@
     <link rel="stylesheet" href="~/Scripts/bootstrap.min.js" />
     <link rel="stylesheet" href="~/Content/LoginStyle.css" />
     <link rel="stylesheet" href="~/Content/EmailListStyle.css" />
+    <link href="~/Content/New_Design/MainBodyStyle.css" rel="stylesheet" />
+    <link href="~/Content/New_Design/fonts.min.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     <link rel="icon"
           href="~/4500.ico"
           type="image/x-icon" />
+
+    @{
+        var tmamTypeCookie = Request.Cookies["tmam-type"]?.Value ?? "";
+        TmamEnum tmamType = TmamEnum.Exist;
+        if (!tmamTypeCookie.Equals(""))
+        {
+            tmamType = (TmamEnum)int.Parse(tmamTypeCookie);
+        }
+    }
+    @using ElecWarSystem.Models;
+    @{
+        UserRoles userRoles = (ElecWarSystem.Models.UserRoles)byte.Parse(Request.Cookies["Roles"].Value);
+    }
     <!-- Fonts and icons -->
-    <script src="assets/js/plugin/webfont/webfont.min.js"></script>
-    <script>
-        WebFont.load({
-            google: { families: ["Public Sans:300,400,500,600,700"] },
-            custom: {
-                families: [
-                    "Font Awesome 5 Solid",
-                    "Font Awesome 5 Regular",
-                    "Font Awesome 5 Brands",
-                    "simple-line-icons",
-                ],
-                urls: ["assets/css/fonts.min.css"],
-            },
-            active: function () {
-                sessionStorage.fonts = true;
-            },
-        });
-    </script>
-
+    <script src="~/Scripts/New_Design/plugin/webfont/webfont.min.js"></script>
     <!-- CSS Files -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/plugins.min.css" />
-    <link rel="stylesheet" href="assets/css/kaiadmin.min.css" />
-
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link rel="stylesheet" href="assets/css/demo.css" />
+    <link rel="stylesheet" href="~/Content/New_Design/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/New_Design/plugins.min.css" />
+    <link rel="stylesheet" href="~/Content/New_Design/kaiadmin.min.css" />
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper d-flex flex-row-reverse">
         <!-- Sidebar -->
         <div class="sidebar" data-background-color="dark">
             <div class="sidebar-logo">
                 <!-- Logo Header -->
                 <div class="logo-header" data-background-color="dark">
                     <a href="index.html" class="logo">
-                        <img src="assets/img/kaiadmin/logo_light.svg"
-                             alt="navbar brand"
-                             class="navbar-brand"
-                             height="20" />
+                        
                     </a>
                     <div class="nav-toggle">
                         <button class="btn btn-toggle toggle-sidebar">
@@ -79,250 +70,130 @@
                     <ul class="nav nav-secondary">
                         <li class="nav-item active">
                             <a data-bs-toggle="collapse"
-                               href="#dashboard"
+                               href="#colspan1"
                                class="collapsed"
                                aria-expanded="false">
                                 <i class="fas fa-home"></i>
-                                <p>Dashboard</p>
+                                <p>الصفحة الرسمية </p>
                                 <span class="caret"></span>
                             </a>
-                            <div class="collapse" id="dashboard">
+                            <div class="collapse" id="colspan1">
                                 <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="../demo1/index.html">
-                                            <span class="sub-item">Dashboard 1</span>
-                                        </a>
-                                    </li>
+                                    @if ((userRoles & UserRoles.Analyzer) == UserRoles.Analyzer)
+                                    {
+                                        <li>@Html.ActionLink("تبادل الملفات", "Index", "Email")</li>
+                                    }
+                                    @Html.ActionLink(linkText: "تمام عمليات يومي  ", actionName: "RecievedTmam", controllerName: "TmamGathering")
                                 </ul>
                             </div>
-                        </li>
-                        <li class="nav-section">
-                            <span class="sidebar-mini-icon">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </span>
-                            <h4 class="text-section">Components</h4>
                         </li>
                         <li class="nav-item">
                             <a data-bs-toggle="collapse" href="#base">
                                 <i class="fas fa-layer-group"></i>
-                                <p>Base</p>
+                                <p>تقارير عمليات يومي </p>
                                 <span class="caret"></span>
                             </a>
                             <div class="collapse" id="base">
                                 <ul class="nav nav-collapse">
+                                    <li>@Html.ActionLink(linkText: "تمام جميع الوحدات", actionName: "RecievedTmam", controllerName: "TmamGathering")</li>
                                     <li>
-                                        <a href="components/avatars.html">
-                                            <span class="sub-item">Avatars</span>
-                                        </a>
+                                        @Html.ActionLink("إستلام التمامات", "RecievedTmam", "TmamGathering")
                                     </li>
-                                    <li>
-                                        <a href="components/buttons.html">
-                                            <span class="sub-item">Buttons</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/gridsystem.html">
-                                            <span class="sub-item">Grid System</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/panels.html">
-                                            <span class="sub-item">Panels</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/notifications.html">
-                                            <span class="sub-item">Notifications</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/sweetalert.html">
-                                            <span class="sub-item">Sweet Alert</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/font-awesome-icons.html">
-                                            <span class="sub-item">Font Awesome Icons</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/simple-line-icons.html">
-                                            <span class="sub-item">Simple Line Icons</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="components/typography.html">
-                                            <span class="sub-item">Typography</span>
-                                        </a>
-                                    </li>
+                                    <li>@Html.ActionLink("تمام القادة", "LeaderShip", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("تمام الضباط", "Officers", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("تمام الدرجات الأخرى", "NonOfficers", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("خارج التمركز", "Mo3askr", "TmamGathering")  </li>
+                                    <li>@Html.ActionLink("خارج البلاد", "KharegBelad", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("غياب", "Gheyab", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("سجن", "Segn", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("المستشفى", "Mostashfa", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("الفرقة", "Fer2a", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("أجازة مرضية", "Marady", "TmamGathering")</li>
+                                    <li>@Html.ActionLink("المأموريات", "Ma2moreya", "TmamGathering")</li>
+
                                 </ul>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a data-bs-toggle="collapse" href="#sidebarLayouts">
-                                <i class="fas fa-th-list"></i>
-                                <p>Sidebar Layouts</p>
+                                <i class="fas fa-pen-square"></i>
+                                <p>التمام اليومي </p>
                                 <span class="caret"></span>
                             </a>
                             <div class="collapse" id="sidebarLayouts">
                                 <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="sidebar-style-2.html">
-                                            <span class="sub-item">Sidebar Style 2</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="icon-menu.html">
-                                            <span class="sub-item">Icon Menu</span>
-                                        </a>
-                                    </li>
+                                    @if ((userRoles & UserRoles.We7daRa2eeseya) == UserRoles.We7daRa2eeseya)
+                                    {
+                                        <li class="sub-link">
+                                            @Html.ActionLink(linkText: "التمام اليومى", actionName: "Review", controllerName: "Tmam")
+
+                                        </li>
+                                        <li class="sub-link">
+                                            @Html.ActionLink(linkText: "إدخال بيانات الوحدة", actionName: "DataEntry", controllerName: "We7daRa2eeseya", routeValues: new { pg = 1 }, htmlAttributes: null)
+                                            <ul class="pagination sub-sub-link" aria-label="Page navigation">
+                                                <li class="@(ViewBag.pg == 1 ? "active" : "")">
+                                                    @Html.ActionLink("بيانات قادة الوحدة", "DataEntry", "We7daRa2eeseya", new { pg = 1 }, null)
+                                                </li>
+                                                <li class="@(ViewBag.pg == 5 ? "active" : "")">
+                                                    @Html.ActionLink("بيانات قادة الوحدة الفرعية", "DataEntry", "We7daRa2eeseya", new { pg = 5 }, null)
+                                                </li>
+                                                <li class="@(ViewBag.pg == 4 ? "active" : "")">
+                                                    @Html.ActionLink("بيانات الجنود", "DataEntry", "We7daRa2eeseya", new { pg = 4 }, null)
+                                                </li>
+                                                <li class="@(ViewBag.pg == 3 ? "active" : "")">
+                                                    @Html.ActionLink("بيانات ضباط الصف", "DataEntry", "We7daRa2eeseya", new { pg = 3 }, null)
+                                                </li>
+                                                <li class="@(ViewBag.pg == 2 ? "active" : "")">
+                                                    @Html.ActionLink("بيانات الضباط", "DataEntry", "We7daRa2eeseya", new { pg = 2 }, null)
+                                                </li>
+                                            </ul>
+
+                                        </li>
+                                    }
                                 </ul>
                             </div>
                         </li>
+                        
                         <li class="nav-item">
                             <a data-bs-toggle="collapse" href="#forms">
-                                <i class="fas fa-pen-square"></i>
-                                <p>Forms</p>
+                                <i class="fas fa-th-list"></i>
+                                <p>تمام معدات </p>
                                 <span class="caret"></span>
                             </a>
                             <div class="collapse" id="forms">
                                 <ul class="nav nav-collapse">
+                                    @if ((userRoles & UserRoles.Viewer) == UserRoles.Viewer ||
+                                    (userRoles & UserRoles.Admin) == UserRoles.Admin)
+                                    {
+                                        <li class="sub-link">
+                                            @Html.ActionLink(linkText: "تمام خارج التمركز", actionName: "Index", controllerName: "KharegTmarkozs")
+                                        </li>
+                                    }
+                                    @if ((userRoles & UserRoles.We7daRa2eeseya) == UserRoles.We7daRa2eeseya)
+                                    {
+                                        <li class="sub-link">
+                                            @Html.ActionLink(linkText: " التجارب الميدانية", actionName: "Index", controllerName: "Tagroba")
+                                        </li>
+                                    }
                                     <li>
-                                        <a href="forms/forms.html">
-                                            <span class="sub-item">Basic Form</span>
-                                        </a>
+                                        @Html.ActionLink(" الاستعداد القتالي", "Index", "Mot8ayeratEst3dadQetali")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink(" تمام مواصلات", "Index", "Mowasalats")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink(" الصلاحية الفنية", "Index", "Elsala7eyaEl8aneya")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink(" الخطة ارادة", "Index", "KhetaEradas")
+                                    </li>
+                                    <li>
+                                        @Html.ActionLink(" عناصر مناوبة ", "Index", "AnaserMonawba")
                                     </li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a data-bs-toggle="collapse" href="#tables">
-                                <i class="fas fa-table"></i>
-                                <p>Tables</p>
-                                <span class="caret"></span>
-                            </a>
-                            <div class="collapse" id="tables">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="tables/tables.html">
-                                            <span class="sub-item">Basic Table</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="tables/datatables.html">
-                                            <span class="sub-item">Datatables</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a data-bs-toggle="collapse" href="#maps">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <p>Maps</p>
-                                <span class="caret"></span>
-                            </a>
-                            <div class="collapse" id="maps">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="maps/googlemaps.html">
-                                            <span class="sub-item">Google Maps</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="maps/jsvectormap.html">
-                                            <span class="sub-item">Jsvectormap</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a data-bs-toggle="collapse" href="#charts">
-                                <i class="far fa-chart-bar"></i>
-                                <p>Charts</p>
-                                <span class="caret"></span>
-                            </a>
-                            <div class="collapse" id="charts">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a href="charts/charts.html">
-                                            <span class="sub-item">Chart Js</span>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="charts/sparkline.html">
-                                            <span class="sub-item">Sparkline</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a href="widgets.html">
-                                <i class="fas fa-desktop"></i>
-                                <p>Widgets</p>
-                                <span class="badge badge-success">4</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="../../documentation/index.html">
-                                <i class="fas fa-file"></i>
-                                <p>Documentation</p>
-                                <span class="badge badge-secondary">1</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a data-bs-toggle="collapse" href="#submenu">
-                                <i class="fas fa-bars"></i>
-                                <p>Menu Levels</p>
-                                <span class="caret"></span>
-                            </a>
-                            <div class="collapse" id="submenu">
-                                <ul class="nav nav-collapse">
-                                    <li>
-                                        <a data-bs-toggle="collapse" href="#subnav1">
-                                            <span class="sub-item">Level 1</span>
-                                            <span class="caret"></span>
-                                        </a>
-                                        <div class="collapse" id="subnav1">
-                                            <ul class="nav nav-collapse subnav">
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="sub-item">Level 2</span>
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="sub-item">Level 2</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a data-bs-toggle="collapse" href="#subnav2">
-                                            <span class="sub-item">Level 1</span>
-                                            <span class="caret"></span>
-                                        </a>
-                                        <div class="collapse" id="subnav2">
-                                            <ul class="nav nav-collapse subnav">
-                                                <li>
-                                                    <a href="#">
-                                                        <span class="sub-item">Level 2</span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <span class="sub-item">Level 1</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -330,233 +201,64 @@
         <!-- End Sidebar -->
 
         <div class="main-panel">
-        <div class="main-header">
-                <div class="main-header-logo">
-                    <!-- Logo Header -->
-                    <div class="logo-header" data-background-color="dark">
-                        <a href="index.html" class="logo">
-                            <img src="assets/img/kaiadmin/logo_light.svg"
-                                 alt="navbar brand"
-                                 class="navbar-brand"
-                                 height="20" />
-                        </a>
-                        <div class="nav-toggle">
-                            <button class="btn btn-toggle toggle-sidebar">
-                                <i class="gg-menu-right"></i>
-                            </button>
-                            <button class="btn btn-toggle sidenav-toggler">
-                                <i class="gg-menu-left"></i>
+            <div class="main-header"lang="ar" >
+                    <div class="main-header-logo">
+                        <!-- Logo Header -->
+                        <div class="logo-header" data-background-color="dark">
+                            <a href="index.html" class="logo">
+                            
+                            </a>
+                            <div class="nav-toggle">
+                                <button class="btn btn-toggle toggle-sidebar">
+                                    <i class="gg-menu-right"></i>
+                                </button>
+                                <button class="btn btn-toggle sidenav-toggler">
+                                    <i class="gg-menu-left"></i>
+                                </button>
+                            </div>
+                            <button class="topbar-toggler more">
+                                <i class="gg-more-vertical-alt"></i>
                             </button>
                         </div>
-                        <button class="topbar-toggler more">
-                            <i class="gg-more-vertical-alt"></i>
-                        </button>
                     </div>
-                </div>
-        </div>
+            </div>
 
-        <div class="container">
-            <div class="page-inner">
-                @RenderBody()
-            
+            <div class="container">
+                <div class="page-inner">
+                    @RenderBody()
+                </div>
             </div>
         </div>
-
         
     </div>
 
-    <!-- Custom template | don't include it in your project! -->
-    <div class="custom-template">
-        <div class="title">Settings</div>
-        <div class="custom-content">
-            <div class="switcher">
-                <div class="switch-block">
-                    <h4>Logo Header</h4>
-                    <div class="btnSwitch">
-                        <button type="button"
-                                class="selected changeLogoHeaderColor"
-                                data-color="dark"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="blue"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="purple"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="light-blue"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="green"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="orange"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="red"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="white"></button>
-                        <br />
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="dark2"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="blue2"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="purple2"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="light-blue2"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="green2"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="orange2"></button>
-                        <button type="button"
-                                class="changeLogoHeaderColor"
-                                data-color="red2"></button>
-                    </div>
-                </div>
-                <div class="switch-block">
-                    <h4>Navbar Header</h4>
-                    <div class="btnSwitch">
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="dark"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="blue"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="purple"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="light-blue"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="green"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="orange"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="red"></button>
-                        <button type="button"
-                                class="selected changeTopBarColor"
-                                data-color="white"></button>
-                        <br />
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="dark2"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="blue2"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="purple2"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="light-blue2"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="green2"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="orange2"></button>
-                        <button type="button"
-                                class="changeTopBarColor"
-                                data-color="red2"></button>
-                    </div>
-                </div>
-                <div class="switch-block">
-                    <h4>Sidebar</h4>
-                    <div class="btnSwitch">
-                        <button type="button"
-                                class="changeSideBarColor"
-                                data-color="white"></button>
-                        <button type="button"
-                                class="selected changeSideBarColor"
-                                data-color="dark"></button>
-                        <button type="button"
-                                class="changeSideBarColor"
-                                data-color="dark2"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="custom-toggle">
-            <i class="icon-settings"></i>
-        </div>
-    </div>
-    <!-- End Custom template -->
-    </div>
     <!--   Core JS Files   -->
-    <script src="assets/js/core/jquery-3.7.1.min.js"></script>
-    <script src="assets/js/core/popper.min.js"></script>
-    <script src="assets/js/core/bootstrap.min.js"></script>
+    <script src="~/Scripts/New_Design/core/jquery-3.7.1.min.js"></script>
+    <script src="~/Scripts/New_Design/core/popper.min.js"></script>
+    <script src="~/Scripts/New_Design/core/bootstrap.min.js"></script>
 
     <!-- jQuery Scrollbar -->
-    <script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
     <!-- Chart JS -->
-    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/chart.js/chart.min.js"></script>
 
     <!-- jQuery Sparkline -->
-    <script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
 
     <!-- Chart Circle -->
-    <script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/chart-circle/circles.min.js"></script>
 
     <!-- Datatables -->
-    <script src="assets/js/plugin/datatables/datatables.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/datatables/datatables.min.js"></script>
 
     <!-- Bootstrap Notify -->
-    <script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
-
-    <!-- jQuery Vector Maps -->
-    <script src="assets/js/plugin/jsvectormap/jsvectormap.min.js"></script>
-    <script src="assets/js/plugin/jsvectormap/world.js"></script>
+    <script src="~/Scripts/New_Design/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
 
     <!-- Sweet Alert -->
-    <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+    <script src="~/Scripts/New_Design/plugin/sweetalert/sweetalert.min.js"></script>
 
     <!-- Kaiadmin JS -->
-    <script src="assets/js/kaiadmin.min.js"></script>
-
-    <!-- Kaiadmin DEMO methods, don't include it in your project! -->
-    <script src="assets/js/setting-demo.js"></script>
-    <script src="assets/js/demo.js"></script>
-    <script>
-        $("#lineChart").sparkline([102, 109, 120, 99, 110, 105, 115], {
-            type: "line",
-            height: "70",
-            width: "100%",
-            lineWidth: "2",
-            lineColor: "#177dff",
-            fillColor: "rgba(23, 125, 255, 0.14)",
-        });
-
-        $("#lineChart2").sparkline([99, 125, 122, 105, 110, 124, 115], {
-            type: "line",
-            height: "70",
-            width: "100%",
-            lineWidth: "2",
-            lineColor: "#f3545d",
-            fillColor: "rgba(243, 84, 93, .14)",
-        });
-
-        $("#lineChart3").sparkline([105, 103, 123, 100, 95, 105, 115], {
-            type: "line",
-            height: "70",
-            width: "100%",
-            lineWidth: "2",
-            lineColor: "#ffa534",
-            fillColor: "rgba(255, 165, 52, .14)",
-        });
-    </script>
+    <script src="~/Scripts/New_Design/kaiadmin.min.js"></script>
 </body>
 </html>
