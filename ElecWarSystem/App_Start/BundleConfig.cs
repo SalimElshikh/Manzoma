@@ -17,12 +17,17 @@ namespace ElecWarSystem
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+           "~/Content/bootstrap.css",
+           "~/Content/bootstrap-grid.css",
+           "~/Content/bootstrap-theme.css",
+           "~/Content/LoginStyle.css",
+           "~/Content/EmailListStyle.css",
+           "~/Content/New_Design/MainBodyStyle.css",
+           "~/Content/New_Design/fonts.min.css"
+));
+
         }
     }
 }

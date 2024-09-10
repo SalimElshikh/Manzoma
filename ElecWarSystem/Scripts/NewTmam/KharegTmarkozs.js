@@ -205,7 +205,7 @@ function submitAllData() {
 
     $.ajax({
         url: 'GetData',
-        type: "POST",
+        type: "GET",
         data: JSON.stringify(allData),
         contentType: "application/json",
         headers: {

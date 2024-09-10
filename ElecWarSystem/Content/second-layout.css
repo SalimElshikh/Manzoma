@@ -1,3 +1,110 @@
+.custom-tabs .nav-link {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    color: #495057;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    /* Active Tab Style */
+    .custom-tabs .nav-link.active {
+        background-color: var(--button);
+        ;
+        color: #fff;
+        border-color: #007bff;
+        box-shadow: 0 4px 8px rgba(0, 123, 255, 0.4);
+    }
+
+    /* Hover Effects */
+    .custom-tabs .nav-link:hover {
+        background-color: var(--button);
+        color: #fff;
+    }
+
+/* Adding Smooth Transitions */
+.custom-tabs .nav-link {
+    transition: all 0.3s ease;
+}
+
+/* Centering the Tabs */
+.custom-tabs {
+    display: flex;
+    justify-content: center;
+    border-bottom: none;
+}
+.card {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+h2.text-center {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        transform: translateY(-3px);
+    }
+
+.control-label {
+    font-size: 16px;
+    color: #495057;
+}
+
+.text-danger {
+    font-size: 14px;
+}
+
+.nav-tabs .nav-link {
+    font-size: 16px;
+    color: #495057;
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .nav-tabs .nav-link.active {
+        background-color: #007bff;
+        color: white;
+    }
+
+    .nav-tabs .nav-link:hover {
+        background-color: #0056b3;
+        color: white;
+    }
+
+
+
+
+
+
 .title-page {
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +146,7 @@ nav .links {
     border-radius: 30px;
 }
 nav .links li {
-    padding: 15px;
+    padding: 10px;
     transition: .4s;
     border-radius: 10PX;
 
@@ -50,8 +157,9 @@ nav .links li {
     
     
 }
-    nav .links li a {
-        color: white ;
-        text-decoration: none;
-        font-size: 1.3rem;
-    }
+nav .links li a {
+    color: white ;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

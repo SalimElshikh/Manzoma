@@ -1,10 +1,15 @@
 ﻿
 body {
     font-family: 'Cairo', sans-serif !important;
-    overflow-x: hidden!important;
-}
-.main-header {
+    overflow-x: hidden !important;
 
+}
+.main-panel {
+    background-color: #777;
+}
+
+.main-panel .container {
+    background-color: #777;
 }
 .text p {
     text-align: center;
@@ -13,7 +18,10 @@ body {
     font-weight: bold;
     margin: 20px 0;
 }
+.sidebar[data-background-color=dark] .nav > .nav-item a:hover {
+    color: var(--alarm) !important;
 
+}
 :root {
     --main: #6a33ff;
     --header: #1a2035;
@@ -40,22 +48,8 @@ table {
     background: linear-gradient(90deg, rgba(193,193,193,1) 0%, rgba(199,199,199,1) 48%, rgba(172,172,172,1) 79%);
     border-radius: 10px;
 }
-
-
-@media (max-width: 922px) {
-    .links ul {
-        display: none;
-    }
-
-    .links i {
-        display: block;
-        font-size: 30px;
-        color: var(--text);
-        margin-right: 1.5rem;
-    }
-
-    header .logo {
-    }
+.table > tbody > tr > td, .table > tbody > tr > th {
+     padding: 10px 0 !important; 
 }
 
 @media (max-width: 922px ) {
@@ -65,6 +59,12 @@ table {
 
     .logo {
         text-align: center;
+    }
+    .sidebar{
+        display: none;
+    }
+    .nav-toggle {
+        display: none !important;
     }
 }
 
@@ -80,32 +80,9 @@ table {
     color: var(--text);
 }
 
-header .email-info ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    .nav-item li a:hover {
+    color: var(--alarm);
 }
-
-.email-info ul li {
-    padding-right: 2rem;
-    font-size: 20px;
-    color: var(--text);
-    font-weight: bold;
-    padding: 1.1rem;
-    transition: .3s;
-}
-    /*.email-info ul .li:hover {
-    background-color: var(--main);
-    border-radius: 6rem;
-}*/
-    .email-info ul li a {
-        color: var(--text);
-        text-decoration: none;
-    }
-
-        .email-info ul li a:hover {
-            color: #efc406;
-        }
 
 #importBtn, #exportBtn, #createBtn {
     font-size: 20px;

@@ -60,7 +60,7 @@ namespace ElecWarSystem.Controllers
             return View(unit);
         }
         [HttpPost]
-        public ActionResult AddUnitLeadership(We7daRa2eeseya unitTemp, int SmallUnitCount)
+        public ActionResult AddUnitLeadership(We7daRa2eeseya unitTemp, int? SmallUnitCount)
         {
             int userId = int.Parse(Request.Cookies["userID"].Value);
             We7daRa2eeseya unit = dBContext.We7daRa2eeseya

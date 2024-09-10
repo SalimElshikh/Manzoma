@@ -479,6 +479,7 @@
     <Content Include="Content\all.min.css" />
     <Content Include="Content\AnaserMonawba.css" />
     <Content Include="Content\aside.css" />
+    <Content Include="Content\body-bg15.png" />
     <Content Include="Content\bootstrap-chosen.css" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -538,6 +539,7 @@
     <Content Include="Content\New_Design\MainBodyStyle.css" />
     <Content Include="Content\New_Design\plugins.css" />
     <Content Include="Content\New_Design\plugins.min.css" />
+    <Content Include="Content\New_Design\Startup_View.css" />
     <Content Include="Content\webfonts\fontawesome\fa-brands-400.svg" />
     <Content Include="Content\webfonts\fontawesome\fa-regular-400.svg" />
     <Content Include="Content\webfonts\fontawesome\fa-solid-900.svg" />
@@ -570,6 +572,7 @@
     <Content Include="Images\alert.png" />
     <Content Include="Images\alert2.png" />
     <Content Include="Images\bg12.png" />
+    <Content Include="Images\body-bg15.png" />
     <Content Include="Images\close %281%29.png" />
     <Content Include="Images\close %281%291.png" />
     <Content Include="Images\close %281%292.png" />
@@ -596,6 +599,7 @@
     <Content Include="Images\login_bg2.jpg" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo_light.svg" />
+    <Content Include="Images\MasterBG.png" />
     <Content Include="Images\mp3.ico" />
     <Content Include="Images\no-task.png" />
     <Content Include="Images\NoRes.png" />
@@ -810,7 +814,6 @@
     <Content Include="Views\Shared\tmam_gathering_layout.cshtml" />
     <Content Include="Views\Shared\tmam_layout.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Start_Page\index.cshtml" />
     <Content Include="Views\TmamGathering\Fer2a.cshtml" />
     <Content Include="Views\TmamGathering\Gheyab.cshtml" />
     <Content Include="Views\TmamGathering\KharegBelad.cshtml" />
@@ -834,7 +837,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\KharegTmarkozs\Index.cshtml" />
-    <Content Include="Views\Shared\_NewTamam.cshtml" />
     <Content Include="Views\Tagroba\Index.cshtml" />
     <Content Include="Views\Mot8ayeratEst3dadQetali\Create.cshtml" />
     <Content Include="Views\Mot8ayeratEst3dadQetali\Delete.cshtml" />
@@ -855,6 +857,7 @@
     <Content Include="Views\KhetaEradas\Index.cshtml" />
     <Content Include="Views\Shared\_Startup.cshtml" />
     <Content Include="Views\Manzomat\Index.cshtml" />
+    <Content Include="Views\Shared\New_Tmam.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

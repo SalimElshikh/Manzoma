@@ -77,23 +77,8 @@ namespace ElecWarSystem.Controllers
                 {
                     try
                     {
-                        var kharegTmarkoz = new KharegTmarkoz
-                        {
-                            Qa2edTamarkoz = viewModel.KharegTmarkoz.Qa2edTamarkoz,
-                            RotbaQa2edTamarkoz = viewModel.KharegTmarkoz.RotbaQa2edTamarkoz,
-                            MakanTamarkoz7ali = viewModel.KharegTmarkoz.MakanTamarkoz7ali,
-                            DobatNum = viewModel.KharegTmarkoz.DobatNum,
-                            DargatNum = viewModel.KharegTmarkoz.DargatNum,
-                            DateFrom = viewModel.KharegTmarkoz.DateFrom,
-                            DateTo = viewModel.KharegTmarkoz.DateTo,
-                            A8radTa7arokID = viewModel.KharegTmarkoz.A8radTa7arokID,
-                        };
 
-                        db.KharegTmarkoz.Add(kharegTmarkoz);
-                        db.SaveChanges();
 
-                        // Save related entities with the newly created KharegTmarkoz ID
-                        SaveRelatedEntities(viewModel, (int)kharegTmarkoz.ID);
 
                         transaction.Commit();
                         return Json(new { success = true, message = "Data saved successfully." });

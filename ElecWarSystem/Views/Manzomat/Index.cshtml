@@ -3,20 +3,20 @@
     ViewBag.Title = "الصفحة الرئيسية";
     Layout = "~/Views/Shared/_Startup.cshtml";
 }
-<link href="~/Content/New_Design/Startup_Page.css" rel="stylesheet" />
-
+<link href="~/Content/New_Design/Startup_View.css" rel="stylesheet" />
 <div class="row justify-content-center">
     @foreach (var card in Model)
-        {
-            <div class="col-md-4 mb-4">
-                <div class="card">
-                    <img src="@card.ImageUrl" alt="@card.Title">
-                    <div class="card-body">
-                        <h4 class="card-title">@card.Title</h4>
-                        <p class="card-text">@card.Description</p>
-                        <a href="@card.LinkUrl" class="btn btn-primary">@card.ButtonText</a>
-                    </div>
+    {
+        <div class="col-md-3 mb-4">
+            <div class="card shadow-lg" style="border-radius: 12px; overflow: hidden; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+                <img src="@card.ImageUrl" class="card-img-top" alt="@card.Title" style="height: 200px; object-fit: cover; transition: transform 0.3s ease;">
+                <div class="card-body text-center">
+                    <h4 class="card-title">@card.Title</h4>
+                    <p class="card-text">@card.Description</p>
+                    <a href="@card.LinkUrl" class="export-btn" style="transition: background-color 0.3s ease;">@card.ButtonText</a>
                 </div>
             </div>
-        }
+        </div>
+    }
 </div>
+

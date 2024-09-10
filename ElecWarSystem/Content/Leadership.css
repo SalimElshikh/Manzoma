@@ -53,4 +53,26 @@ td {
 .table > :not(caption) > * > * {
     background-color: transparent;
 }
+.table-container {
+    max-width: 100%;
+    overflow-x: hidden; /* Ensures content doesn't overflow horizontally */
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+.table , th , td {
+    text-align: center!important;
+}
+
+
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 10px;
+        padding: .5rem;
+    }
+}
 

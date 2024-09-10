@@ -1,13 +1,5 @@
-﻿:root {
-    --main: var(--button);
-}
+﻿
 
-.title-of-page {
-    color: black;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
 .table-review, th {
     border: 2px solid black;
     color: #000;

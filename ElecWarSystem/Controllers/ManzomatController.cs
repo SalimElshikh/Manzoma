@@ -18,7 +18,7 @@ namespace YourNamespace.Controllers
                 Id = 1,
                 ImageUrl = "../Images/LoginLogo.png",
                 Title = "منطومة تبادل الملفات ",
-                Description = ".هذة منظومة لتبادل الملفات بين الوحدات ",
+                Description = "هذة منظومة لتبادل الملفات بين الوحدات ومذيد من المعلومات",
                 ButtonText = "تبادل الملفات",
                 LinkUrl = Url.Action("Index", "Email")
             },

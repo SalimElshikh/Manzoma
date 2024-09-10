@@ -1,6 +1,5 @@
 ﻿@model  ElecWarSystem.Models.We7daRa2eeseya
 @using ElecWarSystem.Models;
-@using ElecWarSystem.Models
 <link rel="stylesheet" href="~/Content/UnitData.css" />
 <link rel="stylesheet" href="~/Content/aside.css" />
 <link rel="stylesheet" href="~/Content/second-layout.css" />
@@ -73,23 +72,23 @@
             <div class="name-div">
                 @using (Html.BeginForm("AddUnitLeadership", "We7daRa2eeseya", FormMethod.Post, new { @enctype = "multipart/form-data" }))
                 {
-                    <div class="d-flex flex-row">
-                        <div class="container">
+                    <div class="d-flex flex-row shadowbox">
+                        <div class="container ">
                             <div class="row">
                                 <h2 class="">قائد الوحدة</h2>
-                                <div class="form-group ">
+                                <div class="form-group col-6">
                                     @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label " })
 
                                     @Html.EditorFor(model => Model.Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
 
                                 </div>
-                                <div class="form-group ">
+                                <div class="form-group col-6 ">
                                     @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label " })
 
                                     @Html.DropDownListFor(model => Model.Qa2edWe7da.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control" })
 
                                 </div>
-                                <div class="form-group ">
+                                <div class="form-group col-6">
                                     @Html.Label("الإسم", htmlAttributes: new { @class = "control-label " })
 
                                     @Html.EditorFor(model => Model.Qa2edWe7da.FullName, new { htmlAttributes = new { @class = "form-control" } })
@@ -101,12 +100,12 @@
                         <div class="container">
                             <div class="row">
                                 <h2>رئيس عمليات الوحدة</h2>
-                                <div class="form-group ">
+                                <div class="form-group col-6">
                                     @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label " })
                                     @Html.EditorFor(model => Model.Ra2ees3ameleyat.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
 
                                 </div>
-                                <div class="form-group ">
+                                <div class="form-group col-6">
                                     @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label " })
                                     <div class="">
                                         @Html.DropDownListFor(model => Model.Ra2ees3ameleyat.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control" })
@@ -114,7 +113,7 @@
                                     </div>
 
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group col-6">
                                     @Html.Label("الإسم", htmlAttributes: new { @class = "control-label " })
                                     <div class="">
                                         @Html.EditorFor(model => Model.Ra2ees3ameleyat.FullName, new { htmlAttributes = new { @class = "form-control" } })
@@ -128,7 +127,7 @@
                     <hr />
                     <div class="form-group d-flex flex-row">
                         @Html.Label("عدد الوحدات الفرعية", htmlAttributes: new { @class = "control-label fs-5 text-center" })
-                        <input class="form-control" type="number" value="@Model.We7daFar3eya.Count" name="SmallUnitCount" max="3" , min="0" style="margin-right:20px" />
+                        <input class="form-control col-" type="number" value="@Model.We7daFar3eya.Count" name="SmallUnitCount" max="3" , min="0" style="margin-right:20px" />
 
                     </div>
                     <button type="submit" class="button" style="font-size:16px;">
@@ -170,60 +169,60 @@
                                 uocRotba = Model.We7daFar3eya[i].Ra2ees3ameleyat.RotbaID.ToString();
                             }
                             <h2 class="text">قيادة @units[i]</h2>
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="shadowbox ">
                                 <div class="container">
                                     <div class="row">
-                                        <h3 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">قائد @units[i]</h3>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <h3 class=" ">قائد @units[i]</h3>
+                                        <div class="form-group  ">
+                                            <div class=" "></div>
+                                            <div class=" ">
                                                 @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
                                             </div>
-                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2 col-sm-2 col-xs-2" })
+                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
                                         </div>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group  ">
+                                            <div class=" "></div>
+                                            <div class=" ">
                                                 @Html.DropDownListFor(model => Model.We7daFar3eya[i].Qa2edWe7da.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName", ucRotba), new { @class = "form-control" })
                                                 @Html.ValidationMessageFor(model => Model.We7daFar3eya[i].Qa2edWe7da.RotbaID, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  col-sm-2 col-xs-2" })
+                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2   " })
                                         </div>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group  ">
+                                            <div class=" "></div>
+                                            <div class=" ">
                                                 @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.FullName, new { htmlAttributes = new { @class = "form-control" } })
                                                 @Html.ValidationMessageFor(model => Model.We7daFar3eya[i].Qa2edWe7da.FullName, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  col-sm-2 col-xs-2" })
+                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2   " })
                                         </div>
                                     </div>
                                 </div>
                                 <div class="container background">
                                     <div class="row">
-                                        <h3 class="col-lg-12 col-md-12 col-sm-12 col-xs-12">رئيس عمليات @units[i]</h3>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <h3 class=" ">رئيس عمليات @units[i]</h3>
+                                        <div class="form-group  ">
+                                            <div class=" "></div>
+                                            <div class=" ">
                                                 @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
                                             </div>
-                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2 col-sm-2 col-xs-2" })
+                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
                                         </div>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group  ">
+                                            <div class=" "></div>
+                                            <div class=" ">
                                                 @Html.DropDownListFor(model => Model.We7daFar3eya[i].Ra2ees3ameleyat.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName", uocRotba), new { @class = "form-control" })
                                                 @Html.ValidationMessage("UnitOperChRotba" + @i, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2 col-sm-2 col-xs-2" })
+                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
                                         </div>
-                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"></div>
-                                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="form-group">
+                                            <div class=" "></div>
+                                            <div class=" ">
                                                 @Html.EditorFor(model => Model.We7daFar3eya[i].Ra2ees3ameleyat.FullName, new { htmlAttributes = new { @class = "form-control" } })
                                                 @Html.ValidationMessage("UnitOperChName" + @i, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2 col-sm-2 col-xs-2" })
+                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +230,6 @@
                             </div>
                         }
                         <button type="submit" class="export-btn" style="font-size:16px;">
-
                             حفظ
                         </button>
                     }
