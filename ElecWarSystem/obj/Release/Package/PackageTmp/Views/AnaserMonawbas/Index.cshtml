@@ -1,25 +1,16 @@
 ﻿@model ElecWarSystem.ViewModel.AnaserMonawbaViewModel
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_NewTamam.cshtml";
+    Layout = "~/Views/Shared/New_Tmam.cshtml";
 }
-<link href="~/Content/css/all.css" rel="stylesheet" />
-<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 <link href="~/Content/AnaserMonawba.css" rel="stylesheet" />
-
 @using (Html.BeginForm("Index", "AnaserMonawba", FormMethod.Post, new { id = "createForm" }))
 {
     @Html.AntiForgeryToken()
     <div class="container">
-        <div class="title-page d-flex justify-content-between align-items-center">
-            <img src="~/Images/elecwarIcon2.png" />
-            <div class="text d-flex flex-column text-center">
-                <p>تمام عناصر المناوبة</p>
-            </div>
-            <img src="~/Images/elecwarIcon2.png" />
-        </div>
-
+        
         <div class="form-horizontal shadowbox">
+            <h2 class="text-center"> تمام عناصر المناوبة </h2>
             <div class="main-div">
                 <!-- قائد المناوبة -->
                 <div class="first-div d-flex flex-row">
@@ -259,9 +250,5 @@
     </div>
 </div>
 
-
-
-<script src="~/Scripts/jquery-3.7.1.min.js"></script>
-<script src="~/Scripts/bootstrap.min.js"></script>
 <script src="~/Scripts/NewTmam/AnaserMonawba.js"></script>
 

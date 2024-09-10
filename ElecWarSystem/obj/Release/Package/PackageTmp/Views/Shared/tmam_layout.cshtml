@@ -13,70 +13,71 @@
     <link rel="stylesheet" href="~/Content/aside.css" />
     <link rel="stylesheet" href="~/Content/Leadership.css" />
     <link rel="stylesheet" href="~/Content/second-layout.css" />
-    <script src="~/Scripts/TmamScripts/TmamHelper.js"></script>
-
+    <link href="~/Content/New_Design/MainBodyStyle.css" rel="stylesheet" />
+    <link href="~/Content/New_Design/fonts.min.css" rel="stylesheet" />
     <div class="container d-flex flex-column">
-        @{DateTime todayDate = DateTime.Today.Date.AddDays(1);}
-        <div class="title-div d-flex justify-content-between align-items-center " style="background-color: var(--main); width: inherit">
-            <img src="~/Images/elecwarIcon2.png" />
-            <div class="">
-                <p style="font-size:45px; font-weight:bold;" class="aribiano">@ViewBag.unitName</p>
-                <p class="aribiano">
-                    إدخال تمام الوحدة عن يوم <span style="color: var(--alarm)">@todayDate.ToString("dddd الموافق yyyy/MM/dd", new System.Globalization.CultureInfo("ar-AE"))</span>
-                </p>
-                <p class="aribiano" id="time" style="font-size:30px; font-weight:bold;">
-                    00:00:00
-                </p>
-                <p style="color: #f0c706;">الزمن المتبقى لإرسال التمام</p>
+                @{DateTime todayDate = DateTime.Today.Date.AddDays(1);}
+                <div class="title-page d-flex justify-content-lg-between justify-content-center align-items-center ">
+                    <img src="~/Images/elecwarIcon2.png" />
+                    <div class="justify-content-md-center ">
+                        <p class="aribiano">@ViewBag.unitName</p>
+                        <p class="aribiano">
+                            إدخال تمام الوحدة عن يوم <span style="color: var(--alarm)">@todayDate.ToString("dddd الموافق yyyy/MM/dd", new System.Globalization.CultureInfo("ar-AE"))</span>
+                        </p>
+                        <p class="aribiano" id="time" style="font-size:30px; font-weight:bold;">
+                            00:00:00
+                        </p>
+                        <p style="color: #f0c706;">الزمن المتبقى لإرسال التمام</p>
+                    </div>
+                    <img src="~/Images/elecwarIcon2.png" />
+
+                </div>
+                <div id="alertBox"></div>
+                <nav>
+
+                    <ul class="links d-flex flex-row justify-content-between align-items-center flex-wrap">
+                        <li class="@(tmamType == TmamEnum.AllTmam ? "active" : "")">
+                            @Html.ActionLink("مراجعة التمام", "Review", "Tmam")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.OtherRotbas ? "active" : "")">
+                            @Html.ActionLink("تمام الدرجات الأخرى", "Index", "Tmam", new { pg = 2 }, null)
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Officers ? "active" : "")">
+                            @Html.ActionLink("تمام الضباط", "Index", "Tmam", new { pg = 1 }, null)
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Mo3askr ? "active" : "")">
+                            @Html.ActionLink("خارج التمركز", "Index", "Mo3askr")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.KharegBelad ? "active" : "")">
+                            @Html.ActionLink("خارج البلاد", "Index", "KharegBelad")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Gheyab ? "active" : "")">
+                            @Html.ActionLink("غياب", "Index", "Gheyab")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Segn ? "active" : "")">
+                            @Html.ActionLink("سجن", "Index", "Segn")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Ma2moreya ? "active" : "")">
+                            @Html.ActionLink("المأموريات", "Index", "Ma2moreya")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Officers ? "active" : "")">
+                            @Html.ActionLink("فرقة", "Index", "Fer2a")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Mostashfa ? "active" : "")">
+                            @Html.ActionLink("المستشفى", "Index", "Mostashfa")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Marady ? "active" : "")">
+                            @Html.ActionLink("أجازة مرضية", "Index", "Marady")
+                        </li>
+                        <li class="@(tmamType == TmamEnum.Agaza ? "active" : "")">
+                            @Html.ActionLink("أجازات", "Index", "Agaza")
+                        </li>
+                    </ul>
+                </nav>
+
+
             </div>
-            <img src="~/Images/elecwarIcon2.png" />
-
-        </div>
-        <div id="alertBox"></div>
-        <nav>
-
-            <ul class="links d-flex flex-row justify-content-between align-items-center flex-wrap">
-                <li class="@(tmamType == TmamEnum.AllTmam ? "active" : "")">
-                    @Html.ActionLink("مراجعة التمام", "Review", "Tmam")
-                </li>
-                <li class="@(tmamType == TmamEnum.OtherRotbas ? "active" : "")">
-                    @Html.ActionLink("تمام الدرجات الأخرى", "Index", "Tmam", new { pg = 2 }, null)
-                </li>
-                <li class="@(tmamType == TmamEnum.Officers ? "active" : "")">
-                    @Html.ActionLink("تمام الضباط", "Index", "Tmam", new { pg = 1 }, null)
-                </li>
-                <li class="@(tmamType == TmamEnum.Mo3askr ? "active" : "")">
-                    @Html.ActionLink("خارج التمركز", "Index", "Mo3askr")
-                </li>
-                <li class="@(tmamType == TmamEnum.KharegBelad ? "active" : "")">
-                    @Html.ActionLink("خارج البلاد", "Index", "KharegBelad")
-                </li>
-                <li class="@(tmamType == TmamEnum.Gheyab ? "active" : "")">
-                    @Html.ActionLink("غياب", "Index", "Gheyab")
-                </li>
-                <li class="@(tmamType == TmamEnum.Segn ? "active" : "")">
-                    @Html.ActionLink("سجن", "Index", "Segn")
-                </li>
-                <li class="@(tmamType == TmamEnum.Ma2moreya ? "active" : "")">
-                    @Html.ActionLink("المأموريات", "Index", "Ma2moreya")
-                </li>
-                <li class="@(tmamType == TmamEnum.Officers ? "active" : "")">
-                    @Html.ActionLink("فرقة", "Index", "Fer2a")
-                </li>
-                <li class="@(tmamType == TmamEnum.Mostashfa ? "active" : "")">
-                    @Html.ActionLink("المستشفى", "Index", "Mostashfa")
-                </li>
-                <li class="@(tmamType == TmamEnum.Marady ? "active" : "")">
-                    @Html.ActionLink("أجازة مرضية", "Index", "Marady")
-                </li>
-                <li class="@(tmamType == TmamEnum.Agaza ? "active" : "")">
-                    @Html.ActionLink("أجازات", "Index", "Agaza")
-                </li>
-            </ul>
-        </nav>
-
-
-    </div>
     @RenderBody()
 </div>
-
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script src="~/Scripts/TmamScripts/TmamHelper.js"></script>

@@ -1,6 +1,5 @@
 ﻿window.onload = function () {
     RequestTmamStatus();
-    numbersE2A();
 }
 function RequestTmamStatus() {
     $.ajax({
@@ -77,7 +76,10 @@ function getTimeRemain(timeInSeconds) {
     seconds = (seconds >= 10) ? seconds.toString() : `0${seconds}`;
     return `${hours}:${minutes}:${seconds}`;
 }
-
+function numbersEn2Ar(number) {
+    const en2ArDigits = { '0': '٠', '1': '١', '2': '٢', '3': '٣', '4': '٤', '5': '٥', '6': '٦', '7': '٧', '8': '٨', '9': '٩' };
+    return number.toString().replace(/\d/g, (x) => en2ArDigits[x]);
+}
 setInterval(
     function () {
         const d = new Date();
@@ -104,18 +106,18 @@ function calOut(power) {
 }
 
 function toTmamDetails(pg) {
-    var sum = parseInt($("#errand").val()) +
-            parseInt($("#vacation").val()) +
-            parseInt($("#sick-leave").val()) +
-            parseInt($("#prison").val()) +
-            parseInt($("#absence").val()) +
-            parseInt($("#hospital").val()) +
-            parseInt($("#out-of-country").val()) +
-            parseInt($("#outdoor-camp").val()) +
-            parseInt($("#course").val());
+    var sum = parseInt($("#Ma2moreya").val()) +
+            parseInt($("#Agaza").val()) +
+            parseInt($("#Marady").val()) +
+            parseInt($("#Segn").val()) +
+            parseInt($("#Gheyab").val()) +
+            parseInt($("#Mostashfa").val()) +
+            parseInt($("#KharegBelad").val()) +
+            parseInt($("#Mo3askr").val()) +
+            parseInt($("#Fer2a").val());
 
     if (parseInt($("#outdoor").val()) !== sum) {
-        alert("خطأ فى تجميع التمام!!!");
+        alert("خطأ فى تجميع التمام!!!" );
     }
     else {
         $.ajax({
@@ -124,21 +126,21 @@ function toTmamDetails(pg) {
             async: false,
             data: {
                 "IsOfficers": (pg == 1) ? true : false,
-                "totalPower": parseInt($("#power").val()),
-                "errand": parseInt($("#errand").val()),
-                "vacation": parseInt($("#vacation").val()),
-                "sickLeave": parseInt($("#sick-leave").val()),
-                "prison": parseInt($("#prison").val()),
-                "absence": parseInt($("#absence").val()),
-                "hospital": parseInt($("#hospital").val()),
-                "outOfCountry": parseInt($("#out-of-country").val()),
-                "outdoorCamp": parseInt($("#outdoor-camp").val()),
-                "course": parseInt($("#course").val()),
-                "Tmam.AltCommanderID": parseInt($("#person-name").val())
+                "Qowwa": parseInt($("#power").val()),
+                "Ma2moreya": parseInt($("#Ma2moreya").val()),
+                "Agaza": parseInt($("#Agaza").val()),
+                "Marady": parseInt($("#Marady").val()),
+                "Segn": parseInt($("#Segn").val()),
+                "Gheyab": parseInt($("#Gheyab").val()),
+                "Mostashfa": parseInt($("#Mostashfa").val()),
+                "KharegBelad": parseInt($("#KharegBelad").val()),
+                "Mo3askar": parseInt($("#Mo3askr").val()),
+                "Fer2a": parseInt($("#Fer2a").val()),
+                "Tmam.Qa2edManoobID": parseInt($("#FardDetails-name").val())
             },
             success: function () {
                 if (pg == 2) {
-                    window.location.href = window.location.origin + "/sickleave/Index";
+                    window.location.href = window.location.origin + "/Agaza/Index";
                 }
                 else {
                     window.location.href = window.location.origin + "/Tmam/Index?pg=" + (pg + 1);
@@ -147,19 +149,19 @@ function toTmamDetails(pg) {
         })
     }
 }
-function UpdatePersonComboBox() {
+function UpdateFardDetailsComboBox() {
     $.ajax({
-        url: window.location.origin + "/Person/GetPersonsOfRank",
+        url: window.location.origin + "/FardDetails/GetFardDetailssOfRotba",
         type: "GET",
         async: false,
         data: {
-            "rankID": $("#person-rank").val()
+            "RotbaID": $("#FardDetails-Rotba").val()
         }, success: function (result) {
-            $("#person-name").empty();
-            $("#person-name").append("<option></option>");
+            $("#FardDetails-name").empty();
+            $("#FardDetails-name").append("<option></option>");
             for (var index in result) {
                 var item = `<option value="${result[index]['ID']}">${result[index]['FullName']}</option>`;
-                $("#person-name").append(item);
+                $("#FardDetails-name").append(item);
             }
         }
     })

@@ -2,9 +2,10 @@
 @{
     ViewBag.Title = "Officers";
     Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
-    Dictionary<String, List<TmamDetail>> zoneUnitsList = ViewBag.ZoneUnitsTmam;
+    Dictionary<String, List<TmamDetails>> zoneUnitsList = ViewBag.ZoneUnitsTmam;
 
 }
+<link rel="stylesheet" href="~/Content/Leadership.css" />
 <script src="~/Scripts/htmlToPdf/html2pdf.bundle.min.js"></script>
 <div id="report-template">
     <h1 class="title-of-page">
@@ -16,8 +17,7 @@
     }
     @foreach (var zoneUnits in zoneUnitsList)
     {
-        <div class="col-lg-3 col-md-3"></div>
-        <p class="col-lg-6 col-md-6" id="zone-text">@String.Format($"وحدات فى نطاق {zoneUnits.Key}") </p>
+        <p id="zone-text">@String.Format($"وحدات فى نطاق {zoneUnits.Key}") </p>
 
         <table class="table table-bordered table-review">
             <tr style="background-color: gray; font-weight: bold;">
@@ -40,24 +40,24 @@
                 <th>خ البلاد</th>
                 <th>م تد خارجى</th>
             </tr>
-            @foreach (TmamDetail tmamDetail in zoneUnits.Value)
+            @foreach (TmamDetails tmamDetail in zoneUnits.Value)
             {
                 <tbody style="font-size:12px;" class="aribiano">
                     <tr>
-                        <td>@tmamDetail.Tmam.Unit.Order</td>
-                        <td>@tmamDetail.Tmam.Unit.UnitName</td>
-                        <td>@tmamDetail.totalPower</td>
+                        <td>@tmamDetail.Tmam.We7daRa2eeseya.Tarteeb</td>
+                        <td>@tmamDetail.Tmam.We7daRa2eeseya.We7daName</td>
+                        <td>@tmamDetail.Qowwa</td>
                         <td>@tmamDetail.GetExisting()</td>
                         <td>@tmamDetail.GetOutting()</td>
-                        <td>@tmamDetail.vacation</td>
-                        <td>@tmamDetail.sickLeave</td>
-                        <td>@tmamDetail.course</td>
-                        <td>@tmamDetail.errand</td>
-                        <td>@tmamDetail.prison</td>
-                        <td>@tmamDetail.absence</td>
-                        <td>@tmamDetail.hospital</td>
-                        <td>@tmamDetail.outOfCountry</td>
-                        <td>@tmamDetail.outdoorCamp</td>
+                        <td>@tmamDetail.Agaza</td>
+                        <td>@tmamDetail.Marady</td>
+                        <td>@tmamDetail.Fer2a</td>
+                        <td>@tmamDetail.Ma2moreya</td>
+                        <td>@tmamDetail.Segn</td>
+                        <td>@tmamDetail.Gheyab</td>
+                        <td>@tmamDetail.Mostashfa</td>
+                        <td>@tmamDetail.KharegBelad</td>
+                        <td>@tmamDetail.Mo3askar</td>
                         <td>@tmamDetail.GetOuttingPrecetage() %</td>
                     </tr>
                 </tbody>
@@ -66,8 +66,8 @@
         i++;
     }
 </div>
-<div class="col-lg-3 col-md-3">
-    @Html.ActionLink("Export as a Pdf", actionName: "OfficerTmamReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "btn btn-primary btn-block" });
-</div>
+
+    @Html.ActionLink("تنزيل pdf ", actionName: "OfficerTmamReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = " export-btn " })
+
 
 

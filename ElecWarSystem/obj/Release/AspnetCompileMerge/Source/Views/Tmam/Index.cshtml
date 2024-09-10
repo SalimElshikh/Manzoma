@@ -5,6 +5,7 @@
     string[] pgContent = new string[] { "تمام الضباط", "تمام الدرجات الأخرى" };
     int pg = ViewBag.pg;
 }
+<link rel="stylesheet" href="~/Content/Leadership.css" />
 <div class="container">
     <div class="row">
 
@@ -14,91 +15,100 @@
             case 2:
                 if (pg == 1)
                 {
-                    <h2>قائد منوب</h2>
-                    <div class="name-div  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2 class="text">قائد منوب</h2>
+                    <div class="name-div ">
                         <div class="form-group" style="width: 30%; float: right;">
                             @Html.Label("الرتبة/الدرجة", htmlAttributes: new { @class = "control-label" })
-                            @Html.DropDownList("person-rank", new SelectList(ViewBag.ranks, "ID", "RankName", selectedValue: @ViewBag.AltCommandor.RankID), new { @class = "form-control", @id = "person-rank", @onchange = "UpdatePersonComboBox()" })
+                            @Html.DropDownList("FardDetails-Rotba", new SelectList(ViewBag.Rotbas, "ID", "RotbaName", selectedValue: @ViewBag.AltCommandor.RotbaID), new { @class = "form-control", @id = "FardDetails-Rotba", @onchange = "UpdateFardDetailsComboBox()" })
                         </div>
                         <div class="form-group" style="width: 60%; float: right; margin-right: 10%">
                             @Html.Label("الإسم", htmlAttributes: new { @class = "control-label" })
-                            @Html.DropDownList("person-name", new SelectList(ViewBag.AltcommandorPersons, "ID", "FullName", selectedValue: @ViewBag.AltCommandor.ID), new { @class = "form-control", @id = "person-name"})
+                            @Html.DropDownList("FardDetails-name", new SelectList(ViewBag.AltcommandorFardDetailss, "ID", "FullName", selectedValue: @ViewBag.AltCommandor.ID), new { @class = "form-control", @id = "FardDetails-name" })
                         </div>
                         @*<div class="form-group" style="">
                             @Html.Label("الإسم", htmlAttributes: new { @class = "control-label" })
-                            <select name="person-name" class="form-control" id="person-name">
+                            <select name="FardDetails-name" class="form-control" id="FardDetails-name">
                                 <option></option>
                             </select>
                         </div>*@
                     </div>
+                    <hr class=""/>
                 }
-                        <h2>@((ViewBag.pg == 1) ? "تمام الضباط" : "تمام الدرجات الأخرى" )</h2>
-
-                        <div class="name-div  col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">القوة</label>
-                                        <input id="power" class="form-control" type="number" readonly value="@ViewBag.TmamDetail.totalPower" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">الموجود</label>
-                                        <input id="existing" class="form-control timeout" type="number" min="0" value="@ViewBag.TmamDetail.GetExisting()" onchange="calOut()" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">الخارج</label>
-                                        <input id="outdoor" class="form-control" readonly type="number" value="@ViewBag.TmamDetail.GetOutting()" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">مأمورية</label>
-                                        <input id="errand" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.errand" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">أجازة</label>
-                                        <input id="vacation" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.vacation" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">أجازة مرضية</label>
-                                        <input id="sick-leave" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.sickLeave" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">سجن</label>
-                                        <input id="prison" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.prison" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">غياب</label>
-                                        <input id="absence" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.absence" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">فرقة</label>
-                                        <input id="course" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.course" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">مستشفى</label>
-                                        <input id="hospital" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.hospital" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label">خ البلاد</label>
-                                        <input id="out-of-country" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.outOfCountry" min="0" />
-                                    </div>
-                                    <div class="form-group col-lg-1 col-md-1 col-sm-1 col-xs-1">
-                                        <label class="control-label timeout">م.تد خارجي</label>
-                                        <input id="outdoor-camp" class="form-control timeout" type="number" value="@ViewBag.TmamDetail.outdoorCamp" min="0" />
-                                    </div>
-                                    <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
-                                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                        <button class="btn btn-success btn-block timeout-btn" style="font-size:18px;" onclick="toTmamDetails(@ViewBag.pg)">
-                                            <span class="glyphicon glyphicon-save"></span>
-                                            حفظ
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+                <h2 class="text">@((ViewBag.pg == 1) ? "تمام الضباط" : "تمام الدرجات الأخرى" )</h2>
+                <div class="name-div d-flex">
+                    <div class="container ">
+                        <div class="form-group ">
+                            <label class="control-label" for="power">القوة</label>
+                            <input id="power" class="form-control" type="number" readonly value="@ViewBag.TmamDetails.Qowwa" min="0" />
                         </div>
-                        <hr />
-                        break;
-                        default:
-                        break;
-                        }
+                        <div class="form-group ">
+                            <label class="control-label" for="existing">الموجود</label>
+                            <input id="existing" class="form-control timeout" type="number" min="0" value="@ViewBag.TmamDetails.GetExisting()" onchange="calOut()" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="outdoor">الخارج</label>
+                            <input id="outdoor" class="form-control" readonly type="number" value="@ViewBag.TmamDetails.GetOutting()" min="0" />
+                        </div>
+
+
                     </div>
+                    <div class="container ">
+                        <div class="form-group ">
+                            <label class="control-label" for="Segn">سجن</label>
+                            <input id="Segn" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Segn" min="0" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="Gheyab">غياب</label>
+                            <input id="Gheyab" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Gheyab" min="0" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="Fer2a">فرقة</label>
+                            <input id="Fer2a" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Fer2a" min="0" />
+                        </div>
+
+                    </div>
+                    <div class="container ">
+
+                        <div class="form-group ">
+                            <label class="control-label" for="KharegBelad">خ البلاد</label>
+                            <input id="KharegBelad" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.KharegBelad" min="0" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label timeout" for="Mo2askr">م.تد خارجي</label>
+                            <input id="Mo3askr" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Mo3askar" min="0" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="Agaza">أجازة</label>
+                            <input id="Agaza" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Agaza" min="0" />
+                        </div>
+
+                    </div>
+                    <div class="container">
+                        <div class="form-group ">
+                            <label class="control-label" for="Marady">أجازة مرضية</label>
+                            <input id="Marady" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Marady" min="0" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="Mostashfa">مستشفى</label>
+                            <input id="Mostashfa" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Mostashfa" min="0" />
+                        </div>
+                        <div class="form-group ">
+                            <label class="control-label" for="Ma2moreya">مأمورية</label>
+                            <input id="Ma2moreya" class="form-control timeout" type="number" value="@ViewBag.TmamDetails.Ma2moreya" min="0" />
+                        </div>
+                    </div>
+
+                </div>
+                <hr />
+                <div class="">
+                    <button class="" style="font-size:18px;" onclick="toTmamDetails(@ViewBag.pg)">
+                        <span class="glyphicon glyphicon-save"></span>
+                        حفظ
+                    </button>
+                </div>
+                break;
+            default:
+                break;
+        }
+    </div>
                 </div>

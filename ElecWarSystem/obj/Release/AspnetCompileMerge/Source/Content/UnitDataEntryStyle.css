@@ -68,11 +68,12 @@ body {
 }
 
 .name-div {
-    background-color: #FDFEFE;
+    background-color: #777;
     border-radius: 8px;
     padding: 10px;
     margin: 15px;
     font-size: 12px;
+    margin:auto;
 }
 
 th, td {
@@ -81,38 +82,40 @@ th, td {
 
 
 .popup {
-    position: fixed;
-    top: -150%;
+    display: none;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    opacity: 0;
-    transform: translate(-50%,-50%) scale(1.25);
-    width: 380px;
-    padding: 20px 30px;
-    background: #fff;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
-    font-size: 14px;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    justify-content: center;
+    align-items: center;
 }
 
-.popup.act {
-    top: 55%;
-    opacity: 1;
-    transform: translate(-50%,-50%) scale(1);
-    transition: top 0ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
+    .popup.act {
+        display: flex;
+        z-index: 10;
+    }
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: move; /* Indicates that the element can be dragged */
 }
 
-.popup .close-btn {
+.popup-close {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 15px;
-    height: 15px;
-    background-color: #888;
-    color: #eee;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 10px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -136,3 +139,60 @@ th, td {
 .con-div {
     padding-right: 20px;
 }
+.card {
+    background-color: #d4d4d4;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+h2.text-center {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        transform: translateY(-3px);
+    }
+
+.control-label {
+    font-size: 16px;
+    color: #495057;
+}
+
+.text-danger {
+    font-size: 14px;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+    .custom-shadow:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.2);
+    }

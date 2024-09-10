@@ -4,7 +4,8 @@
 @{
     ViewBag.Title = "Details";
 }
-<link rel="stylesheet" href="~/Content/EmailListStyle.css" />
+
+<link rel="stylesheet" href="~/Content/aside.css" />
 <script type="text/javascript" src="~/Scripts/EmailsScript.js"></script>
 <div class="container">
     <div class="row">
@@ -16,12 +17,11 @@
 </div>
 
 <hr />
-<div>
+<div >
     <div class="form-horizontal right">
 
         <div class="form-group">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="">
                 @Html.TextAreaFor(model => model.EmailText, new { @class = "form-control", @rows = "6", @readonly = "readonly", @style = "background-color:White; font-size:16px;" })
 
                 @Html.ValidationMessageFor(model => model.EmailText, "", new { @class = "text-danger" })
@@ -29,8 +29,7 @@
             @Html.Label("النص", htmlAttributes: new { @class = "control-label col-lg-1 col-md-1  col-sm-1 col-xs-1" })
         </div>
         <div class="form-group">
-            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+            <div class="">
                 <table class="table table-bordered" style="background-color:white;">
                     <tr style="background-color:darkseagreen; text-align:right">
                         <th>م</th>
@@ -42,7 +41,7 @@
                         int i = 1;
                     }
 
-                    @foreach (var item in Model.Documents)
+                    @foreach (var item in Model.Document)
                     {
                         string imageIcon = EmailUtilies.chooseFileIcon(item.FileExtension);
                         <tr>
@@ -71,8 +70,7 @@
         @if (int.Parse(Request.Cookies["userID"].Value) == Model.SenderUserID)
         {
             <div class="form-group">
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5"></div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                <div class="">
                     <table class="table table-bordered" style="background-color:white;">
                         <tr style="background-color:darkseagreen">
                             <th>م</th>
@@ -85,17 +83,17 @@
                             i = 1;
                         }
 
-                        @foreach (var item in Model.Recievers)
+                        @foreach (var item in Model.Mostalem)
                         {
                             <tr>
                                 <td>
                                     @(i++)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.RecieverUser.UnitName)
+                                    @Html.DisplayFor(modelItem => item.RecieverUser.We7daName)
                                 </td>
                                 <td>
-                                    @if (item.Readed)
+                                    @if (item.Maqroo2)
                                     {
                                         <span class="glyphicon glyphicon-check" style="color:darkgreen;"></span>
                                     }

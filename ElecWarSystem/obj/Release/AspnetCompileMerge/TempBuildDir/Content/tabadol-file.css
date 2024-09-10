@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: var(--background);
+}
+.ng-show
+.header-file {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+.header-item {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-basis: 25%;
+    padding: 10px !important;
+}
+.container .header-file .export-btn:hover {
+    color: #fbd303;
+}
+.header-file a {
+    text-align: center;
+    text-decoration: none;
+
+}
+    .header-file a:hover {
+        color: #fbd303;
+    }
+.container .header-file .export-btn {
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 80px;
+    cursor: pointer;
+    background-image: none;
+    text-shadow: none;
+}
+footer {
+    position: fixed; bottom: 0; width: 100%;
+}
+.div-progress {
+    width: 300px;
+    background-color: var(--header);
+    border-radius: 10px;
+    padding: 0 5px;
+    color: var(--text);
+}
+.progress {
+    width: 100% !important;
+    height: 15px;
+    background-color: var(--botton);
+}
+.header-export {
+    overflow: hidden;
+}
+.header-export:hover {
+    cursor: pointer;
+}
+.export-btn {
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 10px 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+    .export-btn:hover {
+        color: #ffc107;
+    }
+

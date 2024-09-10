@@ -1,10 +1,8 @@
 ﻿@model ElecWarSystem.ViewModels.KhetaEradaViewModel
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_NewTamam.cshtml";
+    Layout = "~/Views/Shared/New_Tmam.cshtml";
 }
-<link href="~/Content/css/all.css" rel="stylesheet" />
-<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 <link href="~/Content/KhetaErada.css" rel="stylesheet" />
 @using (Html.BeginForm(Html.BeginForm("GetData", "KhetaEradas", FormMethod.Post, new { id = "createForm" })))
 {
@@ -298,7 +296,5 @@
     </div>
 </div>
 
-<script src="~/Scripts/jquery-3.7.1.min.js"></script>
-<script src="~/Scripts/bootstrap.min.js"></script>
 <script src="~/Scripts/NewTmam/KhetaErada.js"></script>
 

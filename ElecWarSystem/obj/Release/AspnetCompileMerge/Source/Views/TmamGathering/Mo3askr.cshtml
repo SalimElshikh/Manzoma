@@ -1,0 +1,70 @@
+﻿@using ElecWarSystem.Models
+@{
+    ViewBag.Title = "Capms";
+    Layout = "~/Views/Shared/tmam_gathering_layout.cshtml";
+    Dictionary<String, Dictionary<String, List<Mo3askr>>> Mo3askr = ViewBag.Mo3askr;
+    int i = 1;
+}
+
+<h1 class="title-of-page">
+    الضباط و الأفراد المتواجدين خارج التمركز لوحدات الحرب الإلكترونیة
+</h1>
+@if (Mo3askr.Count > 0)
+{
+    foreach (var Mo3askrZone in Mo3askr)
+    {
+
+        <p id="zone-text">@String.Format($"وحدات فى نطاق {Mo3askrZone.Key}") </p>
+
+        <table class="table table-bordered table-review">
+            <tr class="table-review-baseeLine">
+                <th>م</th>
+                <th>الوحدة</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>مكان التمركز الحالى</th>
+                <th>السبب</th>
+                <th>المدة من</th>
+                <th>المدة إلى</th>
+            </tr>
+            <tbody>
+                @foreach (var Mo3askrUnit in Mo3askrZone.Value)
+                {
+                    int j = 0;
+                    string padding = $"{Math.Round((37.5 * Mo3askrUnit.Value.Count) / 2) - 15}px";
+                    foreach (var mo3askr in Mo3askrUnit.Value)
+                    {
+                        <tr>
+                            <td class="aribiano">@(i++)</td>
+                            @if (j == 0)
+                            {
+                                <td class="aribiano" rowspan="@Mo3askrUnit.Value.Count" style="font-weight:bold; padding-top:@padding;">
+                                    @Mo3askrUnit.Key
+                                </td>
+                            }
+                            <td>@mo3askr.Mo3askrDetails.FardDetails.Rotba.RotbaName</td>
+                            <td>@mo3askr.Mo3askrDetails.FardDetails.FullName</td>
+                            <td class="aribiano">@mo3askr.Mo3askrDetails.Twagod</td>
+                            <td class="aribiano">@mo3askr.Mo3askrDetails.Sabab</td>
+                            <td class="aribiano">@mo3askr.Mo3askrDetails.DateFrom.ToString("dd-MM-yyyy")</td>
+                            <td class="aribiano">@mo3askr.Mo3askrDetails.DateTo.ToString("dd-MM-yyyy")</td>
+                        </tr>
+                        j++;
+                    }
+
+                }
+            </tbody>
+        </table>
+    }
+
+        @Html.ActionLink("تنزيل pdf ", actionName: "Mo3askrsReport", controllerName: "TmamGatheringReports", routeValues: null, htmlAttributes: new { @class = "export-btn" });
+
+}
+else
+{
+
+    <div>
+        <h2 style="text-align:center">لم يوجد ضباط أو أفراد خارج التمركز حتى الآن !!</h2>
+        <img src="~/Images/page.png" />
+    </div>
+}

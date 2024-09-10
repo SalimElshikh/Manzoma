@@ -1,15 +1,12 @@
-﻿.title-of-page {
-    text-align: center;
-    text-decoration: underline;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
+﻿
+
 .table-review, th {
     border: 2px solid black;
     color: #000;
     text-align: center;
     padding-top: 25px;
 }
+
 .table-review-baseeLine {
     border-block-end: 2px solid black;
     background-color: gray;
@@ -26,7 +23,7 @@
 
 #zone-text {
     text-align: center;
-    background-color: blueviolet;
+    background-color: var(--main);
     font-size: 30px;
     color: rgb(255 255 255);
     border-radius: 10px;

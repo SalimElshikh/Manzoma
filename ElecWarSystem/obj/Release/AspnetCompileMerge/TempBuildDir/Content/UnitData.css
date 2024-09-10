@@ -1,0 +1,204 @@
+﻿:root {
+    --main: var(--button);
+}
+
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+h1, h2, h3 {
+    margin: 15px;
+    color: rgba(0,0,0);
+}
+
+#ifNoUnits {
+    text-align: center;
+    color: dimgray;
+}
+
+.control-label {
+    color: black;
+    margin-right: 15px;
+}
+
+.step {
+    display: none;
+}
+
+    .step.active {
+        display: block;
+    }
+
+button.next-btn {
+    float: right;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(180,220,255);
+}
+
+
+button.previous-btn {
+    float: left;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(180,220,255);
+}
+
+
+.row h2 {
+    margin-right: 5rem;
+}
+.form {
+    margin: auto;
+}
+
+.required {
+    font-size: 15px;
+    color: red;
+}
+
+
+th, td {
+    text-align: right;
+}
+
+
+.popup {
+    position: fixed;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(1.25);
+    width: 380px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
+    font-size: 14px;
+}
+
+.popup.act {
+    top: 55%;
+    opacity: 1;
+    transform: translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
+    z-index: 10;
+}
+
+.popup .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 10px;
+}
+span.popup-close {
+    cursor: pointer;
+}
+.form-group input, .form-group select {
+    border: 1px solid #e5e5e5 !important;
+}
+.form-control {
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #DDD;
+    width: 100%;
+}
+
+.popup .form h3 {
+    text-align: center;
+    color: #222;
+}
+
+.disable-pg {
+    pointer-events: none;
+    opacity: 0.6;
+}
+.table-review{
+    background-color: transparent;
+}
+.con-label {
+    font-size: 25px;
+    color: #646464;
+    padding-right: 15px;
+}
+.con-div {
+    padding-right: 20px;
+}
+second-header {
+    background-color: var(--button);
+    color: var(--text);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.form-control:focus {
+    border:none;
+    box-shadow:none;
+    outline: none;
+}
+ button{
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 35%;
+    z-index:2;
+}
+.export-btn {
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+.pg-2 {
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 60px;
+    margin: 5px;
+    cursor: pointer;
+    right: 0;
+
+}
+button:hover {
+    color: var(--alarm);
+}
+
+ .table table {
+     width: 100%;
+     padding: 30px;
+
+ }
+.table > :not(caption) > * > * {
+    background-color: transparent;
+}
+.header-tr th {
+    background-color: var(--button);
+    color: var(--text);
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+tbody tr td {
+    text-align: center !important;
+    font-size: 19px !important;
+}

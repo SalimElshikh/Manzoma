@@ -1,6 +1,5 @@
 ﻿window.onload = function () {
     RequestTmamStatus();
-    numbersE2A();
 }
 function RequestTmamStatus() {
     $.ajax({
@@ -77,7 +76,10 @@ function getTimeRemain(timeInSeconds) {
     seconds = (seconds >= 10) ? seconds.toString() : `0${seconds}`;
     return `${hours}:${minutes}:${seconds}`;
 }
-
+function numbersEn2Ar(number) {
+    const en2ArDigits = { '0': '٠', '1': '١', '2': '٢', '3': '٣', '4': '٤', '5': '٥', '6': '٦', '7': '٧', '8': '٨', '9': '٩' };
+    return number.toString().replace(/\d/g, (x) => en2ArDigits[x]);
+}
 setInterval(
     function () {
         const d = new Date();

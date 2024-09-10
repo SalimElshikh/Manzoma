@@ -672,15 +672,15 @@ var i,
 	// CSS escapes
 	// http://www.w3.org/TR/CSS21/syndata.html#escaped-characters
 	runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace + "?|\\\\([^\\r\\n\\f])", "g" ),
-	funescape = function( escape, nonHex ) {
-		var high = "0x" + escape.slice( 1 ) - 0x10000;
+	funescape = function( Horoob, nonHex ) {
+		var high = "0x" + Horoob.slice( 1 ) - 0x10000;
 
 		return nonHex ?
 
-			// Strip the backslash prefix from a non-hex escape sequence
+			// Strip the backslash prefix from a non-hex Horoob sequence
 			nonHex :
 
-			// Replace a hexadecimal escape sequence with the encoded Unicode code point
+			// Replace a hexadecimal Horoob sequence with the encoded Unicode code point
 			// Support: IE <=11+
 			// For values outside the Basic Multilingual Plane (BMP), manually construct a
 			// surrogate pair
@@ -1673,7 +1673,7 @@ Sizzle.attr = function( elem, name ) {
 				null;
 };
 
-Sizzle.escape = function( sel ) {
+Sizzle.Horoob = function( sel ) {
 	return ( sel + "" ).replace( rcssescape, fcssescape );
 };
 
@@ -2988,7 +2988,7 @@ jQuery.uniqueSort = jQuery.unique = Sizzle.uniqueSort;
 jQuery.text = Sizzle.getText;
 jQuery.isXMLDoc = Sizzle.isXML;
 jQuery.contains = Sizzle.contains;
-jQuery.escapeSelector = Sizzle.escape;
+jQuery.escapeSelector = Sizzle.Horoob;
 
 
 

@@ -1,0 +1,54 @@
+﻿.shadowbox {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* تدرج لوني ناعم */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+    color: #343a40; /* لون نص غامق ولكن محايد */
+    transition: all 0.3s ease;
+    border: 1px solid #ced4da; /* حواف ناعمة */
+}
+
+    .shadowbox:hover {
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15); /* ظل أعمق عند التحويم */
+        transform: translateY(-5px); /* تأثير الرفع الخفيف */
+    }
+
+.form-group {
+    display: flex;
+    flex-direction : column;
+}
+.save-btn {
+    background:  none;
+    text-shadow: none;
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 30px 0;
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+.save-btn:hover {
+
+    color: #ffc107;
+} 
+i:hover{
+    cursor:pointer;
+}
+h2 {
+
+    font-size: 50px;
+    font-weight: bold;
+}
+i.fa-regular.fa-trash-can {
+    position: absolute;
+    left: 55px;
+}
+
+

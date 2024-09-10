@@ -178,18 +178,6 @@ tr {
     font-size: 1.4rem;
 }
 
-i {
-    color: var(--button);
-    position: absolute;
-    top: 5px;
-    left: 5%;
-    font-size: 2.4rem !important;
-}
-
-    i:hover {
-        color: #0056b3;
-    }
-
 table {
     max-height: 200px; /* Adjust the height as needed */
     overflow-y: auto;

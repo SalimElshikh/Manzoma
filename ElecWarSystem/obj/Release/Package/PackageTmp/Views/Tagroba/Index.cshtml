@@ -2,10 +2,8 @@
 @model ElecWarSystem.ViewModels.TagarobViewModel
 @{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/_NewTamam.cshtml";
+    Layout = "~/Views/Shared/New_Tmam.cshtml";
 }
-<link href="~/Content/css/all.css" rel="stylesheet" />
-<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 <link href="~/Content/KharegTmarkoz.css" rel="stylesheet" />
 @using (Html.BeginForm(Html.BeginForm("Index", "Tagarob", FormMethod.Post, new { id = "createForm" })))
 {
@@ -311,8 +309,5 @@
         </div>
     </div>
 </div>
-<script src="~/Scripts/jquery-3.7.1.min.js"></script>
-<script src="~/Scripts/bootstrap.min.js"></script>
-
 
 <script src="~/Scripts/NewTmam/Tagarob.js"></script>
