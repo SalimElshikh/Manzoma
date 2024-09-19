@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Salem\\Desktop\\Final Manzoma\\Manzoma\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\users\\salem\\desktop\\final manzoma\\manzoma\\elecwarsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Salem\\Desktop\\Final Manzoma\\Manzoma\\ElecWarSystem\\Web.config",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Web.config",
+              "ToolTip": "C:\\Users\\Salem\\Desktop\\Final Manzoma\\Manzoma\\ElecWarSystem\\Web.config",
+              "RelativeToolTip": "ElecWarSystem\\Web.config",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAUwL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-19T10:50:54.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

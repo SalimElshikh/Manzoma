@@ -5,11 +5,13 @@ body {
 
 }
 .main-panel {
-    background-color: #777;
+    background-color: var(--background);
 }
-
+.shadow-lg {
+    box-shadow: inset 1px 1rem 4rem 6px rgba(0, 0, 0, 0.175) !important;
+}
 .main-panel .container {
-    background-color: #777;
+    background-color: var(--background);
 }
 .text p {
     text-align: center;
@@ -25,7 +27,7 @@ body {
 :root {
     --main: #6a33ff;
     --header: #1a2035;
-    --background: #f4f6f7;
+    --background: #959595;
     --text: rgba(255,255,255,90%);
     --button: #6a33ff;
     --alarm: #f3d007;
@@ -52,7 +54,7 @@ table {
      padding: 10px 0 !important; 
 }
 
-@media (max-width: 922px ) {
+@media (max-width: 992px ) {
     img {
         display: none;
     }
@@ -61,15 +63,15 @@ table {
         text-align: center;
     }
     .sidebar{
-        display: none;
+        display: none !important;
     }
     .nav-toggle {
         display: none !important;
     }
 }
 
-/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
 .container .title-div {
     text-align: center;
     background-color: var(--button);
@@ -79,7 +81,16 @@ table {
     font-size: 12px;
     color: var(--text);
 }
-
+.logo-header .logo {
+    color: #2a2f5b;
+    opacity: 1;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    margin-right: 2.2rem;
+}
     .nav-item li a:hover {
     color: var(--alarm);
 }

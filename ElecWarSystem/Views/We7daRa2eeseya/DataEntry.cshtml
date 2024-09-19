@@ -34,7 +34,7 @@
     <div class="title-div " style="width: 100%">
         <div class="d-flex justify-content-around">
             <img src="~/Images/elecwarIcon2.png" />
-            <p style="font-size:50px; font-weight:bold;">@ViewBag.unit.We7daName</p>
+            <p style="font-size:2.5rem; font-weight:bold;">@ViewBag.unit.We7daName</p>
             <img src="~/Images/elecwarIcon2.png" />
 
         </div>
@@ -49,15 +49,17 @@
             <li class="@(ViewBag.pg == 5 ? "active" : "")">
                 @Html.ActionLink("بيانات قادة الوحدة الفرعية", "DataEntry", "We7daRa2eeseya", new { pg = 5 }, null)
             </li>
-            <li class="@(ViewBag.pg == 4 ? "active" : "")">
-                @Html.ActionLink("بيانات الجنود", "DataEntry", "We7daRa2eeseya", new { pg = 4 }, null)
+            <li class="@(ViewBag.pg == 2 ? "active" : "")">
+                @Html.ActionLink("بيانات الضباط", "DataEntry", "We7daRa2eeseya", new { pg = 2 }, null)
             </li>
             <li class="@(ViewBag.pg == 3 ? "active" : "")">
                 @Html.ActionLink("بيانات ضباط الصف", "DataEntry", "We7daRa2eeseya", new { pg = 3 }, null)
             </li>
-            <li class="@(ViewBag.pg == 2 ? "active" : "")">
-                @Html.ActionLink("بيانات الضباط", "DataEntry", "We7daRa2eeseya", new { pg = 2 }, null)
+            <li class="@(ViewBag.pg == 4 ? "active" : "")">
+                @Html.ActionLink("بيانات الجنود", "DataEntry", "We7daRa2eeseya", new { pg = 4 }, null)
             </li>
+
+
         </ul>
     </nav>
     @{
@@ -68,75 +70,63 @@
     @switch (pg)
     {
         case 1:
-            <h1 class="text">قيادة الوحدة</h1>
-            <div class="name-div">
+            <h1 class="text-center">قيادة الوحدة</h1>
+
+            <div class="name-div p-1 rounded shadow-lg col-9 " style="margin: auto">
                 @using (Html.BeginForm("AddUnitLeadership", "We7daRa2eeseya", FormMethod.Post, new { @enctype = "multipart/form-data" }))
                 {
-                    <div class="d-flex flex-row shadowbox">
-                        <div class="container ">
+                    <div class="d-flex flex-wrap justify-content-between shadowbox p-5 rounded">
+                        <!-- قائد الوحدة -->
+                        <div class="container  col-5">
                             <div class="row">
-                                <h2 class="">قائد الوحدة</h2>
-                                <div class="form-group col-6">
-                                    @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label " })
-
-                                    @Html.EditorFor(model => Model.Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
-
+                                <h2 class="mb-3">قائد الوحدة</h2>
+                                <div class="form-group  mb-3">
+                                    @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label fs-5" })
+                                    @Html.EditorFor(model => Model.Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
                                 </div>
-                                <div class="form-group col-6 ">
-                                    @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label " })
-
-                                    @Html.DropDownListFor(model => Model.Qa2edWe7da.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control" })
-
+                                <div class="form-group mb-3">
+                                    @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label fs-5" })
+                                    @Html.DropDownListFor(model => Model.Qa2edWe7da.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control form-control-lg" })
                                 </div>
-                                <div class="form-group col-6">
-                                    @Html.Label("الإسم", htmlAttributes: new { @class = "control-label " })
-
-                                    @Html.EditorFor(model => Model.Qa2edWe7da.FullName, new { htmlAttributes = new { @class = "form-control" } })
-
+                                <div class="form-group  ">
+                                    @Html.Label("الإسم", htmlAttributes: new { @class = "control-label fs-5" })
+                                    @Html.EditorFor(model => Model.Qa2edWe7da.FullName, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
                                 </div>
                             </div>
                         </div>
-                        <hr />
-                        <div class="container">
+                        <!-- رئيس عمليات الوحدة -->
+                        <div class="container col-5">
                             <div class="row">
-                                <h2>رئيس عمليات الوحدة</h2>
-                                <div class="form-group col-6">
-                                    @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label " })
-                                    @Html.EditorFor(model => Model.Ra2ees3ameleyat.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
-
+                                <h2 class="mb-3 ">رئيس عمليات الوحدة</h2>
+                                <div class="form-group  mb-3">
+                                    @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label fs-5" })
+                                    @Html.EditorFor(model => Model.Ra2ees3ameleyat.Raqam3askary, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
                                 </div>
-                                <div class="form-group col-6">
-                                    @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label " })
-                                    <div class="">
-                                        @Html.DropDownListFor(model => Model.Ra2ees3ameleyat.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control" })
-                                        @Html.ValidationMessage("UnitOperChRotba", "", new { @class = "text-danger" })
-                                    </div>
-
+                                <div class="form-group  mb-3">
+                                    @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label fs-5" })
+                                    @Html.DropDownListFor(model => Model.Ra2ees3ameleyat.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control form-control-lg" })
+                                    @Html.ValidationMessage("UnitOperChRotba", "", new { @class = "text-danger" })
                                 </div>
-                                <div class="form-group col-6">
-                                    @Html.Label("الإسم", htmlAttributes: new { @class = "control-label " })
-                                    <div class="">
-                                        @Html.EditorFor(model => Model.Ra2ees3ameleyat.FullName, new { htmlAttributes = new { @class = "form-control" } })
-                                        @Html.ValidationMessage("UnitOperChName", "", new { @class = "text-danger" })
-                                    </div>
-
+                                <div class="form-group  ">
+                                    @Html.Label("الإسم", htmlAttributes: new { @class = "control-label fs-5" })
+                                    @Html.EditorFor(model => Model.Ra2ees3ameleyat.FullName, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+                                    @Html.ValidationMessage("UnitOperChName", "", new { @class = "text-danger" })
                                 </div>
                             </div>
                         </div>
                     </div>
                     <hr />
-                    <div class="form-group d-flex flex-row">
-                        @Html.Label("عدد الوحدات الفرعية", htmlAttributes: new { @class = "control-label fs-5 text-center" })
-                        <input class="form-control col-" type="number" value="@Model.We7daFar3eya.Count" name="SmallUnitCount" max="3" , min="0" style="margin-right:20px" />
-
+                    <div class="form-group d-flex align-items-center mb-4 col-5">
+                        @Html.Label("عدد الوحدات الفرعية", htmlAttributes: new { @class = "control-label fs-5" })
+                        <input class="form-control form-control-lg mx-3 " type="number" value="@Model.We7daFar3eya.Count" name="SmallUnitCount" max="3" min="0" />
                     </div>
-                    <button type="submit" class="button" style="font-size:16px;">
-                        <span class="glyphicon glyphicon-save"></span>
-                        حفظ
+
+                    <button type="submit" class="export-btn">
+                        <i class="glyphicon glyphicon-save "></i> حفظ
                     </button>
                 }
             </div>
-            <hr />
+
             break;
         //----------------------------------------------------------------------------------------------
         case 5:
@@ -169,67 +159,63 @@
                                 uocRotba = Model.We7daFar3eya[i].Ra2ees3ameleyat.RotbaID.ToString();
                             }
                             <h2 class="text">قيادة @units[i]</h2>
-                            <div class="shadowbox ">
-                                <div class="container">
+                            <div class="d-flex flex-wrap justify-content-between p-5 rounded shadow-lg">
+                                <div class="container col-5">
                                     <div class="row">
                                         <h3 class=" ">قائد @units[i]</h3>
-                                        <div class="form-group  ">
-                                            <div class=" "></div>
-                                            <div class=" ">
-                                                @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
-                                            </div>
-                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
+                                        <div class="form-group  mb-3">
+                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label fs-5" })
+                                            @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control form-control-lgl" } })
                                         </div>
-                                        <div class="form-group  ">
-                                            <div class=" "></div>
+                                        <div class="form-group  mb-3">
+                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label fs-5   " })
                                             <div class=" ">
                                                 @Html.DropDownListFor(model => Model.We7daFar3eya[i].Qa2edWe7da.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName", ucRotba), new { @class = "form-control" })
                                                 @Html.ValidationMessageFor(model => Model.We7daFar3eya[i].Qa2edWe7da.RotbaID, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2   " })
+
                                         </div>
                                         <div class="form-group  ">
-                                            <div class=" "></div>
+                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label fs-5   " })
                                             <div class=" ">
-                                                @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.FullName, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
                                                 @Html.ValidationMessageFor(model => Model.We7daFar3eya[i].Qa2edWe7da.FullName, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2   " })
+
                                         </div>
                                     </div>
                                 </div>
-                                <div class="container background">
+                                <div class="container col-5">
                                     <div class="row">
                                         <h3 class=" ">رئيس عمليات @units[i]</h3>
-                                        <div class="form-group  ">
-                                            <div class=" "></div>
-                                            <div class=" ">
-                                                @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control" } })
-                                            </div>
-                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
+                                        <div class="form-group  mb-3">
+                                            @Html.Label("الرقم العسكرى", htmlAttributes: new { @class = "control-label fs-5  " })
+                                            @Html.EditorFor(model => Model.We7daFar3eya[i].Qa2edWe7da.Raqam3askary, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
+
                                         </div>
-                                        <div class="form-group  ">
-                                            <div class=" "></div>
+                                        <div class="form-group mb-3 ">
+                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label fs-5  " })
                                             <div class=" ">
                                                 @Html.DropDownListFor(model => Model.We7daFar3eya[i].Ra2ees3ameleyat.RotbaID, new SelectList(ViewBag.Rotbas, "ID", "RotbaName", uocRotba), new { @class = "form-control" })
                                                 @Html.ValidationMessage("UnitOperChRotba" + @i, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الرتبة", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
+
                                         </div>
-                                        <div class="form-group">
-                                            <div class=" "></div>
+                                        <div class="form-group ">
+                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label fs-5  " })
                                             <div class=" ">
-                                                @Html.EditorFor(model => Model.We7daFar3eya[i].Ra2ees3ameleyat.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.EditorFor(model => Model.We7daFar3eya[i].Ra2ees3ameleyat.FullName, new { htmlAttributes = new { @class = "form-control form-control-lg" } })
                                                 @Html.ValidationMessage("UnitOperChName" + @i, "", new { @class = "text-danger" })
                                             </div>
-                                            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label col-lg-2 col-md-2  " })
+
                                         </div>
                                     </div>
                                 </div>
                                 <hr />
                             </div>
                         }
-                        <button type="submit" class="export-btn" style="font-size:16px;">
+
+                        <button type="submit" class="export-btn">
                             حفظ
                         </button>
                     }
@@ -261,11 +247,11 @@
                                     @foreach (FardDetails FardDetails in ViewBag.FardDetails)
                                     {
                                         <tr>
-                                            <td>@j</td>
+                                            <td class="col-2">@j</td>
                                             <td>@Html.DisplayFor(modelItem => FardDetails.Raqam3askary)</td>
                                             <td>@Html.DisplayFor(modelItem => FardDetails.Rotba.RotbaName)</td>
                                             <td>@Html.DisplayFor(modelItem => FardDetails.FullName)</td>
-                                            <td>
+                                            <td class="col-5">
                                                 <button class=" pg-2" onclick="updateAfterDelete(@FardDetails.ID, @FardDetails.Rotba.RotbaType)">
                                                     حذف
                                                     <span class="glyphicon glyphicon-remove"></span>
