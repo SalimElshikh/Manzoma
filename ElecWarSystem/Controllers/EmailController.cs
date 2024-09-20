@@ -31,10 +31,10 @@ namespace ElecWarSystem.Controllers
             dangerExtension = new[]{ "pdf", "dot", "dotx", "docm", "docx",
                 "doc", "png", "jpeg", "jpg", "tif","pptx","pptm",
                 "ppt", "potx", "accdb", "mdb", "xlsx", "xls", "xlsm",
-                "csv", "zip", "rar", "mp3","aac", "oog", "wav", "mp4", 
+                "csv", "zip", "rar", "mp3","aac", "oog", "wav", "mp4",
                 "mov", "wmv", "avi", "mkv"};
-            
-                 
+
+
         }
         // GET: Emails
         public ActionResult Index()
@@ -115,7 +115,7 @@ namespace ElecWarSystem.Controllers
             emailViewModel.Email.SendDateTime = DateTime.Now;
 
             List<HttpPostedFileBase> attachment = files.ToList();
-            string serverPath = @"D:\\dbo";
+            string serverPath = @"C:\\dbo";
             long allContentSize = 0;
 
             foreach (string id in emailViewModel.RecIds)
@@ -163,7 +163,7 @@ namespace ElecWarSystem.Controllers
             {
                 emailViewModel.Message = "عفواً المساحة المتاحة لك لا تكفى!!";
                 return View(emailViewModel);
-            }            
+            }
         }
 
         [HttpPost]

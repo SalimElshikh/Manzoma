@@ -25,11 +25,11 @@ body {
 
 }
 :root {
-    --main: #6a33ff;
+    --main: #0011c4;
     --header: #1a2035;
     --background: #959595;
     --text: rgba(255,255,255,90%);
-    --button: #6a33ff;
+    --button: #0011c4;
     --alarm: #f3d007;
 }
 .sidebar .nav, .sidebar[data-background-color=white] .nav {
@@ -71,7 +71,20 @@ table {
 }
 
 
+
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+
+.logo-header .logo {
+    color: #2a2f5b;
+    opacity: 1;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    margin-right: 2.8rem;
+}
 .container .title-div {
     text-align: center;
     background-color: var(--button);
@@ -81,16 +94,7 @@ table {
     font-size: 12px;
     color: var(--text);
 }
-.logo-header .logo {
-    color: #2a2f5b;
-    opacity: 1;
-    position: relative;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    color: var(--text);
-    margin-right: 2.2rem;
-}
+
     .nav-item li a:hover {
     color: var(--alarm);
 }

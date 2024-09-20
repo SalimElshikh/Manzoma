@@ -103,3 +103,15 @@ function disableBtn() {
     $("#btn-add").attr('disabled', 'disabled');    
 }
 
+// تعريف الدالة preventBack لمنع الرجوع للخلف
+function preventBack() {
+    window.history.forward();
+}
+
+// استدعاء preventBack بعد فترة قصيرة
+setTimeout(preventBack, 0);
+
+// عند إغلاق الصفحة
+window.onunload = function () {
+    null;
+};

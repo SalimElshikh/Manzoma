@@ -14,7 +14,7 @@ body {
 .header-item {
     display: flex;
     width: 100%;
-    flex-direction: row-reverse;
+
     justify-content: space-between;
     flex-basis: 25%;
     padding: 10px !important;
@@ -45,16 +45,19 @@ footer {
     position: fixed; bottom: 0; width: 100%;
 }
 .div-progress {
-    width: 300px;
-    background-color: var(--header);
+    width: 20rem;
+    background-color: var(--main);
     border-radius: 10px;
-    padding: 0 5px;
+    padding: .5rem 1rem;
     color: var(--text);
 }
 .progress {
     width: 100% !important;
     height: 15px;
     background-color: var(--botton);
+}
+.div-progress label {
+    color:var(--text) !important;
 }
 .header-export {
     overflow: hidden;
@@ -78,4 +81,42 @@ footer {
     .export-btn:hover {
         color: #ffc107;
     }
+
+.logo-header .logo {
+    color: #2a2f5b;
+    opacity: 1;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    margin-right: 2.2rem;
+}
+.card:hover {
+    /* transform: translateY(-10px); */
+    transform:none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.export-btn {
+    text-decoration: none;
+    background-color: var(--button);
+    color: var(--text);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 

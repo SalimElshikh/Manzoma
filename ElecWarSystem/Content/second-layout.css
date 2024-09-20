@@ -103,6 +103,17 @@ h3 {
 
 
 
+.logo-header .logo {
+    color: #2a2f5b;
+    opacity: 1;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--text);
+    margin-right: 2.8rem;
+}
+
 
 
 .title-page {

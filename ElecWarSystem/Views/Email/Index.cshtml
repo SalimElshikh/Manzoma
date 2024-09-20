@@ -1,26 +1,28 @@
-﻿<link rel="stylesheet" href="~/Content/aside.css" />
+﻿
+@{ 
+    Layout = "~/Views/Shared/_Startup.cshtml";
+}
+<link rel="stylesheet" href="~/Content/aside.css" />
 <link href="~/Content/tabadol-file.css" rel="stylesheet" />
+
 <div ng-app="EmailModule">
-    <div class="container mt-4 mb-4 d-flex flex-column" ng-controller="EmailController" ng-cloak>
-        <div class="header-file d-flex flex-row flex-wrap justify-content-between">
-                <button type="submit" ng-class="exportClasses" id="exportBtn" ng-click="loadExportedEmails(true)"class="export-btn" >
-                    صادر
-                    <span class="glyphicon glyphicon-export"></span>
-                </button>
+    <div class="container mt-4 mb-4 d-flex flex-column email-container" ng-controller="EmailController" ng-cloak>
+        <!-- تحسينات في أزرار التفاعل -->
+        <div class="header-file d-flex flex-row flex-wrap justify-content-between align-items-center">
+            <button type="submit" ng-class="exportClasses" id="exportBtn" ng-click="loadExportedEmails(true)" class="export-btn modern-btn">
+                <i class="glyphicon glyphicon-export"></i> صادر
+            </button>
 
-                <button type="submit" ng-class="importClasses" id="importBtn" ng-click="loadExportedEmails(false)" class="export-btn">
-                    وارد
-                    <span class="glyphicon glyphicon-import"></span>
-                    <span class="badge" style="background-color: red; color: white;" ng-show="{{unreadCount > 0}}">{{unreadCount}}</span>
-                </button>
-
-            
-            @{ 
+            <button type="submit" ng-class="importClasses" id="importBtn" ng-click="loadExportedEmails(false)" class="export-btn modern-btn">
+                <i class="glyphicon glyphicon-import"></i> وارد
+                <span class="badge badge-danger" ng-show="{{unreadCount > 0}}">{{unreadCount}}</span>
+            </button>
+            @{
                 long perc = (ViewBag.Used.SpaceInBytes * 100) / (ViewBag.Capacity.SpaceInBytes);
                 string color = (perc > 80) ? "progress-bar-danger" : "progress-bar-primary";
             }
-            <div class="div-progress" >
-                <div class="progress" style="margin:10px 0px 0px 0px; height:10px; width: 5rem">
+            <div class="div-progress">
+                <div class="progress" >
                     <div class="progress-bar @color" role="progressbar" aria-valuenow="@perc" aria-valuemin="0" aria-valuemax="100" style="width:@perc">
                         <span class="sr-only">80% Complete (danger)</span>
                     </div>
@@ -28,81 +30,68 @@
                 <label style="float:left;">@String.Format($"{ViewBag.Capacity.ToString()} Max")</label>
                 <label style="float:right;">@String.Format($"{ViewBag.Used.ToString()} Used")</label>
             </div>
-            <a class=" export-btn create-btn" id="createBtn" href="@Url.Action("Create", "Email")" >
-                    إنشاء بريد
-                    <span class="glyphicon glyphicon-pencil"></span>
+            <a class="export-btn" id="createBtn" href="@Url.Action("Create", "Email")">
+                <i class="glyphicon glyphicon-pencil"></i> إنشاء بريد
             </a>
-
         </div>
-        <div ng-show="!export">
-            <div class=" container mt-4 p-3 header-item" id="emailsListHeader">
-                    <div class="">
-                        هام
-                    </div>
-                    <div class="">
-                        المرسل
-                    </div>
-                    <div class="">
-                        الموضوع
-                    </div>
-                    <div class="">
-                        الوقت
-                    </div>
+
+        <!-- تصميم قائمة البريد بأسلوب البطاقات -->
+        <div class="emails-list mt-4" ng-show="!export">
+            <div class="header-item modern-header d-flex justify-content-between align-items-center ">
+                <span>الوقت</span>
+                <span>الموضوع</span>
+                <span>المرسل</span>
+                <span>هام</span>
+                
+                
+                
             </div>
 
             <div id="EmailsDiv">
-                <div class="container mt-2 p-3 email-item" ng-repeat="email in Recieved track by $index">
-                    <div class = "row" ng-class ="email.Maqroo2 ? 'row' : 'row email-unread'">
-                        <div class="">
-                            <input type="checkbox" ng-model="email.Starred" ng-click="StarEmail(email.Email.ID)" />
-                        </div>
-                        <div class="" ng-click="openDetailsEmail(email.Email.ID)">
-                            <span class="aribiano">{{email.Email.Sender.We7daName}}</span>
-                        </div>
-                        <div class="" ng-click="openDetailsEmail(email.Email.ID)">
-                            <span class="aribiano">{{email.Email.Subject}}</span>
-                            <span>-</span>
-                            <span class="aribiano">{{email.Email.EmailText}}</span>
-                        </div>
-                        <div class="" ng-click="openDetailsEmail(email.Email.ID)" ng-cloak>
+                <div class="email-item" ng-repeat="email in Recieved track by $index">
+                    <div class="email-item card mt-2 p-3 d-flex flex-row align-items-center" ng-class="{'email-unread': !email.Maqroo2}">
+                        <div class="email-time col-2" ng-click="openDetailsEmail(email.Email.ID)">
                             <span>{{email.Email.SendDateTime.slice(6,-2) | date:'yyyy/MM/dd'}}</span>
                         </div>
+                        <div class="email-subject col-6" ng-click="openDetailsEmail(email.Email.ID)">
+                            <span>{{email.Email.Subject}} - {{email.Email.EmailText}}</span>
+                        </div>
+                        <div class="email-sender col-3" ng-click="openDetailsEmail(email.Email.ID)">
+                            <span>{{email.Email.Sender.We7daName}}</span>
+                        </div>
+
+                        <input type="checkbox" class = "col-1" ng-model ="email.Starred" ng-click="StarEmail(email.Email.ID)" />
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="" ng-show="export">
-            <div class="container p-3 d-flex flex-row header-item" id="emailsListHeader">  
-                <div class="col-3">
-                    الوقت
-                </div>
-                <div class="col-9">
-                    الموضوع
-                </div>
+        <!-- قائمة البريد الصادر بنفس النمط -->
+        <div class="emails-list mt-4" ng-show="export">
+            <div class="header-item modern-header d-flex  align-items-center">
+                <span class="col-3">الوقت</span>
+                <span class="col-9">الموضوع</span>
             </div>
 
-            <div id="EmailsDiv " class="header-export">
-                <div class="container mt-2 p-3 email-item d-flex flex-row " style="position: relative;" ng-repeat="email in Sended track by $index">
-                    <div class="col-2" ng-click="openDetailsEmail(email.ID)">
+            <div id="EmailsDiv">
+                <div class="email-item card mt-2 p-3 d-flex flex-row align-items-center" ng-repeat="email in Sended track by $index">
+                    <!-- زر الحذف الآن في البداية -->
+
+                    <div class="email-time col-2" ng-click="openDetailsEmail(email.ID)">
                         <span>{{email.SendDateTime.slice(6,-2) | date:'yyyy/MM/dd'}}</span>
                     </div>
-                    <div class="col-1 me-5" style="margin-right: -20px;">
-                        <button class="delete-btn col-2" ng-click="delete(email.ID)">
-                            حذف
-                            <span class="glyphicon glyphicon-trash"></span>
-                        </button>
+                    <div class="email-subject col-9" ng-click="openDetailsEmail(email.ID)">
+                        <span>{{email.Subject}} - {{email.EmailText}}</span>
                     </div>
-                    <div class="col-9" ng-click="openDetailsEmail(email.ID)">
-                        <span class="aribiano">{{email.Subject}}</span>
-                        <span class="aribiano">{{email.EmailText}}</span>
-                    </div>
-
-
+                    <button class="btn btn-outline-danger " ng-click="delete(email.ID)" style="padding: 5px;">
+                        <i class="fas fa-trash" style="font-size: 16px;"></i>
+                    </button>
 
                 </div>
             </div>
+
         </div>
     </div>
 </div>
-<script type="text/javascript" src="~/Scripts/EmailsScript.js"></script>
+
+

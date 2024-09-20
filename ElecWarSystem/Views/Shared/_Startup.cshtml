@@ -14,6 +14,8 @@
           type="image/x-icon" />
     <link rel="stylesheet" href="~/Content/New_Design/plugins.min.css" />
     <link rel="stylesheet" href="~/Content/New_Design/kaiadmin.min.css" />
+    <link href="~/Content/New_Design/Startup_View.css" rel="stylesheet" />
+    <link href="~/Content/tabadol-file.css" rel="stylesheet" />
     @{
         var tmamTypeCookie = Request.Cookies["tmam-type"]?.Value ?? "";
         TmamEnum tmamType = TmamEnum.Exist;
@@ -62,17 +64,31 @@
                                href="#colspan1"
                                class="collapsed"
                                aria-expanded="false">
-                                <i class="fas fa-home"></i>
-                                <p>الصفحة الرسمية </p>
+                                <i class="fas fa-user"></i>
+                                <p>منظومة التمامات </p>
                                 <span class="caret"></span>
                             </a>
                             <div class="collapse" id="colspan1">
+                                <ul class="nav nav-collapse">
+                                    <li>@Html.ActionLink(linkText: "تمام عمليات يومي  ", actionName: "RecievedTmam", controllerName: "TmamGathering")</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a data-bs-toggle="collapse"
+                               href="#colspan2"
+                               class="collapsed"
+                               aria-expanded="false">
+                                <i class="fas fa-file"></i>
+                                <p>منظومة تبادل الملفات  </p>
+                                <span class="caret"></span>
+                            </a>
+                            <div class="collapse" id="colspan2">
                                 <ul class="nav nav-collapse">
                                     @if ((userRoles & UserRoles.Analyzer) == UserRoles.Analyzer)
                                     {
                                         <li>@Html.ActionLink("تبادل الملفات", "Index", "Email")</li>
                                     }
-                                <li>@Html.ActionLink(linkText: "تمام عمليات يومي  ", actionName: "RecievedTmam", controllerName: "TmamGathering")</li>
                                 </ul>
                             </div>
                         </li>
@@ -142,5 +158,7 @@
 
     <!-- Kaiadmin JS -->
     <script src="~/Scripts/New_Design/kaiadmin.min.js"></script>
+    <script src="~/Scripts/TmamScripts/angular.js"></script>
+    <script type="text/javascript" src="~/Scripts/EmailsScript.js"></script>
 </body>
 </html>

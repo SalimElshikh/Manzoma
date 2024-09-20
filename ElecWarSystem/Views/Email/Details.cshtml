@@ -2,121 +2,115 @@
 @using ElecWarSystem.Models
 @using ElecWarSystem.ViewModel
 @{
+    Layout = "~/Views/Shared/_Startup.cshtml";
     ViewBag.Title = "Details";
 }
 
 <link rel="stylesheet" href="~/Content/aside.css" />
-<script type="text/javascript" src="~/Scripts/EmailsScript.js"></script>
 <div class="container">
     <div class="row">
-        <div>
-            <h2 style="margin:10px 0px;">@Model.Subject</h2>
-            <h4 style="float: left; margin: 0px;">@Model.SendDateTime.ToString("dd MMMM yyyy")</h4>
+        <div class="col-md-12">
+            <h2 class="text-center" style="margin:20px 0px; color:#343a40; font-weight:600;">@Model.Subject</h2>
+            <h5 class="text-muted" style="float:left; margin: 0px 0px 10px 0px;">@Model.SendDateTime.ToString("dd MMMM yyyy")</h5>
         </div>
     </div>
 </div>
 
 <hr />
-<div >
-    <div class="form-horizontal right">
 
+<div class="container">
+    <div class="form-horizontal">
+
+        <!-- Email Text Section -->
         <div class="form-group">
-            <div class="">
-                @Html.TextAreaFor(model => model.EmailText, new { @class = "form-control", @rows = "6", @readonly = "readonly", @style = "background-color:White; font-size:16px;" })
-
+            <div class="col-md-12">
+                @Html.Label("النص", htmlAttributes: new { @class = "control-label", @style = "font-weight:bold;" })
+                @Html.TextAreaFor(model => model.EmailText, new { @class = "form-control", @rows = "6", @readonly = "readonly", @style = "background-color:#f8f9fa; font-size:16px; padding:10px; border-radius:5px;" })
                 @Html.ValidationMessageFor(model => model.EmailText, "", new { @class = "text-danger" })
             </div>
-            @Html.Label("النص", htmlAttributes: new { @class = "control-label col-lg-1 col-md-1  col-sm-1 col-xs-1" })
         </div>
+
+        <!-- Documents Section -->
         <div class="form-group">
-            <div class="">
-                <table class="table table-bordered" style="background-color:white;">
-                    <tr style="background-color:darkseagreen; text-align:right">
-                        <th>م</th>
-                        <th></th>
-                        <th>إسم الملف</th>
-                        <th>تحميل</th>
-                    </tr>
-                    @{
-                        int i = 1;
-                    }
-
-                    @foreach (var item in Model.Document)
-                    {
-                        string imageIcon = EmailUtilies.chooseFileIcon(item.FileExtension);
+            <div class="col-md-12">
+                @Html.Label("الملف/ات", htmlAttributes: new { @class = "control-label", @style = "font-weight:bold;" })
+                <table class="table table-hover table-striped" style="background-color:white;">
+                    <thead class="thead-dark">
                         <tr>
-                            <td>
-                                @(i++)
-                            </td>
-                            <td>
-                                <img style="height: 30px; width: 30px;" src="@Url.Content(imageIcon)" />
-                            </td>
-                            <td>
-                                @Html.DisplayFor(modelItem => item.FileName)
-                            </td>
-                            <td>
-                                <button style="background-color:transparent; border: 0px;" onclick="DownloadFile(@item.ID)">
-                                    <span class="glyphicon glyphicon-download-alt"></span>
-                                    تنزيل
-                                </button>
-                            </td>
-                        </tr>
-                    }
-
-                </table>
-            </div>
-            @Html.Label("الملف/ات", htmlAttributes: new { @class = "control-label col-lg-1 col-md-1  col-sm-1 col-xs-1" })
-        </div>
-        @if (int.Parse(Request.Cookies["userID"].Value) == Model.SenderUserID)
-        {
-            <div class="form-group">
-                <div class="">
-                    <table class="table table-bordered" style="background-color:white;">
-                        <tr style="background-color:darkseagreen">
                             <th>م</th>
-                            <th>الوحدة</th>
-                            <th>مشاهدة</th>
-                            <th>هام</th>
+                            <th></th>
+                            <th>إسم الملف</th>
+                            <th>تحميل</th>
                         </tr>
-
+                    </thead>
+                    <tbody>
                         @{
-                            i = 1;
+                            int i = 1;
                         }
-
-                        @foreach (var item in Model.Mostalem)
+                        @foreach (var item in Model.Document)
                         {
+                            string imageIcon = EmailUtilies.chooseFileIcon(item.FileExtension);
                             <tr>
+                                <td>@(i++)</td>
+                                <td><img style="height: 30px; width: 30px;" src="@Url.Content(imageIcon)" /></td>
+                                <td>@Html.DisplayFor(modelItem => item.FileName)</td>
                                 <td>
-                                    @(i++)
-                                </td>
-                                <td>
-                                    @Html.DisplayFor(modelItem => item.RecieverUser.We7daName)
-                                </td>
-                                <td>
-                                    @if (item.Maqroo2)
-                                    {
-                                        <span class="glyphicon glyphicon-check" style="color:darkgreen;"></span>
-                                    }
-                                </td>
-                                <td>
-                                    @if (item.Starred)
-                                    {
-                                        <span class="glyphicon glyphicon-star" style="color: yellow;"></span>
-                                    }
+                                    <button class="btn btn-outline-primary btn-sm" onclick="DownloadFile(@item.ID)" style="padding: 5px;">
+                                        <i class="fas fa-download"></i>
+                                    </button>
                                 </td>
                             </tr>
                         }
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
+        <!-- Mostalem Section -->
+        @if (int.Parse(Request.Cookies["userID"].Value) == Model.SenderUserID)
+        {
+            <div class="form-group">
+                <div class="col-md-12">
+                    @Html.Label("المرسل اليهم", htmlAttributes: new { @class = "control-label", @style = "font-weight:bold;" })
+                    <table class="table table-hover table-striped" style="background-color:white;">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>م</th>
+                                <th>الوحدة</th>
+                                <th>مشاهدة</th>
+                                <th>هام</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Mostalem)
+                            {
+                                <tr>
+                                    <td>@(i++)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.RecieverUser.We7daName)</td>
+                                    <td>
+                                        @if (item.Maqroo2)
+                                        {
+                                            <i class="fas fa-check-circle" style="color:darkgreen;"></i>
+                                        }
+                                    </td>
+                                    <td>
+                                        @if (item.Starred)
+                                        {
+                                            <i class="fas fa-star" style="color: yellow;"></i>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
                     </table>
                 </div>
-                @Html.Label("المرسل اليهم", htmlAttributes: new { @class = "control-label col-lg-1 col-md-1  col-sm-1 col-xs-1" })
             </div>
-
         }
 
     </div>
-
 </div>
-<p>
-    @Html.ActionLink("عودة للصفحة الرئيسية", "Index")
+
+<!-- Back to Home Link -->
+<p class="text-center">
+    @Html.ActionLink("عودة للصفحة الرئيسية", "Index", null, new { @class = "export-btn mt-3" })
 </p>

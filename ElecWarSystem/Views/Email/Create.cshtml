@@ -3,13 +3,14 @@
 @using ElecWarSystem.ViewModel;
 
 @{
+    Layout = "~/Views/Shared/_Startup.cshtml";
     ViewBag.Title = "Create";
 }
 
 <link rel="stylesheet" href="~/Content/CreateEmailStyle.css" />
 <link rel="stylesheet" href="~/Content/aside.css" />
 <link href="~/Content/tabadol-file.css" rel="stylesheet" />
-<script type="text/javascript" src="~/Scripts/EmailsScript.js"></script>
+
 
 @using (Html.BeginForm("Create", "Email", FormMethod.Post, new { @enctype = "multipart/form-data" }))
 {
@@ -17,12 +18,12 @@
 
     <div class="container mt-5">
         <div class="row justify-content-center">
-            <div class="col-md-6">
-                <div class="modern-card shadow-lg p-4">
+            <div class="col-lg-6 col-md-8 col-sm-10">
+                <div class="card border-0 shadow-lg p-5 bg-white rounded">
                     <div class="text-center mb-4">
                         <h2 class="text-primary font-weight-bold">إنشاء بريد جديد</h2>
                     </div>
-                    <hr class="mb-5" />
+                    <hr class="mb-4" />
 
                     @if (!Model.Message.Equals(""))
                     {
@@ -32,31 +33,31 @@
                         </div>
                     }
 
-                    <div class="form-group">
-                        @Html.Label("الموضوع", htmlAttributes: new { @class = "font-weight-bold" })
-                        @Html.EditorFor(model => model.Email.Subject, new { htmlAttributes = new { @class = "form-control rounded-pill shadow-sm", @oninput = "disableBtn1()", @id = "subject" } })
+                    <div class="form-group mb-4">
+                        @Html.Label("الموضوع", htmlAttributes: new { @class = "font-weight-bold text-dark" })
+                        @Html.EditorFor(model => model.Email.Subject, new { htmlAttributes = new { @class = "form-control form-control-lg rounded-pill shadow-sm", @oninput = "disableBtn1()", @id = "subject" } })
                         @Html.ValidationMessageFor(model => model.Email.Subject, "", new { @class = "text-danger" })
                     </div>
 
-                    <div class="form-group">
-                        @Html.Label("النص", htmlAttributes: new { @class = "font-weight-bold" })
-                        @Html.TextAreaFor(model => model.Email.EmailText, new { @class = "form-control rounded shadow-sm", @rows = "6", @cols = "50", @oninput = "disableBtn1()", @id = "text" })
+                    <div class="form-group mb-4">
+                        @Html.Label("النص", htmlAttributes: new { @class = "font-weight-bold text-dark" })
+                        @Html.TextAreaFor(model => model.Email.EmailText, new { @class = "form-control form-control-lg rounded shadow-sm", @rows = "6", @cols = "50", @oninput = "disableBtn1()", @id = "text" })
                         @Html.ValidationMessageFor(model => model.Email.EmailText, "", new { @class = "text-danger" })
                     </div>
 
-                    <div class="form-group">
-                        @Html.Label("أختر ملفات", htmlAttributes: new { @class = "font-weight-bold" })
-                        <input type="file" id="files" multiple name="files" class="form-control-file" />
+                    <div class="form-group mb-4">
+                        @Html.Label("أختر ملفات", htmlAttributes: new { @class = "font-weight-bold text-dark" })
+                        <input type="file" id="files" multiple name="files" class="form-control-file border" />
                         <small class="form-text text-muted">الحد الأقصى لحجم الملف هو 1 جيجابايت</small>
                     </div>
 
-                    <div class="form-group">
-                        @Html.Label("مرسل إلى", htmlAttributes: new { @class = "font-weight-bold" })
-                        @Html.ListBoxFor(model => model.RecIds, new MultiSelectList(Model.Mostalem, "RecId", "We7daName"), new { @class = "form-control rounded shadow-sm", @style = "height:300px;", @oninput = "disableBtn1()", @id = "reciever" })
+                    <div class="form-group mb-4">
+                        @Html.Label("مرسل إلى", htmlAttributes: new { @class = "font-weight-bold text-dark" })
+                        @Html.ListBoxFor(model => model.RecIds, new MultiSelectList(Model.Mostalem, "RecId", "We7daName"), new { @class = "form-control form-control-lg rounded shadow-sm", @style = "height:300px;", @oninput = "disableBtn1()", @id = "reciever" })
                     </div>
 
-                    <div class="form-group text-center">
-                        <input type="submit" value="إرسال البريد" class="btn btn-primary btn-lg rounded-pill shadow" id="submit-btn" disabled />
+                    <div class="form-group text-center mt-4">
+                        <input type="submit" value="إرسال البريد" class="btn btn-primary btn-lg rounded-pill shadow-lg px-5" id="submit-btn"     />
                     </div>
                 </div>
             </div>
@@ -65,5 +66,5 @@
 }
 
 <div class="text-center mt-4">
-    @Html.ActionLink("عودة للصفحة الرئيسية", "Index", null, new { @class = "btn btn-outline-secondary rounded-pill shadow-sm" })
+    @Html.ActionLink("عودة للصفحة الرئيسية", "Index", null, new { @class = "btn btn-outline-secondary rounded-pill shadow-sm px-4 py-2" })
 </div>

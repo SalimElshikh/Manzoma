@@ -472,6 +472,7 @@
     <Compile Include="ViewModel\EmailViewModel.cs" />
     <Compile Include="ViewModel\KharegTmarkozViewModel.cs" />
     <Compile Include="ViewModel\LeaderTmamView.cs" />
+    <None Include="Views\Shared\_TabadoMalaphat.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="4500.ico" />
