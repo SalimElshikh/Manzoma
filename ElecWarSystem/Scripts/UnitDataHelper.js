@@ -1,15 +1,28 @@
 ﻿var EditMode, ID, FardDetailsType;
 
 function disableBtn() {
-    if ($("#FardDetails-name").val() === "" ||
-        $("#FardDetails-Rotba").val() === "" ||
-        $("#FardDetails-Raqam3askary").val() === "") {
+    var name = $("#FardDetails-name").val().trim();
+    var raqam3askary = $("#FardDetails-Raqam3askary").val().trim();
+    var rotba = $("#FardDetails-Rotba").val();
 
-        $(".popup-submit-btn").attr('disabled', 'disabled');
+    // Check if all fields have valid values
+    if (name !== "" && raqam3askary !== "" && rotba !== "") {
+        $(".popup-submit-btn").removeAttr('disabled'); // Enable the button
     } else {
-        $(".popup-submit-btn").removeAttr('disabled');
+        $(".popup-submit-btn").attr('disabled', 'disabled'); // Disable the button
     }
 }
+// Attach 'input' event listener for text inputs and 'change' event for select dropdown
+$(document).ready(function () {
+    // Attach 'input' event listener for text inputs
+    $("#FardDetails-name, #FardDetails-Raqam3askary").on('input', disableBtn);
+
+    // Attach 'change' event listener for the select dropdown
+    $("#FardDetails-Rotba").on('change', disableBtn);
+
+    // Initial call to disableBtn() in case fields are pre-filled
+    disableBtn();
+});
 function AddFardDetails(unitId, type) {
     $.ajax({
         url: window.location.origin + "/FardDetails/Create",
@@ -21,14 +34,19 @@ function AddFardDetails(unitId, type) {
             "RotbaID": $("#FardDetails-Rotba").val(),
             "FullName": $("#FardDetails-name").val(),
             "Type": type
+        },
+        success: function () {
+            // Clear fields after adding
+            $("#FardDetails-Raqam3askary").val(null);
+            $("#FardDetails-Rotba").val(null);
+            $("#FardDetails-name").val(null);
+            updateFardDetailsTable(type);
+        },
+        error: function () {
+            alert('Failed to add data');
         }
-    })
-    $("#FardDetails-Raqam3askary").val(null)
-    $("#FardDetails-Rotba").val(null)
-    $("#FardDetails-name").val(null)
-    updateFardDetailsTable(type);
+    });
 }
-
 
 function EditFardDetails(id, type) {
     $.ajax({
@@ -41,20 +59,28 @@ function EditFardDetails(id, type) {
             "RotbaID": $("#FardDetails-Rotba").val(),
             "FullName": $("#FardDetails-name").val(),
             "Type": type
+        },
+        success: function () {
+            // Clear fields after editing
+            $("#FardDetails-Raqam3askary").val(null);
+            $("#FardDetails-Rotba").val(null);
+            $("#FardDetails-name").val(null);
+            updateFardDetailsTable(type);
+        },
+        error: function () {
+            alert('Failed to edit data');
         }
-    })
-    $("#FardDetails-Raqam3askary").val(null)
-    $("#FardDetails-Rotba").val(null)
-    $("#FardDetails-name").val(null)
-    updateFardDetailsTable(type);
+    });
 }
 
-
 function openFardDetailsPopup(id, type, editMode) {
-    document.querySelector(".popup").classList.add("act");
+    // Show the modal (Bootstrap version)
+    $("#draggablePopup").modal('show');
+
     FardDetailsType = type;
     EditMode = editMode;
     ID = id;
+
     if (EditMode) {
         $.ajax({
             url: window.location.origin + "/FardDetails/GetFardDetails",
@@ -64,45 +90,57 @@ function openFardDetailsPopup(id, type, editMode) {
                 "id": id
             },
             success: function (result) {
-                $("#FardDetails-Raqam3askary").val(result['Raqam3askary'])
-                $("#FardDetails-Rotba").val(result['RotbaID'])
-                $("#FardDetails-name").val(result['FullName'])
-                disableBtn();
+                $("#FardDetails-Raqam3askary").val(result['Raqam3askary']);
+                $("#FardDetails-Rotba").val(result['RotbaID']);
+                $("#FardDetails-name").val(result['FullName']);
+                disableBtn(); // Enable/disable button based on input
+            },
+            error: function () {
+                alert('Failed to retrieve data');
             }
-        })
+        });
     } else {
-
+        // Clear form if it's in Add Mode
+        $("#FardDetails-Raqam3askary").val(null);
+        $("#FardDetails-Rotba").val(null);
+        $("#FardDetails-name").val(null);
     }
 }
+
 function saveFardDetailsChanges() {
-    console.log(ID, FardDetailsType);
     if (EditMode) {
         EditFardDetails(ID, FardDetailsType);
     } else {
         AddFardDetails(ID, FardDetailsType);
     }
-    closePop();
+    // Hide the modal (Bootstrap version)
+    $("#draggablePopup").modal('hide');
 }
+
 function closePop() {
-    document.querySelector(".popup").classList.remove("act");
-    $("#FardDetails-Raqam3askary").val(null)
-    $("#FardDetails-Rotba").val(null)
-    $("#FardDetails-name").val(null)
+    $("#draggablePopup").modal('hide');
+    $("#FardDetails-Raqam3askary").val(null);
+    $("#FardDetails-Rotba").val(null);
+    $("#FardDetails-name").val(null);
 }
 
 function updateFardDetailsTable(type) {
     $.ajax({
         url: window.location.origin + "/FardDetails/GetFardDetailss",
-        type: "Get",
+        type: "GET",
         async: false,
         data: {
-            "type": type,
+            "type": type
         },
         success: function (result) {
             FillTable(result, type);
+        },
+        error: function () {
+            alert('Failed to update table');
         }
-    })
+    });
 }
+
 function updateAfterDelete(id, type) {
     if (confirm("هل انت متأكد من حذف الشخص ؟")) {
         $.ajax({
@@ -110,7 +148,7 @@ function updateAfterDelete(id, type) {
             type: "POST",
             async: false,
             data: {
-                "id": id,
+                "id": id
             },
             success: function (result) {
                 if (result === "False") {
@@ -119,46 +157,41 @@ function updateAfterDelete(id, type) {
                 updateFardDetailsTable(type);
             },
             error: function () {
-                alert("Failed");
+                alert("Failed to delete data");
             }
-        })
+        });
     }
 }
+
 function FillTable(result, type) {
-    console.log(result);
     $("#FardDetailss-table").empty();
-    var Rotba = (type == 1 ? "الرتبة" : "الدرجة")
+    var Rotba = (type == 1 ? "الرتبة" : "الدرجة");
     var table = `
-            <thead>
+        <thead>
+            <tr>
                 <th>م</th>
                 <th>الرقم العسكرى</th>
                 <th>${Rotba}</th>
                 <th>الإسم</th>
                 <th></th>
-            </thead> `;
-    $("#FardDetailss-table").append(table);
-    for (var item in result) {
-        console.log(result[item]['ID']);
-        var tableitem = ` 
-                <tbody>
-                <tr>
-                    <td>${parseInt(item) + 1}</td >
-                    <td>${result[item]['Raqam3askary']}</td>
-                    <td>${result[item]['Rotba']['RotbaName']}</td>
-                    <td>${result[item]['FullName']}</td>
-                    <td>
-                        <button class="btn btn-danger" onclick="updateAfterDelete(${result[item]['ID']}, ${type})">
-                            حذف
-                            <span class="glyphicon glyphicon-remove"></span>
-                        </button>
-                        |
-                        <button class="btn btn-success"  onclick="openFardDetailsPopup(${result[item]['ID']}, ${type}, ${true})">
-                            تعديل
-                            <span class="glyphicon glyphicon-edit"></span>
-                        </button>
-                    </td>
-                </tr></tbody>`;
-        $("#FardDetailss-table").append(tableitem);
-    }
-}
+            </tr>
+        </thead>
+        <tbody></tbody>`;
 
+    $("#FardDetailss-table").append(table);
+
+    result.forEach((item, index) => {
+        var tableItem = `
+            <tr>
+                <td>${index + 1}</td>
+                <td>${item.Raqam3askary}</td>
+                <td>${item.Rotba.RotbaName}</td>
+                <td>${item.FullName}</td>
+                <td>
+                    <button class="btn btn-danger" onclick="updateAfterDelete(${item.ID}, ${type})">حذف</button> |
+                    <button class="btn btn-info" onclick="openFardDetailsPopup(${item.ID}, ${type}, true)">تعديل</button>
+                </td>
+            </tr>`;
+        $("#FardDetailss-table tbody").append(tableItem);
+    });
+}

@@ -1,30 +1,29 @@
-﻿window.onload = function ()
-{    
+﻿window.onload = function () {
     setGheyabCouter();
     RequestTmamStatus();
     numbersE2A();
 }
 
+// تحقق إذا كانت جميع الحقول ممتلئة
 function IsAllFieldsFilled() {
-    var result =
-        $("#FardDetails-name").val() !== "" &&
+    return $("#FardDetails-name").val() !== "" &&
         $("#FardDetails-Rotba").val() !== "" &&
         $("#Gheyab-times").val() !== "" &&
         $("#date-from").val() !== "" &&
         $("#command-number").val() !== "" &&
-        $("#command-date").val() !== ""
-    return result;
+        $("#command-date").val() !== "";
 }
 
+// تعطيل أو تمكين زر الحفظ بناءً على الحقول الممتلئة
 function disableBtn() {
     if (IsAllFieldsFilled()) {
         $(".popup-submit-btn").removeAttr('disabled');
-    }
-    else {
+    } else {
         $(".popup-submit-btn").attr('disabled', 'disabled');
     }
 }
 
+// إضافة بيانات الغياب
 function Add() {
     $.ajax({
         url: window.location.origin + "/Gheyab/Create",
@@ -40,27 +39,27 @@ function Add() {
         success: function (result) {
             if (result == -1) {
                 alert("يوجد خطأ فى تاريخ الأجازة");
-            }
-            else {
-                closePop();
+            } else {
+                $('#gheyabModal').modal('hide'); // إغلاق الـ Modal عند الحفظ
                 UpdateGheyabsTable();
-                IncreaseGheyabCounter()
-                emptyFormField()
+                IncreaseGheyabCounter();
+                emptyFormField();
             }
         }
-    })
+    });
 }
 
-function emptyFormField()
-{
-    $("#FardDetails-name").val(null)
-    $("#FardDetails-Rotba").val(null)
-    $("#Gheyab-times").val(null)
-    $("#date-from").val(null)
-    $("#command-number").val(null)
-    $("#command-date").val(null)
+// تفريغ الحقول بعد الحفظ
+function emptyFormField() {
+    $("#FardDetails-name").val(null);
+    $("#FardDetails-Rotba").val(null);
+    $("#Gheyab-times").val(null);
+    $("#date-from").val(null);
+    $("#command-number").val(null);
+    $("#command-date").val(null);
 }
 
+// تحديث جدول الغياب
 function UpdateGheyabsTable() {
     $.ajax({
         url: window.location.origin + "/Gheyab/GetGheyabs",
@@ -69,9 +68,10 @@ function UpdateGheyabsTable() {
         success: function (result) {
             fillGheyabTable(result);
         }
-    })
+    });
 }
 
+// ملء جدول الغياب
 function fillGheyabTable(result) {
     $("#Gheyab-table").empty();
 
@@ -98,22 +98,27 @@ function fillGheyabTable(result) {
                 <td>${result[index]['GheyabDetails']['commandItem']['Number']}</td>
                 <td>${getDateFormated(result[index]['GheyabDetails']['commandItem']['Date'])}</td>
                 <td>
-                    <button class="btn btn-danger" onclick="deleteGheyab(${result[index]["ID"]})">
+                    <button class="btn btn-danger" onclick="deleteGheyab(${result[index]['ID']})">
                         حذف
                         <span class="glyphicon glyphicon-remove"></span>
                     </button>
-                    
                 </td>
             </tbody>`;
         $("#Gheyab-table").append(tableItem);
     }
 }
 
+// فتح البوب اب للغياب
 function openGheyabPopup() {
-    document.querySelector(".Gheyab-popup").classList.add("act");
+    $('#gheyabModal').modal('show'); // فتح الـ Modal
 }
 
+// غلق البوب اب
+function closePop() {
+    $('#gheyabModal').modal('hide'); // غلق الـ Modal
+}
 
+// تعيين عداد الغياب
 function setGheyabCouter() {
     var listOfGheyabNumbers = $("#Gheyab-counter").text().split("/");
     var currentGheyabCount = parseInt(listOfGheyabNumbers[0]);
@@ -125,6 +130,7 @@ function setGheyabCouter() {
     }
 }
 
+// زيادة عداد الغياب
 function IncreaseGheyabCounter() {
     var listOfGheyabNumbers = $("#Gheyab-counter").text().split("/");
     var currentGheyabCount = parseInt(listOfGheyabNumbers[0]);
@@ -137,6 +143,7 @@ function IncreaseGheyabCounter() {
     $("#Gheyab-counter").text(newStr);
 }
 
+// تقليل عداد الغياب
 function DecreaseGheyabCounter() {
     var listOfGheyabNumbers = $("#Gheyab-counter").text().split("/");
     var currentGheyabCount = parseInt(listOfGheyabNumbers[0]);
@@ -147,22 +154,16 @@ function DecreaseGheyabCounter() {
     $("#Gheyab-counter").text(newStr);
 }
 
-function closePop() {
-    document.querySelector(".Gheyab-popup").classList.remove("act");
-}
-
+// حذف الغياب
 function deleteGheyab(id) {
     $.ajax({
         url: window.location.origin + "/Gheyab/Delete",
         type: "POST",
         async: false,
-        data: {
-            "GheyabID": id,
-        },
-        success: function (result) {
+        data: { "GheyabID": id },
+        success: function () {
             UpdateGheyabsTable();
             DecreaseGheyabCounter();
         }
-    })
-    console.log(id);
+    });
 }

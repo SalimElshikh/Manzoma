@@ -1,11 +1,12 @@
-﻿window.onload = function () {
-    setMaradyCouter();
-    RequestTmamStatus();
-    numbersE2A();
+﻿// يتم تشغيل هذه الدوال عند تحميل الصفحة
+window.onload = function () {
+    setMaradyCouter();      // تعيين عدد المأموريات
+    RequestTmamStatus();    // طلب حالة الإتمام (قد تحتاج إلى إضافة هذه الدالة لاحقًا)
+    numbersE2A();           // تحويل الأرقام (قد تحتاج إلى إضافة هذه الدالة لاحقًا)
+    disableBtn();           // التحقق من تفعيل زر الحفظ بناءً على الحقول
 }
 
-
-
+// التحقق من أن جميع الحقول قد تم تعبئتها
 function IsAllFieldsFilled() {
     var result =
         $("#FardDetails-name").val() !== "" &&
@@ -13,19 +14,20 @@ function IsAllFieldsFilled() {
         $("#Ma2moreya-place").val() !== "" &&
         $("#Ma2moreya-commandor").val() !== "" &&
         $("#date-from").val() !== "" &&
-        $("#date-to").val() !== ""
+        $("#date-to").val() !== "";
     return result;
 }
 
+// تفعيل أو تعطيل زر الحفظ بناءً على تعبئة الحقول
 function disableBtn() {
     if (IsAllFieldsFilled()) {
         $(".popup-submit-btn").removeAttr('disabled');
-    }
-    else {
+    } else {
         $(".popup-submit-btn").attr('disabled', 'disabled');
     }
 }
 
+// إضافة مأمورية جديدة
 function Add() {
     $.ajax({
         url: window.location.origin + "/Ma2moreya/Create",
@@ -41,37 +43,39 @@ function Add() {
         success: function (result) {
             if (result == -1) {
                 alert("يوجد خطأ فى تاريخ المأموريات");
-            }
-            else {
-                closePop();
-                UpdateMa2moreyasTable();
-                IncreaseMa2moreyaCounter();
-                emptyFormField()
+            } else {
+                closePop();                 // إغلاق النافذة المنبثقة
+                UpdateMa2moreyasTable();    // تحديث جدول المأموريات
+                IncreaseMa2moreyaCounter(); // زيادة العداد
+                emptyFormField();           // إفراغ الحقول بعد الإضافة
             }
         }
-    })
+    });
 }
 
+// إفراغ الحقول في النموذج
 function emptyFormField() {
-    $("#FardDetails-name").val(null)
-    $("#FardDetails-Rotba").val(null)
-    $("#Ma2moreya-place").val(null)
-    $("#Ma2moreya-commandor").val(null)
-    $("#date-from").val(null)
-    $("#date-to").val(null)
+    $("#FardDetails-name").val(null);
+    $("#FardDetails-Rotba").val(null);
+    $("#Ma2moreya-place").val(null);
+    $("#Ma2moreya-commandor").val(null);
+    $("#date-from").val(null);
+    $("#date-to").val(null);
 }
 
+// تحديث جدول المأموريات
 function UpdateMa2moreyasTable() {
     $.ajax({
         url: window.location.origin + "/Ma2moreya/GetMa2moreyas",
         type: "GET",
         async: false,
         success: function (result) {
-            fillMaradyTable(result);
+            fillMaradyTable(result); // تعبئة الجدول
         }
-    })
+    });
 }
 
+// تعبئة جدول المأموريات
 function fillMaradyTable(result) {
     $("#Ma2moreya-table").empty();
     var tableHead = `
@@ -102,29 +106,23 @@ function fillMaradyTable(result) {
                         حذف
                         <span class="glyphicon glyphicon-remove"></span>
                     </button>
-                    
                 </td>
             </tbody>`;
-
         $("#Ma2moreya-table").append(tableItem);
     }
 }
 
+// فتح النافذة المنبثقة
 function openMa2moreyaPopup() {
-    document.querySelector(".Ma2moreya-popup").classList.add("act");
+    $('#Ma2moreyaPopup').modal('show'); // استخدام المودال الخاص بـBootstrap
 }
 
-function setMaradyCouter() {
-    var listOfMa2moreyaNumbers = $("#Ma2moreya-counter").text().split("/");
-    var currentMa2moreyaCount = parseInt(listOfMa2moreyaNumbers[0]);
-    var totalMa2moreyaCount = parseInt(listOfMa2moreyaNumbers[1]);
-    if (totalMa2moreyaCount === currentMa2moreyaCount || timeOutCounter) {
-        $("#add-Ma2moreya-btn").attr('disabled', 'disabled');
-    } else {
-        $("#add-Ma2moreya-btn").removeAttr('disabled');
-    }
+// إغلاق النافذة المنبثقة
+function closePop() {
+    $('#Ma2moreyaPopup').modal('hide'); // إخفاء المودال
 }
 
+// زيادة العداد عند إضافة مأمورية جديدة
 function IncreaseMa2moreyaCounter() {
     var listOfMa2moreyaNumbers = $("#Ma2moreya-counter").text().split("/");
     var currentMa2moreyaCount = parseInt(listOfMa2moreyaNumbers[0]);
@@ -137,6 +135,7 @@ function IncreaseMa2moreyaCounter() {
     $("#Ma2moreya-counter").text(newStr);
 }
 
+// تقليل العداد عند حذف مأمورية
 function DecreaseMaradyCounter() {
     var listOfMa2moreyaNumbers = $("#Ma2moreya-counter").text().split("/");
     var currentMa2moreyaCount = parseInt(listOfMa2moreyaNumbers[0]);
@@ -146,10 +145,8 @@ function DecreaseMaradyCounter() {
     var newStr = `${currentMa2moreyaCount} / ${totalMa2moreyaCount}`;
     $("#Ma2moreya-counter").text(newStr);
 }
-function closePop() {
-    document.querySelector(".Ma2moreya-popup").classList.remove("act");
-}
 
+// حذف مأمورية
 function deleteMa2moreya(id) {
     $.ajax({
         url: window.location.origin + "/Ma2moreya/Delete",
@@ -157,11 +154,10 @@ function deleteMa2moreya(id) {
         async: false,
         data: {
             "Ma2moreyaID": id,
-
         },
         success: function (result) {
-            UpdateMa2moreyasTable();
-            DecreaseMaradyCounter();
+            UpdateMa2moreyasTable(); // تحديث الجدول بعد الحذف
+            DecreaseMaradyCounter(); // تقليل العداد
         }
-    })
+    });
 }

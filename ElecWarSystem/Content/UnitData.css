@@ -45,7 +45,10 @@ button.previous-btn {
     outline: none;
     background-color: rgb(180,220,255);
 }
-
+.modal-content {
+    background: rgb(166,166,191);
+    background: linear-gradient(90deg, rgba(166,166,191,1) 0%, rgba(180,172,224,1) 37%, rgba(130,143,200,1) 100%);
+}
 
 
 .form {
@@ -63,44 +66,27 @@ th, td {
 }
 
 
-.popup {
-    position: fixed;
-    top: -150%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%,-50%) scale(1.25);
-    width: 380px;
-    padding: 20px 30px;
-    background: #fff;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-    transition: top 0ms ease-in-out 200ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
-    font-size: 14px;
-}
-
-.popup.act {
-    top: 55%;
-    opacity: 1;
-    transform: translate(-50%,-50%) scale(1);
-    transition: top 0ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
-    z-index: 10;
-}
-
-.popup .close-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 15px;
-    height: 15px;
-    background-color: #888;
-    color: #eee;
-    text-align: center;
-    line-height: 15px;
-    border-radius: 10px;
-}
-span.popup-close {
+span.popup-close:hover {
     cursor: pointer;
+
 }
+
+/* استجابة خاصة للشاشات الصغيرة مثل الهواتف */
+@media (max-width: 600px) {
+    .popup {
+        padding: 15px; /* تقليل المسافات الداخلية */
+        font-size: 12px; /* تصغير حجم الخط */
+    }
+}
+
+/* استجابة خاصة للشاشات المتوسطة */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .popup {
+        width: 80%; /* زيادة العرض بالنسبة للشاشات المتوسطة */
+        font-size: 13px; /* تكبير بسيط لحجم النص */
+    }
+}
+
 .form-group input, .form-group select {
     border: 1px solid #e5e5e5 !important;
 }
@@ -154,7 +140,6 @@ second-header {
     margin: 5px;
     cursor: pointer;
     position: relative;
-    right: 35%;
     z-index:2;
 }
 .export-btn {

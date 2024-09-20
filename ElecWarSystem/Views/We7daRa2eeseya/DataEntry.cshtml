@@ -4,31 +4,49 @@
 <link rel="stylesheet" href="~/Content/aside.css" />
 <link rel="stylesheet" href="~/Content/second-layout.css" />
 <link rel="stylesheet" href="~/Content/UnitData.css" />
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
 <script src="~/Scripts/UnitDataHelper.js"></script>
-<div class="popup" id="draggablePopup">
-    <div class="popup-content">
-        <span class="popup-close" onclick="closePop()">&times;</span>
-        <h2>إضافة/تعديل بيانات الفرد</h2>
-        <div class="form-group">
-            <label for="FardDetails-Raqam3askary">الرقم العسكرى</label>
-            <input type="text" id="FardDetails-Raqam3askary" class="form-control" oninput="disableBtn()">
+<!-- Bootstrap Styled Popup -->
+<div class="modal fade" id="draggablePopup" tabindex="-1" role="dialog" aria-labelledby="popupTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+
+        <div class="modal-content">
+            <form>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="popupTitle">إضافة/تعديل بيانات الفرد</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="FardDetails-Raqam3askary">الرقم العسكرى</label>
+                        <input type="text" id="FardDetails-Raqam3askary" class="form-control" oninput="disableBtn()">
+                    </div>
+                    <div class="form-group">
+                        <label for="FardDetails-Rotba">الرتبة</label>
+                        <select id="FardDetails-Rotba" class="form-control" oninput="disableBtn()">
+                            @foreach (var rotba in ViewBag.Rotbas)
+                            {
+                                <option value="@rotba.ID">@rotba.RotbaName</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="FardDetails-name">الإسم</label>
+                        <input type="text" id="FardDetails-name" class="form-control" oninput="disableBtn()">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+                    <button type="button" class="btn btn-primary" onclick="saveFardDetailsChanges()" disabled>حفظ</button>
+                </div>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="FardDetails-Rotba">الرتبة</label>
-            <select id="FardDetails-Rotba" class="form-control" oninput="disableBtn()">
-                @foreach (var rotba in ViewBag.Rotbas)
-                {
-                    <option value="@rotba.ID">@rotba.RotbaName</option>
-                }
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="FardDetails-name">الإسم</label>
-            <input type="text" id="FardDetails-name" class="form-control" oninput="disableBtn()">
-        </div>
-        <button type="button" class="popup-submit-btn btn btn-primary" onclick="saveFardDetailsChanges()" disabled>حفظ</button>
     </div>
 </div>
+
 
 <div class="container d-flex flex-column">
     <div class="title-div " style="width: 100%">

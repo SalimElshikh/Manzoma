@@ -1,4 +1,6 @@
-﻿<script src="~/Scripts/TmamScripts/Gheyab-crud.js"></script>
+﻿<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/TmamScripts/Gheyab-crud.js"></script>
 @using ElecWarSystem.Models
 @{
     int j = 1;
@@ -57,37 +59,70 @@
         </div>
     </div>
 </div>
-<div class="popup Gheyab-popup">
-    <div class="close-btn" onclick="closePop()">&times;</div>
-    <div class="form">
-        <div class="form-group" style="width: 30%; float: right;">
-            @Html.Label("الرتبة/الدرجة", htmlAttributes: new { @class = "control-label" })
-            @Html.DropDownList("FardDetails-Rotba", new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control", @id = "FardDetails-Rotba", @onchange = "UpdateFardDetailsComboBox()" })
-        </div>
-        <div class="form-group" style="width:60%; float:right; margin-right:10%">
-            @Html.Label("الإسم", htmlAttributes: new { @class = "control-label" })
-            <select name="FardDetails-name" class="form-control" id="FardDetails-name" onchange="disableBtn()">
-                <option></option>
-            </select>
-        </div>
-        <div class="form-group" style="width: 60%; float: right;">
-            @Html.Label("التاريخ الغياب", htmlAttributes: new { @class = "control-label" })
-            @Html.Editor("date-from", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "date-from", @onchange = "disableBtn()" } })
-        </div>
-        <div class="form-group" style="width: 30%; float: right; margin-right: 10%">
-            @Html.Label("دفعة الغياب", htmlAttributes: new { @class = "control-label" })
-            @Html.Editor("Gheyab-times", new { htmlAttributes = new { @class = "form-control", @type = "number", @id = "Gheyab-times", @onkeyup = "disableBtn()" } })
-        </div>
-        <div class="form-group">
-            <label class="control-label" style="width:100%">البند الأوامر</label>
-            <input id="command-number" class="form-control" onkeyup="disableBtn()" type="number" style="float: right; width: 35%; margin-left:10%;" />
-            <input id="command-date" class="form-control" onchange="disableBtn()" type="date" style="width: 55%" />
-        </div>
-        <div class="form-group">
-            <button class="btn btn-success popup-submit-btn" disabled style="font-size:16px;" onclick="Add()">
-                <span class="glyphicon glyphicon-save"></span>
-                حفظ
-            </button>
+<!-- Bootstrap Modal for Popup -->
+<div class="modal fade Gheyab-popup" id="gheyabModal" tabindex="-1" role="dialog" aria-labelledby="gheyabModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="gheyabModalLabel">تسجيل غياب</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form">
+                    <!-- Rotba -->
+                    <div class="form-group row ">
+                        <label for="FardDetails-Rotba" class="col-sm-3 col-form-label">الرتبة/الدرجة</label>
+                        <div class="col-sm-9">
+                            @Html.DropDownList("FardDetails-Rotba", new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control", @id = "FardDetails-Rotba", @onchange = "UpdateFardDetailsComboBox()" })
+                        </div>
+                    </div>
+
+                    <!-- Name -->
+                    <div class="form-group row">
+                        <label for="FardDetails-name" class="col-sm-3 col-form-label">الإسم</label>
+                        <div class="col-sm-9">
+                            <select name="FardDetails-name" class="form-control" id="FardDetails-name" onchange="disableBtn()">
+                                <option></option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Gheyab Date -->
+                    <div class="form-group row">
+                        <label for="date-from" class="col-sm-3 col-form-label">التاريخ الغياب</label>
+                        <div class="col-sm-9">
+                            @Html.Editor("date-from", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "date-from", @onchange = "disableBtn()" } })
+                        </div>
+                    </div>
+
+                    <!-- Gheyab Times -->
+                    <div class="form-group row">
+                        <label for="Gheyab-times" class="col-sm-3 col-form-label">دفعة الغياب</label>
+                        <div class="col-sm-9">
+                            @Html.Editor("Gheyab-times", new { htmlAttributes = new { @class = "form-control", @type = "number", @id = "Gheyab-times", @onkeyup = "disableBtn()" } })
+                        </div>
+                    </div>
+
+                    <!-- Command -->
+                    <div class="form-group row">
+                        <label class="col-sm-3 col-form-label">البند الأوامر</label>
+                        <div class="col-sm-4">
+                            <input id="command-number" class="form-control" onkeyup="disableBtn()" type="number" placeholder="رقم الأمر" />
+                        </div>
+                        <div class="col-sm-5">
+                            <input id="command-date" class="form-control" onchange="disableBtn()" type="date" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">إغلاق</button>
+                <button class="export-btn popup-submit-btn" disabled onclick="Add()">
+                    <i class="fas fa-save"></i> حفظ
+                </button>
+            </div>
         </div>
     </div>
 </div>

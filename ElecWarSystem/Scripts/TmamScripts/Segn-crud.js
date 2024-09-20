@@ -1,13 +1,63 @@
-﻿window.onload = function () {
+﻿$$(document).ready(function () {
+    // ربط أحداث input و change للتحقق من الحقول عند تعديلها
+    $("#FardDetails-name, #FardDetails-Rotba, #crime, #punishment, #punisher, #date-from, #date-to, #Segn-place, #command-number, #command-date").on("input change", function () {
+        disableBtn();
+    });
+
+    // تحقق من الحقول عند تحميل الصفحة لأول مرة
+    disableBtn();
+});
+
+function IsAllFieldsFilled() {
+    return $("#FardDetails-name").val().trim() !== "" &&
+        $("#FardDetails-Rotba").val().trim() !== "" &&
+        $("#crime").val().trim() !== "" &&
+        $("#punishment").val().trim() !== "" &&
+        $("#punisher").val().trim() !== "" &&
+        $("#date-from").val().trim() !== "" &&
+        $("#date-to").val().trim() !== "" &&
+        $("#Segn-place").val().trim() !== "" &&
+        $("#command-number").val().trim() !== "" &&
+        $("#command-date").val().trim() !== "";
+}
+
+function disableBtn() {
+    if (IsAllFieldsFilled()) {
+        $("#popup-submit-btn").removeAttr("disabled");
+    } else {
+        $("#popup-submit-btn").attr("disabled", true);
+    }
+}
+
+
+window.onload = function () {
     setSegnCouter();
     RequestTmamStatus();
     numbersE2A();
-}
+};
+
 function openSegnPopup() {
-    document.querySelector(".Segn-popup").classList.add("act");
+    var modalElement = document.getElementById('popupModal');
+
+    if (modalElement) {
+        // استخدام Bootstrap API لإظهار الـ Modal
+        var modal = new bootstrap.Modal(modalElement);
+        modal.show();
+    } else {
+        console.error('Modal element not found!');
+    }
 }
+
 function closePop() {
-    document.querySelector(".Segn-popup").classList.remove("act");
+    var modalElement = document.getElementById('popupModal');
+
+    if (modalElement) {
+        // إغلاق الـ Modal باستخدام Bootstrap API
+        var modal = bootstrap.Modal.getInstance(modalElement);
+        if (modal) {
+            modal.hide();
+        }
+    }
 }
 
 function IsAllFieldsFilled() {
@@ -21,8 +71,8 @@ function IsAllFieldsFilled() {
         $("#date-to").val() !== "" &&
         $("#Segn-place").val() !== "" &&
         $("#command-number").val() !== "" &&
-        $("#command-date").val() !== ""
-    
+        $("#command-date").val() !== "";
+
     return result;
 }
 

@@ -2,28 +2,29 @@
     setOutOfCountryCouter();
     RequestTmamStatus();
     numbersE2A();
+    disableBtn(); // Check button state on page load
 }
 
+// Function to check if all fields are filled
 function IsAllFieldsFilled() {
-    var result =
-        $("#FardDetails-name").val() !== "" &&
+    return $("#FardDetails-name").val() !== "" &&
         $("#FardDetails-Rotba").val() !== "" &&
         $("#country").val() !== "" &&
         $("#purpose").val() !== "" &&
         $("#date-from").val() !== "" &&
-        $("#date-to").val() !== ""
-    return result;
+        $("#date-to").val() !== "";
 }
 
+// Enable or disable submit button based on form validation
 function disableBtn() {
     if (IsAllFieldsFilled()) {
         $(".popup-submit-btn").removeAttr('disabled');
-    }
-    else {
+    } else {
         $(".popup-submit-btn").attr('disabled', 'disabled');
     }
 }
 
+// Add a new entry for out-of-country details
 function Add() {
     $.ajax({
         url: window.location.origin + "/KharegBelad/Create",
@@ -38,28 +39,28 @@ function Add() {
         },
         success: function (result) {
             if (result == -1) {
-                alert("يوجد خطأ فى النواريخ");
-            }
-            else {
-                closePop();
-                UpdateOutOfCountriesTable();
-                IncreaseOutOfCountryCounter()
-                emptyFormField()
+                alert("يوجد خطأ فى التواريخ");
+            } else {
+                closePop(); // Close the modal
+                UpdateOutOfCountriesTable(); // Refresh the table
+                IncreaseOutOfCountryCounter(); // Update counter
+                emptyFormField(); // Clear form fields
             }
         }
-    })
+    });
 }
 
-
+// Clear form fields after submission
 function emptyFormField() {
-    $("#FardDetails-name").val(null)
-    $("#FardDetails-Rotba").val(null)
-    $("#country").val(null)
-    $("#purpose").val(null)
-    $("#date-from").val(null)
-    $("#date-to").val(null)
+    $("#FardDetails-name").val(null);
+    $("#FardDetails-Rotba").val(null);
+    $("#country").val(null);
+    $("#purpose").val(null);
+    $("#date-from").val(null);
+    $("#date-to").val(null);
 }
 
+// Update the table with the list of out-of-country entries
 function UpdateOutOfCountriesTable() {
     $.ajax({
         url: window.location.origin + "/KharegBelad/GetOutOfCountries",
@@ -68,28 +69,31 @@ function UpdateOutOfCountriesTable() {
         success: function (result) {
             fillOutOfCountriesTable(result);
         }
-    })
+    });
 }
 
+// Fill the table with returned data
 function fillOutOfCountriesTable(result) {
     $("#KharegBelad-table").empty();
 
     var tableHead = `
         <thead>
-            <th>م</th>
-            <th>الرتبة / الدرجة</th>
-            <th>الإسم </th>
-            <th>جهة السفر</th>
-            <th>الغرض من السفر</th>
-            <th>المدة من</th>
-            <th>المدة إلى</th>
-            <th></th>
+            <tr>
+                <th>م</th>
+                <th>الرتبة / الدرجة</th>
+                <th>الإسم </th>
+                <th>جهة السفر</th>
+                <th>الغرض من السفر</th>
+                <th>المدة من</th>
+                <th>المدة إلى</th>
+                <th>الإجراءات</th>
+            </tr>
         </thead>`;
     $("#KharegBelad-table").append(tableHead);
 
     for (var index in result) {
         var tableItem = `
-            <tbody style="font-size:14px;">
+            <tr style="font-size:14px;">
                 <td>${parseInt(index) + 1}</td>
                 <td>${result[index]['KharegBeladDetails']['FardDetails']['Rotba']['RotbaName']}</td>
                 <td>${result[index]['KharegBeladDetails']['FardDetails']['FullName']}</td>
@@ -99,70 +103,66 @@ function fillOutOfCountriesTable(result) {
                 <td>${getDateFormated(result[index]['KharegBeladDetails']['DateTo'])}</td>
                 <td>
                     <button class="btn btn-danger" onclick="deleteOutOfCountry(${result[index]["ID"]})">
-                        حذف
-                        <span class="glyphicon glyphicon-remove"></span>
+                        حذف <span class="glyphicon glyphicon-remove"></span>
                     </button>
-                    
                 </td>
-            </tbody>`;
+            </tr>`;
         $("#KharegBelad-table").append(tableItem);
     }
 }
 
+// Open the modal for adding a new out-of-country entry
 function openKharegBeladPopup() {
-    document.querySelector(".KharegBelad-popup").classList.add("act");
+    $('#kharegBeladModal').modal('show');
 }
 
+// Close the modal
 function closePop() {
-    document.querySelector(".KharegBelad-popup").classList.remove("act");
+    $('#kharegBeladModal').modal('hide');
 }
 
+// Handle the out-of-country counter
 function setOutOfCountryCouter() {
     var listOfOutOfCountryNumbers = $("#KharegBelad-counter").text().split("/");
     var currentOutOfCountryCount = parseInt(listOfOutOfCountryNumbers[0]);
     var totalOutOfCountryCount = parseInt(listOfOutOfCountryNumbers[1]);
-    if (totalOutOfCountryCount === currentOutOfCountryCount || timeOutCounter) {
+    if (totalOutOfCountryCount === currentOutOfCountryCount) {
         $("#add-KharegBelad-btn").attr('disabled', 'disabled');
     } else {
         $("#add-KharegBelad-btn").removeAttr('disabled');
     }
 }
 
+// Increase the out-of-country counter after adding an entry
 function IncreaseOutOfCountryCounter() {
     var listOfOutOfCountryNumbers = $("#KharegBelad-counter").text().split("/");
     var currentOutOfCountryCount = parseInt(listOfOutOfCountryNumbers[0]);
-    var totalOutOfCountryCount = parseInt(listOfOutOfCountryNumbers[1]);
     currentOutOfCountryCount += 1;
-    if (totalOutOfCountryCount === currentOutOfCountryCount) {
+    $("#KharegBelad-counter").text(`${currentOutOfCountryCount} / ${listOfOutOfCountryNumbers[1]}`);
+    if (currentOutOfCountryCount === parseInt(listOfOutOfCountryNumbers[1])) {
         $("#add-KharegBelad-btn").attr('disabled', 'disabled');
     }
-    var newStr = `${currentOutOfCountryCount} / ${totalOutOfCountryCount}`;
-    $("#KharegBelad-counter").text(newStr);
 }
 
+// Decrease the out-of-country counter after deleting an entry
 function DecreaseOutOfCountryCounter() {
     var listOfOutOfCountryNumbers = $("#KharegBelad-counter").text().split("/");
     var currentOutOfCountryCount = parseInt(listOfOutOfCountryNumbers[0]);
-    var totalOutOfCountryCount = parseInt(listOfOutOfCountryNumbers[1]);
     currentOutOfCountryCount -= 1;
+    $("#KharegBelad-counter").text(`${currentOutOfCountryCount} / ${listOfOutOfCountryNumbers[1]}`);
     $("#add-KharegBelad-btn").removeAttr('disabled');
-    var newStr = `${currentOutOfCountryCount} / ${totalOutOfCountryCount}`;
-    $("#KharegBelad-counter").text(newStr);
 }
 
-
-
+// Delete an out-of-country entry
 function deleteOutOfCountry(id) {
     $.ajax({
         url: window.location.origin + "/KharegBelad/Delete",
         type: "POST",
         async: false,
-        data: {
-            "id": id,
-        },
-        success: function (result) {
-            UpdateOutOfCountriesTable();
-            DecreaseOutOfCountryCounter();
+        data: { "id": id },
+        success: function () {
+            UpdateOutOfCountriesTable(); // Refresh table
+            DecreaseOutOfCountryCounter(); // Update counter
         }
-    })
+    });
 }

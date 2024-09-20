@@ -27,7 +27,7 @@ body {
 :root {
     --main: #0011c4;
     --header: #1a2035;
-    --background: #959595;
+    --background: #cdcdcd;
     --text: rgba(255,255,255,90%);
     --button: #0011c4;
     --alarm: #f3d007;
@@ -69,22 +69,51 @@ table {
         display: none !important;
     }
 }
-
-
-
 /*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.main-header .dropdown {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
 
-
-.logo-header .logo {
-    color: #2a2f5b;
-    opacity: 1;
-    position: relative;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    color: var(--text);
-    margin-right: 2.8rem;
 }
+    .main-header .dropdown a {
+        font-size: 1.5rem;
+        color: var(--text) !important;
+        padding: 1rem !important;
+    }
+
+ul.dropdown-menu.dropdown-menu-end.show {
+    transform: translate(.08rem, 3.2rem) !important;
+    background-color: var(--header)
+}
+    ul.dropdown-menu.dropdown-menu-end.show a:hover{
+        background:none;
+        color: var(--alarm)!important;
+    }
+
+
+ p span {
+    font-size: 2rem !important;
+    color: var(--text) !important;
+    font-weight: bold;
+}
+    p span label {
+        font-size: 2rem !important;
+        color: var(--text) !important;
+        font-weight: bold;
+    }
+    .logo-header .logo {
+        color: #2a2f5b;
+        opacity: 1;
+        position: relative;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        color: var(--text);
+        margin-right: 2.8rem;
+    }
 .container .title-div {
     text-align: center;
     background-color: var(--button);

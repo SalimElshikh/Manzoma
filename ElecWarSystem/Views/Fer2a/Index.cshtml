@@ -1,4 +1,4 @@
-﻿<script src="~/Scripts/TmamScripts/Fer2a-crud.js"></script>
+﻿
 @using ElecWarSystem.Models
 @{
     int j = 1;
@@ -61,23 +61,23 @@
         </div>
         <div class="popup Fer2a-popup">
             <div class="close-btn" ng-click="closePop()">&times;</div>
-            <div class="form">
-                <div class="form-group" style="width: 30%; float: right;">
+            <div class="form d-flex flex-wrap">
+                <div class="form-group" >
                     @Html.Label("الرتبة/الدرجة", htmlAttributes: new { @class = "control-label" })
                     @Html.DropDownList("FardDetails-Rotba", new SelectList(ViewBag.Rotbas, "ID", "RotbaName"), new { @class = "form-control", @id = "FardDetails-Rotba", @onchange = "UpdateFardDetailsComboBox()" })
                 </div>
-                <div class="form-group" style="width:60%; float:right; margin-right:10%">
+                <div class="form-group col-8" >
                     @Html.Label("الإسم", htmlAttributes: new { @class = "control-label" })
                     <select name="FardDetails-name" class="form-control" id="FardDetails-name" onchange="disableBtn()">
                         <option></option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group col-12">
                     @Html.Label("الفرقة/الدورة", htmlAttributes: new { @class = "control-label" })
                     @Html.Editor("Fer2a-name", new { htmlAttributes = new { @class = "form-control", @id = "Fer2a-name", @onkeyup = "validateFer2aName()", @maxlength = "25" } })
                     <label id="Fer2a-name-warn" hidden style="color:red; font-size:14px; font-weight:100;" class="aribiano">أقصى طول لإسم الفرقة 25 حرف</label>
                 </div>
-                <div class="form-group">
+                <div class="form-group col-12">
                     @Html.Label("مكان إنعقاد الفرقة/الدورة", htmlAttributes: new { @class = "control-label" })
                     @Html.Editor("Fer2a-place", new { htmlAttributes = new { @class = "form-control", @id = "Fer2a-place", @onkeyup = "disableBtn()" } })
                 </div>
@@ -85,17 +85,17 @@
                     @Html.Label("المدة من", htmlAttributes: new { @class = "control-label" })
                     @Html.Editor("date-from", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "date-from", @onchange = "disableBtn()" } })
                 </div>
-                <div class="form-group" style="width:45%; float:right; margin-right:10%">
+                <div class="form-group" >
                     @Html.Label("المدة إلى", htmlAttributes: new { @class = "control-label" })
                     @Html.Editor("date-to", new { htmlAttributes = new { @class = "form-control", @type = "date", @id = "date-to", @onchange = "disableBtn()" } })
                 </div>
                 <div class="form-group">
-                    <label class="control-label" style="width:100%">البند الأوامر</label>
+                    <label class="control-label">البند الأوامر</label>
                     <input id="command-number" class="form-control" onkeyup="disableBtn()" type="number" style="float: right; width: 35%; margin-left:10%;" />
                     <input id="command-date" class="form-control" onchange="disableBtn()" type="date" style="width: 55%" />
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-success popup-submit-btn" disabled style="font-size:16px;" ng-click="Add()">
+                    <button class="export-btn popup-submit-btn" disabled style="font-size:16px;" ng-click="Add()">
                         <span class="glyphicon glyphicon-save"></span>
                         حفظ
                     </button>
@@ -104,3 +104,5 @@
         </div>
     </div>
 </div>
+<script src="~/Scripts/TmamScripts/angular.js"></script>
+<script src="~/Scripts/TmamScripts/Fer2a-crud.js"></script>

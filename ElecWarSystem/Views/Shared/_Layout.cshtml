@@ -51,6 +51,9 @@
                     <button class="topbar-toggler more">
                         <i class="gg-more-vertical-alt"></i>
                     </button>
+
+                    <!-- Login Logo with Bootstrap Dropdown -->
+
                 </div>
                 <!-- End Logo Header -->
             </div>
@@ -173,26 +176,17 @@
         <!-- End Sidebar -->
 
         <div class="main-panel">
-            <div class="main-header"lang="ar" >
-                    <div class="main-header-logo">
-                        <!-- Logo Header -->
-                        <div class="logo-header" data-background-color="dark">
-                            <a href="index.html" class="logo">
-                            
-                            </a>
-                            <div class="nav-toggle">
-                                <button class="btn btn-toggle toggle-sidebar">
-                                    <i class="gg-menu-right"></i>
-                                </button>
-                                <button class="btn btn-toggle sidenav-toggler">
-                                    <i class="gg-menu-left"></i>
-                                </button>
-                            </div>
-                            <button class="topbar-toggler more">
-                                <i class="gg-more-vertical-alt"></i>
-                            </button>
-                        </div>
-                    </div>
+            <div class="main-header " style="" lang="ar">
+                <div class="dropdown" style="display: inline-block;">
+                    <a href="#" class="dropdown-toggle" id="loginDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user"> </i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="loginDropdown">
+                        <li style="font-size:15px; color:red;">@Html.ActionLink("تسجيل خروج", "Logout", "User")</li>
+                        <li style="font-size:15px; color:red;">@Html.ActionLink("تسجيل جديد ", "Create", "User")</li>
+                    </ul>
+                </div>
+                <p class="text-center ">  <span>مرحبا @Html.Label(Request.Cookies["userName"].Value)</span></p>
             </div>
 
             <div class="container mainbody">
