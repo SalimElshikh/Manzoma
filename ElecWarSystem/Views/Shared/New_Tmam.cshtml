@@ -1,17 +1,53 @@
-﻿
+﻿@using ElecWarSystem.Models;
 @{
+    UserRoles userRoles = (ElecWarSystem.Models.UserRoles)byte.Parse(Request.Cookies["Roles"].Value);
     ViewBag.Title = "New_Tmam";
     Layout = "_Layout.cshtml";
 }
 
+<link href="~/Content/second-layout.css" rel="stylesheet" />
 <link href="~/Content/New_Design/MainBodyStyle.css" rel="stylesheet" />
+<link href="~/Content/New_Design/NewTmam.css" rel="stylesheet" />
+<!-- Fonts and icons -->
+<script async src="~/Scripts/New_Design/plugin/webfont/webfont.min.js"></script>
+<nav>
+    <ul class="links d-flex flex-row justify-content-between align-items-center flex-wrap container">
+        @if ((userRoles & UserRoles.Viewer) == UserRoles.Viewer ||
+        (userRoles & UserRoles.Admin) == UserRoles.Admin)
+        {
+            <li class="sub-link">
+                @Html.ActionLink(linkText: "تمام خارج التمركز", actionName: "Index", controllerName: "KharegTmarkozs")
+            </li>
+        }
+        @if ((userRoles & UserRoles.We7daRa2eeseya) == UserRoles.We7daRa2eeseya)
+        {
+            <li class="sub-link">
+                @Html.ActionLink(linkText: " التجارب الميدانية", actionName: "Index", controllerName: "Tagroba")
+            </li>
+        }
+        <li>
+            @Html.ActionLink(" الاستعداد القتالي", "Index", "Mot8ayeratEst3dadQetali")
+        </li>
+        <li>
+            @Html.ActionLink(" تمام مواصلات", "Index", "Mowasalats")
+        </li>
+        <li>
+            @Html.ActionLink(" الصلاحية الفنية", "Index", "Elsala7eyaEl8aneya")
+        </li>
+        <li>
+            @Html.ActionLink(" الخطة ارادة", "Index", "KhetaEradas")
+        </li>
+        <li>
+            @Html.ActionLink(" عناصر مناوبة ", "Index", "AnaserMonawbas")
+        </li>
+    </ul>
+</nav>
 <div class="container">
     @RenderBody();
 </div>
-
-
 @RenderSection("Scripts", required: false)
-
+<script src="~/Scripts/jquery-3.7.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
 
 
 

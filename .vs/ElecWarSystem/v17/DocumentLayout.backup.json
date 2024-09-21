@@ -7,12 +7,8 @@
       "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\new_tmam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\users\\salem\\desktop\\projects\\manzoma\\elecwarsystem\\views\\kharegtmarkozs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\kharegtmarkozs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\users\\salem\\desktop\\projects\\manzoma\\elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|c:\\users\\salem\\desktop\\projects\\manzoma\\elecwarsystem\\views\\khetaeradas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A4CB409B-3E01-4037-B5D4-44C7BA9AA3FD}|ElecWarSystem\\ElecWarSystem.csproj|solutionrelative:elecwarsystem\\views\\khetaeradas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,35 +28,22 @@
               "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\New_Tmam.cshtml",
               "ToolTip": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\Shared\\New_Tmam.cshtml",
               "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\New_Tmam.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T21:19:43.672Z",
+              "WhenOpened": "2024-09-21T08:39:27.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
-              "RelativeToolTip": "ElecWarSystem\\Views\\KharegTmarkozs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\KhetaEradas\\Index.cshtml",
+              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\KhetaEradas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\KhetaEradas\\Index.cshtml",
+              "RelativeToolTip": "ElecWarSystem\\Views\\KhetaEradas\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T21:19:37.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Salem\\Desktop\\projects\\Manzoma\\ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ElecWarSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-20T17:53:45.01Z",
+              "WhenOpened": "2024-09-21T08:36:00.311Z",
               "EditorCaption": ""
             }
           ]

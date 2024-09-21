@@ -1,0 +1,40 @@
+
+
+.title {
+    background-color: #cfcfcf !important;
+}
+
+.main-panel {
+    background-color: #cfcfcf !important;
+}
+
+
+.table {
+    border: 1px solid #dee2e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+    .table th {
+        background-color: #007bff;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        padding: 1rem;
+    }
+
+    .table td {
+        text-align: center;
+        padding: 1rem;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.main-panel {
+    background-color: #f3f5f7;
+}

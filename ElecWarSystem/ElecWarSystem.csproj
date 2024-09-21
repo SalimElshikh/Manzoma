@@ -537,6 +537,7 @@
     <Content Include="Content\New_Design\kaiadmin.css" />
     <Content Include="Content\New_Design\kaiadmin.min.css" />
     <Content Include="Content\New_Design\MainBodyStyle.css" />
+    <Content Include="Content\New_Design\NewTmam.css" />
     <Content Include="Content\New_Design\plugins.css" />
     <Content Include="Content\New_Design\plugins.min.css" />
     <Content Include="Content\New_Design\Startup_View.css" />
@@ -840,8 +841,6 @@
     <Content Include="Views\Tagroba\Index.cshtml" />
     <Content Include="Views\Mot8ayeratEst3dadQetali\Create.cshtml" />
     <Content Include="Views\Mot8ayeratEst3dadQetali\Delete.cshtml" />
-    <Content Include="Views\Mot8ayeratEst3dadQetali\Details.cshtml" />
-    <Content Include="Views\Mot8ayeratEst3dadQetali\Edit.cshtml" />
     <Content Include="Views\Mot8ayeratEst3dadQetali\Index.cshtml" />
     <Content Include="Views\Mowasalats\Create.cshtml" />
     <Content Include="Views\Mowasalats\Delete.cshtml" />

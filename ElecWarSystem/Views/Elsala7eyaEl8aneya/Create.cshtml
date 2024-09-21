@@ -8,11 +8,11 @@
 @using (Html.BeginForm("Create", "Elsala7eyaEl8aneya", FormMethod.Post, new { onsubmit = "return validateForm();" }))
 {
     @Html.AntiForgeryToken()
-    <div class=" shadowbox container">
+    <div class=" shadowbox container col-7">
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <h2 class="text-center">المتغيرات في الصلاحية الفنية </h2>
         <hr />
-        <div class="main-div row container">
+        <div class="main-div row container ">
             <div class="col-6 div-one">
                 <div class="form-group">
                     @Html.LabelFor(model => model.NameMo2eda, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -67,7 +67,7 @@
         </div>
 
         <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
+            <div class="col-md-offset-2 col-md-3">
                 <input type="submit" value="حفظ" class="save-btn" />
             </div>
         </div>

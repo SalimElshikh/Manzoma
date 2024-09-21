@@ -63,72 +63,103 @@
                         </div>
                     </div>
 
-                    <div class="d-flex flex-column mt-4">
-                        <div class="w-100 row">
-                            <table id="mo3edatsTable" class="table  table-striped w-50 text-center ">
-                                <tr>
-                                    <th colspan="2">معدات</th>
-                                    <th><button id="addMo3edat" type="button" class="" onclick="openMo3edatPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
-                                </tr>
-                                <tr>
-                                    <th class="w-25">العدد</th>
-                                    <th class="w-75">الإسم</th>
-
-                                </tr>
-
-                                @*//////////////////////////////////body
-                                    //////////////////////////*@
-
-
-
-                            </table>
-
-                            <table id="asl7asTable" class="table table-striped w-50 text-center">
-                                <tr>
-                                    <th colspan="2" class="w-50">أسلحة</th>
-                                    <th class="w-50"><button id="addAsl7a" type="button" class="" onclick="openAsl7aPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
-                                </tr>
-                                <tr>
-                                    <th class="w-25">العدد</th>
-                                    <th class="w-75">الإسم</th>
-                                </tr>
-
-                                @*//////////////////////////////////body//////////////////////////*@
-
-
+                    <div class="container d-flex flex-wrap  col-12">
+                        <!-- جدول معدات -->
+                        <div class="  mb-4 col-6">
+                            <table id="mo3edatsTable" class="table table-striped table-hover text-center shadow-sm">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th colspan="2" class="text-center">معدات</th>
+                                        <th>
+                                            <button id="addMo3edat" type="button" class="btn btn-outline-primary btn-sm" onclick="openMo3edatPopup()">
+                                                <i class="fa-solid fa-circle-plus fa-lg"></i>
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="w-25">العدد</th>
+                                        <th class="w-75">الإسم</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @*//////////////body////////////////*@
+                                </tbody>
                             </table>
                         </div>
-                        <div class="w-100 row">
-                            <table id="za5irasTable" class="table table-striped  w-50 text-center">
-                                <tr>
-                                    <th colspan="2">ذخيرة</th>
-                                    <th><button id="addZa5ira" type="button" class="" onclick="openZa5iraPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
-                                </tr>
-                                <tr>
-                                    <th class="w-25">العدد</th>
-                                    <th class="w-75">الإسم</th>
 
-                                </tr>
+                        <!-- جدول أسلحة -->
+                        <div class="  mb-4 col-6">
 
-                                @*//////////////////////////////////body//////////////////////////*@
-
-
+                            <table id="asl7asTable" class="table table-striped table-hover text-center shadow-sm">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th colspan="2" class="text-center">أسلحة</th>
+                                        <th>
+                                            <button id="addAsl7a" type="button" class="btn btn-outline-primary btn-sm" onclick="openAsl7aPopup()">
+                                                <i class="fa-solid fa-circle-plus fa-lg"></i>
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="w-25">العدد</th>
+                                        <th class="w-75">الإسم</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @*//////////////body////////////////*@
+                                </tbody>
                             </table>
-                            <table id="markbatsTable" class="table table-striped w-50 text-center">
-                                <tr>
-                                    <th colspan="2">مركبات</th>
-                                    <th><button id="addMarkbat" type="button" class="" onclick="openMarkbatPopup()"><i class="fa-solid fa-circle-plus fa-3x"></i></button></th>
-                                </tr>
-                                <tr>
-                                    <th class="w-25">العدد</th>
-                                    <th class="w-75">الإسم</th>
 
-                                </tr>
+                        </div>
 
+                        <!-- جدول ذخيرة -->
+                        <div class="  mb-4 col-6">
 
-                                @*//////////////////////////////////body//////////////////////////*@
-
+                            <table id="za5irasTable" class="table table-striped table-hover text-center shadow-sm">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th colspan="2" class="text-center">ذخيرة</th>
+                                        <th>
+                                            <button id="addZa5ira" type="button" class="btn btn-outline-primary btn-sm" onclick="openZa5iraPopup()">
+                                                <i class="fa-solid fa-circle-plus fa-lg"></i>
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="w-25">العدد</th>
+                                        <th class="w-75">الإسم</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @*//////////////body////////////////*@
+                                </tbody>
                             </table>
+
+                        </div>
+
+                        <!-- جدول مركبات -->
+                        <div class=" mb-4 col-6">
+
+                            <table id="markbatsTable" class="table table-striped table-hover text-center shadow-sm">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th colspan="2" class="text-center">مركبات</th>
+                                        <th>
+                                            <button id="addMarkbat" type="button" class="btn btn-outline-primary btn-sm" onclick="openMarkbatPopup()">
+                                                <i class="fa-solid fa-circle-plus fa-lg"></i>
+                                            </button>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <th class="w-25">العدد</th>
+                                        <th class="w-75">الإسم</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @*//////////////body////////////////*@
+                                </tbody>
+                            </table>
+
                         </div>
 
 
@@ -140,14 +171,14 @@
             <div class="third-div mt-3 col d-flex flex-row time">
                 <div class="form-group col-6">
                     @Html.LabelFor(model => model.KhetaErada.DateFrom, "الوقت من  ", htmlAttributes: new { @class = "control-label col-md-2", @for = "DateFrom" })
-                    <div class="col-md-10">
+                    <div class="col-md-9">
                         @Html.EditorFor(model => model.KhetaErada.DateFrom, new { htmlAttributes = new { @class = "form-control", @id = "DateFrom", type = "date" } })
                         @Html.ValidationMessageFor(model => model.KhetaErada.DateFrom, "", new { @class = "text-danger" })
                     </div>
                 </div>
                 <div class="form-group col-6">
                     @Html.LabelFor(model => model.KhetaErada.DateTo, "الوقت الي ", htmlAttributes: new { @class = "control-label col-md-2", @for = "DateTo" })
-                    <div class="col-md-10">
+                    <div class="col-md-9">
                         @Html.EditorFor(model => model.KhetaErada.DateTo, new { htmlAttributes = new { @class = "form-control", @id = "DateTo", type = "date" } })
                         @Html.ValidationMessageFor(model => model.KhetaErada.DateTo, "", new { @class = "text-danger" })
                     </div>
@@ -157,7 +188,7 @@
             </div>
 
             <div class="form-group mt-3 create">
-                <div class="col-md-offset-2 col-md-10">
+                <div class="col-md-offset-2 col-md-9">
                     <input type="submit" value="حفظ" class="export-btn" onclick="submitAllData()" />
                 </div>
             </div>
@@ -177,7 +208,7 @@
                     <div class="form-group mb-3">
                         @Html.LabelFor(model => model.SelectMo3edatNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3", @for = "DropDownListMo3edatName" })
 
-                        <div class="col-md-10">
+                        <div class="col-md-9">
                             @Html.DropDownListFor(model => model.listMo3edatNames, Model.listMo3edatNames, htmlAttributes: new { @class = "form-control", @id = "DropDownListMo3edatName" })
                             @Html.ValidationMessageFor(model => model.listMo3edatNames, "", new { @class = "text-danger" })
                         </div>
@@ -210,7 +241,7 @@
                     <div class="form-group mb-3">
                         @Html.LabelFor(model => model.SelectAsl7aNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3", @for = "DropDownListAsl7aName" })
 
-                        <div class="col-md-10">
+                        <div class="col-md-9">
                             @Html.DropDownListFor(model => model.listAsl7aNames, Model.listAsl7aNames, htmlAttributes: new { @class = "form-control", @id = "DropDownListAsl7aName" })
                             @Html.ValidationMessageFor(model => model.listAsl7aNames, "", new { @class = "text-danger" })
                         </div>
@@ -243,7 +274,7 @@
                     <div class="form-group mb-3">
                         @Html.LabelFor(model => model.SelectZa5iraNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3", @for = "DropDownListZa5iraName" })
 
-                        <div class="col-md-10">
+                        <div class="col-md-9">
                             @Html.DropDownListFor(model => model.listZa5iraNames, Model.listZa5iraNames, htmlAttributes: new { @class = "form-control ", @id = "DropDownListZa5iraName" })
                             @Html.ValidationMessageFor(model => model.listZa5iraNames, "", new { @class = "text-danger" })
                         </div>
@@ -275,7 +306,7 @@
                     <div class="form-group mb-3">
                         @Html.LabelFor(model => model.SelectMarkbatNamesId, "نوع", htmlAttributes: new { @class = "control-label col-md-3 ", @for = "DropDownListMarkbatName" })
 
-                        <div class="col-md-10">
+                        <div class="col-md-9">
                             @Html.DropDownListFor(model => model.listMarkbatNames, Model.listMarkbatNames, htmlAttributes: new { @class = "form-control ", @id = "DropDownListMarkbatName" })
                             @Html.ValidationMessageFor(model => model.listMarkbatNames, "", new { @class = "text-danger" })
                         </div>

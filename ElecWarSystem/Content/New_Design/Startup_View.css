@@ -59,4 +59,9 @@
     align-items: center;
     color: var(--text);
     margin-right: 1.2rem;
+    font-weight: bold;
+
+}
+.logo-header .logo:hover {
+    margin-left: 7px !important;
 }

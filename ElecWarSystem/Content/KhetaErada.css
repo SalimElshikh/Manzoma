@@ -21,8 +21,8 @@
 
     .first-div .title {
         position: absolute;
-        bottom: 74%;
-        background-color: var(--background);
+        bottom:85%;
+        background-color: #f3f5f6 !important;
         border-radius: 0 2rem;
     }
 
@@ -45,7 +45,7 @@ button:hover {
 .second-div .title {
     position: absolute;
     bottom: 96%;
-    background-color: var(--background);
+    background-color: #f3f5f6 !important;
 }
 
 .links .main-div {
